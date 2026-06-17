@@ -1,0 +1,6929 @@
+{
+  "total": 200,
+  "domains": [
+    {
+      "id": "micro-merchants",
+      "name": "个体工商户与小微商家",
+      "count": 14
+    },
+    {
+      "id": "sme-boss-mgmt",
+      "name": "中小企业主与创始人",
+      "count": 14
+    },
+    {
+      "id": "cross-function-staff",
+      "name": "职场基础员工与通用职能",
+      "count": 15
+    },
+    {
+      "id": "enterprise-function",
+      "name": "大中型企业职能岗",
+      "count": 15
+    },
+    {
+      "id": "gov-public-sector",
+      "name": "体制内与政务数字化",
+      "count": 13
+    },
+    {
+      "id": "teacher-edu",
+      "name": "教育工作者",
+      "count": 10
+    },
+    {
+      "id": "students-career",
+      "name": "学生与升学就业",
+      "count": 14
+    },
+    {
+      "id": "content-livestream",
+      "name": "内容创作者与直播电商",
+      "count": 23
+    },
+    {
+      "id": "manufacturing-crossborder",
+      "name": "制造外贸与跨境电商",
+      "count": 16
+    },
+    {
+      "id": "local-life-services",
+      "name": "本地生活服务",
+      "count": 16
+    },
+    {
+      "id": "pro-services-finlaw",
+      "name": "专业服务·财税法律医疗保险房产",
+      "count": 16
+    },
+    {
+      "id": "software-ai-eng",
+      "name": "软件研发与AI工程与设计",
+      "count": 19
+    },
+    {
+      "id": "agri-county",
+      "name": "农业与县域经济",
+      "count": 4
+    },
+    {
+      "id": "personal-life-growth",
+      "name": "个人生活与成长",
+      "count": 11
+    }
+  ],
+  "agents": [
+    {
+      "slug": "account-analytics-reporter",
+      "nameZh": "账号数据周报官",
+      "nameEn": "Account Analytics & Growth Reporter",
+      "domain": "content-livestream",
+      "description": "把抖音小红书视频号的播放完播转化数据拉成能看懂的周报，专做掉量归因、起号复盘和涨粉实验设计。",
+      "audience": [
+        "创作者",
+        "MCN运营",
+        "个人IP数据复盘"
+      ],
+      "triggers_zh": [
+        "数据周报",
+        "掉量归因",
+        "涨粉实验",
+        "完播分析",
+        "起号复盘",
+        "账号诊断"
+      ],
+      "triggers_en": [
+        "weekly report",
+        "traffic drop analysis",
+        "growth experiment",
+        "retention analysis",
+        "account review",
+        "account diagnosis"
+      ],
+      "when_to_use": "当你要把一周的后台数据理成结论、想搞清楚为什么这条掉量、或者要设计下一轮起号涨粉实验时用它。",
+      "when_not_to_use": "如果你要的是直接写脚本写文案，去找内容创作类 agent；要的是投流计划和素材测试，去找投流类 agent。",
+      "merged_from": [
+        "support-analytics-reporter",
+        "marketing-growth-hacker"
+      ]
+    },
+    {
+      "slug": "agri-coop-supplychain-steward",
+      "nameZh": "合作社供应链与惠农账管家",
+      "nameEn": "Co-op Supply Chain & Subsidy Steward",
+      "domain": "agri-county",
+      "description": "管合作社采购销售和冷链账期，把进销存毛利、农产品定价、惠农补贴申报和采购成本测算一并算清，让你心里有数手上有账。",
+      "audience": [
+        "农民合作社",
+        "县域生鲜门店",
+        "产业带采购与种养大户"
+      ],
+      "triggers_zh": [
+        "合作社供应链",
+        "冷链账期",
+        "进销存毛利",
+        "农产品定价",
+        "惠农补贴申报",
+        "采购成本测算"
+      ],
+      "triggers_en": [
+        "co-op supply chain",
+        "cold chain payment terms",
+        "inventory margin",
+        "farm product pricing",
+        "agri subsidy application",
+        "procurement cost"
+      ],
+      "when_to_use": "你要给合作社或县域门店算成本定价、理清冷链账期和进销存毛利、或者搞惠农补贴申报和采购比价时用我。",
+      "when_not_to_use": "单纯写直播带货话术或农产品详情页找助农直播官和电商详情官，单纯问种养殖农时找农时节气答疑师。",
+      "merged_from": [
+        "supply-chain-strategist",
+        "finance-bookkeeper-controller",
+        "specialized-pricing-analyst",
+        "government-digital-presales-consultant"
+      ]
+    },
+    {
+      "slug": "agri-ecommerce-listing-operator",
+      "nameZh": "农产品电商详情操盘手",
+      "nameEn": "Farm Produce E-Commerce Operator",
+      "domain": "agri-county",
+      "description": "给农产品在淘宝拼多多抖店写会下单的详情页、产地故事和品质卖点，把土特产做成转化得起来的链接，触发词含农产品详情页、产地故事、土特产上架。",
+      "audience": [
+        "农产品电商卖家",
+        "合作社网店",
+        "县域产业带店主"
+      ],
+      "triggers_zh": [
+        "农产品详情页",
+        "产地故事",
+        "品质卖点",
+        "土特产上架",
+        "拼多多农货",
+        "助农店铺"
+      ],
+      "triggers_en": [
+        "farm produce listing",
+        "origin story",
+        "quality selling point",
+        "agri product launch",
+        "pinduoduo farm goods",
+        "local specialty shop"
+      ],
+      "when_to_use": "你要给生鲜、土特产、初加工农货写标题主图详情页、讲产地故事、提炼品质卖点，或要在淘宝拼多多抖店上架一条会下单的链接时，用它。",
+      "when_not_to_use": "要做直播间话术和控场节奏，转助农直播带货操盘手；要算冷链账期、进销存毛利和惠农补贴，转合作社供应链与惠农账管家；问种养殖农时和病虫防治，转农时节气种养答疑师。",
+      "merged_from": [
+        "marketing-china-ecommerce-operator",
+        "marketing-content-creator"
+      ]
+    },
+    {
+      "slug": "agri-livestream-sales-lead",
+      "nameZh": "助农直播带货操盘手",
+      "nameEn": "Agri Livestream Sales Lead",
+      "domain": "agri-county",
+      "description": "为农产品直播间写带货话术、排品控场节奏、做溯源助农选题，把产地优势讲成下单理由。",
+      "audience": [
+        "新农人",
+        "家庭农场主",
+        "助农主播与县域电商直播团队"
+      ],
+      "triggers_zh": [
+        "直播带货话术",
+        "助农直播",
+        "农产品上播",
+        "溯源选题",
+        "直播间控场",
+        "产地促单"
+      ],
+      "triggers_en": [
+        "agri livestream",
+        "farm product selling script",
+        "助农 live commerce",
+        "traceability topic",
+        "live room flow",
+        "farm direct sales"
+      ],
+      "when_to_use": "你要把农产品搬进直播间卖货，需要写话术、排品、控场、做溯源选题或诊断一场直播的转化时用它。",
+      "when_not_to_use": "你要做的是品牌投放策划、详情页文案、私域社群运营或纯短视频起号，改用对应的电商运营或内容创作 agent。",
+      "merged_from": [
+        "marketing-livestream-commerce-coach",
+        "marketing-kuaishou-strategist"
+      ]
+    },
+    {
+      "slug": "agri-season-agronomy-advisor",
+      "nameZh": "农时节气种养答疑师",
+      "nameEn": "Farming Season & Agronomy Advisor",
+      "domain": "agri-county",
+      "description": "按农时节气和县域气候地理答种养殖问题，覆盖播种采收、病虫防治、农事建议，把专业农技讲成地头听得懂的话。",
+      "audience": [
+        "新农人",
+        "家庭农场主",
+        "乡镇种养殖户",
+        "县域涉农服务者"
+      ],
+      "triggers_zh": [
+        "农时节气",
+        "种养殖问答",
+        "病虫防治",
+        "县域气候",
+        "播种采收",
+        "农事建议"
+      ],
+      "triggers_en": [
+        "farming season",
+        "crop livestock Q&A",
+        "pest control",
+        "county climate",
+        "sowing harvest timing",
+        "agronomy advice"
+      ],
+      "when_to_use": "用户问什么时候播、什么时候收、地里苗出问题、牲畜禽得病、要不要追肥浇水、本地这个季节种啥养啥合适时用它。",
+      "when_not_to_use": "要写农产品详情页或带货话术改用电商详情操盘手，算合作社成本定价和补贴申报改用供应链账管家。",
+      "merged_from": [
+        "academic-geographer",
+        "customer-service"
+      ]
+    },
+    {
+      "slug": "ai-citation-optimizer",
+      "nameZh": "AI引用优化官（GEO/AEO）",
+      "nameEn": "AI Citation Optimizer",
+      "domain": "content-livestream",
+      "description": "让你的内容被豆包、Kimi、DeepSeek、文心引用推荐的GEO优化打法，从被AI引用、AI搜索优化到百度SEO一套搞定。",
+      "audience": [
+        "想被AI搜索引用的创作者",
+        "知识IP",
+        "品牌内容团队"
+      ],
+      "triggers_zh": [
+        "GEO优化",
+        "AEO",
+        "被AI引用",
+        "豆包推荐",
+        "AI搜索优化",
+        "百度SEO"
+      ],
+      "triggers_en": [
+        "geo optimize",
+        "aeo",
+        "ai citation",
+        "doubao recommend",
+        "ai search optimize",
+        "baidu seo"
+      ],
+      "when_to_use": "当你想让自己的文章、笔记、知识内容被豆包/Kimi/DeepSeek/文心/元宝这些AI助手主动引用推荐，或想搞懂AI搜索时代怎么被搜到时用它。",
+      "when_not_to_use": "如果你只是要写一篇成稿或起标题，改用对应的写作agent；要纯做电商详情页或直播话术，也别用它。",
+      "merged_from": [
+        "marketing-ai-citation-strategist",
+        "marketing-aeo-foundations",
+        "marketing-agentic-search-optimizer",
+        "marketing-baidu-seo-specialist",
+        "marketing-seo-specialist"
+      ]
+    },
+    {
+      "slug": "ai-model-engineer-qa",
+      "nameZh": "AI 模型工程与质检官",
+      "nameEn": "AI Model Engineer & QA",
+      "domain": "software-ai-eng",
+      "description": "把 ML 和大模型集成进生产系统，再独立做模型质检、复现审计和上线验证，确保线上真靠谱",
+      "audience": [
+        "把 ML/大模型集成进系统并需要独立模型质检的 AI 工程师"
+      ],
+      "triggers_zh": [
+        "模型集成",
+        "AI 工程",
+        "模型上线",
+        "模型质检",
+        "模型审计",
+        "模型复现"
+      ],
+      "triggers_en": [
+        "model integration",
+        "ai engineering",
+        "model deployment",
+        "model qa",
+        "model audit",
+        "model replication"
+      ],
+      "when_to_use": "你要把模型接进业务系统并上线，或者要对一个别人建好的模型做独立质检、复现和审计时用我",
+      "when_not_to_use": "只做纯数据管道清洗和看板搬运找数据看板管道工，只做调参炼丹不上线找算法研究方向的 agent，纯 Prompt 调优不碰部署找提示词工程师",
+      "merged_from": [
+        "engineering-ai-engineer",
+        "specialized-model-qa"
+      ]
+    },
+    {
+      "slug": "api-performance-test-engineer",
+      "nameZh": "接口与性能测试官",
+      "nameEn": "API & Performance Test Engineer",
+      "domain": "software-ai-eng",
+      "description": "接口契约测试与性能压测一肩挑，覆盖回归用例设计、压力测试执行与测试报告分析，给出发布放行判断。",
+      "audience": [
+        "做接口测试",
+        "性能压测和回归用例分析的测试与质量工程师"
+      ],
+      "triggers_zh": [
+        "接口测试",
+        "契约测试",
+        "性能压测",
+        "回归用例",
+        "测试报告分析",
+        "压力测试"
+      ],
+      "triggers_en": [
+        "api testing",
+        "contract test",
+        "performance benchmark",
+        "regression suite",
+        "test analysis",
+        "load test"
+      ],
+      "when_to_use": "你要验证接口正确性与契约一致性、对系统做负载或压力测试、维护回归用例集、或把测试结果分析成能拍板发不发版的结论时用它。",
+      "when_not_to_use": "纯写业务代码或修单元逻辑找后端开发，纯安全渗透与漏洞利用找安全攻防测试官，纯前端体验走查找前端工程师。",
+      "merged_from": [
+        "testing-api-tester",
+        "testing-performance-benchmarker",
+        "testing-test-results-analyzer"
+      ]
+    },
+    {
+      "slug": "audio-transcript-to-draft",
+      "nameZh": "录屏语音转写成稿官",
+      "nameEn": "Audio Transcription-to-Draft Editor",
+      "domain": "content-livestream",
+      "description": "把直播录屏、语音笔记、采访录音转写后整理成可发布成稿，擅长录音转写、口述成文、逐字稿整理",
+      "audience": [
+        "口述型创作者",
+        "采访内容博主",
+        "播客转图文"
+      ],
+      "triggers_zh": [
+        "录音转写",
+        "语音转文字",
+        "采访整理",
+        "录屏成稿",
+        "口述成文",
+        "逐字稿整理"
+      ],
+      "triggers_en": [
+        "audio transcribe",
+        "voice to text",
+        "interview cleanup",
+        "recording to article",
+        "speech to draft",
+        "transcript editing"
+      ],
+      "when_to_use": "你手里有一段录音录屏直播回放或采访音频，想转成文字再整理成能直接发的稿子时用我",
+      "when_not_to_use": "你已经有干净文字稿只想润色文风或追热点选题，去找公众号操盘手或小红书种草笔记官；要做配图视觉去找封面图文卡设计官",
+      "merged_from": [
+        "engineering-voice-ai-integration-engineer"
+      ]
+    },
+    {
+      "slug": "backend-architect",
+      "nameZh": "后端架构师",
+      "nameEn": "Backend Architect",
+      "domain": "software-ai-eng",
+      "description": "做系统架构与领域建模，定 API 设计、数据流和分层架构，给可落地的技术选型，兜底移动端架构和嵌入式固件的系统级设计",
+      "audience": [
+        "需要设计后端系统、做技术选型和领域建模的架构师",
+        "资深后端",
+        "含移动端与嵌入式固件架构兜底"
+      ],
+      "triggers_zh": [
+        "系统架构",
+        "后端设计",
+        "领域建模",
+        "技术选型",
+        "API 设计",
+        "分层架构",
+        "移动端架构",
+        "嵌入式固件"
+      ],
+      "triggers_en": [
+        "system architecture",
+        "backend design",
+        "domain modeling",
+        "tech decision",
+        "api design",
+        "architecture review",
+        "mobile architecture",
+        "embedded firmware"
+      ],
+      "when_to_use": "当你要从零设计一套后端系统、拆服务定边界、做存储和 API 契约决策，或给移动端、嵌入式固件做系统级架构兜底时用它",
+      "when_not_to_use": "只是写业务代码改 bug、调前端样式、做纯数据看板取数，或要落地 CI/CD 与运维上线时，换更对口的工程实现类 agent",
+      "merged_from": [
+        "engineering-software-architect",
+        "engineering-backend-architect",
+        "engineering-mobile-app-builder",
+        "engineering-embedded-firmware-engineer"
+      ]
+    },
+    {
+      "slug": "brand-deal-copy-strategist",
+      "nameZh": "商单软文报价官",
+      "nameEn": "Brand Deal & Sponsored Copy Strategist",
+      "domain": "content-livestream",
+      "description": "帮内容创作者写商单广告稿和软文植入，搭配报价模型和商务对账清单，让恰饭文案既不硬又不亏钱",
+      "audience": [
+        "接商单的创作者",
+        "个人IP",
+        "MCN商务"
+      ],
+      "triggers_zh": [
+        "商单稿",
+        "软文植入",
+        "广告报价",
+        "商务对账",
+        "恰饭文案",
+        "品牌合作稿"
+      ],
+      "triggers_en": [
+        "brand deal copy",
+        "sponsored post",
+        "ad quote",
+        "deal reconciliation",
+        "promo copy",
+        "brand collab"
+      ],
+      "when_to_use": "你接了品牌商单要写软文植入、给品牌方报价、或者要核对一笔合作的执行和回款时用它",
+      "when_not_to_use": "纯自营选品带货、写非广告的日常内容、做账号涨粉数据复盘时，改用对应的带货或内容运营 agent",
+      "merged_from": [
+        "marketing-content-creator",
+        "sales-proposal-strategist",
+        "specialized-pricing-analyst"
+      ]
+    },
+    {
+      "slug": "business-cn-en-translator",
+      "nameZh": "中英商务互译官",
+      "nameEn": "Business CN-EN Translator",
+      "domain": "cross-function-staff",
+      "description": "把邮件、产品资料、海外客户消息做中英互译并本地化语气，专业不生硬，擅长翻译邮件、本地化、外贸翻译",
+      "audience": [
+        "外贸",
+        "跨境运营",
+        "商务",
+        "对接海外客户的人"
+      ],
+      "triggers_zh": [
+        "中英互译",
+        "翻译邮件",
+        "本地化",
+        "海外客户回复",
+        "产品资料翻译",
+        "外贸翻译"
+      ],
+      "triggers_en": [
+        "translate CN-EN",
+        "translate email",
+        "localize tone",
+        "reply overseas client",
+        "translate product doc",
+        "trade translation"
+      ],
+      "when_to_use": "当你要把中英文邮件、产品资料、报价单、客户消息互译并调好商务语气、不想要机翻腔时用它",
+      "when_not_to_use": "当你要的是合同条款的法律风险审查、文学作品精翻、或纯口语旅行短语时，改用对应法务或翻译 agent",
+      "merged_from": [
+        "language-translator"
+      ]
+    },
+    {
+      "slug": "campus-recruiting-tracker",
+      "nameZh": "校招信息追踪助手",
+      "nameEn": "Campus Recruiting Tracker",
+      "domain": "students-career",
+      "description": "帮求职党聚合校招公告、追网申进度和笔试时间，把投递日程排成不漏一场的提醒清单",
+      "audience": [
+        "求职党（秋招春招信息追踪与日程管理）"
+      ],
+      "triggers_zh": [
+        "校招公告",
+        "网申进度",
+        "笔试时间",
+        "投递日程",
+        "招聘信息追踪",
+        "校招提醒"
+      ],
+      "triggers_en": [
+        "campus recruiting",
+        "application status",
+        "written test time",
+        "submission schedule",
+        "job info tracking",
+        "recruiting reminders"
+      ],
+      "when_to_use": "你在秋招春招里同时投了一堆公司，记不清哪家开了网申、哪家约了笔试、哪家快截止时，用它把信息聚到一处并排成日程提醒",
+      "when_not_to_use": "要改简历、抠简历措辞、模拟面试、做职业方向选择时，改用简历优化或面试陪练类 agent",
+      "merged_from": [
+        "product-trend-researcher",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "cashflow-receivables-advisor",
+      "nameZh": "现金流账款参谋",
+      "nameEn": "Cash Flow & Receivables Advisor",
+      "domain": "sme-boss-mgmt",
+      "description": "帮中小企业主盯应收账龄、写催款话术、做现金流预警，提前算清钱什么时候到账、断点在哪天。",
+      "audience": [
+        "靠回款过日子",
+        "被账期拖到睡不着的中小企业主和合伙人"
+      ],
+      "triggers_zh": [
+        "催款话术",
+        "应收账龄",
+        "现金流预警",
+        "对账单",
+        "账期紧张",
+        "钱什么时候到账"
+      ],
+      "triggers_en": [
+        "collection script",
+        "receivables aging",
+        "cash flow alert",
+        "reconciliation",
+        "overdue invoice",
+        "cash gap"
+      ],
+      "when_to_use": "当老板要催回款、盯应收账龄、对账查缺口、判断账上钱够不够撑到下个月时用我",
+      "when_not_to_use": "要做正规账务报税、开发票、走税务申报时改用财税合规类 agent，我只管现金和账款的经营判断",
+      "merged_from": [
+        "finance-financial-analyst",
+        "support-finance-tracker"
+      ]
+    },
+    {
+      "slug": "civil-exam-drill-coach",
+      "nameZh": "行测申论刷题教练",
+      "nameEn": "Civil Exam Drill Coach",
+      "domain": "students-career",
+      "description": "讲解行测题型解法、带刷题拆错题、按给分点批改申论大作文，国省考都能陪练",
+      "audience": [
+        "考公考编党（行测申论专项突破）"
+      ],
+      "triggers_zh": [
+        "行测技巧",
+        "申论批改",
+        "刷题讲解",
+        "大作文给分点",
+        "题型方法",
+        "行测申论"
+      ],
+      "triggers_en": [
+        "aptitude test tips",
+        "essay grading",
+        "drill explanation",
+        "scoring points",
+        "question patterns",
+        "civil exam practice"
+      ],
+      "when_to_use": "当你要刷行测题、搞懂某类题的解法、让人按给分点批改申论、或者制定提分计划时用它",
+      "when_not_to_use": "要做求职简历面试、考研政英数、教师资格证或其他非公考类备考时，改用对应的求职或考试 agent",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "civil-service-position-matcher",
+      "nameZh": "考公职位筛选官",
+      "nameEn": "Civil Service Position Matcher",
+      "domain": "students-career",
+      "description": "按你的专业、政治面貌、学历、户籍、应届身份硬筛职位表，算竞争比、识别定向条款陷阱，挑出最值得报的岗位",
+      "audience": [
+        "考公考编党（国考省考事业编选岗）"
+      ],
+      "triggers_zh": [
+        "考公选岗",
+        "职位表筛选",
+        "竞争比",
+        "报考条件",
+        "事业编岗位",
+        "公务员职位"
+      ],
+      "triggers_en": [
+        "civil service position",
+        "job table filter",
+        "competition ratio",
+        "eligibility check",
+        "public sector post",
+        "exam post pick"
+      ],
+      "when_to_use": "拿到职位表想从上万个岗位里筛出自己能报、报得值、性价比高的那几个时用",
+      "when_not_to_use": "想要笔试面试备考刷题、行测申论提分、面试答题技巧时，改用考公备考类 agent",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "cn-auto-aftermarket-advisor",
+      "nameZh": "汽车后市场获客顾问",
+      "nameEn": "Auto Aftermarket Advisor",
+      "domain": "local-life-services",
+      "description": "给汽修厂、二手车商、4S店做获客钩子、报价话术和到店转化，把保养提醒和回店复购沉淀进企微私域。",
+      "audience": [
+        "汽修/二手车/4S"
+      ],
+      "triggers_zh": [
+        "汽修获客",
+        "二手车",
+        "保养报价",
+        "4S",
+        "到店转化"
+      ],
+      "triggers_en": [
+        "auto repair",
+        "used car",
+        "aftermarket"
+      ],
+      "when_to_use": "当你要给修理厂、二手车行、4S店、快修连锁设计引流活动、写报价方案、谈到店转化，或搭建保养提醒和会员复购的企微私域时用它。",
+      "when_not_to_use": "纯讲解汽车维修技术、故障诊断或配件原理的问题，改用技术维修类 agent；通用电商详情或直播带货改用对应内容直播 agent。",
+      "merged_from": [
+        "sales-offer-lead-gen-strategist",
+        "marketing-private-domain-operator"
+      ]
+    },
+    {
+      "slug": "cn-bookkeeping-workpaper-agent",
+      "nameZh": "代账记账管家",
+      "nameEn": "Bookkeeping Workpaper Agent",
+      "domain": "pro-services-finlaw",
+      "description": "从票据、银行流水、工资表里抽数据，自动套会计科目、编记账凭证、做月末对账。",
+      "audience": [
+        "财税代账公司",
+        "代账会计",
+        "企业出纳",
+        "兼职会计"
+      ],
+      "triggers_zh": [
+        "记账凭证",
+        "套科目",
+        "银行流水抽数",
+        "月末结账",
+        "票据录入",
+        "工资表入账"
+      ],
+      "triggers_en": [
+        "bookkeeping",
+        "journal entry",
+        "bank statement extract",
+        "month-end close",
+        "invoice posting",
+        "payroll entry"
+      ],
+      "when_to_use": "你手上有一堆发票、银行回单、工资表，要把它们整理成借贷分录、记账凭证和月末对账底稿时用它。",
+      "when_not_to_use": "涉及报税申报节点排期、纳税筹划、税收优惠适用、金税四期申报对账，改用申报调度或税务顾问类 agent，本管家只管把账做平做实。",
+      "merged_from": [
+        "finance-bookkeeper-controller",
+        "sales-data-extraction-agent"
+      ]
+    },
+    {
+      "slug": "cn-case-file-analyst",
+      "nameZh": "卷宗证据梳理师",
+      "nameEn": "Case File Analyst",
+      "domain": "pro-services-finlaw",
+      "description": "帮诉讼律师读卷宗做证据摘要、拉案件时间线、提炼争议焦点，庭前一页看清案情",
+      "audience": [
+        "诉讼律师",
+        "律师助理",
+        "法务团队"
+      ],
+      "triggers_zh": [
+        "卷宗摘要",
+        "证据梳理",
+        "案件时间线",
+        "争议焦点",
+        "庭前准备",
+        "案情提炼"
+      ],
+      "triggers_en": [
+        "case file summary",
+        "evidence review",
+        "case timeline",
+        "key disputes",
+        "pre-trial prep",
+        "fact extraction"
+      ],
+      "when_to_use": "拿到一摞起诉状答辩状证据材料笔录要在开庭前快速吃透案情、做证据摘要、拉时间线、找争议焦点时用它",
+      "when_not_to_use": "要审合同条款风险、做交易尽调、出正式法律意见或代写诉讼文书时改用合同审查或文书代写类 agent",
+      "merged_from": [
+        "legal-document-review"
+      ]
+    },
+    {
+      "slug": "cn-civil-structural-engineer",
+      "nameZh": "土木结构工程师",
+      "nameEn": "Civil & Structural Engineer",
+      "domain": "enterprise-function",
+      "description": "按国标和抗规做结构计算、施工图技术配合与工程预算造价复核，给设计院、施工企业和造价人员当懂规范的算量助手，专攻结构计算、施工图、工程预算、建筑规范、抗震、造价。",
+      "audience": [
+        "设计院/施工企业/造价人员"
+      ],
+      "triggers_zh": [
+        "结构计算",
+        "施工图",
+        "工程预算",
+        "建筑规范",
+        "抗震",
+        "造价"
+      ],
+      "triggers_en": [
+        "structural engineering",
+        "construction estimate",
+        "building code"
+      ],
+      "when_to_use": "你要算结构构件、查国标抗规条文、出施工图技术说明、做工程量清单或造价复核、判断方案是否满足规范时用它。",
+      "when_not_to_use": "你要的是出正式可盖章的施工图终稿或承担法定设计责任时，改找有执业资格的注册结构工程师本人审核盖章，本 agent 只做计算辅助和初审。",
+      "merged_from": [
+        "specialized-civil-engineer"
+      ]
+    },
+    {
+      "slug": "cn-clinic-patient-concierge",
+      "nameZh": "私立诊所导医官",
+      "nameEn": "Private Clinic Patient Concierge",
+      "domain": "pro-services-finlaw",
+      "description": "做患者咨询分诊、预约答疑、费用解释、就诊随访和投诉安抚的私立导医接待",
+      "audience": [
+        "私立诊所、口腔医美机构、健康管理中心客服与前台"
+      ],
+      "triggers_zh": [
+        "患者咨询",
+        "分诊预约",
+        "费用解释",
+        "就诊随访",
+        "投诉安抚",
+        "导医接待"
+      ],
+      "triggers_en": [
+        "patient inquiry",
+        "triage booking",
+        "fee explanation",
+        "follow-up care",
+        "complaint handling",
+        "patient concierge"
+      ],
+      "when_to_use": "患者来电来访咨询、要预约要分诊、问费用、术后随访、闹投诉时，你需要既懂医又会安抚的前台导医",
+      "when_not_to_use": "涉及诊断、用药、看检查报告、定治疗方案这类临床判断，要交给执业医生或护士，本 agent 只做导医不越界行医",
+      "merged_from": [
+        "healthcare-customer-service",
+        "hospitality-guest-services"
+      ]
+    },
+    {
+      "slug": "cn-compliant-mental-support",
+      "nameZh": "合规心理支持陪伴",
+      "nameEn": "Late-Night Companion & Compliant Mental Support",
+      "domain": "personal-life-growth",
+      "description": "给深夜失眠、焦虑、亲子矛盾的成年人做情绪疏导和压力陪伴，听得见情绪、给得出方法、识别危机就转介，明确不做诊断不做治疗",
+      "audience": [
+        "深夜失眠焦虑的成年人",
+        "被亲子青春期矛盾消耗的家长",
+        "需要情绪管理和倾诉出口的人",
+        "想先找个安全出口缓一缓暂时不便去医院的人"
+      ],
+      "triggers_zh": [
+        "情绪疏导",
+        "压力",
+        "焦虑",
+        "失眠",
+        "心理支持"
+      ],
+      "triggers_en": [
+        "need to vent",
+        "anxiety insomnia",
+        "talk to me",
+        "parent-child communication",
+        "teen conflict",
+        "manage my emotions",
+        "emotional support",
+        "stress relief",
+        "mental support",
+        "feeling down"
+      ],
+      "when_to_use": "当你需要有人接住情绪、陪你把压力焦虑失眠和亲子冲突说清楚、再拿到一两个今晚就能用的自助方法时",
+      "when_not_to_use": "当你需要的是精神科诊断、药物调整、心理治疗方案，或正处于自伤自杀冲动等危机中（那要立刻找专业机构和热线，不是找我）",
+      "merged_from": [
+        "academic-psychologist",
+        "organizational-psychologist",
+        "customer-service"
+      ]
+    },
+    {
+      "slug": "cn-drg-dip-coding-agent",
+      "nameZh": "医保编码控费师",
+      "nameEn": "China DRG/DIP Coding Agent",
+      "domain": "pro-services-finlaw",
+      "description": "做国内医保 DRG/DIP 收费编码、病案首页与医保结算清单核对、拒付管理和控费分析，把每一份病案编到不亏钱又不违规的位置。",
+      "audience": [
+        "私立医院与诊所医保办",
+        "病案编码员",
+        "医保结算岗"
+      ],
+      "triggers_zh": [
+        "医保编码",
+        "DRG分组",
+        "DIP付费",
+        "病案首页",
+        "拒付管理",
+        "医保控费"
+      ],
+      "triggers_en": [
+        "medical coding",
+        "DRG grouping",
+        "DIP payment",
+        "case homepage",
+        "denial management",
+        "cost control"
+      ],
+      "when_to_use": "当你要给病案选诊断手术编码、核对病案首页与医保结算清单、预判 DRG/DIP 入组与盈亏、处理医保拒付退费或做科室控费分析时用我。",
+      "when_not_to_use": "涉及临床诊疗决策本身（开什么药、做不做手术）请找临床医生，涉及医院整体财务月结与税务请改用财税月结类 agent。",
+      "merged_from": [
+        "medical-billing-coding-specialist"
+      ]
+    },
+    {
+      "slug": "cn-game-minigame-developer",
+      "nameZh": "手游与微信小游戏开发",
+      "nameEn": "Game & Mini-Game Developer",
+      "domain": "software-ai-eng",
+      "description": "用 Unity、Cocos 做手游和微信小游戏的全链路开发，从玩法数值、关卡叙事到游戏音频一手包，懂买量包体和小游戏平台规则",
+      "audience": [
+        "游戏/小游戏团队"
+      ],
+      "triggers_zh": [
+        "手游",
+        "微信小游戏",
+        "Unity",
+        "Cocos",
+        "游戏数值",
+        "关卡设计"
+      ],
+      "triggers_en": [
+        "unity",
+        "mini game",
+        "game design"
+      ],
+      "when_to_use": "当你要做手游或微信抖音小游戏，需要搭玩法框架、设计数值经济、做关卡和剧情、写联机同步、调性能包体或接入游戏音频时用它",
+      "when_not_to_use": "纯做企业级后端服务、电商网站、数据中台或非游戏类 App 时改用对应的工程或后端 agent",
+      "merged_from": [
+        "unity-architect",
+        "unity-editor-tool-developer",
+        "unity-multiplayer-engineer",
+        "unity-shader-graph-artist",
+        "unreal-systems-engineer",
+        "unreal-multiplayer-architect",
+        "unreal-technical-artist",
+        "unreal-world-builder",
+        "godot-gameplay-scripter",
+        "godot-multiplayer-engineer",
+        "godot-shader-developer",
+        "roblox-avatar-creator",
+        "roblox-experience-designer",
+        "roblox-systems-scripter",
+        "game-designer",
+        "level-designer",
+        "narrative-designer",
+        "technical-artist",
+        "game-audio-engineer"
+      ]
+    },
+    {
+      "slug": "cn-gis-mapping-specialist",
+      "nameZh": "GIS测绘与空间分析专家",
+      "nameEn": "GIS & Mapping Specialist",
+      "domain": "gov-public-sector",
+      "description": "做国土规划制图、空间分析、WebGIS开发与无人机测绘成果处理，从数据清洗到成果出图全流程上手",
+      "audience": [
+        "自然资源/规划/测绘单位与乙方"
+      ],
+      "triggers_zh": [
+        "GIS",
+        "测绘",
+        "制图",
+        "空间分析",
+        "国土规划",
+        "无人机航测"
+      ],
+      "triggers_en": [
+        "GIS",
+        "mapping",
+        "spatial analysis",
+        "WebGIS"
+      ],
+      "when_to_use": "你要做底图制图、空间叠加分析、坐标转换、WebGIS搭建、无人机航测成果(正射/DEM/点云)处理，或国土空间规划的数据生产时用它",
+      "when_not_to_use": "纯统计建模或机器学习预测、跟空间无关的普通建库开发、需要正式测绘资质盖章的法定成果终审时，改用对应专业岗或持证单位",
+      "merged_from": [
+        "gis-analyst",
+        "gis-cartography-designer",
+        "gis-web-gis-developer",
+        "gis-geoai-ml-engineer",
+        "gis-drone-reality-mapping",
+        "gis-spatial-data-engineer",
+        "gis-geoprocessing-specialist",
+        "gis-spatial-data-scientist",
+        "gis-3d-scene-developer",
+        "gis-bim-specialist",
+        "gis-qa-engineer",
+        "gis-solution-engineer",
+        "gis-technical-consultant"
+      ]
+    },
+    {
+      "slug": "cn-insurance-coverage-diagnostic-agent",
+      "nameZh": "保险保障诊断师",
+      "nameEn": "Insurance Coverage Diagnostic Agent",
+      "domain": "pro-services-finlaw",
+      "description": "诊断家庭保障缺口、出配置方案、做条款对比、帮客户应对拒赔异议的保险顾问助手",
+      "audience": [
+        "保险代理人",
+        "保险经纪",
+        "理财顾问",
+        "家庭客户"
+      ],
+      "triggers_zh": [
+        "保障缺口",
+        "保险配置方案",
+        "条款对比",
+        "拒赔应对",
+        "家庭保单",
+        "保险诊断"
+      ],
+      "triggers_en": [
+        "coverage gap",
+        "insurance plan",
+        "policy comparison",
+        "claim dispute",
+        "family policy",
+        "insurance diagnosis"
+      ],
+      "when_to_use": "当你要给一个家庭或个人盘清现有保单、算出保障缺口、出配置方案、逐条对比产品条款，或帮客户准备拒赔申诉时用它",
+      "when_not_to_use": "当客户要的是具体投资收益预测、税务筹划、合同纠纷诉讼代理或医疗诊断时，改用对应的理财, 财税或法务 agent",
+      "merged_from": [
+        "finance-financial-analyst",
+        "support-legal-compliance-checker",
+        "sales-deal-strategist"
+      ]
+    },
+    {
+      "slug": "cn-insurance-sales-coach",
+      "nameZh": "保险谈单陪练教练",
+      "nameEn": "Insurance Sales Coach",
+      "domain": "pro-services-finlaw",
+      "description": "帮保险代理人做线索跟进、谈单话术打磨和异议处理，通过实战话术陪练把成交技巧和转化率练起来。",
+      "audience": [
+        "保险代理人",
+        "保险团队长",
+        "销售新人"
+      ],
+      "triggers_zh": [
+        "线索跟进",
+        "谈单话术",
+        "异议处理",
+        "话术陪练",
+        "成交技巧",
+        "销售训练"
+      ],
+      "triggers_en": [
+        "lead follow-up",
+        "sales pitch",
+        "objection handling",
+        "role-play coaching",
+        "closing skills",
+        "sales training"
+      ],
+      "when_to_use": "当你要跟进保险客户线索、打磨一段谈单或异议应对话术、做开口前的实战陪练、或带新人练成交流程时用我。",
+      "when_not_to_use": "要做具体险种的精算条款解读或核保理赔操作，转专业核保理赔顾问；要做团队管理制度和增员架构设计，转团队经营类 agent。",
+      "merged_from": [
+        "sales-outreach",
+        "sales-coach"
+      ]
+    },
+    {
+      "slug": "cn-knowledge-monetization-operator",
+      "nameZh": "知识付费操盘与引流钩子官",
+      "nameEn": "Knowledge Monetization & Lead-Magnet Operator",
+      "domain": "content-livestream",
+      "description": "帮你设计卖课训练营、做引流款钩子和lead magnet、用发现式提问把流量转成线索，再用社群陪跑和课程分销跑通转化漏斗。",
+      "audience": [
+        "知识博主/教培个人IP",
+        "做线索转化的创作者",
+        "私域引流团队"
+      ],
+      "triggers_zh": [
+        "知识付费",
+        "卖课",
+        "训练营",
+        "社群陪跑",
+        "课程分销",
+        "引流款",
+        "钩子设计",
+        "诱饵内容",
+        "线索转化",
+        "免费资料"
+      ],
+      "triggers_en": [
+        "online course",
+        "knowledge product",
+        "lead magnet",
+        "hook design",
+        "bait content",
+        "discovery questions",
+        "lead conversion",
+        "freebie"
+      ],
+      "when_to_use": "当你要把粉丝流量变成付费学员，需要设计引流钩子、爆款课程offer、训练营陪跑机制或线索转化漏斗时用它。",
+      "when_not_to_use": "纯写公众号长文或拍短视频脚本找内容操盘手，纯直播间话术憋单逼单找直播带货控场教练，纯打广告投流找投手类agent。",
+      "merged_from": [
+        "sales-offer-lead-gen-strategist",
+        "corporate-training-designer",
+        "sales-discovery-coach"
+      ]
+    },
+    {
+      "slug": "cn-legal-billing-time-agent",
+      "nameZh": "律师工时账单官",
+      "nameEn": "Legal Billing & Time Agent",
+      "domain": "pro-services-finlaw",
+      "description": "帮律所记工时、生成计费账单、写账单说明、做应收催收，把律师的可计费时间换成稳定现金流。",
+      "audience": [
+        "律所财务",
+        "合伙人",
+        "计时收费律师"
+      ],
+      "triggers_zh": [
+        "工时记录",
+        "律师账单",
+        "计费说明",
+        "应收催收",
+        "工时计费",
+        "账单生成"
+      ],
+      "triggers_en": [
+        "time tracking",
+        "legal invoice",
+        "billing narrative",
+        "AR collection",
+        "hourly billing",
+        "invoice generation"
+      ],
+      "when_to_use": "当你要记律师工时、按时计费、生成或核对律师账单、写客户看得懂的计费说明、做应收账款账龄分析或催收时用它。",
+      "when_not_to_use": "当你要审合同条款风险、做尽调或合规审查时改用合同审查法务官，当你要做律所整体税务筹划或公司账时改用对应财税 agent。",
+      "merged_from": [
+        "legal-billing-time-tracking"
+      ]
+    },
+    {
+      "slug": "cn-legal-drafting-agent",
+      "nameZh": "法律文书起草手",
+      "nameEn": "Legal Drafting Agent",
+      "domain": "pro-services-finlaw",
+      "description": "帮你起草合同、起诉状、答辩状、法律意见书首稿，逐条标条款风险并给修改建议",
+      "audience": [
+        "执业律师",
+        "律所",
+        "企业法务",
+        "公司合规岗"
+      ],
+      "triggers_zh": [
+        "起草合同",
+        "起诉状",
+        "答辩状",
+        "法律意见书",
+        "条款审查",
+        "文书首稿"
+      ],
+      "triggers_en": [
+        "draft contract",
+        "complaint",
+        "defense statement",
+        "legal opinion",
+        "clause review",
+        "document first draft"
+      ],
+      "when_to_use": "当你要快速出一份合同或诉讼文书的可用首稿、并想先把条款风险摸一遍时用它",
+      "when_not_to_use": "需要正式法律意见、出具盖章文件、或庭审策略拍板时改找执业律师本人定夺",
+      "merged_from": [
+        "legal-document-review"
+      ]
+    },
+    {
+      "slug": "cn-legal-intake-conflict-agent",
+      "nameZh": "案件初筛接待官",
+      "nameEn": "Client Intake & Conflict Check Agent",
+      "domain": "pro-services-finlaw",
+      "description": "给律所做新客户案件初筛、利益冲突核查和首次接待，把不该接的案子挡在门外。核心触发词为案件初筛、利益冲突核查、新客户接待。",
+      "audience": [
+        "律所行政",
+        "合伙人",
+        "案源负责人",
+        "律师助理"
+      ],
+      "triggers_zh": [
+        "案件初筛",
+        "利益冲突核查",
+        "新客户接待",
+        "案源评估",
+        "信息收集",
+        "委托登记"
+      ],
+      "triggers_en": [
+        "case screening",
+        "conflict check",
+        "client intake",
+        "lead qualification",
+        "info collection",
+        "retainer registration"
+      ],
+      "when_to_use": "律所接到新咨询、要判断这案子接不接、要查利益冲突、要把当事人信息收齐交给办案律师时用它。",
+      "when_not_to_use": "已经立案要审合同条款找合同审查法务官，要做案件实体分析或出法律意见交给执业律师本人，不要让本agent碰实体判断。",
+      "merged_from": [
+        "legal-client-intake"
+      ]
+    },
+    {
+      "slug": "cn-listing-content-creator",
+      "nameZh": "房源内容种草手",
+      "nameEn": "Listing Content Creator",
+      "domain": "pro-services-finlaw",
+      "description": "把户型地段价格写成小红书房源笔记和朋友圈文案，做房源种草、户型卖点提炼和带看前预热，让客户没进门先动心。",
+      "audience": [
+        "房产经纪人",
+        "门店内容运营",
+        "新房分销团队"
+      ],
+      "triggers_zh": [
+        "房源文案",
+        "小红书房源",
+        "朋友圈房源",
+        "房源笔记",
+        "户型种草",
+        "看房内容"
+      ],
+      "triggers_en": [
+        "listing copy",
+        "xiaohongshu listing",
+        "moments post",
+        "property note",
+        "floorplan content",
+        "viewing content"
+      ],
+      "when_to_use": "当你拿到一套房源要写小红书笔记、朋友圈、抖音口播这类种草内容，想把户型地段价格讲成下单理由、把陌生人约成带看时用。",
+      "when_not_to_use": "需要做合同审查、定价评估报告、报税过户法律意见这类专业交付时，改用合同审查法务官或财税相关 agent，本 agent 只管内容种草不碰交易合规裁决。",
+      "merged_from": [
+        "marketing-xiaohongshu-specialist",
+        "real-estate-buyer-seller"
+      ]
+    },
+    {
+      "slug": "cn-mcn-matrix-operator",
+      "nameZh": "MCN矩阵养号起号操盘手",
+      "nameEn": "MCN Matrix & Account Warmup Operator",
+      "domain": "content-livestream",
+      "description": "多账号矩阵管理与达人撮合商务一把抓,从养号起号到限流自救、起号标签纠正和爆款拆解全程操盘。",
+      "audience": [
+        "MCN/达人经纪、做账号矩阵批量起号的创作者、新号运营"
+      ],
+      "triggers_zh": [
+        "MCN",
+        "账号矩阵",
+        "达人撮合",
+        "养号",
+        "起号",
+        "限流",
+        "标签纠正",
+        "爆款拆解"
+      ],
+      "triggers_en": [
+        "mcn",
+        "account matrix",
+        "creator agency",
+        "account warmup",
+        "throttling fix",
+        "new account ramp",
+        "tag correction",
+        "viral teardown"
+      ],
+      "when_to_use": "你手上有一批账号要批量起号、或要管达人接商单、又或者某个号突然没流量要救活时找它",
+      "when_not_to_use": "只想单账号写一篇文案或单条脚本时改用对应的内容创作 agent,单纯算商单报价改用商单报价官",
+      "merged_from": [
+        "marketing-douyin-strategist",
+        "sales-account-strategist",
+        "marketing-xiaohongshu-specialist"
+      ]
+    },
+    {
+      "slug": "cn-medical-visit-companion",
+      "nameZh": "就医陪诊与报告解读",
+      "nameEn": "Medical Visit Companion",
+      "domain": "personal-life-growth",
+      "description": "帮你把三甲就医流程、检查报告、慢病复查吃药提醒讲成人话的陪诊助手，不做诊断",
+      "audience": [
+        "面对三甲医院流程发懵的患者和陪老人看病的家属",
+        "看不懂检查报告记不住慢病复查节点的普通家庭"
+      ],
+      "triggers_zh": [
+        "陪诊",
+        "检查报告",
+        "就医流程",
+        "慢病管理",
+        "体检解读",
+        "怎么挂号"
+      ],
+      "triggers_en": [
+        "medical companion",
+        "report interpretation",
+        "hospital workflow",
+        "chronic disease management",
+        "checkup explanation",
+        "how to register"
+      ],
+      "when_to_use": "当你要去三甲看病、对着一张看不懂的化验单或体检报告、或者要管理高血压糖尿病这类慢病的吃药和复查节点时用它",
+      "when_not_to_use": "当你需要明确诊断、调整用药剂量、开具处方或判断病情轻重缓急时，停下来去找执业医师，不要用它代替",
+      "merged_from": [
+        "healthcare-customer-service",
+        "medical-billing-coding-specialist"
+      ]
+    },
+    {
+      "slug": "cn-microdrama-writer-promoter",
+      "nameZh": "微短剧编剧投流与叙事感染力官",
+      "nameEn": "Micro-Drama Writer, Promoter & Narrative Advisor",
+      "domain": "content-livestream",
+      "description": "写微短剧剧本、设计分集钩子与情绪曲线、算投流ROI和素材测试，把叙事结构和人设揉进每一集让观众一直划下去",
+      "audience": [
+        "短剧团队/编剧/投手",
+        "做故事化内容的创作者",
+        "剧情号",
+        "人设型IP"
+      ],
+      "triggers_zh": [
+        "微短剧",
+        "短剧编剧",
+        "分集钩子",
+        "短剧投流",
+        "叙事结构",
+        "故事张力",
+        "人设打造",
+        "情绪曲线"
+      ],
+      "triggers_en": [
+        "micro drama",
+        "short drama script",
+        "narrative structure",
+        "story tension",
+        "persona building",
+        "emotional arc"
+      ],
+      "when_to_use": "你要写或改一部微短剧、设计分集卡点和付费节点、算投流ROAS、或给剧情号设计有张力的人设和故事线时用我",
+      "when_not_to_use": "单纯剪片调色用口播脚本剪辑教练，单纯写公众号长文用公众号操盘手，纯投流跑量不碰剧本用投流操盘类agent",
+      "merged_from": [
+        "academic-narratologist",
+        "marketing-short-video-editing-coach"
+      ]
+    },
+    {
+      "slug": "cn-mortgage-calculator-agent",
+      "nameZh": "房贷测算政策官",
+      "nameEn": "China Mortgage Calculator Agent",
+      "domain": "pro-services-finlaw",
+      "description": "帮你算首付月供税费过户、查限购限贷政策、对比商贷公积金组合贷方案，把一套房的钱算到分。",
+      "audience": [
+        "房产中介",
+        "按揭专员",
+        "置业顾问",
+        "购房者"
+      ],
+      "triggers_zh": [
+        "首付月供测算",
+        "过户税费",
+        "限购限贷",
+        "公积金贷款",
+        "组合贷",
+        "购房政策"
+      ],
+      "triggers_en": [
+        "down payment calc",
+        "transfer tax",
+        "purchase restriction",
+        "housing fund loan",
+        "combined loan",
+        "buying policy"
+      ],
+      "when_to_use": "客户问首付多少、月供多少、税费多少、能不能买、用什么贷款方式，或者要对比商贷公积金组合贷哪个划算时用它。",
+      "when_not_to_use": "涉及合同条款审查走合同法务官，涉及个人理财资产配置走理财规划师，涉及企业经营贷信贷尽调走对公信贷岗。",
+      "merged_from": [
+        "loan-officer-assistant"
+      ]
+    },
+    {
+      "slug": "cn-neutral-family-finance-advisor",
+      "nameZh": "中立家庭理财顾问",
+      "nameEn": "Neutral Family Finance Advisor",
+      "domain": "personal-life-growth",
+      "description": "站在不卖产品、不拿提成的中立视角，帮普通家庭做家庭理财、资产配置、基金定投和保险规划，把销售话术里的坑挑出来给你看。",
+      "audience": [
+        "想打理家庭钱袋子的普通家庭",
+        "被理财经理和保险销售绕晕想要一个不收提成的中立参谋"
+      ],
+      "triggers_zh": [
+        "家庭理财",
+        "基金定投",
+        "资产配置",
+        "保险规划",
+        "买什么保险",
+        "理财顾问"
+      ],
+      "triggers_en": [
+        "family finance",
+        "investment planning",
+        "fund SIP",
+        "asset allocation",
+        "insurance planning",
+        "neutral financial advice"
+      ],
+      "when_to_use": "当你要规划家庭整体钱的去向，要在一堆理财产品和保险方案里分清楚哪些适合你、哪些是被推销时，用它。",
+      "when_not_to_use": "涉及具体股票个股买卖时点、税务申报实操、企业财务或借贷催收的，改用对应的投研、财税或法律类 agent。",
+      "merged_from": [
+        "finance-financial-analyst",
+        "finance-investment-researcher"
+      ]
+    },
+    {
+      "slug": "cn-personal-legal-rights-helper",
+      "nameZh": "个人法律维权助手",
+      "nameEn": "Personal Legal Rights Helper",
+      "domain": "personal-life-growth",
+      "description": "把离婚、劳动仲裁、欠款、消费维权讲成你听得懂的步骤，帮你判清诉讼时效、备齐证据材料、走对维权流程，只做通俗指引不当诉讼代理。",
+      "audience": [
+        "遇到劳动纠纷、离婚、欠款讨要、消费被坑的普通当事人，不懂法律流程又请不起律师想自己先弄明白"
+      ],
+      "triggers_zh": [
+        "劳动仲裁",
+        "离婚",
+        "欠款",
+        "消费维权",
+        "起诉流程",
+        "维权材料怎么准备"
+      ],
+      "triggers_en": [
+        "legal rights",
+        "labor dispute",
+        "divorce procedure",
+        "debt collection",
+        "consumer complaint",
+        "how to file a lawsuit"
+      ],
+      "when_to_use": "当你遇到劳动、离婚、欠款、消费这类常见纠纷，想先弄明白自己有没有理、该走哪条路、要准备什么材料、注意什么时间节点时用它。",
+      "when_not_to_use": "涉及刑事案件、人身安全危险、复杂商事或专业法律意见、需要有人替你出庭打官司时，别用它，直接找律师、法律援助或报警。",
+      "merged_from": [
+        "legal-document-review",
+        "legal-client-intake"
+      ]
+    },
+    {
+      "slug": "cn-pet-business-operator",
+      "nameZh": "宠物商家运营官",
+      "nameEn": "Pet Business Operator",
+      "domain": "local-life-services",
+      "description": "为宠物店、宠物医院和宠物博主做宠物选品、宠物种草、客户运营和会员复购的全链路操盘手",
+      "audience": [
+        "宠物店",
+        "宠物医院",
+        "博主"
+      ],
+      "triggers_zh": [
+        "宠物店",
+        "宠物医院",
+        "宠物选品",
+        "宠物种草"
+      ],
+      "triggers_en": [
+        "pet store",
+        "pet business"
+      ],
+      "when_to_use": "当你经营宠物店宠物医院或做宠物内容、需要选品种草、拉新到店、做会员复购和私域沉淀时用我",
+      "when_not_to_use": "涉及动物疾病诊断用药剂量手术方案这类执业兽医判断时改用持证兽医，纯短视频脚本剪辑找口播脚本剪辑教练",
+      "merged_from": [
+        "marketing-xiaohongshu-specialist",
+        "marketing-china-ecommerce-operator"
+      ]
+    },
+    {
+      "slug": "cn-policy-renewal-referral-agent",
+      "nameZh": "保单续期运营官",
+      "nameEn": "Policy Renewal & Referral Agent",
+      "domain": "pro-services-finlaw",
+      "description": "帮保险代理人管存量保单续期、做周年关怀、跑转介绍裂变，把老客户运营成持续保费来源，核心场景是保单续期、续期提醒、转介绍。",
+      "audience": [
+        "保险代理人",
+        "保险团队长",
+        "私域运营"
+      ],
+      "triggers_zh": [
+        "保单续期",
+        "周年关怀",
+        "转介绍",
+        "存量客户运营",
+        "保费提醒",
+        "客户裂变"
+      ],
+      "triggers_en": [
+        "policy renewal",
+        "anniversary care",
+        "referral",
+        "existing client ops",
+        "premium reminder",
+        "client referral"
+      ],
+      "when_to_use": "你手上有一批已成交保单，要管续期、做老客户关怀、撬转介绍、把存量盘活成复购和加保时用它。",
+      "when_not_to_use": "纯拉新陌拜、首单成交话术、产品条款精算合规审查，去找对应的获客或合规 agent。",
+      "merged_from": [
+        "marketing-private-domain-operator"
+      ]
+    },
+    {
+      "slug": "cn-proservices-pricing-miniapp-agent",
+      "nameZh": "财税法务定价中台官",
+      "nameEn": "Pro-Services Pricing & Mini-App Agent",
+      "domain": "pro-services-finlaw",
+      "description": "给代账律所中介诊所做服务定价和套餐设计，并把客户管理落到飞书集成和微信小程序工具上",
+      "audience": [
+        "代账公司、律所、中介门店、诊所等专业服务机构创始人"
+      ],
+      "triggers_zh": [
+        "服务定价",
+        "套餐设计",
+        "飞书集成",
+        "微信小程序",
+        "客户管理落地",
+        "私域工具"
+      ],
+      "triggers_en": [
+        "service pricing",
+        "package design",
+        "feishu integration",
+        "wechat mini program",
+        "client ops tooling",
+        "private domain tool"
+      ],
+      "when_to_use": "当专业服务机构老板要给自己的服务重新定价做套餐，或者想把零散的客户对接落到飞书表格、审批流和微信小程序上时用它",
+      "when_not_to_use": "如果是给客户做具体的代账记账、合同审查、报税申报等业务交付本身，改用对应的财税或法务专业 agent",
+      "merged_from": [
+        "specialized-pricing-analyst",
+        "engineering-feishu-integration-developer",
+        "engineering-wechat-mini-program-developer"
+      ]
+    },
+    {
+      "slug": "cn-real-estate-client-viewing-agent",
+      "nameZh": "房产盘客带看官",
+      "nameEn": "Real Estate Client & Viewing Agent",
+      "domain": "pro-services-finlaw",
+      "description": "把客需结构化、做房源匹配、出带看话术、做盘客回访，串起从私域到成交的全链路。",
+      "audience": [
+        "房产中介",
+        "经纪人",
+        "门店店长",
+        "置业顾问"
+      ],
+      "triggers_zh": [
+        "客需梳理",
+        "房源匹配",
+        "带看话术",
+        "盘客回访",
+        "私域跟进",
+        "意向客户"
+      ],
+      "triggers_en": [
+        "client needs",
+        "listing match",
+        "viewing script",
+        "client follow-up",
+        "private domain nurture",
+        "lead intent"
+      ],
+      "when_to_use": "当你要把一个客户从模糊需求做到精准房源匹配、带看转化、长期盘客回访和私域复访激活时用它。",
+      "when_not_to_use": "涉及合同条款审查、定金资金过户、税费过户测算等法务财务硬专业，改用合同审查或财税相关 agent。",
+      "merged_from": [
+        "real-estate-buyer-seller",
+        "marketing-private-domain-operator"
+      ]
+    },
+    {
+      "slug": "cn-renovation-quote-manager",
+      "nameZh": "建筑装修报价管家",
+      "nameEn": "Renovation Quote Manager",
+      "domain": "local-life-services",
+      "description": "帮你出装修报价单、拆工程预算、列主辅材清单、管增项漏项、对装修合同，把含糊的口头报价做成业主签得放心、工长算得过账的清单。",
+      "audience": [
+        "装修公司",
+        "工长",
+        "业主"
+      ],
+      "triggers_zh": [
+        "装修报价",
+        "工程预算",
+        "主材清单",
+        "增项",
+        "装修合同"
+      ],
+      "triggers_en": [
+        "renovation quote",
+        "construction budget"
+      ],
+      "when_to_use": "你要做或核对一份家装工装报价单、拆工程预算、列主辅材清单、防增项漏项、审装修合同条款时用它。",
+      "when_not_to_use": "涉及结构改造承重墙拆改抗震加固这类要持证设计院出图算结构的硬工程，转土木结构工程师，别用它做结构计算。",
+      "merged_from": [
+        "specialized-pricing-analyst"
+      ]
+    },
+    {
+      "slug": "cn-restaurant-cost-controller",
+      "nameZh": "餐饮成本管控师",
+      "nameEn": "Restaurant Cost Controller",
+      "domain": "local-life-services",
+      "description": "给餐饮门店和连锁算清菜品成本卡、控住损耗与毛利、做中央厨房配送测算和采购比价，让每一道菜都明明白白知道赚多少。",
+      "audience": [
+        "餐饮门店",
+        "餐饮连锁"
+      ],
+      "triggers_zh": [
+        "菜品成本",
+        "毛利",
+        "损耗",
+        "成本卡",
+        "中央厨房"
+      ],
+      "triggers_en": [
+        "food cost",
+        "restaurant margin"
+      ],
+      "when_to_use": "当你要算单道菜的标准成本卡、定价、盘点损耗、管毛利、做中央厨房配送测算或采购比价压价时用我。",
+      "when_not_to_use": "要写菜单文案做营销、做点评抖音引流、办营业执照食品经营许可这类合规手续，改用对应的本地生活内容或证照办理 agent。",
+      "merged_from": [
+        "finance-bookkeeper-controller",
+        "supply-chain-strategist"
+      ]
+    },
+    {
+      "slug": "cn-tax-filing-scheduler",
+      "nameZh": "金税四期申报调度官",
+      "nameEn": "Tax Filing Scheduler",
+      "domain": "pro-services-finlaw",
+      "description": "盯增值税小规模、个税、社保各申报节点，排申报日历、自动催收客户资料、对账金税四期，专管报税节点、申报日历和资料催收。",
+      "audience": [
+        "代账公司申报会计",
+        "财务负责人",
+        "个体户与小微老板"
+      ],
+      "triggers_zh": [
+        "报税节点",
+        "增值税申报",
+        "个税申报",
+        "金税四期",
+        "申报日历",
+        "催收资料"
+      ],
+      "triggers_en": [
+        "tax filing",
+        "VAT filing",
+        "IIT filing",
+        "golden tax phase IV",
+        "filing calendar",
+        "document chase"
+      ],
+      "when_to_use": "当你要排一个月的申报节点、批量催客户要票要资料、核对金税四期预填数据、或防止任何一户漏报逾期时用它。",
+      "when_not_to_use": "当你要做的是税收筹划设计、复杂税务争议应对、跨境税或重组方案时，改用专门的税务筹划/税务师 agent，本 agent 只管申报执行与节点调度。",
+      "merged_from": [
+        "finance-bookkeeper-controller",
+        "finance-tax-strategist"
+      ]
+    },
+    {
+      "slug": "cn-tax-policy-qa-advisor",
+      "nameZh": "财税政策答疑顾问",
+      "nameEn": "Tax Policy Q&A Advisor",
+      "domain": "pro-services-finlaw",
+      "description": "用大白话把能不能开专票、核定征收还是查账征收、税收优惠怎么落地讲清楚，7x24 接住代账客服和小微老板的发票问题与财税政策问答。",
+      "audience": [
+        "代账客服",
+        "企业财务",
+        "小微老板",
+        "个体工商户"
+      ],
+      "triggers_zh": [
+        "能不能开专票",
+        "核定征收",
+        "查账征收",
+        "财税政策问答",
+        "税收优惠",
+        "发票问题"
+      ],
+      "triggers_en": [
+        "special VAT invoice",
+        "assessed levy",
+        "audit levy",
+        "tax policy QA",
+        "tax incentive",
+        "invoice question"
+      ],
+      "when_to_use": "用户问发票能不能开、怎么开、核定还是查账、某项税收优惠能不能享受、政策怎么落地这类日常财税问题，需要先用大白话答清楚再给操作动作时。",
+      "when_not_to_use": "需要正式税务鉴证报告、上市重组方案、税务稽查应诉代理、跨境转让定价这类要持证人员签字背书的事项，转专业税务师或律师。",
+      "merged_from": [
+        "finance-tax-strategist",
+        "customer-service"
+      ]
+    },
+    {
+      "slug": "cn-web3-xr-frontier-engineer",
+      "nameZh": "Web3与XR前沿工程",
+      "nameEn": "Web3 & XR Frontier Engineer",
+      "domain": "software-ai-eng",
+      "description": "写智能合约做合约审计、搭 WebXR/AR/VR 与空间计算原型，并打通终端命令行环境集成的前沿工程专家",
+      "audience": [
+        "Web3/XR 前沿团队",
+        "含终端集成需求"
+      ],
+      "triggers_zh": [
+        "智能合约",
+        "Solidity",
+        "合约审计",
+        "WebXR",
+        "AR",
+        "VR",
+        "终端集成"
+      ],
+      "triggers_en": [
+        "solidity",
+        "smart contract",
+        "webxr",
+        "spatial computing",
+        "terminal integration"
+      ],
+      "when_to_use": "当你要写或审智能合约、搭浏览器或头显里的 XR/空间计算原型、或把终端命令行能力嵌进应用时找它",
+      "when_not_to_use": "纯传统 Web/移动端业务开发、与链和空间计算无关的后端服务，去找通用软件工程 agent",
+      "merged_from": [
+        "engineering-solidity-smart-contract-engineer",
+        "security-blockchain-security-auditor",
+        "blender-addon-engineer",
+        "visionos-spatial-engineer",
+        "macos-spatial-metal-engineer",
+        "xr-immersive-developer",
+        "xr-interface-architect",
+        "xr-cockpit-interaction-specialist",
+        "terminal-integration-specialist"
+      ]
+    },
+    {
+      "slug": "code-review-gatekeeper",
+      "nameZh": "代码审查与 Git 工作流把关人",
+      "nameEn": "Code Review & Git Workflow Gatekeeper",
+      "domain": "software-ai-eng",
+      "description": "在 PR 合并前盯紧正确性、安全性、性能，只做最小改动拒绝顺手扩大范围，并把分支策略、规范化提交、rebase 和 worktree 这套 Git 流捋顺。",
+      "audience": [
+        "提交 PR 前自查或团队代码 review 的工程师",
+        "技术 leader",
+        "需要规范分支与提交流的团队"
+      ],
+      "triggers_zh": [
+        "代码审查",
+        "PR 自查",
+        "review 一下",
+        "最小改动",
+        "别扩大范围",
+        "Git 规范",
+        "分支策略",
+        "规范化提交",
+        "rebase 整理",
+        "worktree"
+      ],
+      "triggers_en": [
+        "code review",
+        "review my PR",
+        "minimal change",
+        "smallest diff",
+        "no scope creep",
+        "git workflow",
+        "branching strategy",
+        "conventional commits",
+        "rebase cleanup",
+        "worktree"
+      ],
+      "when_to_use": "当你要在合并前对一段 diff 做正确性安全性能把关、想确认改动是不是足够小、或者要理顺团队的分支提交 rebase 流程时用它。",
+      "when_not_to_use": "当你要从零写新功能、做大范围架构重构、或者只是查某个库的 API 用法时，改用对应的功能开发或架构类 agent。",
+      "merged_from": [
+        "engineering-code-reviewer",
+        "engineering-minimal-change-engineer",
+        "engineering-git-workflow-master"
+      ]
+    },
+    {
+      "slug": "codebase-onboarding-guide",
+      "nameZh": "祖传代码向导",
+      "nameEn": "Codebase Onboarding Guide",
+      "domain": "software-ai-eng",
+      "description": "接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手祖传代码。",
+      "audience": [
+        "刚接手陌生代码库或外包遗留系统的工程师",
+        "新入职开发"
+      ],
+      "triggers_zh": [
+        "看懂这个项目",
+        "理调用链",
+        "祖传代码",
+        "模块边界",
+        "新人上手",
+        "代码导览"
+      ],
+      "triggers_en": [
+        "onboard codebase",
+        "trace call path",
+        "legacy code",
+        "module boundaries",
+        "code walkthrough",
+        "understand repo"
+      ],
+      "when_to_use": "当你刚接手一个没文档、没人交接的陌生代码库或外包遗留系统，需要快速搞清它怎么跑、从哪改、模块怎么分时用它。",
+      "when_not_to_use": "当你已经看懂代码、要做重构方案、写新功能、做代码评审或性能调优时，改用对应的架构设计或代码评审 agent，本 agent 只读不改、只讲事实不出改进建议。",
+      "merged_from": [
+        "engineering-codebase-onboarding-engineer"
+      ]
+    },
+    {
+      "slug": "comment-dm-lead-capture",
+      "nameZh": "评论私信引流与生命周期触达官",
+      "nameEn": "Lead Capture & Lifecycle Reach Operator",
+      "domain": "content-livestream",
+      "description": "把评论区私信里的高意向粉丝批量识别、应答、加微引流进私域，再用企微邮件短信做生命周期触达和复购召回，有App就顺手做ASO残值。",
+      "audience": [
+        "带货创作者",
+        "商家客服",
+        "私域运营",
+        "做粉丝复购的创作者",
+        "有App的IP",
+        "知识付费团队"
+      ],
+      "triggers_zh": [
+        "评论应答",
+        "私信回复",
+        "意向客户",
+        "加微引流",
+        "私域承接",
+        "批量回评",
+        "生命周期触达",
+        "粉丝召回",
+        "企微触达",
+        "ASO优化"
+      ],
+      "triggers_en": [
+        "comment reply",
+        "dm response",
+        "intent lead",
+        "add wechat",
+        "private domain intake",
+        "bulk reply",
+        "lifecycle reach",
+        "fan reactivation",
+        "wecom touch",
+        "aso"
+      ],
+      "when_to_use": "当你已经有了流量和评论私信，要把这些散落的互动批量变成加微好友、私域成交和复购召回时用我。",
+      "when_not_to_use": "还在愁内容没人看没流量的阶段，先去找选题爆款短视频脚本的agent，把流量做起来再回来找我。",
+      "merged_from": [
+        "customer-service",
+        "marketing-private-domain-operator",
+        "marketing-email-strategist",
+        "marketing-app-store-optimizer"
+      ]
+    },
+    {
+      "slug": "community-curation-operator",
+      "nameZh": "社区运营策展官",
+      "nameEn": "Community & Curation Operator",
+      "domain": "content-livestream",
+      "description": "把欧美社媒的社区运营、视觉策展、趋势侦测和职业内容方法论换壳进小红书微博知乎B站豆瓣，帮你建圈层、做策展、攒信任。",
+      "audience": [
+        "做社区/兴趣圈层的创作者",
+        "品牌社媒",
+        "职业IP"
+      ],
+      "triggers_zh": [
+        "社区运营",
+        "圈层运营",
+        "视觉策展",
+        "趋势侦测",
+        "职业内容",
+        "粉丝社群"
+      ],
+      "triggers_en": [
+        "community building",
+        "niche ops",
+        "visual curation",
+        "trend spotting",
+        "professional content",
+        "fan community"
+      ],
+      "when_to_use": "当你要从零搭一个有信任度的兴趣圈层或粉丝社群，做内容策展、找趋势、攒长期声誉，而不是单纯冲一条爆款时用它",
+      "when_not_to_use": "只想出单篇爆款笔记或口播脚本找种草笔记官或口播脚本官；只是直播间控场逼单找直播带货控场教练；纯投流ROI测试找微短剧投流官",
+      "merged_from": [
+        "marketing-reddit-community-builder",
+        "marketing-instagram-curator",
+        "marketing-twitter-engager",
+        "marketing-x-twitter-intelligence-analyst",
+        "marketing-linkedin-content-creator",
+        "marketing-social-media-strategist"
+      ]
+    },
+    {
+      "slug": "competitor-brief-researcher",
+      "nameZh": "竞品行业情报员",
+      "nameEn": "Competitor Brief Researcher",
+      "domain": "cross-function-staff",
+      "description": "帮运营市场销售做竞品分析、行业简报、情报搜集，把零散资料整理成能直接用的市场调研简报。",
+      "audience": [
+        "运营",
+        "市场",
+        "销售支持",
+        "需要做调研的基层员工"
+      ],
+      "triggers_zh": [
+        "竞品分析",
+        "行业简报",
+        "情报搜集",
+        "市场调研",
+        "对手动态",
+        "整理简报"
+      ],
+      "triggers_en": [
+        "competitor analysis",
+        "industry brief",
+        "intel gathering",
+        "market research",
+        "rival moves",
+        "research brief"
+      ],
+      "when_to_use": "你要摸清对手在做什么、行业最近什么风向，或要把一堆乱资料整理成一页能交差的简报时用它。",
+      "when_not_to_use": "要写正式投标标书走招投标标书军师，要做战略级押注判断走杠杆战略类agent，纯翻译资料走中英商务互译官。",
+      "merged_from": [
+        "product-trend-researcher"
+      ]
+    },
+    {
+      "slug": "contract-legal-prereview",
+      "nameZh": "合同法务初审官",
+      "nameEn": "Contract & Legal Pre-Review Officer",
+      "domain": "sme-boss-mgmt",
+      "description": "帮请不起法务的中小企业主做合同审查、风险标注和合规自查，签字前先把采购销售劳动合同里的坑挑出来",
+      "audience": [
+        "请不起法务、签合同全凭感觉的中小企业主"
+      ],
+      "triggers_zh": [
+        "合同审查",
+        "风险标注",
+        "劳动合同",
+        "采购合同",
+        "合规自查",
+        "条款有没有坑"
+      ],
+      "triggers_en": [
+        "contract review",
+        "risk flagging",
+        "labor contract",
+        "purchase contract",
+        "compliance check",
+        "clause risk"
+      ],
+      "when_to_use": "老板手里有一份要签的合同（采购、销售、劳动、租赁、服务、合作），想在签字前知道哪些条款有坑、缺了什么、对自己不利在哪",
+      "when_not_to_use": "已经起纠纷要打官司、要出具正式法律意见书、或涉及刑事和重大金额并购时，改用执业律师，本 agent 只做签字前初审不替代律师",
+      "merged_from": [
+        "legal-document-review",
+        "legal-client-intake",
+        "support-legal-compliance-checker"
+      ]
+    },
+    {
+      "slug": "cover-carousel-designer",
+      "nameZh": "封面图文卡设计官",
+      "nameEn": "Cover & Carousel Visual Designer",
+      "domain": "content-livestream",
+      "description": "给创作者出封面图、小红书图文卡和信息图轮播的配图脚本与视觉设计，把内容拆成会让人停下手指的视觉叙事。",
+      "audience": [
+        "创作者",
+        "图文博主",
+        "需要配图的内容团队"
+      ],
+      "triggers_zh": [
+        "封面图",
+        "图文卡",
+        "信息图",
+        "轮播图",
+        "配图脚本",
+        "小红书图片"
+      ],
+      "triggers_en": [
+        "cover image",
+        "info card",
+        "infographic",
+        "carousel",
+        "image prompt",
+        "xiaohongshu image"
+      ],
+      "when_to_use": "你已经有文案或选题，需要把它变成封面、图文卡、信息图或多图轮播的视觉方案和可直接喂给生图工具的配图脚本时用它。",
+      "when_not_to_use": "只要写文案标题正文不要配图，去找对应的成稿类 agent；要做视频分镜或口播脚本，去找口播脚本剪辑教练。",
+      "merged_from": [
+        "design-image-prompt-engineer",
+        "design-visual-storyteller",
+        "marketing-carousel-growth-engine"
+      ]
+    },
+    {
+      "slug": "customer-reply-composer",
+      "nameZh": "客户消息应答官",
+      "nameEn": "Customer Reply Composer",
+      "domain": "cross-function-staff",
+      "description": "把客户咨询、客诉、退换货消息批量转成有温度又得体的标准话术，自带升级方案和安抚话术，支持回客户消息、批量回复、退换货回复",
+      "audience": [
+        "客服",
+        "售后",
+        "在线客服",
+        "店铺客服"
+      ],
+      "triggers_zh": [
+        "回客户消息",
+        "话术生成",
+        "客诉应答",
+        "退换货回复",
+        "批量回复",
+        "安抚话术"
+      ],
+      "triggers_en": [
+        "reply to customer",
+        "draft response",
+        "complaint reply",
+        "return refund script",
+        "batch replies",
+        "support script"
+      ],
+      "when_to_use": "当你要回客户的咨询、投诉、退换货消息，或者一次要把一批客户消息转成标准话术、需要安抚和升级方案时用它",
+      "when_not_to_use": "要写对外营销文案、做活动推文或私域种草内容时改用新媒体文案私域操盘手，要做客户反馈差评批量归类分析时改用反馈差评分析师",
+      "merged_from": [
+        "customer-service",
+        "support-support-responder",
+        "retail-customer-returns"
+      ]
+    },
+    {
+      "slug": "customer-success-renewal",
+      "nameZh": "客户成功续费官",
+      "nameEn": "Customer Success & Renewal Officer",
+      "domain": "sme-boss-mgmt",
+      "description": "做客户健康度盘点、续费续约谈判、找增购扩张点，把签下来的客户从一次性变成复购增长盘，专治防流失和续约谈判",
+      "audience": [
+        "卖订阅或长期服务、靠老客续费撑营收的中小企业主"
+      ],
+      "triggers_zh": [
+        "续费续约",
+        "客户健康度",
+        "增购扩张",
+        "防流失",
+        "客户成功",
+        "续约谈判"
+      ],
+      "triggers_en": [
+        "renewal",
+        "customer health",
+        "upsell expansion",
+        "churn prevention",
+        "customer success",
+        "account growth"
+      ],
+      "when_to_use": "当你要给一批老客户做健康度排查、准备某个客户的续约谈判、或想从已签客户里挖增购扩张时用它",
+      "when_not_to_use": "当你要做的是从零拉新签首单、冷启动获客或纯销售线索开发时，改用拉新获客类 agent",
+      "merged_from": [
+        "customer-success-manager",
+        "sales-account-strategist"
+      ]
+    },
+    {
+      "slug": "database-data-remediation-expert",
+      "nameZh": "数据库与数据修复专家",
+      "nameEn": "Database & Data Remediation Expert",
+      "domain": "software-ai-eng",
+      "description": "治慢查询、设索引调 schema，本地自愈修脏数据，建代码语义索引，并把语音转写和邮件文档里的非结构化信息抽成系统能用的结构数据。",
+      "audience": [
+        "处理慢查询、schema 优化、脏数据修复、代码索引的后端/数据工程师，以及搭语音转写管道、从邮件文档抽结构化数据喂 AI 系统的工程师"
+      ],
+      "triggers_zh": [
+        "慢查询优化",
+        "建索引",
+        "schema 设计",
+        "数据修复",
+        "脏数据清洗",
+        "代码索引",
+        "语音转写",
+        "ASR 管道",
+        "邮件抽取",
+        "非结构化抽取",
+        "文档结构化"
+      ],
+      "triggers_en": [
+        "slow query",
+        "indexing",
+        "schema design",
+        "data remediation",
+        "data cleanup",
+        "code index",
+        "speech transcription",
+        "asr pipeline",
+        "email extraction",
+        "unstructured extraction",
+        "structure documents"
+      ],
+      "when_to_use": "当你要让数据库跑得快、把脏数据成规模修干净、给代码库建语义索引，或把音视频和邮件文档的杂乱信息批量喂成结构化数据时用它。",
+      "when_not_to_use": "只是要搭一套全新数据仓库或编排日常 ETL 调度，用数据工程师 agent；纯前端或纯业务逻辑调试也别找它。",
+      "merged_from": [
+        "engineering-database-optimizer",
+        "lsp-index-engineer",
+        "engineering-ai-data-remediation-engineer",
+        "engineering-voice-ai-integration-engineer",
+        "engineering-email-intelligence-engineer"
+      ]
+    },
+    {
+      "slug": "devops-private-deploy-engineer",
+      "nameZh": "信创私有化运维官",
+      "nameEn": "DevOps & Private Deploy Engineer",
+      "domain": "software-ai-eng",
+      "description": "一手抓 CI/CD 流水线、容器化和信创私有化离网部署，让系统本地能跑、离网能交付、上线能回滚",
+      "audience": [
+        "做 CI/CD、容器化和信创/私有化离网部署的运维与平台工程师"
+      ],
+      "triggers_zh": [
+        "CI/CD",
+        "容器化部署",
+        "私有化部署",
+        "信创适配",
+        "离线部署",
+        "运维自动化"
+      ],
+      "triggers_en": [
+        "ci cd pipeline",
+        "containerize",
+        "private deploy",
+        "air-gapped deploy",
+        "on-prem",
+        "devops automation"
+      ],
+      "when_to_use": "当你要搭流水线、把应用容器化、做信创或私有化离网部署、或把手工运维变成可复现自动化时用它",
+      "when_not_to_use": "纯应用代码开发或前端联调找研发类 agent，安全攻防自查和等保整改找安全合规类 agent",
+      "merged_from": [
+        "engineering-devops-automator",
+        "support-infrastructure-maintainer"
+      ]
+    },
+    {
+      "slug": "douyin-viral-strategist",
+      "nameZh": "抖音爆款策略师",
+      "nameEn": "Douyin Viral Strategist",
+      "domain": "content-livestream",
+      "description": "懂抖音算法和推流逻辑，从抖音爆款选题、短视频脚本到起号涨粉一把把控，用完播率反推内容结构。",
+      "audience": [
+        "抖音创作者",
+        "带货短视频团队",
+        "本地生活商家"
+      ],
+      "triggers_zh": [
+        "抖音爆款",
+        "抖音算法",
+        "短视频选题",
+        "推流",
+        "完播率",
+        "起号"
+      ],
+      "triggers_en": [
+        "douyin viral",
+        "douyin algorithm",
+        "short video idea",
+        "traffic push",
+        "completion rate",
+        "account warmup"
+      ],
+      "when_to_use": "你要在抖音做爆款短视频、起号涨粉、设计选题脚本或拆解算法推流逻辑时找它。",
+      "when_not_to_use": "纯直播间控场逼单话术找直播带货控场教练，小红书图文找小红书种草笔记官，快手下沉老铁玩法找快手下沉运营官。",
+      "merged_from": [
+        "marketing-douyin-strategist"
+      ]
+    },
+    {
+      "slug": "ef-automation-change-enablement-lead",
+      "nameZh": "职能自动化变革官",
+      "nameEn": "Automation & Change Enablement Lead",
+      "domain": "enterprise-function",
+      "description": "把重复职能活封装成带治理护栏的内部 agent，并用变革管理方法推动落地、培训和持续采用，覆盖流程自动化、自动化治理、变革落地三件核心事。",
+      "audience": [
+        "职能数字化负责人",
+        "流程优化",
+        "变革管理",
+        "运营效率岗"
+      ],
+      "triggers_zh": [
+        "流程自动化",
+        "封装内部agent",
+        "自动化治理",
+        "变革落地",
+        "推行培训",
+        "降本增效"
+      ],
+      "triggers_en": [
+        "process automation",
+        "internal agent build",
+        "automation governance",
+        "change rollout",
+        "adoption training",
+        "efficiency program"
+      ],
+      "when_to_use": "当你要把某个重复的职能流程自动化或封装成内部 agent，且需要同时管好上线后的人和采用率时用它。",
+      "when_not_to_use": "纯写代码搭单个工作流找工程类 agent，纯组织重组并购整合的人力工作找专门变革顾问，单纯做财务月结或合同审查请走对应职能 agent。",
+      "merged_from": [
+        "automation-governance-architect",
+        "change-management-consultant"
+      ]
+    },
+    {
+      "slug": "ef-bid-proposal-strategist",
+      "nameZh": "招投标标书军师",
+      "nameEn": "Bid & Proposal Strategist",
+      "domain": "enterprise-function",
+      "description": "拆解招标需求建响应矩阵、做逐条符合性对照、写出能拿分的标书初稿，懂政企 ToG 打法和废标红线",
+      "audience": [
+        "投标经理",
+        "售前",
+        "商务",
+        "政企解决方案负责人"
+      ],
+      "triggers_zh": [
+        "招标需求拆解",
+        "响应矩阵",
+        "符合性对照",
+        "标书初稿",
+        "投标响应",
+        "政企售前"
+      ],
+      "triggers_en": [
+        "RFP breakdown",
+        "response matrix",
+        "compliance matrix",
+        "bid draft",
+        "tender response",
+        "government presales"
+      ],
+      "when_to_use": "拿到招标文件要拆需求、判断要不要投、搭技术与商务标框架、做点对点应答、防废标查漏时找它",
+      "when_not_to_use": "纯销售跟单催款或客户关系日常维护找销售跟单陪练，纯合同条款逐条审风险找合同审查法务官",
+      "merged_from": [
+        "sales-proposal-strategist",
+        "government-digital-presales-consultant"
+      ]
+    },
+    {
+      "slug": "ef-board-briefing-strategist",
+      "nameZh": "经营汇报操盘手",
+      "nameEn": "Board Briefing Strategist",
+      "domain": "enterprise-function",
+      "description": "把季度经营数据揉成董事会看得懂的战略复盘汇报，自动出 PPT 初稿和高管摘要，专做季度经营分析、战略复盘汇报、董事会材料。",
+      "audience": [
+        "向董事会和老板汇报的职能总监",
+        "经管负责人",
+        "总经办"
+      ],
+      "triggers_zh": [
+        "写季度经营分析",
+        "战略复盘汇报",
+        "给董事会做PPT",
+        "经营汇报材料",
+        "高管摘要",
+        "专题汇报"
+      ],
+      "triggers_en": [
+        "quarterly business review",
+        "board briefing deck",
+        "executive summary",
+        "strategy retrospective",
+        "management report",
+        "exec PPT"
+      ],
+      "when_to_use": "当你要把一堆经营数据和业务进展整理成给董事会或老板看的季度经营分析、战略复盘、专题汇报材料，需要结论先行的高管摘要加可直接讲的 PPT 初稿时用它。",
+      "when_not_to_use": "只做月结对账、勾稽差异定位、预算编制这类纯财务核算时，改用财税月结管家；纯排版美化某一份 PPT 模板而不涉及经营分析时，用专门的文档生成 agent。",
+      "merged_from": [
+        "finance-financial-analyst",
+        "support-executive-summary-generator",
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "ef-brand-pr-communications-lead",
+      "nameZh": "品牌公关传播官",
+      "nameEn": "Brand & PR Communications Lead",
+      "domain": "enterprise-function",
+      "description": "替企业把对外发声全口径管起来,写新闻稿、出危机声明、做品牌一致性审查、发官微推文,一句话定调先稳住再回应。",
+      "audience": [
+        "品牌经理",
+        "公关",
+        "市场负责人",
+        "官微运营"
+      ],
+      "triggers_zh": [
+        "新闻稿",
+        "危机声明",
+        "品牌一致性审查",
+        "官微推文",
+        "公关传播",
+        "品牌审查"
+      ],
+      "triggers_en": [
+        "press release",
+        "crisis statement",
+        "brand consistency review",
+        "official account post",
+        "PR comms",
+        "brand guardian"
+      ],
+      "when_to_use": "企业要对外发声、应对舆情、统一品牌口径或运营官微时,用它把消息说对说稳说出去。",
+      "when_not_to_use": "纯个人IP的人设翻车和玩梗式内容找内容直播域的危机公关官,纯内部公文和制度找公文笔杆子。",
+      "merged_from": [
+        "marketing-pr-communications-manager",
+        "design-brand-guardian",
+        "marketing-wechat-official-account"
+      ]
+    },
+    {
+      "slug": "ef-capital-treasury-ma-officer",
+      "nameZh": "资本司库并购官",
+      "nameEn": "Capital, Treasury & M&A Officer",
+      "domain": "enterprise-function",
+      "description": "一个把资本配置、司库现金、并购整合、ESG披露、应付款执行和投资研究一肩挑的重型财务职能助手，覆盖资本配置、司库管理、并购整合、ESG披露、应付款处理、投资研究",
+      "audience": [
+        "CFO、财务总监、投融资、并购整合、ESG披露负责人"
+      ],
+      "triggers_zh": [
+        "资本配置",
+        "司库管理",
+        "并购整合",
+        "ESG披露",
+        "应付款处理",
+        "投资研究"
+      ],
+      "triggers_en": [
+        "capital allocation",
+        "treasury",
+        "M&A integration",
+        "ESG disclosure",
+        "accounts payable",
+        "investment research"
+      ],
+      "when_to_use": "当你要做资本配置取舍、管现金头寸和银行授信、推并购尽调与投后整合、出ESG披露报告、批量执行对外付款、或做标的投资研究时用它",
+      "when_not_to_use": "当你只是要做日常月结对账勾稽、预算编制和预实差异归因这类常规会计活时，改用财税月结管家；只审合同条款风险时改用合同审查法务官",
+      "merged_from": [
+        "chief-financial-officer",
+        "ma-integration-manager",
+        "esg-sustainability-officer",
+        "accounts-payable-agent",
+        "finance-investment-researcher"
+      ]
+    },
+    {
+      "slug": "ef-contract-review-counsel",
+      "nameZh": "合同审查法务官",
+      "nameEn": "Contract Review Counsel",
+      "domain": "enterprise-function",
+      "description": "逐条审查采购供应商劳动等各类合同、标注风险等级并给修改建议，同时记法务计时工时、统计法务工作量",
+      "audience": [
+        "企业法务经理",
+        "合规法务",
+        "合同管理岗"
+      ],
+      "triggers_zh": [
+        "合同审查",
+        "风险标注",
+        "采购合同",
+        "劳动合同",
+        "对赌违约条款",
+        "法务计时"
+      ],
+      "triggers_en": [
+        "contract review",
+        "risk flagging",
+        "procurement contract",
+        "labor contract",
+        "indemnity clause",
+        "legal time tracking"
+      ],
+      "when_to_use": "你拿到一份待签合同需要逐条找风险、对比版本、查缺失条款，或要统计法务团队的合同处理工时和工作量时用它",
+      "when_not_to_use": "真正打官司、出具正式法律意见书、对外承诺法律结论时改找执业律师，本agent只做内部初审不替代律师",
+      "merged_from": [
+        "legal-document-review",
+        "legal-billing-time-tracking"
+      ]
+    },
+    {
+      "slug": "ef-data-compliance-mlps-officer",
+      "nameZh": "数据合规等保官",
+      "nameEn": "Data Compliance & MLPS Officer",
+      "domain": "enterprise-function",
+      "description": "对照数据安全法、个人信息保护法和等保2.0，帮你做数据分类分级、权限梳理和整改清单，把合规要求翻译成能落地的控制项。",
+      "audience": [
+        "数据安全负责人",
+        "合规官",
+        "信息安全主管",
+        "CISO办公室"
+      ],
+      "triggers_zh": [
+        "个保法合规",
+        "数据安全法",
+        "等保2.0",
+        "数据分类分级",
+        "权限梳理",
+        "整改清单"
+      ],
+      "triggers_en": [
+        "PIPL compliance",
+        "data security law",
+        "MLPS 2.0",
+        "data classification",
+        "access review",
+        "remediation checklist"
+      ],
+      "when_to_use": "当你要对照国内三法一条例和等保2.0做数据分类分级、权限梳理、个人信息处理活动记录、PIA个人信息影响评估、出境合规或拉整改清单时用它。",
+      "when_not_to_use": "纯技术渗透红队攻防找漏洞、写代码改架构走安全攻防自查官；签合同条款博弈、出具具有法律效力的法律意见走合同审查法务官或外部律师。",
+      "merged_from": [
+        "data-privacy-officer",
+        "security-compliance-auditor"
+      ]
+    },
+    {
+      "slug": "ef-data-pipeline-dashboard-engineer",
+      "nameZh": "数据看板管道工",
+      "nameEn": "Data Pipeline & Dashboard Engineer",
+      "domain": "enterprise-function",
+      "description": "帮企业取数清洗建数据管道、做自动分发的报表看板，顺手把慢查询和库表性能也调优，触发词为数据管道、做看板、慢查询调优。",
+      "audience": [
+        "数据工程师",
+        "BI负责人",
+        "DBA",
+        "数据分析主管"
+      ],
+      "triggers_zh": [
+        "数据管道",
+        "取数清洗",
+        "做看板",
+        "自动分发报表",
+        "数据库优化",
+        "慢查询调优"
+      ],
+      "triggers_en": [
+        "data pipeline",
+        "ETL cleaning",
+        "build dashboard",
+        "automated reporting",
+        "database tuning",
+        "query optimization"
+      ],
+      "when_to_use": "当你要把散在各业务库和表格里的数据汇成一条可靠管道、做成定时刷新自动分发的看板，或者某张表某条查询慢得拖垮系统、需要排查优化时找它。",
+      "when_not_to_use": "只是写一篇 Excel 透视和发个日报，用「表格清洗汇总与日报推送师」更轻；纯做经营汇报 PPT 找「经营汇报操盘手」；这里管的是工程化的管道、看板和数据库性能本身。",
+      "merged_from": [
+        "engineering-data-engineer",
+        "engineering-database-optimizer"
+      ]
+    },
+    {
+      "slug": "ef-industry-intel-scanner",
+      "nameZh": "行业情报扫描员",
+      "nameEn": "Industry Intel Scanner",
+      "domain": "enterprise-function",
+      "description": "定期扫竞品动态、追行业政策、抓中标信息，汇成一份能直接发的情报简报；触发词包括竞品扫描、行业政策追踪、中标信息。",
+      "audience": [
+        "战略研究",
+        "市场情报",
+        "品牌市场",
+        "总经办"
+      ],
+      "triggers_zh": [
+        "竞品扫描",
+        "行业政策追踪",
+        "中标信息",
+        "情报简报",
+        "定期扫描",
+        "市场动态"
+      ],
+      "triggers_en": [
+        "competitor scan",
+        "policy tracking",
+        "bid award intel",
+        "intelligence brief",
+        "periodic monitoring",
+        "market watch"
+      ],
+      "when_to_use": "当你要持续盯竞争对手、行业政策和招投标中标信息，并把这些散落的动态汇成一份能直接转发给老板和业务部门的简报时用它。",
+      "when_not_to_use": "如果你要的是一次性深度战略推演或单点取舍判断，用战略军师类 agent；如果只是查一条具体事实，直接搜索即可，不必走完整情报流程。",
+      "merged_from": [
+        "product-trend-researcher"
+      ]
+    },
+    {
+      "slug": "ef-itil-service-incident-commander",
+      "nameZh": "IT服务台应急指挥",
+      "nameEn": "ITIL Service & Incident Commander",
+      "domain": "enterprise-function",
+      "description": "按ITIL做工单分诊、变更管控和SLA跟踪，故障应急一键拉起应急响应，安全事件来了同步取证溯源",
+      "audience": [
+        "IT服务台经理",
+        "运维主管",
+        "信息安全应急负责人"
+      ],
+      "triggers_zh": [
+        "IT服务台",
+        "工单分诊",
+        "变更管理SLA",
+        "故障应急",
+        "安全事件响应",
+        "ITIL"
+      ],
+      "triggers_en": [
+        "IT service desk",
+        "ticket triage",
+        "change SLA",
+        "incident response",
+        "security incident",
+        "ITIL workflow"
+      ],
+      "when_to_use": "企业IT日常运维、工单和变更管理出问题，或者线上故障、安全事件爆发需要有人统一指挥定级、控场、复盘时用它",
+      "when_not_to_use": "纯写代码、做架构设计、跑渗透测试报告或合规审计这类不属于服务运营和应急指挥范畴的活，改用对应的研发或安全专项agent",
+      "merged_from": [
+        "engineering-it-service-manager",
+        "engineering-incident-response-commander",
+        "security-incident-responder"
+      ]
+    },
+    {
+      "slug": "ef-knowledge-sop-steward",
+      "nameZh": "知识库制度归并官",
+      "nameEn": "Knowledge Base & SOP Steward",
+      "domain": "enterprise-function",
+      "description": "把散落各处的 SOP、制度、流程文件去重归并、原子化拆分、加索引互链，建成查得到用得上的内部知识库，含知识库整理、制度归并、结构化文档三大本事",
+      "audience": [
+        "知识管理岗",
+        "流程负责人",
+        "行政",
+        "技术文档岗"
+      ],
+      "triggers_zh": [
+        "知识库整理",
+        "SOP去重",
+        "制度归并",
+        "结构化文档",
+        "知识管理",
+        "流程文件"
+      ],
+      "triggers_en": [
+        "knowledge base cleanup",
+        "SOP dedup",
+        "policy consolidation",
+        "structured docs",
+        "knowledge management",
+        "process docs"
+      ],
+      "when_to_use": "公司里制度文件版本满天飞、同一流程有好几份说法、新人找不到也不敢信、需要把这堆乱账盘成一套受控可检索的知识库时用它",
+      "when_not_to_use": "只是要写一篇对外文章或营销稿走内容类 agent，要起草单份红头公文走公文笔杆子，要做数据看板取数走数据看板管道工",
+      "merged_from": [
+        "zk-steward",
+        "engineering-technical-writer"
+      ]
+    },
+    {
+      "slug": "ef-month-end-close-controller",
+      "nameZh": "财税月结管家",
+      "nameEn": "Month-End Close Controller",
+      "domain": "enterprise-function",
+      "description": "帮财务团队跑通月结、对账勾稽、预算编制、滚动预测和预实差异归因，把流水数据揉成能上会的结论",
+      "audience": [
+        "财务经理",
+        "FP&A",
+        "总账会计",
+        "财务共享中心负责人"
+      ],
+      "triggers_zh": [
+        "月结",
+        "季报取数",
+        "对账勾稽",
+        "预算编制",
+        "滚动预测",
+        "预实差异归因"
+      ],
+      "triggers_en": [
+        "month-end close",
+        "reconciliation",
+        "budgeting",
+        "rolling forecast",
+        "variance analysis",
+        "actual vs budget"
+      ],
+      "when_to_use": "当你要关账、对账、编预算、滚动预测，或者要把预实差异讲清楚给老板看时用它",
+      "when_not_to_use": "涉及税务筹划落地、资本运作并购、个人理财或单纯报销审批时改用对应专职 agent",
+      "merged_from": [
+        "finance-fpa-analyst",
+        "finance-bookkeeper-controller"
+      ]
+    },
+    {
+      "slug": "ef-security-redteam-assurance-lead",
+      "nameZh": "安全攻防自查官",
+      "nameEn": "Security Red-Team & Assurance Lead",
+      "domain": "enterprise-function",
+      "description": "一个把安全架构自查、威胁建模、检测工程、渗透红队、威胁情报和云安全打通的攻防一体专家，帮你做安全合规自查、威胁建模、渗透测试与红队演练。",
+      "audience": [
+        "安全负责人",
+        "CISO",
+        "安全工程师",
+        "攻防红队"
+      ],
+      "triggers_zh": [
+        "安全合规自查",
+        "威胁建模",
+        "渗透测试",
+        "红队演练",
+        "威胁情报",
+        "云安全架构"
+      ],
+      "triggers_en": [
+        "security self-assessment",
+        "threat modeling",
+        "penetration test",
+        "red team",
+        "threat intelligence",
+        "cloud security"
+      ],
+      "when_to_use": "当你要给一套系统或业务做安全体检，包括画威胁模型、查架构和云配置、做渗透或红队验证、配检测规则、跟威胁情报、或者准备护网和等保自查时用它。",
+      "when_not_to_use": "如果只是写业务代码、做功能开发、调性能，或只想要一份对外合规报告的文字润色，去找对应的工程或文档 agent，别用这个攻防视角的重型 agent。",
+      "merged_from": [
+        "security-architect",
+        "security-appsec-engineer",
+        "security-threat-detection-engineer",
+        "security-penetration-tester",
+        "security-senior-secops",
+        "security-threat-intelligence-analyst",
+        "security-cloud-security-architect"
+      ]
+    },
+    {
+      "slug": "ef-sourcing-pricing-negotiator",
+      "nameZh": "寻源比价采购官",
+      "nameEn": "Sourcing & Pricing Negotiator",
+      "domain": "enterprise-function",
+      "description": "帮采购供应商寻源比价、拆成本结构、算议价依据，把采购降本砍到底，覆盖战略寻源与供应商开发全程",
+      "audience": [
+        "采购经理",
+        "寻源",
+        "供应链",
+        "成本管控岗"
+      ],
+      "triggers_zh": [
+        "供应商比价",
+        "战略寻源",
+        "成本结构拆解",
+        "议价依据",
+        "采购降本",
+        "供应商开发"
+      ],
+      "triggers_en": [
+        "supplier comparison",
+        "strategic sourcing",
+        "cost breakdown",
+        "negotiation leverage",
+        "procurement savings",
+        "supplier development"
+      ],
+      "when_to_use": "你要给某个采购品类寻源、做多家供应商比价、拆开报价里的成本结构、攒议价砝码、算降本空间或开发新供应商时用它",
+      "when_not_to_use": "你要做的是产品对外定价或卖价策略，去找定价分析类 agent，本 agent 只服务买方采购侧的成本与议价",
+      "merged_from": [
+        "supply-chain-strategist",
+        "specialized-pricing-analyst"
+      ]
+    },
+    {
+      "slug": "everyday-writing-polisher",
+      "nameZh": "日常文案润色员",
+      "nameEn": "Everyday Writing Polisher",
+      "domain": "personal-life-growth",
+      "description": "帮你把朋友圈、周报、节日祝福、送礼贺词、应酬场面话随手润色成得体表达，能中能英，张口就来",
+      "audience": [
+        "要写朋友圈",
+        "周报",
+        "节日祝福和应酬场面话的打工人和普通用户",
+        "下笔费劲想要现成的得体表达"
+      ],
+      "triggers_zh": [
+        "帮我润色",
+        "朋友圈文案",
+        "周报怎么写",
+        "节日祝福",
+        "送礼祝福语",
+        "应酬文案"
+      ],
+      "triggers_en": [
+        "polish my writing",
+        "moments caption",
+        "weekly report",
+        "holiday greeting",
+        "gift message",
+        "social occasion copy"
+      ],
+      "when_to_use": "你要发朋友圈, 写周报, 发节日祝福, 配送礼贺词, 应付酒局饭局的场面话, 或想让一段中文英文写得更得体自然时用它",
+      "when_not_to_use": "要写公众号长文爆款找内容创作agent, 要做正式公文红头文件找公文笔杆子, 要写商业方案标书找对应专业agent, 这里只管日常短文案的润色和应景表达",
+      "merged_from": [
+        "marketing-book-co-author",
+        "specialized-document-generator",
+        "language-translator"
+      ]
+    },
+    {
+      "slug": "exam-prep-study-coach",
+      "nameZh": "备考学习教练",
+      "nameEn": "Exam Prep Study Coach",
+      "domain": "students-career",
+      "description": "帮考研考公备考党拆解大纲、排每日计划、做错题复盘和背诵规划，把长周期复习变成可执行的节奏。",
+      "audience": [
+        "考研考公等备考党（长周期复习计划与执行）"
+      ],
+      "triggers_zh": [
+        "备考计划",
+        "每日计划",
+        "错题复盘",
+        "背诵规划",
+        "大纲拆解",
+        "复习节奏"
+      ],
+      "triggers_en": [
+        "study plan",
+        "daily schedule",
+        "error review",
+        "memorization plan",
+        "syllabus breakdown",
+        "review pacing"
+      ],
+      "when_to_use": "你要把一份政治英语专业课大纲拆成可执行的复习节奏、排每日计划、做错题复盘或背诵规划时用它",
+      "when_not_to_use": "你要的是具体某道题的解题步骤或某门学科的知识讲解时，改用对应学科的答疑 agent",
+      "merged_from": [
+        "personal-growth-mentor",
+        "engineering-prompt-engineer"
+      ]
+    },
+    {
+      "slug": "feedback-insight-analyst",
+      "nameZh": "反馈差评分析师",
+      "nameEn": "Feedback Insight Analyst",
+      "domain": "cross-function-staff",
+      "description": "把客户反馈、差评、问卷批量做归类与共性提炼，按优先级排序，产出能直接给上级看的结论。擅长分析差评、问卷分析、反馈归类。",
+      "audience": [
+        "运营",
+        "客服",
+        "产品助理",
+        "做用户调研的人"
+      ],
+      "triggers_zh": [
+        "分析差评",
+        "问卷分析",
+        "反馈归类",
+        "共性问题",
+        "用户调研结论",
+        "批量分析反馈"
+      ],
+      "triggers_en": [
+        "analyze reviews",
+        "survey analysis",
+        "feedback clustering",
+        "common issues",
+        "research findings",
+        "batch feedback"
+      ],
+      "when_to_use": "手上攒了一堆客户反馈、平台差评、问卷答卷或客诉记录，想快速看清大家到底在抱怨什么、哪些问题最该先改、并要把结论摆到老板桌上时用它。",
+      "when_not_to_use": "只需要逐条回复某个客户、写安抚话术时改用客户消息应答官；只需要把会议录音或聊天记录整理成纪要时改用会议纪要与聊天要点提炼官；只需要清洗汇总数字做表做日报时改用表格清洗汇总师。",
+      "merged_from": [
+        "product-feedback-synthesizer",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "feishu-integration-developer",
+      "nameZh": "飞书集成开发官",
+      "nameEn": "Feishu Integration Developer",
+      "domain": "software-ai-eng",
+      "description": "帮你把系统接进飞书生态，做飞书机器人、审批流对接和多维表 API 自动化，吃透开放平台的鉴权与事件回调坑。",
+      "audience": [
+        "要把系统接入飞书/Lark 生态做机器人和自动化的工程师"
+      ],
+      "triggers_zh": [
+        "飞书集成",
+        "飞书机器人",
+        "审批流对接",
+        "多维表 API",
+        "Lark 开发",
+        "飞书支付"
+      ],
+      "triggers_en": [
+        "feishu integration",
+        "lark bot",
+        "approval workflow",
+        "bitable api",
+        "feishu open platform",
+        "lark dev"
+      ],
+      "when_to_use": "当你要把外部系统接进飞书/Lark 做机器人、消息卡片、审批流、多维表同步、扫码登录或支付集成，需要踩平开放平台鉴权与事件回调坑时用它。",
+      "when_not_to_use": "纯飞书内的人工操作（建表发消息查日程不写代码）请用 lark-base/lark-im 等操作类 skill；通用后端架构或非飞书的第三方对接请找对应工程 agent。",
+      "merged_from": [
+        "engineering-feishu-integration-developer"
+      ]
+    },
+    {
+      "slug": "feishu-wechat-integration",
+      "nameZh": "飞书微信生态打通工程师",
+      "nameEn": "Feishu & WeChat Integration Engineer",
+      "domain": "sme-boss-mgmt",
+      "description": "帮没技术班子的小老板搭飞书审批流、配多维表、做机器人，把飞书微信生态打通成不用换屏的自动化办公台。",
+      "audience": [
+        "想用飞书把小公司管理自动化、又没技术班子的老板"
+      ],
+      "triggers_zh": [
+        "飞书审批流",
+        "多维表格",
+        "飞书机器人",
+        "微信打通",
+        "自动化办公",
+        "流程自动化"
+      ],
+      "triggers_en": [
+        "Feishu approval",
+        "Bitable",
+        "Feishu bot",
+        "WeChat integration",
+        "office automation",
+        "workflow automation"
+      ],
+      "when_to_use": "你想把请假报销、订单跟单、客户登记这些天天靠微信群喊和Excel手填的活，搬进飞书自动跑起来时用它。",
+      "when_not_to_use": "只是要写一篇推文或排版公众号，改用内容创作类 agent；纯财税月结对账找财税月结管家。",
+      "merged_from": [
+        "engineering-feishu-integration-developer"
+      ]
+    },
+    {
+      "slug": "founder-chief-of-staff",
+      "nameZh": "老板贴身参谋长",
+      "nameEn": "Founder's Chief of Staff",
+      "domain": "sme-boss-mgmt",
+      "description": "把语音和会议变成待办、起草通知制度、过滤信息理清决策的老板外脑，语音转待办、会议纪要、决策外脑随叫随到。",
+      "audience": [
+        "一个人当三个人用、缺贴身副手的老板"
+      ],
+      "triggers_zh": [
+        "语音转待办",
+        "会议纪要",
+        "起草通知",
+        "决策外脑",
+        "信息过滤",
+        "帮我理一下"
+      ],
+      "triggers_en": [
+        "voice to todo",
+        "meeting notes",
+        "draft notice",
+        "decision sounding board",
+        "filter noise",
+        "chief of staff"
+      ],
+      "when_to_use": "你一个人撑着公司、没有称职副手，需要有人把会议语音变成待办、起草通知制度、过滤掉杂音、在拍板前帮你把决策捋清楚时用它。",
+      "when_not_to_use": "要做深度财务测算、法律合同逐条审查、专业招投标标书或某个垂直职能的硬专业活时，改用对应的专职 agent，这个参谋长只做统筹和兜底。",
+      "merged_from": [
+        "specialized-chief-of-staff",
+        "project-management-meeting-notes-specialist"
+      ]
+    },
+    {
+      "slug": "fresh-grad-policy-advisor",
+      "nameZh": "应届身份政策答疑官",
+      "nameEn": "Fresh-Grad Policy Advisor",
+      "domain": "students-career",
+      "description": "帮应届生讲清三方协议、报到证、档案户口和应届身份政策，识别背调避坑点，把求职签约里的政策红线说明白。",
+      "audience": [
+        "应届生（求职签约、档案户口、身份政策）"
+      ],
+      "triggers_zh": [
+        "应届身份",
+        "三方协议",
+        "报到证",
+        "档案户口",
+        "背调避坑",
+        "应届政策"
+      ],
+      "triggers_en": [
+        "fresh grad status",
+        "tripartite agreement",
+        "registration card",
+        "file and hukou",
+        "background check pitfalls",
+        "grad policy qa"
+      ],
+      "when_to_use": "当应届生要签三方、迁档案落户口、判断自己还算不算应届、担心背调暴露空窗或学历水分时找它",
+      "when_not_to_use": "涉及个案劳动仲裁诉讼、社保稽核争议、人事档案造假补救等需要执业律师或档案主管部门定性的，转专业法务或当地人社窗口",
+      "merged_from": [
+        "product-trend-researcher",
+        "government-digital-presales-consultant"
+      ]
+    },
+    {
+      "slug": "frontend-build-engineer",
+      "nameZh": "前端落地工程师",
+      "nameEn": "Frontend Build Engineer",
+      "domain": "software-ai-eng",
+      "description": "写前端组件、管理后台、落地页和 MVP 原型一把梭，也能用 WordPress/Drupal/Laravel/Filament/Salesforce 老栈快速建站换壳搭企业站和商城",
+      "audience": [
+        "做管理后台、落地页、组件库和 MVP 原型的前端工程师",
+        "用 CMS/SaaS 老栈快速建站换壳做企业站和电商的工程师与外包"
+      ],
+      "triggers_zh": [
+        "写前端",
+        "管理后台",
+        "落地页",
+        "做个原型",
+        "React 组件",
+        "MVP 快速搭",
+        "快速建站",
+        "CMS 开发",
+        "WordPress 商城",
+        "Drupal 改造",
+        "Filament 后台",
+        "Salesforce 架构"
+      ],
+      "triggers_en": [
+        "build frontend",
+        "admin dashboard",
+        "landing page",
+        "rapid prototype",
+        "react component",
+        "mvp build",
+        "build site fast",
+        "cms development",
+        "woocommerce",
+        "drupal commerce",
+        "filament admin",
+        "salesforce architecture"
+      ],
+      "when_to_use": "你要写前端界面、组件、管理后台、落地页或 MVP 原型，或者要用 WordPress/Drupal/Laravel/Filament/Salesforce 这类成熟栈快速搭企业站、商城、内部系统时用我",
+      "when_not_to_use": "纯后端服务、复杂分布式系统、数据管道、算法或模型训练这类不落在界面层和建站层的活，交给后端或数据方向的 agent",
+      "merged_from": [
+        "engineering-frontend-developer",
+        "engineering-rapid-prototyper",
+        "engineering-senior-developer",
+        "engineering-cms-developer",
+        "engineering-drupal-shopping-cart",
+        "engineering-wordpress-shopping-cart",
+        "engineering-filament-optimization-specialist",
+        "specialized-salesforce-architect",
+        "engineering-orgscript-engineer"
+      ]
+    },
+    {
+      "slug": "gaokao-application-planner",
+      "nameZh": "高考志愿规划师",
+      "nameEn": "Gaokao College Application Planner",
+      "domain": "students-career",
+      "description": "按分数位次和招生计划排冲稳保梯度，逐条扒专业就业和招生章程里的坑，帮你把志愿表填得既不浪费分也不滑档。",
+      "audience": [
+        "高考生及家长（出分填志愿、新高考选科定位）"
+      ],
+      "triggers_zh": [
+        "高考志愿",
+        "冲稳保",
+        "分数位次",
+        "招生计划",
+        "专业选择",
+        "志愿表"
+      ],
+      "triggers_en": [
+        "gaokao application",
+        "score rank",
+        "reach safety match",
+        "admission plan",
+        "major selection",
+        "fill in choices"
+      ],
+      "when_to_use": "出分后要排冲稳保梯度填志愿表、看不懂招生章程和位次换算、纠结选专业还是选学校时用我",
+      "when_not_to_use": "单纯查某所学校历年分数线用官方报考系统更快，纯心理疏导或学业规划之外的人生决策找别的更对口的 agent",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "gov-affairs-publicity",
+      "nameZh": "政务公开操盘手",
+      "nameEn": "Government Affairs Publicity Operator",
+      "domain": "gov-public-sector",
+      "description": "把政务公开稿、政务公众号推文、宣传通稿一稿改成多渠道版本，官方口吻不踩线又能让群众读得进去，覆盖政务公开、政务推文、多渠道改写、对外发布全流程",
+      "audience": [
+        "政府新媒体岗",
+        "宣传办",
+        "政务公开责任科室"
+      ],
+      "triggers_zh": [
+        "政务公开稿",
+        "政务公众号",
+        "宣传通稿",
+        "多渠道改写",
+        "政务推文",
+        "对外发布"
+      ],
+      "triggers_en": [
+        "public disclosure",
+        "gov official account",
+        "press release",
+        "multi-channel rewrite",
+        "gov article",
+        "public announcement"
+      ],
+      "when_to_use": "你要把一份政策、通知、工作动态或主题宣传，改写成政务网站公开稿加政务公众号推文加宣传通稿等多个渠道版本对外发布时用它",
+      "when_not_to_use": "起草红头通知请示报告等正式公文走公文笔杆子，写领导讲话述职走讲话稿代笔，回群众咨询和12345工单走政务热线应答岗",
+      "merged_from": [
+        "marketing-wechat-official-account",
+        "marketing-private-domain-operator",
+        "marketing-content-creator"
+      ]
+    },
+    {
+      "slug": "gov-appraisal-designer",
+      "nameZh": "考核测评设计官",
+      "nameEn": "Performance Appraisal Designer",
+      "domain": "gov-public-sector",
+      "description": "帮你设计绩效考核打分表、做督查测评打分，再把项目申报材料写到对得上申报指南，指标可量化、评分可追溯、申报有据可查",
+      "audience": [
+        "考核办",
+        "督查室",
+        "争取项目资金的业务科室"
+      ],
+      "triggers_zh": [
+        "考核打分表",
+        "绩效测评",
+        "督查打分",
+        "项目申报",
+        "申报材料",
+        "指标设计"
+      ],
+      "triggers_en": [
+        "appraisal scorecard",
+        "performance evaluation",
+        "supervision scoring",
+        "project application",
+        "grant material",
+        "metric design"
+      ],
+      "when_to_use": "当你要设计绩效考核或督查打分表、组织年度测评、或写专项资金和项目申报材料时用它",
+      "when_not_to_use": "纯写通知请示报告等标准公文找公文笔杆子，纯讲话稿述职找讲话稿代笔，单纯做台账数据透视找表格清洗师",
+      "merged_from": [
+        "operations-manager",
+        "grant-writer"
+      ]
+    },
+    {
+      "slug": "gov-bid-advisory",
+      "nameZh": "政企投标申报顾问",
+      "nameEn": "Gov & Bid Advisory Consultant",
+      "domain": "sme-boss-mgmt",
+      "description": "帮中小企业主读懂政策、写标书、报专精特新和各类补贴，敲开政企ToG和财政红利的门。自然命中标书撰写、补贴申报、政策解读。",
+      "audience": [
+        "想接政府订单",
+        "申补贴又摸不清门道的中小企业主"
+      ],
+      "triggers_zh": [
+        "标书撰写",
+        "政企投标",
+        "专精特新",
+        "补贴申报",
+        "政策解读",
+        "政府项目"
+      ],
+      "triggers_en": [
+        "bid writing",
+        "government tender",
+        "specialized SME award",
+        "subsidy application",
+        "policy interpretation",
+        "gov project"
+      ],
+      "when_to_use": "当你想接政府或国企的订单、参加投标、申报专精特新或财政补贴，但看不懂政策文件、不会写标书、摸不清流程时用它。",
+      "when_not_to_use": "纯企业法务合同审查改用合同审查类 agent；纯商业大客户销售跟单改用销售类 agent；只是写普通公司公文改用公文文书类 agent。",
+      "merged_from": [
+        "government-digital-presales-consultant"
+      ]
+    },
+    {
+      "slug": "gov-bid-tender",
+      "nameZh": "招投标对标官",
+      "nameEn": "Bid & Tender Compliance Officer",
+      "domain": "gov-public-sector",
+      "description": "从招标文件编制到投标符合性逐条对照，拆评分项、排废标点、把应答材料对齐评审办法，让你的标书既不被废、又能拿高分。",
+      "audience": [
+        "采购代理",
+        "政府采购经办人",
+        "投标的乙方集成商"
+      ],
+      "triggers_zh": [
+        "招标文件",
+        "投标应答",
+        "符合性对照",
+        "评分项",
+        "废标排查",
+        "评审办法"
+      ],
+      "triggers_en": [
+        "tender document",
+        "bid response",
+        "compliance matrix",
+        "scoring items",
+        "disqualification check",
+        "evaluation method"
+      ],
+      "when_to_use": "当你要编制或回应一份招标文件、做符合性逐条对照、拆解评分细则、排查废标风险或对齐评审办法时用它。",
+      "when_not_to_use": "纯商务合同的逐条风险审查找合同审查法务官；非招投标场景的方案叙事和提案打动力找提案策略类 agent；ToG 解决方案的技术架构设计找政企售前类 agent。",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "sales-proposal-strategist",
+        "legal-document-review",
+        "support-legal-compliance-checker"
+      ]
+    },
+    {
+      "slug": "gov-document-drafter",
+      "nameZh": "公文笔杆子",
+      "nameEn": "Official Document Drafter",
+      "domain": "gov-public-sector",
+      "description": "按党政机关公文格式套写通知请示报告函纪要，做文种判定、行文规则核对、版头版记一键合规校对的公文写作助手。",
+      "audience": [
+        "区县到厅局机关办公室文秘",
+        "政研岗",
+        "为政府交付公文标准件的乙方"
+      ],
+      "triggers_zh": [
+        "写公文",
+        "起草通知",
+        "请示报告",
+        "公文格式校对",
+        "套改红头文件",
+        "写一份函"
+      ],
+      "triggers_en": [
+        "draft official document",
+        "write notice",
+        "request report",
+        "format check",
+        "red-header document",
+        "official letter"
+      ],
+      "when_to_use": "你要起草或校对党政机关正式公文，需要把文种、格式、行文规则一次做到合规",
+      "when_not_to_use": "你写的是企业内部周报营销文案社媒推文，去找对应的职能文书或新媒体 agent",
+      "merged_from": [
+        "specialized-document-generator",
+        "engineering-technical-writer"
+      ]
+    },
+    {
+      "slug": "gov-hotline-responder",
+      "nameZh": "12345工单答复官",
+      "nameEn": "12345 Hotline Response Officer",
+      "domain": "gov-public-sector",
+      "description": "把12345和信访的群众诉求工单分清职责边界、做出工单分类、写出有温度又留痕的办理回复，触发词包括 12345工单、信访答复、办理回复。",
+      "audience": [
+        "12345热线坐席",
+        "信访办",
+        "各部门工单承办人"
+      ],
+      "triggers_zh": [
+        "12345工单",
+        "信访答复",
+        "群众诉求",
+        "工单分类",
+        "办理回复",
+        "答复模板"
+      ],
+      "triggers_en": [
+        "hotline ticket",
+        "complaint reply",
+        "citizen demand",
+        "ticket classification",
+        "handling response",
+        "reply template"
+      ],
+      "when_to_use": "当你要给12345热线或信访群众诉求工单做分类派单、判职责边界、起草办理回复或答复模板时用它。",
+      "when_not_to_use": "涉及行政复议行政诉讼答辩、政府正式公文红头文件、领导讲话稿这类正式文书时，改用对应的公文或法务agent。",
+      "merged_from": [
+        "customer-service",
+        "support-support-responder"
+      ]
+    },
+    {
+      "slug": "gov-inspection-ledger",
+      "nameZh": "迎检台账管家",
+      "nameEn": "Inspection Ledger Steward",
+      "domain": "gov-public-sector",
+      "description": "帮机关业务科室和事业单位做台账报表、迎检材料、自查报告，统一口径、多表数据归并核对，一套数字对到底不打架。",
+      "audience": [
+        "机关业务科室",
+        "事业单位内勤",
+        "迎检责任人"
+      ],
+      "triggers_zh": [
+        "做台账",
+        "迎检材料",
+        "自查报告",
+        "统一口径",
+        "报表汇总",
+        "数据核对"
+      ],
+      "triggers_en": [
+        "build ledger",
+        "inspection material",
+        "self-check report",
+        "unify figures",
+        "report consolidation",
+        "data reconcile"
+      ],
+      "when_to_use": "当你要赶迎检台账、把多张报表的数据归并核对、写自查报告、统一全套材料口径时用它。",
+      "when_not_to_use": "起草通知请示等公文找公文笔杆子，写领导讲话稿找讲话稿代笔，单纯做经营数据看板找数据看板管道工。",
+      "merged_from": [
+        "support-analytics-reporter",
+        "data-consolidation-agent",
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "gov-institution-sop",
+      "nameZh": "制度SOP起草官",
+      "nameEn": "Institutional SOP Drafter",
+      "domain": "gov-public-sector",
+      "description": "起草修订制度规章与内部流程SOP，对照上位法和上级规定做合规对照，新老制度衔接不留矛盾条款。",
+      "audience": [
+        "机关法制科",
+        "内控岗",
+        "办公室制度管理人"
+      ],
+      "triggers_zh": [
+        "起草制度",
+        "内部流程",
+        "SOP",
+        "制度修订",
+        "合规对照",
+        "管理办法"
+      ],
+      "triggers_en": [
+        "draft rules",
+        "internal process",
+        "SOP",
+        "rule revision",
+        "compliance mapping",
+        "management measures"
+      ],
+      "when_to_use": "当你要新立或修订一份制度规章、内部管理办法、岗位流程SOP，并且需要确保它合上位法、接上级规定、和现有制度不打架时用它。",
+      "when_not_to_use": "当任务是写对外发文的通知请示报告等公文文种时改用公文笔杆子，纯合同条款逐条审查改用合同审查法务官。",
+      "merged_from": [
+        "specialized-document-generator",
+        "support-legal-compliance-checker"
+      ]
+    },
+    {
+      "slug": "gov-meeting-minutes",
+      "nameZh": "会议纪要督办员",
+      "nameEn": "Meeting Minutes and Supervision Specialist",
+      "domain": "gov-public-sector",
+      "description": "把专题会督查会的录音草稿整理成规范会议纪要，提炼决策事项、责任人和办结时限，带得动后续督办闭环。",
+      "audience": [
+        "机关办公室",
+        "督查室",
+        "会务承办人"
+      ],
+      "triggers_zh": [
+        "会议纪要",
+        "专题会纪要",
+        "督查通报",
+        "录音转纪要",
+        "决策事项",
+        "办结时限"
+      ],
+      "triggers_en": [
+        "meeting minutes",
+        "topic meeting summary",
+        "supervision bulletin",
+        "audio to minutes",
+        "decision items",
+        "deadlines"
+      ],
+      "when_to_use": "你手里有专题会、办公会、督查会的录音逐字稿或现场草稿，要整理成可印发的会议纪要，并能拆出责任分工和办结时限往下督办时用它。",
+      "when_not_to_use": "要写通知请示报告函等其他公文文种用公文笔杆子；要写领导讲话稿述职报告用讲话稿代笔；纯企业内部会议没有督办闭环需求用通用会议纪要类 agent。",
+      "merged_from": [
+        "project-management-meeting-notes-specialist",
+        "support-executive-summary-generator"
+      ]
+    },
+    {
+      "slug": "gov-policy-implementer",
+      "nameZh": "政策落实拆解官",
+      "nameEn": "Policy Implementation Decomposer",
+      "domain": "gov-public-sector",
+      "description": "把上级文件读透做本地化政策解读，拆成任务清单、责任分工和时间节点，谁干什么干到哪天一张表说清，支持贯彻落实和督查跟踪。",
+      "audience": [
+        "机关办公室",
+        "政研岗",
+        "数字化岗",
+        "督查室"
+      ],
+      "triggers_zh": [
+        "政策解读",
+        "文件落实",
+        "任务清单",
+        "责任分工",
+        "贯彻落实",
+        "本地化措施"
+      ],
+      "triggers_en": [
+        "policy interpretation",
+        "implementation list",
+        "task breakdown",
+        "responsibility assignment",
+        "localize policy",
+        "action plan"
+      ],
+      "when_to_use": "拿到一份上级文件或领导批示，需要把它读懂、本地化，再拆成可督办的任务清单和时间表时用我。",
+      "when_not_to_use": "只要起草通知请示报告等公文标准件走公文笔杆子，只做领导讲话稿走讲话稿代笔，纯写标书投标走招投标军师。",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "specialized-workflow-architect"
+      ]
+    },
+    {
+      "slug": "gov-policy-tracer",
+      "nameZh": "政策依据溯源官",
+      "nameEn": "Policy Evidence Tracer",
+      "domain": "gov-public-sector",
+      "description": "帮政研法制岗做政策检索、找文件依据、法规问答，每条结论都标依据溯源到原文，把零散文件养成可查可信的内部知识库",
+      "audience": [
+        "政研岗",
+        "法制岗",
+        "机关知识库管理人",
+        "数字化岗"
+      ],
+      "triggers_zh": [
+        "政策检索",
+        "找文件依据",
+        "法规问答",
+        "依据溯源",
+        "内部知识库",
+        "文件查询"
+      ],
+      "triggers_en": [
+        "policy search",
+        "find legal basis",
+        "regulation QA",
+        "evidence tracing",
+        "internal knowledge base",
+        "document lookup"
+      ],
+      "when_to_use": "你要在一堆上级文件、法规、政策里查依据、做问答、给结论配出处，或者想把散落的文件建成查得到、对得上、信得过的内部知识库时用它",
+      "when_not_to_use": "你要的是从零起草通知讲话稿走公文笔杆子，要拆解政策落地任务清单走政策落实拆解官，要做迎检台账数据归并走迎检台账管家",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "zk-steward"
+      ]
+    },
+    {
+      "slug": "gov-speech-ghostwriter",
+      "nameZh": "讲话稿代笔",
+      "nameEn": "Leadership Speech Ghostwriter",
+      "domain": "gov-public-sector",
+      "description": "帮办公室笔杆子起草领导讲话稿、述职报告、工作总结和工作要点，吃透往年口径接住今年新精神，分场合配文气。",
+      "audience": [
+        "为主要领导服务的办公室笔杆子",
+        "政研室",
+        "写材料的骨干"
+      ],
+      "triggers_zh": [
+        "写讲话稿",
+        "述职报告",
+        "工作总结",
+        "工作要点",
+        "领导发言",
+        "年终材料"
+      ],
+      "triggers_en": [
+        "write speech",
+        "performance report",
+        "work summary",
+        "annual work plan",
+        "leadership remarks",
+        "year-end material"
+      ],
+      "when_to_use": "当你要替领导起草讲话稿、述职报告、工作总结、工作要点或各类大会发言，需要接住新精神又对得上往年口径时用它。",
+      "when_not_to_use": "起草通知请示报告函等规范公文走公文笔杆子，写新闻通稿和政务新媒体推文走宣传口对应 agent，不要用它套公文文种格式。",
+      "merged_from": [
+        "marketing-book-co-author",
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "gov-xinchuang-feasibility",
+      "nameZh": "信创可研论证官",
+      "nameEn": "Xinchuang Feasibility Consultant",
+      "domain": "gov-public-sector",
+      "description": "帮你做政务信创项目的可研报告、立项论证、国产化适配评估和采购论证，把变革推行的账算明白。",
+      "audience": [
+        "数字化岗",
+        "信息中心",
+        "为政府做信创项目的乙方集成商咨询"
+      ],
+      "triggers_zh": [
+        "可研报告",
+        "立项论证",
+        "信创选型",
+        "国产化适配",
+        "采购论证",
+        "变革推行"
+      ],
+      "triggers_en": [
+        "feasibility study",
+        "project proposal",
+        "xinchuang selection",
+        "localization adaptation",
+        "procurement justification",
+        "change rollout"
+      ],
+      "when_to_use": "当你要给政务数字化或信创项目写可研报告、立项材料、做国产化选型适配评估、算采购预算和论证投资回报、设计上线后的推行和培训方案时用它。",
+      "when_not_to_use": "只是写普通公文通知请示用公文笔杆子，纯标书响应与评分点拆解用招投标标书军师，单纯做财务月结预算用财税月结管家。",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "specialized-pricing-analyst",
+        "testing-tool-evaluator",
+        "change-management-consultant",
+        "corporate-training-designer"
+      ]
+    },
+    {
+      "slug": "habit-accountability-coach",
+      "nameZh": "习惯陪跑监督官",
+      "nameEn": "Habit Accountability Coach",
+      "domain": "personal-life-growth",
+      "description": "用行为科学帮你做打卡监督、把年度计划和考证目标拆成每天能做的小步，顺手把笔记灵感归档进知识库，做你随叫随到的习惯陪跑搭子",
+      "audience": [
+        "想养成习惯却三天打鱼的人",
+        "立了年度目标要转行考证陪跑的人",
+        "想把日常笔记灵感攒起来不丢的自我管理党"
+      ],
+      "triggers_zh": [
+        "打卡监督",
+        "习惯养成",
+        "目标拆解",
+        "考证陪跑",
+        "年度计划",
+        "笔记归档"
+      ],
+      "triggers_en": [
+        "habit tracking",
+        "accountability check-in",
+        "break down goals",
+        "exam prep coaching",
+        "yearly plan",
+        "note archiving"
+      ],
+      "when_to_use": "你想坚持一个习惯却总半途而废，或立了大目标不知道每天该干什么，又或者灵感笔记越攒越乱想理顺时，找它",
+      "when_not_to_use": "涉及生理疾病诊断、心理危机干预、法律纠纷、投资理财具体建议时改用对应专业 agent，它只做陪跑不越界",
+      "merged_from": [
+        "product-behavioral-nudge-engine",
+        "personal-growth-mentor",
+        "zk-steward"
+      ]
+    },
+    {
+      "slug": "habit-nudge-engine",
+      "nameZh": "效率习惯助推官",
+      "nameEn": "Habit Nudge Engine",
+      "domain": "cross-function-staff",
+      "description": "用行为科学帮你把待办拆成微行动、卡好节奏养成习惯，既能做个人效率助推也能设计用户激活的提醒序列",
+      "audience": [
+        "想提升个人效率的白领",
+        "运营",
+        "做用户激活的人"
+      ],
+      "triggers_zh": [
+        "提升效率",
+        "习惯养成",
+        "节奏提醒",
+        "助推",
+        "用户激活",
+        "坚持下去"
+      ],
+      "triggers_en": [
+        "boost productivity",
+        "build habits",
+        "cadence nudge",
+        "behavioral nudge",
+        "user activation",
+        "stay on track"
+      ],
+      "when_to_use": "当你想把一堆做不动的待办变成能坚持的习惯节奏，或要为产品设计一套不打扰又有效的提醒激活机制时用它",
+      "when_not_to_use": "纯写文案改标题找 social-content-operator，纯做数据周报找 work-report-distiller，纯排项目进度找 project-timeline-coordinator",
+      "merged_from": [
+        "product-behavioral-nudge-engine"
+      ]
+    },
+    {
+      "slug": "hiring-onboarding-manager",
+      "nameZh": "招聘用工管家",
+      "nameEn": "Hiring & Onboarding Manager",
+      "domain": "sme-boss-mgmt",
+      "description": "帮小老板写JD发BOSS直聘、筛简历约面试、办入职手续做用工管理，从招到管一条龙。",
+      "audience": [
+        "亲自招人面试、为用工合规发愁的小老板和HR一肩挑"
+      ],
+      "triggers_zh": [
+        "写JD",
+        "BOSS直聘",
+        "简历初筛",
+        "约面试",
+        "入职手续",
+        "用工管理"
+      ],
+      "triggers_en": [
+        "write JD",
+        "candidate screening",
+        "interview scheduling",
+        "onboarding",
+        "labor management",
+        "job posting"
+      ],
+      "when_to_use": "你要招人——写岗位、发招聘平台、筛简历约面、谈薪发offer、办入职手续、管劳动合同社保试用期时用它。",
+      "when_not_to_use": "涉及裁员仲裁、工伤认定、复杂劳动诉讼这类要专业律师定夺的，先用它理清事实和风险，最终拍板找劳动法律师。",
+      "merged_from": [
+        "recruitment-specialist",
+        "hr-onboarding"
+      ]
+    },
+    {
+      "slug": "homework-tutor-coach",
+      "nameZh": "陪写作业辅导老师",
+      "nameEn": "Homework Tutor Coach",
+      "domain": "personal-life-growth",
+      "description": "把语数英错题拆成家长一看就会讲的步骤和话术，辅导作业讲题不卡壳，陪写作业不跟娃急。",
+      "audience": [
+        "辅导孩子写作业的中小学家长，尤其是数学英语讲不明白、容易跟娃急的爸妈"
+      ],
+      "triggers_zh": [
+        "辅导作业",
+        "讲题",
+        "错题拆解",
+        "怎么给孩子讲",
+        "易错题",
+        "家长讲解话术"
+      ],
+      "triggers_en": [
+        "homework help",
+        "explain this problem",
+        "error analysis",
+        "how to teach my kid",
+        "tutoring script",
+        "math word problem"
+      ],
+      "when_to_use": "当你要给小学到初中的孩子讲一道具体的题、拆错题、把知识点翻译成大白话，或者一辅导就上火想要降火和陪写节奏时用我。",
+      "when_not_to_use": "要给孩子做心理疏导、判断学习障碍或情绪疾病，请找专业心理或医疗人士；要做整学期学业规划和升学决策，另找规划类 agent。",
+      "merged_from": [
+        "personal-growth-mentor",
+        "academic-psychologist",
+        "engineering-prompt-engineer"
+      ]
+    },
+    {
+      "slug": "kuaishou-sinking-operator",
+      "nameZh": "快手下沉运营官",
+      "nameEn": "Kuaishou Sinking-Market Operator",
+      "domain": "content-livestream",
+      "description": "帮你在快手做下沉市场的短视频起号和直播带货，吃透老铁经济和私域信任，把产地优势和真实感讲成下单理由。",
+      "audience": [
+        "快手创作者",
+        "下沉市场带货主播",
+        "本地商家"
+      ],
+      "triggers_zh": [
+        "快手运营",
+        "下沉市场",
+        "老铁经济",
+        "快手直播",
+        "快手带货",
+        "私域信任"
+      ],
+      "triggers_en": [
+        "kuaishou ops",
+        "sinking market",
+        "laotie economy",
+        "kuaishou live",
+        "kuaishou selling",
+        "trust commerce"
+      ],
+      "when_to_use": "你要在快手起号、做下沉市场短视频、搭直播带货流程、靠老铁信任做复购时用我。",
+      "when_not_to_use": "你做的是抖音爆款投流、一二线城市精致内容或纯电商详情页时，去找抖音爆款策略师或电商详情操盘手。",
+      "merged_from": [
+        "marketing-kuaishou-strategist"
+      ]
+    },
+    {
+      "slug": "language-test-tutor",
+      "nameZh": "语言考试写作口语陪练",
+      "nameEn": "Language Test Writing & Speaking Tutor",
+      "domain": "students-career",
+      "description": "按官方评分标准批改雅思托福写作口语和四六级考研英语作文，逐项打分、定位失分点、给出提分改写和口语陪练。",
+      "audience": [
+        "语言考试党（雅思托福四六级考研英语备考）"
+      ],
+      "triggers_zh": [
+        "雅思批改",
+        "托福口语",
+        "四六级作文",
+        "考研英语作文",
+        "写作批改",
+        "口语陪练"
+      ],
+      "triggers_en": [
+        "ielts grading",
+        "toefl speaking",
+        "cet essay",
+        "english writing review",
+        "speaking practice",
+        "band score feedback"
+      ],
+      "when_to_use": "你写完一篇雅思托福作文、四六级或考研英语作文，或想练口语，需要按评分标准打分并拿到能直接抄走的提分改写时",
+      "when_not_to_use": "只是要把中文资料翻成英文或纯做语言互译、不涉及考试评分时，改用中英商务互译官",
+      "merged_from": [
+        "language-translator",
+        "engineering-prompt-engineer"
+      ]
+    },
+    {
+      "slug": "learning-diagnosis-mindset-coach",
+      "nameZh": "学情诊断与备考心态教练",
+      "nameEn": "Learning Diagnosis & Exam-Mindset Coach",
+      "domain": "students-career",
+      "description": "给在校生和备考党做学情诊断、出个性化辅导方案、疏导备考焦虑、帮你把学习习惯养起来",
+      "audience": [
+        "在校生与备考党（学情诊断、习惯养成、焦虑疏导）"
+      ],
+      "triggers_zh": [
+        "学情诊断",
+        "个性化方案",
+        "备考焦虑",
+        "习惯养成",
+        "心态疏导",
+        "学习状态"
+      ],
+      "triggers_en": [
+        "learning diagnosis",
+        "personalized plan",
+        "exam anxiety",
+        "habit building",
+        "mindset coaching",
+        "study state"
+      ],
+      "when_to_use": "学生或备考人想搞清自己卡在哪、要一份能落地的提分计划、被焦虑拖垮状态、或者立了flag坚持不下去时用",
+      "when_not_to_use": "要逐题讲某科知识点或押题改作业时改用对应学科辅导agent，出现持续失眠自伤等临床信号时引导找精神科或心理热线而非本agent",
+      "merged_from": [
+        "personal-growth-mentor",
+        "organizational-psychologist",
+        "product-behavioral-nudge-engine"
+      ]
+    },
+    {
+      "slug": "livestream-commerce-coach",
+      "nameZh": "直播带货控场教练",
+      "nameEn": "Livestream Commerce Coach",
+      "domain": "content-livestream",
+      "description": "直播带货话术、憋单逼单、福袋互动和全场控场SOP陪练，帮主播从开口卡壳练到一场带货百万。",
+      "audience": [
+        "带货主播",
+        "商家自播团队",
+        "直播运营"
+      ],
+      "triggers_zh": [
+        "直播话术",
+        "憋单逼单",
+        "福袋",
+        "直播控场",
+        "直播SOP",
+        "带货脚本"
+      ],
+      "triggers_en": [
+        "livestream script",
+        "urgency close",
+        "lucky bag",
+        "live room control",
+        "live SOP",
+        "selling script"
+      ],
+      "when_to_use": "当你要写直播脚本、设计憋单逼单节奏、做福袋互动、排品控场或陪练主播时用我",
+      "when_not_to_use": "纯写短视频脚本或起号涨粉找抖音爆款策略师，多账号矩阵养号找MCN矩阵操盘手，电商详情页和选品找选品上架运营官",
+      "merged_from": [
+        "marketing-livestream-commerce-coach"
+      ]
+    },
+    {
+      "slug": "lls-ad-law-compliance-checker",
+      "nameZh": "广告法合规自查官",
+      "nameEn": "Ad-Law Compliance Self-Checker",
+      "domain": "local-life-services",
+      "description": "给医美美业餐饮食品的宣传文案做广告法合规自查，揪出绝对化用语、医疗效果宣称和违禁词，逐句给安全改写。",
+      "audience": [
+        "做医美美业餐饮食品宣传、怕广告法踩雷的小老板与运营"
+      ],
+      "triggers_zh": [
+        "广告法合规",
+        "绝对化用语",
+        "医疗效果宣称",
+        "违禁词自查",
+        "医美合规",
+        "食品宣传合规"
+      ],
+      "triggers_en": [
+        "ad law compliance",
+        "absolute wording",
+        "medical efficacy claim",
+        "banned word check",
+        "aesthetic compliance",
+        "food ad compliance"
+      ],
+      "when_to_use": "当你要发医美美业餐饮食品类的海报、详情页、朋友圈、短视频口播、点评探店稿前，想先把广告法风险词扫一遍并拿到可直接替换的安全说法时用它。",
+      "when_not_to_use": "涉及正式合同审查、企业级数据合规等保、平台账号封禁后的申诉走专门的法务或合规 agent；纯流量增长和爆款选题找内容运营 agent。",
+      "merged_from": [
+        "healthcare-marketing-compliance",
+        "support-legal-compliance-checker"
+      ]
+    },
+    {
+      "slug": "lls-beauty-lead-conversion-coach",
+      "nameZh": "美业客资转化教练",
+      "nameEn": "Beauty Lead Conversion Coach",
+      "domain": "local-life-services",
+      "description": "帮美业医美门店做客资跟进、到店转化SOP和咨询师话术，把线上咨询变成进店、成交和复购",
+      "audience": [
+        "美业医美门店店长",
+        "咨询师",
+        "负责客资跟进的运营"
+      ],
+      "triggers_zh": [
+        "客资跟进",
+        "到店转化SOP",
+        "咨询师话术",
+        "复购提醒",
+        "美业成交",
+        "医美邀约"
+      ],
+      "triggers_en": [
+        "lead followup",
+        "in-store conversion sop",
+        "consultant script",
+        "repurchase reminder",
+        "beauty close",
+        "medical aesthetic invite"
+      ],
+      "when_to_use": "当你手里有一批咨询客资要跟进邀约、要梳理到店成交流程、要给咨询师配话术、要做老客复购召回时用它",
+      "when_not_to_use": "当你要写投放素材或起号涨粉走内容平台运营官，要做门店财务核算走记账管家，要做医疗合规性诊断结论走专业医师",
+      "merged_from": [
+        "sales-offer-lead-gen-strategist",
+        "sales-coach"
+      ]
+    },
+    {
+      "slug": "lls-chain-expansion-operator",
+      "nameZh": "连锁扩张操盘官",
+      "nameEn": "Chain Expansion Operator",
+      "domain": "local-life-services",
+      "description": "帮本地生活连锁老板搭多店运营SOP、算单店模型与扩张判断，串起小程序点单储值会员数据和巡店表培训手册招商话术。",
+      "audience": [
+        "开多家店或想加盟扩张、要单店模型和小程序数据的连锁老板"
+      ],
+      "triggers_zh": [
+        "多店运营SOP",
+        "巡店表",
+        "培训手册",
+        "招商话术",
+        "单店模型",
+        "小程序点单储值"
+      ],
+      "triggers_en": [
+        "multi-store sop",
+        "store audit checklist",
+        "training manual",
+        "franchise pitch",
+        "unit economics model",
+        "mini program ordering"
+      ],
+      "when_to_use": "你已经开到两家以上店、或准备放加盟，需要把单店跑通的东西标准化复制，并用数据判断该不该扩、扩到哪、加盟怎么收钱时用我。",
+      "when_not_to_use": "只有一家店、还在打磨产品和选址、单店都没盈利时别找我，先去找单店运营或选址的 agent 把模型跑正再谈扩张。",
+      "merged_from": [
+        "operations-manager",
+        "corporate-training-designer",
+        "specialized-document-generator",
+        "business-strategist",
+        "engineering-wechat-mini-program-developer",
+        "support-analytics-reporter",
+        "marketing-baidu-seo-specialist"
+      ]
+    },
+    {
+      "slug": "lls-frontline-staff-recruiter",
+      "nameZh": "店员招聘初筛官",
+      "nameEn": "Frontline Staff Recruiter",
+      "domain": "local-life-services",
+      "description": "帮门店写招聘文案、做简历初筛、约面试，把合适的服务员技师店员快速约进店面谈",
+      "audience": [
+        "缺人手、要招店员服务员技师并初筛约面的店长与老板"
+      ],
+      "triggers_zh": [
+        "招聘文案",
+        "店员招聘",
+        "简历初筛",
+        "约面试",
+        "技师招聘",
+        "服务员招人"
+      ],
+      "triggers_en": [
+        "hiring copy",
+        "staff recruitment",
+        "resume screening",
+        "interview invite",
+        "technician hiring",
+        "waiter recruit"
+      ],
+      "when_to_use": "门店要招一线员工（服务员、店员、技师、收银、后厨等），需要写招聘帖、筛简历、写邀约话术、约人到店面试时用我",
+      "when_not_to_use": "招中高层管理、技术研发、需要猎头或校招的岗位走专业招聘官；要算工资社保账目走门店账管家；要谈劳动纠纷走法务官",
+      "merged_from": [
+        "recruitment-specialist"
+      ]
+    },
+    {
+      "slug": "lls-groupbuy-deal-copywriter",
+      "nameZh": "团购套餐文案手",
+      "nameEn": "Group-Buy Deal Copywriter",
+      "domain": "local-life-services",
+      "description": "把门店卖点和菜单改写成美团点评抖音团购里能拉点击、能核销的套餐标题与详情页文案，懂写团购套餐文案、改门店介绍、做抖音团购标题。",
+      "audience": [
+        "在美团点评抖音上挂团购套餐",
+        "要写门店介绍和套餐卖点的小老板与店长"
+      ],
+      "triggers_zh": [
+        "写团购套餐文案",
+        "改门店介绍",
+        "美团套餐卖点",
+        "抖音团购标题",
+        "菜单改写",
+        "套餐详情页"
+      ],
+      "triggers_en": [
+        "group buy copy",
+        "deal package copy",
+        "store intro rewrite",
+        "menu rewrite",
+        "meituan deal title",
+        "douyin group buy"
+      ],
+      "when_to_use": "你要在美团点评抖音上线团购套餐，需要把门店卖点和菜单改成会被点开、被下单、被核销的标题和详情时用它",
+      "when_not_to_use": "你要的是直播带货控场话术或长视频脚本，改用直播带货控场教练或口播脚本教练；要算套餐定价和毛利结构，改用本地生活定价测算类 agent",
+      "merged_from": [
+        "marketing-content-creator",
+        "marketing-douyin-strategist"
+      ]
+    },
+    {
+      "slug": "lls-menu-pricing-combo-designer",
+      "nameZh": "选品定价组合师",
+      "nameEn": "Menu Pricing & Combo Designer",
+      "domain": "local-life-services",
+      "description": "帮你做选品定价、搭套餐组合、设引流款，把价格盘成能赚钱的结构，触发词包括选品定价、套餐组合、引流款定价、菜单组合",
+      "audience": [
+        "要定菜单价、搭引流款套餐组合的餐饮零售美业小老板"
+      ],
+      "triggers_zh": [
+        "选品定价",
+        "套餐组合",
+        "引流款定价",
+        "爆款引流",
+        "定价策略",
+        "菜单组合"
+      ],
+      "triggers_en": [
+        "product pricing",
+        "combo bundling",
+        "loss leader pricing",
+        "traffic driver item",
+        "pricing strategy",
+        "menu mix"
+      ],
+      "when_to_use": "当你要定价、改菜单、设套餐、做引流款或团购，想算清楚每一单到底赚不赚、整体结构能不能跑通时用它",
+      "when_not_to_use": "当你要的是写菜单文案、做门头海报、投同城广告或运营私域社群时，改用对应的文案、设计或本地获客 agent",
+      "merged_from": [
+        "specialized-pricing-analyst",
+        "sales-offer-lead-gen-strategist"
+      ]
+    },
+    {
+      "slug": "lls-private-domain-community-operator",
+      "nameZh": "私域社群运营官",
+      "nameEn": "Private Domain Community Operator",
+      "domain": "local-life-services",
+      "description": "帮本地店主把微信群企微社群做活、靠活动接龙、会员唤醒、新品上新和朋友圈素材把老客盘活复购",
+      "audience": [
+        "靠微信群企微养客的店长",
+        "要做接龙唤醒和朋友圈素材的社群运营"
+      ],
+      "triggers_zh": [
+        "微信群运营",
+        "活动接龙",
+        "会员唤醒",
+        "新品上新文案",
+        "朋友圈素材",
+        "社群复购"
+      ],
+      "triggers_en": [
+        "wechat group ops",
+        "group order接龙",
+        "member reactivation",
+        "new product launch copy",
+        "moments content",
+        "community repurchase"
+      ],
+      "when_to_use": "你已经有一批加过微信的老客，要靠社群和朋友圈把他们持续盘活、做复购和上新时用我",
+      "when_not_to_use": "还没积累客户、要从公域抖音小红书拉新引流，或要做线上电商详情页的，改用对应的拉新或电商运营 agent",
+      "merged_from": [
+        "marketing-private-domain-operator"
+      ]
+    },
+    {
+      "slug": "lls-store-daily-monthly-books-controller",
+      "nameZh": "门店日清月结管家",
+      "nameEn": "Store Daily-Monthly Books Controller",
+      "domain": "local-life-services",
+      "description": "帮单店多店小老板做日清月结、营业额对账和外卖佣金扣点核算，算清食材成本毛利揪出门店亏损点",
+      "audience": [
+        "自己管账、要日清月结看毛利和扣点的单店多店小老板"
+      ],
+      "triggers_zh": [
+        "日清月结",
+        "营业额对账",
+        "外卖佣金扣点",
+        "食材成本毛利",
+        "找亏损点",
+        "门店利润核算"
+      ],
+      "triggers_en": [
+        "daily monthly close",
+        "revenue reconcile",
+        "delivery commission fee",
+        "food cost margin",
+        "find loss point",
+        "store profit"
+      ],
+      "when_to_use": "你要对一天或一个月的门店收支算笔明白账、查外卖到账对不对、看每道菜每个品类挣不挣钱、找出店里到底亏在哪时用它",
+      "when_not_to_use": "你要报税做账报、开发票、走税务申报或处理工商社保这类正式财税合规事务时改用财税月结或合规类 agent，本 agent 只管经营内账不出官方报表",
+      "merged_from": [
+        "finance-bookkeeper-controller",
+        "support-finance-tracker"
+      ]
+    },
+    {
+      "slug": "lls-store-review-responder",
+      "nameZh": "门店评价回复官",
+      "nameEn": "Store Review Response Officer",
+      "domain": "local-life-services",
+      "description": "处理美团点评抖音的差评公关和好评引导，把每条评价回成既消火又护评分的话术，专攻回差评、好评引导、门店评分维护",
+      "audience": [
+        "盯着门店评分、要回差评做公关和引导好评的店长与客服"
+      ],
+      "triggers_zh": [
+        "回差评",
+        "好评引导",
+        "评价回复",
+        "门店评分维护",
+        "差评公关",
+        "顾客投诉回复"
+      ],
+      "triggers_en": [
+        "reply bad review",
+        "review response",
+        "rating maintenance",
+        "complaint reply",
+        "good review prompt",
+        "review pr"
+      ],
+      "when_to_use": "当你要批量回美团点评抖音的差评好评、写一条既消火又护评分的回复、或想把差评闭环成线下挽回时用它",
+      "when_not_to_use": "单纯线下退换货执行、私域社群运营、或跨平台内容分发改用对应 agent，这里只管公开评价区的应答与评分维护",
+      "merged_from": [
+        "customer-service",
+        "support-support-responder",
+        "retail-customer-returns"
+      ]
+    },
+    {
+      "slug": "lls-store-shift-scheduling-manager",
+      "nameZh": "门店排班调度官",
+      "nameEn": "Store Shift Scheduling Manager",
+      "domain": "local-life-services",
+      "description": "按客流高峰排班排工时，算清提成核算和工时账，临时缺人时快速调度补位的门店人力管家",
+      "audience": [
+        "管店员服务员技师排班、要按客流配人手的店长"
+      ],
+      "triggers_zh": [
+        "门店排班",
+        "客流高峰排班",
+        "工时核算",
+        "提成核算",
+        "临时缺人调度",
+        "补位调度"
+      ],
+      "triggers_en": [
+        "staff scheduling",
+        "peak hour roster",
+        "work hours calc",
+        "commission calc",
+        "fill-in dispatch",
+        "shift coverage"
+      ],
+      "when_to_use": "你要给门店店员服务员技师排班、按客流配人手、核算工时和提成、或者临时缺人要找人补位时用它",
+      "when_not_to_use": "涉及员工劳动合同纠纷、社保公积金申报、辞退赔偿这类劳资法务问题，改用法务或人力合规类 agent",
+      "merged_from": [
+        "operations-manager"
+      ]
+    },
+    {
+      "slug": "lls-store-visual-collateral-designer",
+      "nameZh": "门店视觉物料官",
+      "nameEn": "Store Visual Collateral Designer",
+      "domain": "local-life-services",
+      "description": "帮没设计师的小老板出门店海报、菜单价目表、活动易拉宝和九宫格视觉物料，按门店调性做成能直接打印能直接发的图",
+      "audience": [
+        "要门店海报菜单价目表易拉宝九宫格、没设计师的小老板"
+      ],
+      "triggers_zh": [
+        "门店海报",
+        "菜单价目表",
+        "活动易拉宝",
+        "九宫格视觉",
+        "门店物料设计",
+        "价目表排版"
+      ],
+      "triggers_en": [
+        "store poster",
+        "menu price list",
+        "rollup banner",
+        "nine grid visual",
+        "store collateral",
+        "price board design"
+      ],
+      "when_to_use": "你要做一张门店能直接用的视觉物料（海报、菜单、价目表、易拉宝、台卡、九宫格），手里没有设计师又不会用专业软件时用我",
+      "when_not_to_use": "你要的是品牌全套VI体系、注册商标设计、长视频拍摄剪辑或网站界面开发时，转去对应的品牌设计或前端 agent",
+      "merged_from": [
+        "design-ui-designer",
+        "design-visual-storyteller"
+      ]
+    },
+    {
+      "slug": "lls-tanjia-seeding-content-lead",
+      "nameZh": "探店种草内容官",
+      "nameEn": "探店 Seeding Content Lead",
+      "domain": "local-life-services",
+      "description": "给本地门店写探店种草的小红书笔记、抖音口播脚本和快手老铁短视频，蹭同城节日热点、挂POI定位，把刷手机的人引到店里下单核销。",
+      "audience": [
+        "想靠小红书抖音快手探店内容给门店引流、蹭本地节日热点的小老板"
+      ],
+      "triggers_zh": [
+        "探店种草",
+        "小红书探店",
+        "短视频脚本",
+        "蹭节日热点",
+        "本地引流内容",
+        "探店图文"
+      ],
+      "triggers_en": [
+        "store探店 content",
+        "xiaohongshu seeding",
+        "short video script",
+        "local festival hook",
+        "footfall content",
+        "探店 notes"
+      ],
+      "when_to_use": "你开了门店（餐饮、美业、亲子、健身、生活服务），想自己拍探店内容或找达人探店，把同城刷手机的人引进店核销时用它。",
+      "when_not_to_use": "要做全国电商发货、纯品牌投放或大盘投流ROI模型时改用电商或投流类agent，本agent只盯同城到店这一件事。",
+      "merged_from": [
+        "marketing-xiaohongshu-specialist",
+        "marketing-douyin-strategist",
+        "marketing-kuaishou-strategist"
+      ]
+    },
+    {
+      "slug": "long-video-retention-optimizer",
+      "nameZh": "长视频留存优化官",
+      "nameEn": "Long-Video Retention Optimizer",
+      "domain": "content-livestream",
+      "description": "专做B站视频号长视频的留存优化，从开头钩子、章节切分到封面标题包装把完播率拉起来，也做长视频跨平台分发。",
+      "audience": [
+        "B站UP主",
+        "视频号长视频创作者",
+        "知识视频IP"
+      ],
+      "triggers_zh": [
+        "视频留存",
+        "长视频运营",
+        "完播优化",
+        "章节切分",
+        "封面优化",
+        "视频分发"
+      ],
+      "triggers_en": [
+        "video retention",
+        "long video ops",
+        "watch time",
+        "chaptering",
+        "thumbnail",
+        "video distribution"
+      ],
+      "when_to_use": "当你有一条三分钟以上的长视频要发B站或视频号，想把完播率、平均观看时长和推荐流量做上去，或要把一条长视频切成章节、改封面标题、分发多平台时用它。",
+      "when_not_to_use": "纯短视频的三秒钩子和算法起号找抖音爆款策略师，直播间控场找直播带货控场教练，纯口播脚本和剪映后期找口播脚本剪辑教练。",
+      "merged_from": [
+        "marketing-global-podcast-strategist",
+        "marketing-video-optimization-specialist"
+      ]
+    },
+    {
+      "slug": "matrix-content-strategist",
+      "nameZh": "矩阵内容补全官",
+      "nameEn": "Multi-Channel Matrix Strategist",
+      "domain": "content-livestream",
+      "description": "帮你把一套内容铺满 B站、知乎、微博、视频号四个平台，按各平台调性和算法做内容矩阵、补全、矩阵补全。",
+      "audience": [
+        "多平台矩阵创作者",
+        "中小MCN",
+        "品牌内容团队"
+      ],
+      "triggers_zh": [
+        "内容矩阵",
+        "B站运营",
+        "知乎运营",
+        "微博运营",
+        "视频号",
+        "矩阵补全"
+      ],
+      "triggers_en": [
+        "content matrix",
+        "bilibili ops",
+        "zhihu ops",
+        "weibo ops",
+        "channels video",
+        "matrix fill"
+      ],
+      "when_to_use": "当你已经有主阵地内容，想低成本铺满 B站知乎微博视频号、补齐内容矩阵、做跨平台调性适配时用我。",
+      "when_not_to_use": "只做单一平台深耕（如纯抖音爆款）找对应单平台 agent；要写公众号长文找公众号操盘手；要做小红书种草找种草笔记官。",
+      "merged_from": [
+        "marketing-bilibili-content-strategist",
+        "marketing-zhihu-strategist",
+        "marketing-weibo-strategist"
+      ]
+    },
+    {
+      "slug": "mc-customs-docs-checker",
+      "nameZh": "报关单证管家",
+      "nameEn": "Customs Docs & HS Checker",
+      "domain": "manufacturing-crossborder",
+      "description": "帮外贸工厂和报关跟单做 HS 归类、报关单证一致性核对、出口退税资料合规审查的单证专家",
+      "audience": [
+        "报关跟单",
+        "外贸单证",
+        "工厂老板"
+      ],
+      "triggers_zh": [
+        "HS 归类",
+        "报关单证",
+        "单证一致性",
+        "退税资料",
+        "装箱单核对"
+      ],
+      "triggers_en": [
+        "hs classification",
+        "customs documents",
+        "document consistency",
+        "export tax rebate",
+        "packing list check"
+      ],
+      "when_to_use": "当你要出口报关、核对一票货的单证是否对得上、归 HS 编码、整理出口退税资料、担心单证不一致被海关查验或退税被卡时用我",
+      "when_not_to_use": "涉及合同条款谈判与法律责任审查改用合同审查法务官，涉及找供应商比价砍成本改用寻源比价采购官，涉及平台上架运营和站内广告改用跨境电商运营官",
+      "merged_from": [
+        "support-legal-compliance-checker"
+      ]
+    },
+    {
+      "slug": "mc-daily-report-analyst",
+      "nameZh": "经营日报分析师",
+      "nameEn": "Sales & Inventory Daily Report Analyst",
+      "domain": "manufacturing-crossborder",
+      "description": "把抖店天猫拼多多亚马逊速卖通各平台的销量库存毛利回款拉到一张表，做经营日报和周报，专治多平台销量对不上、库存毛利算不清、回款汇总没人盯。触发词包括经营日报、多平台销量、库存毛利、回款汇总、数据合并。",
+      "audience": [
+        "工厂老板",
+        "店铺主理人",
+        "运营负责人"
+      ],
+      "triggers_zh": [
+        "经营日报",
+        "多平台销量",
+        "库存毛利",
+        "回款汇总",
+        "数据合并"
+      ],
+      "triggers_en": [
+        "daily report",
+        "multi-platform sales",
+        "inventory margin",
+        "collection summary",
+        "data consolidation"
+      ],
+      "when_to_use": "你有多个平台多个店铺的销售库存数据散在各处，每天每周要手工拼成一张经营报表给自己或老板看时用我。",
+      "when_not_to_use": "要写带货话术、做详情页、铺货上架找我没用，那是选品上架运营官和电商详情操盘手的活；要做财务月结勾稽出三大报表找财税月结管家。",
+      "merged_from": [
+        "engineering-data-engineer",
+        "data-consolidation-agent",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "mc-deal-proposal-strategist",
+      "nameZh": "外贸谈单提案官",
+      "nameEn": "Export Deal & Proposal Strategist",
+      "domain": "manufacturing-crossborder",
+      "description": "写外贸谈单提案和 win narrative，做技术答疑、方案应标和报价博弈，把工厂实力翻译成海外买家肯下单的理由。",
+      "audience": [
+        "外贸经理",
+        "工厂老板",
+        "外贸业务员"
+      ],
+      "triggers_zh": [
+        "谈单提案",
+        "外贸合同",
+        "win narrative",
+        "方案应标",
+        "技术答疑"
+      ],
+      "triggers_en": [
+        "deal proposal",
+        "export contract",
+        "win narrative",
+        "bid response",
+        "technical clarification"
+      ],
+      "when_to_use": "当你要给海外买家写提案/报价方案、应标 RFQ、做产品技术答疑、推进一个卡住的外贸订单或谈合同条款时用它。",
+      "when_not_to_use": "纯写营销内容或社媒投放找内容运营类 agent，纯报关物流货代操作找供应链类 agent，纯独立站建站投流找跨境电商运营 agent。",
+      "merged_from": [
+        "sales-proposal-strategist",
+        "sales-deal-strategist",
+        "sales-engineer"
+      ]
+    },
+    {
+      "slug": "mc-feishu-order-sync",
+      "nameZh": "飞书订单对账搬运官",
+      "nameEn": "Feishu Order & Inventory Sync",
+      "domain": "manufacturing-crossborder",
+      "description": "把订单库存对账搬进飞书多维表，建协同看板和自动化流程，让工厂团队在一张表上对单不串账。",
+      "audience": [
+        "工厂老板",
+        "运营",
+        "跟单"
+      ],
+      "triggers_zh": [
+        "飞书多维表",
+        "订单对账",
+        "库存协同",
+        "搬进飞书",
+        "看板自动化"
+      ],
+      "triggers_en": [
+        "feishu bitable",
+        "order reconciliation",
+        "inventory sync",
+        "move to feishu",
+        "dashboard automation"
+      ],
+      "when_to_use": "当你要把散在Excel微信群里的订单和库存搬进飞书多维表，建一张全员能看的协同表、设对账看板或自动提醒流程时用我。",
+      "when_not_to_use": "要写飞书机器人代码、做SSO登录或对接ERP后端开发，转给做飞书集成开发的工程类agent；纯报价采购谈判转寻源比价采购官。",
+      "merged_from": [
+        "engineering-feishu-integration-developer"
+      ]
+    },
+    {
+      "slug": "mc-image-video-scripter",
+      "nameZh": "主图视频脚本师",
+      "nameEn": "Product Image & Short-Video Scripter",
+      "domain": "manufacturing-crossborder",
+      "description": "给跨境电商出产品主图与场景图的生图提示词，写 TikTok Shop 带货短视频脚本和分镜，交付可直接拍剪的镜头清单。",
+      "audience": [
+        "电商运营",
+        "独立站卖家"
+      ],
+      "triggers_zh": [
+        "主图提示词",
+        "场景图",
+        "短视频脚本",
+        "TikTok 带货",
+        "分镜脚本"
+      ],
+      "triggers_en": [
+        "main image prompt",
+        "lifestyle image",
+        "short video script",
+        "tiktok shop video",
+        "shot list"
+      ],
+      "when_to_use": "当你要为某个产品出主图或场景图的生图提示词、写 TikTok Shop 带货脚本、拆分镜镜头清单时用它",
+      "when_not_to_use": "纯文字详情页文案、站内 listing 关键词、Meta 投放计划或独立站建站，改用电商详情或投放类 agent",
+      "merged_from": [
+        "design-image-prompt-engineer",
+        "marketing-tiktok-strategist",
+        "marketing-short-video-editing-coach"
+      ]
+    },
+    {
+      "slug": "mc-inquiry-triage-reply",
+      "nameZh": "询盘抓手",
+      "nameEn": "Inquiry Triage & Reply Pro",
+      "domain": "manufacturing-crossborder",
+      "description": "把海外询盘和 RFQ 按金额意向体量分级，大单优先，再用英阿俄葡西多语种生成专业回盘模板，并做区域跨文化措辞和商务礼仪适配。",
+      "audience": [
+        "外贸业务员",
+        "外贸经理"
+      ],
+      "triggers_zh": [
+        "询盘回复",
+        "RFQ 分级",
+        "客户分级",
+        "多语种回盘",
+        "报价回复邮件",
+        "跨文化适配",
+        "区域商务礼仪"
+      ],
+      "triggers_en": [
+        "inquiry reply",
+        "rfq triage",
+        "lead scoring",
+        "multilingual quote reply",
+        "rfq response",
+        "cultural adaptation",
+        "regional business etiquette"
+      ],
+      "when_to_use": "收到一批海外询盘或 RFQ 需要快速判断哪些值得花力气、并按客户所在国语言和商务习惯写出专业回盘时用我。",
+      "when_not_to_use": "已成交客户的订单执行跟单交期对账走履约岗，纯做产品详情页 listing 优化走电商详情操盘手，整柜物流报关清关问题走供应链岗。",
+      "merged_from": [
+        "sales-outreach",
+        "sales-outbound-strategist",
+        "language-translator",
+        "specialized-cultural-intelligence-strategist",
+        "specialized-french-consulting-market",
+        "specialized-korean-business-navigator"
+      ]
+    },
+    {
+      "slug": "mc-listing-localizer",
+      "nameZh": "Listing 本地化写手",
+      "nameEn": "Cross-Border Listing Copywriter",
+      "domain": "manufacturing-crossborder",
+      "description": "给亚马逊 Temu 独立站写本地化标题 五点描述 后台关键词和 A+ 详情页 让中国工厂的产品在海外平台一眼被点开",
+      "audience": [
+        "亚马逊/Temu/独立站卖家",
+        "电商运营"
+      ],
+      "triggers_zh": [
+        "写 listing",
+        "五点描述",
+        "标题关键词",
+        "A+ 页面",
+        "产品文案本地化"
+      ],
+      "triggers_en": [
+        "write listing",
+        "bullet points",
+        "title keywords",
+        "a-plus content",
+        "listing localization"
+      ],
+      "when_to_use": "你要给一款产品写或重写海外平台的标题 五点 后台搜索词或 A+ 详情页 想要母语级表达和能转化的卖点结构时找它",
+      "when_not_to_use": "你要算物流成本 报税合规 投 PPC 广告或做整盘选品供应链 那是别的跨境 agent 的活 它只管文案本身",
+      "merged_from": [
+        "marketing-cross-border-ecommerce"
+      ]
+    },
+    {
+      "slug": "mc-logistics-planner",
+      "nameZh": "国际物流方案官",
+      "nameEn": "International Logistics Planner",
+      "domain": "manufacturing-crossborder",
+      "description": "帮跨境卖家和工厂比选国际物流方案、算时效成本、处理清关异常、做海外仓决策，给最划算又稳的发货路径",
+      "audience": [
+        "跨境卖家",
+        "工厂老板",
+        "报关跟单"
+      ],
+      "triggers_zh": [
+        "物流方案",
+        "时效成本",
+        "清关异常",
+        "海外仓",
+        "发货路径"
+      ],
+      "triggers_en": [
+        "logistics options",
+        "transit time cost",
+        "customs clearance issue",
+        "overseas warehouse",
+        "shipping route"
+      ],
+      "when_to_use": "当你要给一批货选发什么渠道、算清到手成本和时效、卡在清关或税费、或者纠结自发货还是上海外仓时用我",
+      "when_not_to_use": "纯国内快递选型走国内物流类 agent，工厂端供应商寻源比价砍价走采购寻源类 agent，报关单证细节和归类争议建议找持证报关行核对",
+      "merged_from": [
+        "supply-chain-strategist"
+      ]
+    },
+    {
+      "slug": "mc-overseas-cs-responder",
+      "nameZh": "海外客服应答官",
+      "nameEn": "Overseas Customer Service Responder",
+      "domain": "manufacturing-crossborder",
+      "description": "跨境电商海外客服专家，处理 listing 差评、物流催问、退换货和常见 FAQ，给出多语种客服话术和自动应答模板。",
+      "audience": [
+        "电商运营",
+        "海外客服",
+        "卖家"
+      ],
+      "triggers_zh": [
+        "差评回复",
+        "物流催问",
+        "退换货",
+        "客服话术",
+        "FAQ 自动应答"
+      ],
+      "triggers_en": [
+        "review response",
+        "shipping inquiry",
+        "return exchange",
+        "cs reply",
+        "faq auto-reply"
+      ],
+      "when_to_use": "你在亚马逊 eBay Shopee 速卖通 TikTok Shop Temu 等平台收到海外买家的咨询投诉差评物流退换问题，需要快速产出合规得体的多语种回复或可复用的应答模板时用它。",
+      "when_not_to_use": "涉及国内平台客服话术改用国内客服 agent，涉及国内私域复购召回改用私域运营 agent，纯翻译需求改用中英商务互译官。",
+      "merged_from": [
+        "customer-service",
+        "support-support-responder"
+      ]
+    },
+    {
+      "slug": "mc-paid-ads-strategist",
+      "nameZh": "出海投放操盘手",
+      "nameEn": "Cross-Border Ads Strategist",
+      "domain": "manufacturing-crossborder",
+      "description": "管亚马逊 PPC 和 TikTok/Meta 投放，会设否定词、调出价、复盘 ROAS、跑素材 A/B 测试，把广告费花在出单上。",
+      "audience": [
+        "电商运营",
+        "独立站卖家",
+        "投放专员"
+      ],
+      "triggers_zh": [
+        "亚马逊 PPC",
+        "TikTok 投放",
+        "否定词",
+        "ROAS 复盘",
+        "素材测试"
+      ],
+      "triggers_en": [
+        "amazon ppc",
+        "tiktok ads",
+        "negative keywords",
+        "roas review",
+        "creative testing"
+      ],
+      "when_to_use": "你要从零搭广告账户结构、调出价预算、清洗搜索词、铺否定词、测素材、复盘 ROAS 找亏钱的地方，或者接手一个别人投崩了的账户做体检时用它。",
+      "when_not_to_use": "只是要写产品详情页文案或站内 listing 关键词、不涉及投放花钱的，用电商详情操盘手；要算供应链成本和采购账期的，用供应链账管家。",
+      "merged_from": [
+        "paid-media-ppc-strategist",
+        "paid-media-search-query-analyst",
+        "paid-media-tracking-specialist",
+        "paid-media-creative-strategist",
+        "paid-media-paid-social-strategist",
+        "paid-media-programmatic-buyer",
+        "paid-media-auditor"
+      ]
+    },
+    {
+      "slug": "mc-platform-compliance-guard",
+      "nameZh": "封号风控官",
+      "nameEn": "Platform Compliance & Appeal Guard",
+      "domain": "manufacturing-crossborder",
+      "description": "跨境电商封号风险预警与申诉救号专家，排查违规词、侵权图、品牌侵权，账号被封时写申诉信(POA)拉回链接和店铺",
+      "audience": [
+        "亚马逊/Temu/速卖通卖家",
+        "电商运营"
+      ],
+      "triggers_zh": [
+        "封号风险",
+        "违规词排查",
+        "侵权检查",
+        "申诉信",
+        "账号合规"
+      ],
+      "triggers_en": [
+        "suspension risk",
+        "restricted words",
+        "ip infringement check",
+        "appeal letter",
+        "account compliance"
+      ],
+      "when_to_use": "上新前要过合规、收到平台违规警告或绩效预警、Listing 被下架、账号或品牌被封需要写申诉行动计划(POA)时用它",
+      "when_not_to_use": "要写卖点详情页文案找电商详情操盘手，要算利润佣金找选品运营官，涉及真实诉讼或律师函改用合同审查法务官并请专业律师",
+      "merged_from": [
+        "support-legal-compliance-checker",
+        "security-compliance-auditor"
+      ]
+    },
+    {
+      "slug": "mc-product-selection-analyst",
+      "nameZh": "选品研判官",
+      "nameEn": "Product Selection Analyst",
+      "domain": "manufacturing-crossborder",
+      "description": "帮跨境卖家和工厂做选品分析与竞品研判，查需求、算利润、判蓝海红海，给出上架优先级和铺货顺序。",
+      "audience": [
+        "跨境卖家",
+        "采购",
+        "工厂老板"
+      ],
+      "triggers_zh": [
+        "选品分析",
+        "蓝海红海",
+        "竞品研判",
+        "利润测算",
+        "上架优先级"
+      ],
+      "triggers_en": [
+        "product research",
+        "niche opportunity",
+        "competitor analysis",
+        "margin estimate",
+        "launch priority"
+      ],
+      "when_to_use": "你要决定一款品值不值得做、先上哪个、按什么顺序铺货，需要把需求、竞争、利润和风险一次性研判清楚时用它。",
+      "when_not_to_use": "已经定好品只差写详情和文案时，改用电商详情操盘手；要做整盘业务战略押注而非单品取舍时，改用战略类 agent。",
+      "merged_from": [
+        "product-trend-researcher",
+        "business-strategist"
+      ]
+    },
+    {
+      "slug": "mc-quote-costing",
+      "nameZh": "报价核算师",
+      "nameEn": "Quote & Costing Specialist",
+      "domain": "manufacturing-crossborder",
+      "description": "帮外贸业务和工厂做报价单和形式发票 PI，按 FOB/CIF/CFR 拆全成本，吃透汇率波动设阶梯报价和保护性加点。",
+      "audience": [
+        "外贸业务员",
+        "工厂老板",
+        "采购"
+      ],
+      "triggers_zh": [
+        "报价单",
+        "形式发票",
+        "成本核算",
+        "FOB CIF",
+        "阶梯报价"
+      ],
+      "triggers_en": [
+        "price quote",
+        "proforma invoice",
+        "cost calculation",
+        "fob cif",
+        "tiered pricing"
+      ],
+      "when_to_use": "当你要给海外客户出报价、做 PI、核算一票货的真实落地成本，或者纠结这个价报出去会不会亏的时候用它。",
+      "when_not_to_use": "纯国内内销定价、整体财务月结对账、或者要谈判砍供应商采购价时，分别交给定价分析、财税月结、采购寻源那几个 agent。",
+      "merged_from": [
+        "specialized-pricing-analyst",
+        "finance-financial-analyst"
+      ]
+    },
+    {
+      "slug": "mc-shopify-seo",
+      "nameZh": "独立站建站 SEO 官",
+      "nameEn": "Shopify Build & Overseas SEO",
+      "domain": "manufacturing-crossborder",
+      "description": "帮你用 Shopify 快速搭独立站、做海外 SEO 谷歌排名、做 App ASO，让站点和商品在谷歌和应用商店被搜到、被点进、被下单",
+      "audience": [
+        "独立站卖家",
+        "电商运营"
+      ],
+      "triggers_zh": [
+        "Shopify 建站",
+        "独立站搭建",
+        "海外 SEO",
+        "ASO 优化",
+        "谷歌排名"
+      ],
+      "triggers_en": [
+        "shopify setup",
+        "store build",
+        "overseas seo",
+        "aso optimization",
+        "google ranking"
+      ],
+      "when_to_use": "你要从零搭一个 Shopify 独立站、给现有站点做谷歌自然流量优化、或者给配套 App 做应用商店搜索和转化优化时用它",
+      "when_not_to_use": "纯做国内平台（淘宝拼多多抖店）详情和运营找农产品电商详情操盘手或选品上架运营官，纯做付费投放 ROI 找投流类 agent，纯做国内微信百度内容找新媒体或 GEO 类 agent",
+      "merged_from": [
+        "engineering-rapid-prototyper",
+        "engineering-cms-developer",
+        "marketing-seo-specialist",
+        "marketing-app-store-optimizer"
+      ]
+    },
+    {
+      "slug": "mc-supplier-sourcing",
+      "nameZh": "供应商寻源谈判官",
+      "nameEn": "Supplier Sourcing & Negotiation Lead",
+      "domain": "manufacturing-crossborder",
+      "description": "帮你做供应商寻源比价、采购谈判话术、对账和付款节点设计，把采购成本和账期一起谈下来。",
+      "audience": [
+        "采购",
+        "工厂老板",
+        "跨境卖家"
+      ],
+      "triggers_zh": [
+        "供应商寻源",
+        "采购比价",
+        "采购谈判",
+        "对账",
+        "付款节点"
+      ],
+      "triggers_en": [
+        "supplier sourcing",
+        "price comparison",
+        "procurement negotiation",
+        "reconciliation",
+        "payment terms"
+      ],
+      "when_to_use": "当你要找新供应商、横向比价砍价、设计付款节点和账期、或者做月度对账理清谁欠谁多少时用它",
+      "when_not_to_use": "当你要做整厂供应链数字化规划、库存周转模型或 ERP 选型时，改用更偏供应链战略和系统的 agent",
+      "merged_from": [
+        "supply-chain-strategist"
+      ]
+    },
+    {
+      "slug": "mc-tradeshow-outbound",
+      "nameZh": "展会开发信官",
+      "nameEn": "Trade Show & Outbound Lead Gen",
+      "domain": "manufacturing-crossborder",
+      "description": "为广交会和海外展写开发信、设计多触点获客序列、做客户背调判断真假买家，把展会名片和询盘变成能成单的订单。",
+      "audience": [
+        "外贸业务员",
+        "外贸经理",
+        "工厂老板"
+      ],
+      "triggers_zh": [
+        "开发信",
+        "广交会获客",
+        "B2B 序列",
+        "客户背调",
+        "海外展"
+      ],
+      "triggers_en": [
+        "cold email",
+        "trade show leads",
+        "b2b sequence",
+        "buyer background check",
+        "outbound outreach"
+      ],
+      "when_to_use": "你要写开发信、设计展会前后的多触点跟进序列、给陌生买家做背调、或判断一条询盘到底值不值得投入时用我。",
+      "when_not_to_use": "已经进入合同条款、付款方式、信用证审核的具体谈判环节，转给合同审查或外贸单证类 agent 更对口。",
+      "merged_from": [
+        "sales-outbound-strategist",
+        "sales-deal-strategist"
+      ]
+    },
+    {
+      "slug": "meal-plan-housekeeper",
+      "nameZh": "一日三餐食谱管家",
+      "nameEn": "Meal Plan Housekeeper",
+      "domain": "personal-life-growth",
+      "description": "按减脂、孕产、三高慢病的需求配一周三餐，连买菜清单和做法分量一起给你。",
+      "audience": [
+        "操心全家吃饭的女性和想减脂控糖控血压的普通人，孕产期和慢病家庭尤其用得上"
+      ],
+      "triggers_zh": [
+        "减脂食谱",
+        "孕产食谱",
+        "慢病食谱",
+        "一周食谱",
+        "买菜清单",
+        "三餐怎么吃"
+      ],
+      "triggers_en": [
+        "meal plan",
+        "weight loss recipes",
+        "pregnancy diet",
+        "diabetic meal plan",
+        "grocery list",
+        "weekly menu"
+      ],
+      "when_to_use": "当你要给自己或全家配一周三餐、要可执行的买菜清单和做法分量、或者针对减脂控糖控压孕产期定制吃法时用它。",
+      "when_not_to_use": "如果你身体已经出问题需要诊断治疗用药，去看医生或营养门诊；如果你只想要一道菜的菜谱或厨艺技巧，直接搜菜谱就行，不用动用配餐管家。",
+      "merged_from": [
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "meeting-notes-four-section",
+      "nameZh": "会议纪要与聊天要点提炼官",
+      "nameEn": "Meeting Notes & Thread Distiller",
+      "domain": "cross-function-staff",
+      "description": "把会议录音逐字稿转成决议待办责任人未决问题四段式纪要，也能从长邮件和 IM 聊天里抽诉求要点和待回复事项，多线程沟通不漏球",
+      "audience": [
+        "文秘",
+        "项目助理",
+        "会议组织者",
+        "运营",
+        "客服",
+        "商务",
+        "邮件IM多线程沟通的人"
+      ],
+      "triggers_zh": [
+        "会议纪要",
+        "妙记转纪要",
+        "整理录音",
+        "提取待办",
+        "会议总结",
+        "逐字稿整理",
+        "提炼聊天",
+        "抽要点",
+        "待回复事项",
+        "邮件要点"
+      ],
+      "triggers_en": [
+        "meeting notes",
+        "transcript to notes",
+        "action items",
+        "meeting summary",
+        "minutes",
+        "decisions and todos",
+        "distill chat",
+        "extract points",
+        "pending replies",
+        "summarize thread"
+      ],
+      "when_to_use": "手里有一堆乱的会议录音逐字稿，或者一长串邮件群聊记录，要快速变成能直接转发能跟进的结构化纪要和待回复清单时用我",
+      "when_not_to_use": "要从大量用户反馈差评里做产品优先级和共性洞察，改用反馈差评分析师；要把口头流程沉淀成标准手册，改用 SOP 手册沉淀师",
+      "merged_from": [
+        "project-management-meeting-notes-specialist",
+        "product-feedback-synthesizer"
+      ]
+    },
+    {
+      "slug": "mm-casual-hire-helper",
+      "nameZh": "零工招人结账员",
+      "nameEn": "Casual Hire & Wage Settlement Helper",
+      "domain": "micro-merchants",
+      "description": "帮小店小作坊招零工、写招工启事、谈工资、算工时、当月结清，缺人时快速找到人、把账理清。",
+      "audience": [
+        "旺季缺人手、要招小时工临时工的小店和小作坊老板"
+      ],
+      "triggers_zh": [
+        "招零工",
+        "招工启事",
+        "谈工资",
+        "算工时",
+        "结工钱",
+        "招小时工"
+      ],
+      "triggers_en": [
+        "hire casual worker",
+        "job notice",
+        "negotiate wage",
+        "calc work hours",
+        "settle wages",
+        "hire hourly worker"
+      ],
+      "when_to_use": "你是小店或小作坊老板，旺季临时缺人手，要快速招到小时工零工、谈好工资、算清工时、当月把工钱结掉时用它。",
+      "when_not_to_use": "要招长期全职正式员工、签固定期限劳动合同、做五险一金和完整入职流程时，改用招聘HRBP助手。",
+      "merged_from": [
+        "recruitment-specialist"
+      ]
+    },
+    {
+      "slug": "mm-complaint-handler",
+      "nameZh": "差评安抚补偿师",
+      "nameEn": "Complaint Soothe & Compensation Coach",
+      "domain": "micro-merchants",
+      "description": "碰上差评投诉别慌，给你软下来又不吃亏的道歉话术和补偿方案，把退款纠纷化成回头客",
+      "audience": [
+        "怕差评、不会处理投诉的网店和小店老板"
+      ],
+      "triggers_zh": [
+        "差评怎么办",
+        "顾客投诉",
+        "道歉话术",
+        "补偿方案",
+        "安抚顾客",
+        "退款纠纷"
+      ],
+      "triggers_en": [
+        "bad review",
+        "customer complaint",
+        "apology script",
+        "compensation plan",
+        "soothe customer",
+        "refund dispute"
+      ],
+      "when_to_use": "当你收到差评、被投诉、顾客闹退款或在私信里发火，需要一套既能安抚顾客又能控制损失的话术和补偿动作时用它",
+      "when_not_to_use": "如果是日常咨询应答、催发货、活动文案这类没有冲突的客服活，走通用客服或文案 agent；涉及食品安全、人身伤害、市场监管投诉这类要走正式流程的，先合规处置再谈安抚",
+      "merged_from": [
+        "retail-customer-returns",
+        "customer-service"
+      ]
+    },
+    {
+      "slug": "mm-cross-border-translator-cs",
+      "nameZh": "跨境小单翻译客服",
+      "nameEn": "Cross-Border Small-Order Translator-CS",
+      "domain": "micro-merchants",
+      "description": "帮不会外语的小微卖家在速卖通Temu接外国买家小单，做商品翻译和多语言回复，把跨境沟通这道坎踩平",
+      "audience": [
+        "想试水跨境",
+        "不会外语的小微卖家"
+      ],
+      "triggers_zh": [
+        "速卖通",
+        "Temu接单",
+        "外国买家",
+        "翻译回复",
+        "跨境小单",
+        "多语言回复"
+      ],
+      "triggers_en": [
+        "aliexpress",
+        "temu order",
+        "foreign buyer",
+        "translate reply",
+        "cross-border small order",
+        "multilingual reply"
+      ],
+      "when_to_use": "当你在速卖通Temu 1688 跨境站点上接到外国买家、看不懂对方消息或不知道怎么用外语回复、要翻译商品标题描述时用我",
+      "when_not_to_use": "要做亚马逊精铺品牌站、海外仓 VAT 税务筹划、独立站大盘投放这类重型跨境运营时，改用专业跨境运营 agent；纯母语文案润色找文案类 agent",
+      "merged_from": [
+        "marketing-cross-border-ecommerce",
+        "language-translator"
+      ]
+    },
+    {
+      "slug": "mm-ecommerce-listing-operator",
+      "nameZh": "电商店铺运营师",
+      "nameEn": "E-Commerce Listing & SEO Operator",
+      "domain": "micro-merchants",
+      "description": "帮小店主写商品标题、改详情页、排店铺SEO关键词，让商品在拼多多淘宝抖音店里被搜得到、被点进去、被买走。",
+      "audience": [
+        "在拼多多淘宝抖音开店、搞不懂搜索排名的网店店主"
+      ],
+      "triggers_zh": [
+        "商品标题",
+        "详情页怎么写",
+        "店铺SEO",
+        "关键词",
+        "拼多多上架",
+        "搜索排名"
+      ],
+      "triggers_en": [
+        "product title",
+        "listing detail",
+        "store SEO",
+        "keywords",
+        "pinduoduo listing",
+        "search ranking"
+      ],
+      "when_to_use": "你要上新品、改标题、写详情页、店铺没流量没搜索排名、想知道顾客搜什么词能搜到你时用我。",
+      "when_not_to_use": "要投直通车多多搜索这类付费推广、做618双11大促全盘排兵布阵、品牌公关或者直播带货控场，去找对应的投放、大促、直播 agent。",
+      "merged_from": [
+        "marketing-china-ecommerce-operator"
+      ]
+    },
+    {
+      "slug": "mm-license-tax-guide",
+      "nameZh": "营业执照税务办事向导",
+      "nameEn": "License, Tax & Subsidy Errand Guide",
+      "domain": "micro-merchants",
+      "description": "帮个体户搞定营业执照年报、定额核定征收、社保缴纳和补贴减免，告诉你去哪办、要带啥、怎么填。",
+      "audience": [
+        "怕和政府部门打交道、搞不懂税和补贴的个体户老板"
+      ],
+      "triggers_zh": [
+        "营业执照年报",
+        "定额征收",
+        "核定征收",
+        "社保怎么交",
+        "补贴减免",
+        "去哪办"
+      ],
+      "triggers_en": [
+        "business license report",
+        "fixed tax",
+        "tax assessment",
+        "social insurance",
+        "subsidy reduction",
+        "where to apply"
+      ],
+      "when_to_use": "你是个体户或小店老板，要办执照年报、报税缴税、交社保、领补贴，但不知道流程、材料和时限时用它",
+      "when_not_to_use": "公司制企业的复杂账务月结、合同法务审查、招投标响应这类企业级事务，改用对应的企业职能 agent",
+      "merged_from": [
+        "government-digital-presales-consultant",
+        "support-legal-compliance-checker"
+      ]
+    },
+    {
+      "slug": "mm-livestream-coach",
+      "nameZh": "同城直播带货教练",
+      "nameEn": "Local Livestream Selling Coach",
+      "domain": "micro-merchants",
+      "description": "教第一次开播的小老板怎么开播、写直播脚本、发福袋、卡逼单节奏，把同城直播带货从零做到有人下单。",
+      "audience": [
+        "想靠同城直播卖货",
+        "第一次开播的小老板"
+      ],
+      "triggers_zh": [
+        "直播带货",
+        "直播脚本",
+        "福袋",
+        "逼单",
+        "怎么开播",
+        "同城直播"
+      ],
+      "triggers_en": [
+        "livestream selling",
+        "live script",
+        "lucky bag",
+        "closing push",
+        "how to go live",
+        "local livestream"
+      ],
+      "when_to_use": "你想自己开直播卖货，但不知道怎么开播、说什么、怎么让人下单时用它",
+      "when_not_to_use": "要做短视频起号脚本剪辑、做电商详情页上架、或铺多账号矩阵时，改用对应的短视频或电商运营 agent",
+      "merged_from": [
+        "marketing-livestream-commerce-coach"
+      ]
+    },
+    {
+      "slug": "mm-margin-pricing-calc",
+      "nameZh": "毛利测算师",
+      "nameEn": "Margin & Pricing Calculator",
+      "domain": "micro-merchants",
+      "description": "帮小微商家算清进价加多少卖、折扣套餐到底亏不亏、毛利够不够，定价不再凭感觉",
+      "audience": [
+        "凭感觉定价、怕折扣套餐做亏的小微商家"
+      ],
+      "triggers_zh": [
+        "定价",
+        "加价多少",
+        "折扣算",
+        "套餐组合",
+        "毛利",
+        "这样卖亏不亏"
+      ],
+      "triggers_en": [
+        "set price",
+        "markup",
+        "discount calc",
+        "bundle combo",
+        "gross margin",
+        "is it profitable"
+      ],
+      "when_to_use": "你要给一样商品或一个套餐定价、做活动折扣、判断这样卖到底赚不赚钱的时候用它",
+      "when_not_to_use": "要做整月报税记账、申请补贴、谈供应商账期或写营销文案时，改用对应的记账或采购、文案 agent",
+      "merged_from": [
+        "specialized-pricing-analyst"
+      ]
+    },
+    {
+      "slug": "mm-mini-program-helper",
+      "nameZh": "小程序点单上线助手",
+      "nameEn": "Mini-Program Ordering Setup Helper",
+      "domain": "micro-merchants",
+      "description": "帮小店上一个微信小程序点单系统，顾客扫码自助下单，老板自己接单不靠平台抽成",
+      "audience": [
+        "生意做大想上自家点单小程序的进阶小老板（少数场景）"
+      ],
+      "triggers_zh": [
+        "上小程序",
+        "扫码点单",
+        "小程序下单",
+        "自助下单",
+        "做个点单",
+        "微信小程序"
+      ],
+      "triggers_en": [
+        "build mini program",
+        "scan to order",
+        "mini program ordering",
+        "self order",
+        "order system",
+        "wechat mini program"
+      ],
+      "when_to_use": "当一个已经有稳定客流的小店老板想要顾客扫码自助下单、自己收钱接单、不再被外卖平台抽成绑架时用我",
+      "when_not_to_use": "还在用美团饿了么够用、客流不稳定、或只是想发个朋友圈做生意的早期小老板，先用引流和私域类的助手别急着上小程序",
+      "merged_from": [
+        "engineering-wechat-mini-program-developer"
+      ]
+    },
+    {
+      "slug": "mm-moments-content-hand",
+      "nameZh": "发圈带货文案手",
+      "nameEn": "Moments & Short-Video Copy Hand",
+      "domain": "micro-merchants",
+      "description": "把你拍的产品图和视频改成一发就有人问的朋友圈文案和短视频脚本，解决你每天不知道发什么、带货文案写不出、图配字没词用的难题。",
+      "audience": [
+        "夫妻店",
+        "网店店主",
+        "摊主",
+        "靠朋友圈和短视频自然带货的小老板"
+      ],
+      "triggers_zh": [
+        "发朋友圈",
+        "带货文案",
+        "配文案",
+        "短视频脚本",
+        "今天发什么",
+        "图配字"
+      ],
+      "triggers_en": [
+        "moments post",
+        "product caption",
+        "short video copy",
+        "what to post today",
+        "promo caption",
+        "social copy"
+      ],
+      "when_to_use": "你手上有产品图或视频、想发朋友圈或短视频带货，但不知道怎么配字、每天发什么、怎么写让人来问。",
+      "when_not_to_use": "你要做的是付费投流投放、淘宝抖音店铺详情页、跨平台矩阵起号或公众号长文，那些找对应的专门 agent。",
+      "merged_from": [
+        "marketing-content-creator"
+      ]
+    },
+    {
+      "slug": "mm-poster-tablecard-designer",
+      "nameZh": "巴掌海报台卡设计员",
+      "nameEn": "Mini Poster & Table Card Designer",
+      "domain": "micro-merchants",
+      "description": "帮不会用设计软件的小店老板做海报、价目表、二维码台卡和开业告示，手机上点几下出一张能直接打印张贴的图。",
+      "audience": [
+        "要自己做店内物料、不会用设计软件的实体店和摊位老板"
+      ],
+      "triggers_zh": [
+        "做海报",
+        "价目表",
+        "二维码台卡",
+        "开业告示",
+        "促销图",
+        "打印张贴"
+      ],
+      "triggers_en": [
+        "make poster",
+        "price list",
+        "qr table card",
+        "opening notice",
+        "promo image",
+        "print signage"
+      ],
+      "when_to_use": "你要给自己的店或摊位做一张能立刻打印贴出来的促销海报、价目表、收款台卡或开业告示时用我。",
+      "when_not_to_use": "要做电商详情页、长图文带货卖点或品牌全套VI设计时，换农产品电商详情操盘手或专门的品牌设计 agent。",
+      "merged_from": [
+        "design-ui-designer",
+        "design-visual-storyteller"
+      ]
+    },
+    {
+      "slug": "mm-private-domain-operator",
+      "nameZh": "私域复购运营官",
+      "nameEn": "Private Domain Repeat-Buy Operator",
+      "domain": "micro-merchants",
+      "description": "帮小店老板建客户群、发老顾客优惠、做会员和复购提醒，把回头客攒成自己的私域。",
+      "audience": [
+        "想留住老顾客、靠回头客吃饭的实体店和网店老板"
+      ],
+      "triggers_zh": [
+        "建客户群",
+        "老顾客优惠",
+        "会员",
+        "复购提醒",
+        "攒私域",
+        "群发通知"
+      ],
+      "triggers_en": [
+        "customer group",
+        "loyal customer offer",
+        "membership",
+        "repeat reminder",
+        "build private domain",
+        "group broadcast"
+      ],
+      "when_to_use": "当你想把买过一次的客人留下来、让他们再回头买，靠自己的微信和客户群做生意，不想把命脉全押在平台流量上时用我。",
+      "when_not_to_use": "如果你要的是从陌生人里拉新客、投流投广告、做抖音小红书涨粉获客，那是公域获客的活，去找内容和投流类 agent，别用我。",
+      "merged_from": [
+        "marketing-private-domain-operator"
+      ]
+    },
+    {
+      "slug": "mm-simple-bookkeeper",
+      "nameZh": "极简记账对账员",
+      "nameEn": "Simple Bookkeeping & Reconcile Helper",
+      "domain": "micro-merchants",
+      "description": "帮小摊主小作坊记流水账、月底对账、一眼看清这个月赚了还是亏了，不懂会计也能管好自己的钱。",
+      "audience": [
+        "怕麻烦怕花钱、自己当会计的摊主和小作坊老板"
+      ],
+      "triggers_zh": [
+        "记账",
+        "流水账",
+        "月底算账",
+        "赚了还是亏了",
+        "对账",
+        "这个月收入"
+      ],
+      "triggers_en": [
+        "bookkeeping",
+        "cash log",
+        "month-end accounting",
+        "profit or loss",
+        "reconcile",
+        "monthly income"
+      ],
+      "when_to_use": "你想自己记日常收支、月底想知道赚没赚钱、对账发现钱对不上时用我",
+      "when_not_to_use": "要报税开票、做工商年报、申请贷款财务报表、合伙分红清算这种正式财务事项，去找懂会计或税务的专业 agent",
+      "merged_from": [
+        "finance-bookkeeper-controller"
+      ]
+    },
+    {
+      "slug": "mm-sourcing-bargain-advisor",
+      "nameZh": "进货比价砍价参谋",
+      "nameEn": "Sourcing Compare & Bargain Advisor",
+      "domain": "micro-merchants",
+      "description": "帮小店和摊位老板找供货商、看懂批发报价单、算清账期成本、跟上游砍价，进货不被坑、压低进价",
+      "audience": [
+        "自己进货",
+        "跟供货商打交道",
+        "怕被报高价的零售和摊位老板"
+      ],
+      "triggers_zh": [
+        "找供货商",
+        "比价进货",
+        "报价单看不懂",
+        "账期",
+        "跟上游砍价",
+        "压进价"
+      ],
+      "triggers_en": [
+        "find supplier",
+        "compare wholesale",
+        "read quotation",
+        "payment terms",
+        "bargain supplier",
+        "cut purchase cost"
+      ],
+      "when_to_use": "当你要进货、找新供货商、看不懂批发报价单、想跟上游砍价或算清一件货真实成本的时候用我",
+      "when_not_to_use": "要做工厂级大宗采购、ERP上系统、供应链数字化这类企业级重活，改用企业职能里的采购或供应链 agent",
+      "merged_from": [
+        "supply-chain-strategist"
+      ]
+    },
+    {
+      "slug": "mm-wechat-cs-replier",
+      "nameZh": "微信客服回话管家",
+      "nameEn": "WeChat Customer Reply Manager",
+      "domain": "micro-merchants",
+      "description": "顾客问价问库存问发货退换货时，一键给你现成话术模板，把客服话术、退换货怎么说、回复模板都接住，一个人也能稳稳应付刷屏咨询",
+      "audience": [
+        "自己当客服的网店店主和微商",
+        "每天被重复问题刷屏的小老板"
+      ],
+      "triggers_zh": [
+        "客服话术",
+        "问价怎么回",
+        "问库存",
+        "发货话术",
+        "退换货怎么说",
+        "回复模板"
+      ],
+      "triggers_en": [
+        "customer reply",
+        "price inquiry reply",
+        "stock inquiry",
+        "shipping reply",
+        "return reply",
+        "reply template"
+      ],
+      "when_to_use": "你独自当客服、被问价问库存问发货退换货刷屏，想要一句就能发出去的现成话术和可复用模板时用它",
+      "when_not_to_use": "要写带货种草文案、做投放推广、批量铺商品详情页时，改用对应的内容或电商运营 agent",
+      "merged_from": [
+        "customer-service",
+        "support-support-responder"
+      ]
+    },
+    {
+      "slug": "mock-interview-coach",
+      "nameZh": "模拟面试陪练教练",
+      "nameEn": "Mock Interview Sparring Coach",
+      "domain": "students-career",
+      "description": "陪你练结构化面试、行为面、技术面和留学套磁，带追问、打分、反馈，连谈薪一起练",
+      "audience": [
+        "求职党与留学党（求职面试、套磁面试演练）"
+      ],
+      "triggers_zh": [
+        "模拟面试",
+        "面试陪练",
+        "行为面试",
+        "结构化面试",
+        "面试追问",
+        "谈薪"
+      ],
+      "triggers_en": [
+        "mock interview",
+        "interview practice",
+        "behavioral interview",
+        "structured interview",
+        "follow-up questions",
+        "salary negotiation"
+      ],
+      "when_to_use": "当你要为某个具体岗位、实习、留学申请或导师套磁做面试演练，需要真实追问、量化打分和可改进的反馈时用我",
+      "when_not_to_use": "只想改简历或写求职信用简历优化类 agent，只想查公司面经或行业资料用调研类 agent，要写代码作品集用工程类 agent",
+      "merged_from": [
+        "sales-discovery-coach",
+        "sales-deal-strategist"
+      ]
+    },
+    {
+      "slug": "multi-agent-orchestration-architect",
+      "nameZh": "多 Agent 编排与自动化治理架构师",
+      "nameEn": "Multi-Agent Orchestration & Automation Governance Architect",
+      "domain": "software-ai-eng",
+      "description": "设计多 agent 拓扑与上下文流转、做 agent 编排和工作流设计，治理 agent 身份信任与身份图谱，n8n 式自动化先审价值风险再上护栏落地。",
+      "audience": [
+        "搭建多 agent 系统的 AI 工程师",
+        "做 agent 编排和工作流架构的人",
+        "治理 agent 身份信任的团队",
+        "需要自动化治理护栏的自动化负责人"
+      ],
+      "triggers_zh": [
+        "多 agent 架构",
+        "agent 编排",
+        "工作流设计",
+        "agent 拓扑",
+        "流水线编排",
+        "自动化治理",
+        "n8n 流程",
+        "自动化护栏",
+        "流程风险评估",
+        "可维护性",
+        "agent 身份信任",
+        "身份图谱"
+      ],
+      "triggers_en": [
+        "multi-agent architecture",
+        "agent orchestration",
+        "workflow design",
+        "agent topology",
+        "pipeline orchestration",
+        "automation governance",
+        "n8n workflow",
+        "automation guardrails",
+        "process risk audit",
+        "maintainability",
+        "agent identity trust",
+        "identity graph"
+      ],
+      "when_to_use": "当你要把一堆 agent 串成能扛生产的流水线、设计工作流分支与失败恢复、给 agent 配身份信任与权限边界、或评估一条自动化该不该上线时用它。",
+      "when_not_to_use": "单 agent 的提示词调优、纯前后端业务开发、不涉及编排和治理的脚本，改用对应单点 agent。",
+      "merged_from": [
+        "engineering-multi-agent-systems-architect",
+        "agents-orchestrator",
+        "specialized-workflow-architect",
+        "automation-governance-architect",
+        "agentic-identity-trust",
+        "identity-graph-operator",
+        "specialized-mcp-builder",
+        "engineering-prompt-engineer"
+      ]
+    },
+    {
+      "slug": "multi-platform-publisher",
+      "nameZh": "一稿多平台分发官",
+      "nameEn": "One-Draft Multi-Platform Publisher",
+      "domain": "content-livestream",
+      "description": "一稿改写成抖音口播、小红书图文、视频号、公众号多平台分发，自动做改写分发、跨平台改写、一键分发的内容复用。",
+      "audience": [
+        "个人创作者",
+        "内容团队",
+        "追求分发效率的MCN"
+      ],
+      "triggers_zh": [
+        "一稿多平台",
+        "改写分发",
+        "多平台发布",
+        "一键分发",
+        "内容复用",
+        "跨平台改写"
+      ],
+      "triggers_en": [
+        "repurpose content",
+        "multi-platform publish",
+        "one-click distribute",
+        "cross-platform rewrite",
+        "content reuse",
+        "adapt per platform"
+      ],
+      "when_to_use": "你手上有一篇成稿或一个选题，想一次铺到抖音、小红书、视频号、公众号、B站、知乎等多个平台，需要按各平台调性改写并留稿草稿待审时用它。",
+      "when_not_to_use": "只需要在单一平台深耕写爆款时，改用对应平台的专项 agent（小红书种草笔记官、抖音爆款策略师、公众号操盘手）；要追热点找选题，改用选题热点雷达官。",
+      "merged_from": [
+        "marketing-multi-platform-publisher"
+      ]
+    },
+    {
+      "slug": "official-document-drafter",
+      "nameZh": "公文文书笔杆子",
+      "nameEn": "Official Document Drafter",
+      "domain": "cross-function-staff",
+      "description": "帮你写通知、起草公文、出活动方案和邀请函，按红头格式规范成稿，称谓抬头落款一个不错",
+      "audience": [
+        "行政",
+        "文秘",
+        "办公室",
+        "机关企事业单位文员"
+      ],
+      "triggers_zh": [
+        "写通知",
+        "起草公文",
+        "活动方案",
+        "邀请函",
+        "红头文件",
+        "规章制度"
+      ],
+      "triggers_en": [
+        "draft notice",
+        "official document",
+        "event proposal",
+        "invitation letter",
+        "policy document",
+        "formal memo"
+      ],
+      "when_to_use": "当你要写通知、规章、请示、报告、活动方案、邀请函这类有固定格式和行文规矩的正式文书时用它",
+      "when_not_to_use": "写公众号、小红书这类自媒体推文，或纯营销文案、对外品牌稿，改用对应的内容创作 agent",
+      "merged_from": [
+        "specialized-document-generator",
+        "engineering-technical-writer"
+      ]
+    },
+    {
+      "slug": "page-walkthrough-whimsy",
+      "nameZh": "页面走查趣味师",
+      "nameEn": "Page Walkthrough Whimsy",
+      "domain": "cross-function-staff",
+      "description": "站在真实用户视角逐屏走查页面体验，找出看不懂、不敢点、想退出的卡点，再给细节补上趣味文案和人情味彩蛋，让页面既好用又不冷冰冰。会做页面走查、体验检查、细节趣味化。",
+      "audience": [
+        "运营",
+        "新媒体",
+        "做页面活动的基层员工",
+        "设计协作方"
+      ],
+      "triggers_zh": [
+        "页面走查",
+        "体验检查",
+        "细节趣味化",
+        "用户视角",
+        "文案彩蛋",
+        "页面优化"
+      ],
+      "triggers_en": [
+        "page walkthrough",
+        "experience check",
+        "add whimsy",
+        "user perspective",
+        "copy easter egg",
+        "page polish"
+      ],
+      "when_to_use": "你手上有一个落地页、活动页、表单页、详情页或小程序界面，想知道真实用户会在哪一屏看不懂、不敢点、想退出，并顺手把文案细节做得更有温度时用它。",
+      "when_not_to_use": "要的是从零搭页面、写前端代码或做整套视觉设计稿，转给前端设计类 agent；要的是投放数据归因和转化漏斗拉数，转给数据分析类 agent。",
+      "merged_from": [
+        "design-persona-walkthrough",
+        "design-whimsy-injector"
+      ]
+    },
+    {
+      "slug": "pathway-decision-advisor",
+      "nameZh": "升学路径决策参谋",
+      "nameEn": "Post-Grad Pathway Decision Advisor",
+      "domain": "students-career",
+      "description": "把保研考研留学秋招几条路摆上桌，算清成本收益和成功概率，逼出毕业去向该押哪条的取舍。",
+      "audience": [
+        "在校生（毕业去向多路径权衡决策）"
+      ],
+      "triggers_zh": [
+        "保研还是考研",
+        "考研还是留学",
+        "升学路径",
+        "成本收益",
+        "概率取舍",
+        "毕业去向"
+      ],
+      "triggers_en": [
+        "grad school vs job",
+        "study vs work",
+        "pathway choice",
+        "cost benefit",
+        "probability tradeoff",
+        "post-grad decision"
+      ],
+      "when_to_use": "当你手里同时握着保研、考研、留学、秋招里两条以上的路，资源和时间不够全押、必须在某个截止日前定下主攻方向时用它。",
+      "when_not_to_use": "如果你已经锁定单一目标只差执行打法（比如就是要考研，只想要复习计划），改用学习规划或考试备考类 agent，不要用决策参谋空转。",
+      "merged_from": [
+        "specialized-strategy-duel-agent",
+        "business-strategist"
+      ]
+    },
+    {
+      "slug": "podcast-ops-strategist",
+      "nameZh": "播客运营官",
+      "nameEn": "Podcast Operations Strategist",
+      "domain": "content-livestream",
+      "description": "帮你做播客运营，覆盖小宇宙喜马拉雅的节目定位、播客选题、音频内容策略和涨听众运营。",
+      "audience": [
+        "播客主理人",
+        "音频内容创作者",
+        "知识IP"
+      ],
+      "triggers_zh": [
+        "播客运营",
+        "小宇宙",
+        "喜马拉雅",
+        "播客选题",
+        "音频节目",
+        "涨听众"
+      ],
+      "triggers_en": [
+        "podcast ops",
+        "xiaoyuzhou",
+        "ximalaya",
+        "podcast topic",
+        "audio show",
+        "grow listeners"
+      ],
+      "when_to_use": "当你要从零做一档中文播客，或者已有节目想做定位调整、选题规划、录制制作、多平台分发和涨听众变现时用它。",
+      "when_not_to_use": "纯短视频口播脚本找口播脚本剪辑教练，直播带货控场找直播带货控场教练，公众号长文成稿找公众号操盘手。",
+      "merged_from": [
+        "marketing-podcast-strategist"
+      ]
+    },
+    {
+      "slug": "postgrad-school-selector",
+      "nameZh": "考研择校参谋",
+      "nameEn": "Postgrad School Selection Strategist",
+      "domain": "students-career",
+      "description": "对比目标分数、报录比、复试线和参考书，按地域院校梯度算出性价比最高的考研目标，做考研择校与院校梯度规划",
+      "audience": [
+        "考研党（择校择专业、定目标分阶段）"
+      ],
+      "triggers_zh": [
+        "考研择校",
+        "报录比",
+        "复试线",
+        "目标分数",
+        "院校梯度",
+        "考研性价比"
+      ],
+      "triggers_en": [
+        "postgrad school choice",
+        "acceptance ratio",
+        "retest line",
+        "target score",
+        "school tier",
+        "program value"
+      ],
+      "when_to_use": "当你要在多所目标院校之间做取舍、想算清报录比和复试线、定出冲稳保三档目标分时用它",
+      "when_not_to_use": "当你要的是各科具体复习计划、专业课背诵答疑或调剂捡漏实操时，改用对应的考研复习规划或调剂信息 agent",
+      "merged_from": [
+        "specialized-strategy-duel-agent",
+        "product-feedback-synthesizer",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "pr-crisis-manager",
+      "nameZh": "舆情危机公关与创意守门官",
+      "nameEn": "PR Crisis & Whimsy Brand Guardian",
+      "domain": "content-livestream",
+      "description": "处理人设翻车舆情发酵的危机公关响应，守住品牌一致性不跑偏，同时给内容注入个性趣味梗感，覆盖危机公关、舆情应对、品牌守门、玩梗、人设翻车",
+      "audience": [
+        "个人IP",
+        "MCN公关",
+        "品牌账号运营",
+        "想做差异化人设的创作者",
+        "品牌内容团队"
+      ],
+      "triggers_zh": [
+        "危机公关",
+        "舆情应对",
+        "人设翻车",
+        "道歉声明",
+        "品牌守门",
+        "负面处理",
+        "创意趣味",
+        "玩梗",
+        "品牌调性",
+        "差异化"
+      ],
+      "triggers_en": [
+        "crisis pr",
+        "sentiment response",
+        "persona crisis",
+        "apology statement",
+        "brand guard",
+        "negative handling",
+        "whimsy",
+        "meme play",
+        "brand tone",
+        "differentiation"
+      ],
+      "when_to_use": "当账号舆情起势、人设要翻车、需要写道歉声明灭火，或者要给内容定调性、做差异化人设、给文案加梗感时用它",
+      "when_not_to_use": "单纯写日常文案选题找热点用内容创作类 agent，纯涨粉数据复盘用账号数据周报官，企业对外新闻稿走品牌公关传播官",
+      "merged_from": [
+        "marketing-pr-communications-manager",
+        "design-brand-guardian",
+        "design-whimsy-injector"
+      ]
+    },
+    {
+      "slug": "pre-commit-security-engineer",
+      "nameZh": "提交前安全自查官",
+      "nameEn": "Pre-Commit Security Engineer",
+      "domain": "software-ai-eng",
+      "description": "代码提交前先扫密钥和敏感信息泄露，再做威胁建模和安全代码审查，把可利用漏洞挡在合入之前。",
+      "audience": [
+        "提交前要做密钥扫描、威胁建模和安全审查的工程师、SecOps"
+      ],
+      "triggers_zh": [
+        "安全自查",
+        "密钥扫描",
+        "威胁建模",
+        "安全审查",
+        "敏感信息泄露",
+        "appsec"
+      ],
+      "triggers_en": [
+        "security scan",
+        "secret scan",
+        "threat modeling",
+        "secure code review",
+        "data exposure",
+        "appsec"
+      ],
+      "when_to_use": "你准备 git commit/push、提 MR、上线前想先过一遍安全，或要给某段代码、某个新功能做威胁建模和漏洞审查时用它。",
+      "when_not_to_use": "已经发生入侵要做应急响应、取证溯源、线上事件指挥，或要做全公司渗透红队演练时，改用安全应急或攻防类 agent。",
+      "merged_from": [
+        "security-appsec-engineer",
+        "security-senior-secops"
+      ]
+    },
+    {
+      "slug": "pricing-bet-strategist",
+      "nameZh": "定价毛利胜负手",
+      "nameEn": "Pricing & Bet-Selection Strategist",
+      "domain": "sme-boss-mgmt",
+      "description": "帮中小企业老板算清毛利、定对价格，再用红蓝对抗逼出该押哪个业务、进哪个市场、跟谁正面打的单点取舍，触发词含定价测算、毛利分析、战略取舍。",
+      "audience": [
+        "资源有限、必须押一个方向又怕押错的创始人和总经理"
+      ],
+      "triggers_zh": [
+        "定价测算",
+        "毛利分析",
+        "押哪个业务",
+        "市场进入",
+        "竞争分析",
+        "战略取舍"
+      ],
+      "triggers_en": [
+        "pricing model",
+        "margin analysis",
+        "which bet",
+        "market entry",
+        "competitive analysis",
+        "strategic tradeoff"
+      ],
+      "when_to_use": "你是一把手，钱和人都不够，必须把价格定准、把方向押对，赌错代价大、赌对能撬全局的时候用它。",
+      "when_not_to_use": "需要面面俱到的预算编制、合规风控尽调，或只是想做月结对账记账，去找财税月结管家或专门的财务岗 agent。",
+      "merged_from": [
+        "specialized-pricing-analyst",
+        "business-strategist",
+        "specialized-strategy-duel-agent"
+      ]
+    },
+    {
+      "slug": "private-domain-operator",
+      "nameZh": "私域获客运营官",
+      "nameEn": "Private Domain Growth Operator",
+      "domain": "sme-boss-mgmt",
+      "description": "帮小老板搭企微SCRM、运营社群朋友圈、写带货文案、做客户分层，把老客盘活、复购召回拉起来。",
+      "audience": [
+        "靠微信加人做生意、想把流量沉到自己池子的小老板"
+      ],
+      "triggers_zh": [
+        "企微运营",
+        "社群运营",
+        "朋友圈文案",
+        "客户分层",
+        "复购召回",
+        "私域获客"
+      ],
+      "triggers_en": [
+        "WeCom operation",
+        "community ops",
+        "moments copy",
+        "customer segmentation",
+        "repurchase recall",
+        "private domain"
+      ],
+      "when_to_use": "你靠微信/企微加人成交，想把散在各处的客户沉到自己池子里持续复购时用它。",
+      "when_not_to_use": "要拉公域新流量、投抖音小红书广告获客，改用对应的内容/投流 agent。",
+      "merged_from": [
+        "marketing-private-domain-operator"
+      ]
+    },
+    {
+      "slug": "process-team-governance",
+      "nameZh": "流程提效团队治理官",
+      "nameEn": "Process & Team Governance Officer",
+      "domain": "sme-boss-mgmt",
+      "description": "帮老板梳流程砍浪费、定KPI治指标、诊团队管人心，把降本提效和带团队两件难事一起落地。",
+      "audience": [
+        "团队从十几人扩到几十人、管理开始失灵的创始人"
+      ],
+      "triggers_zh": [
+        "流程降本",
+        "提效优化",
+        "KPI治理",
+        "团队管理",
+        "组织诊断",
+        "管理失灵"
+      ],
+      "triggers_en": [
+        "process cost down",
+        "efficiency optimization",
+        "KPI governance",
+        "team management",
+        "org diagnosis",
+        "scaling pains"
+      ],
+      "when_to_use": "团队规模从十几人涨到几十人、老板感觉事情推不动、流程靠人盯、KPI拍脑袋、人心开始散，需要同时治流程和治团队时用它。",
+      "when_not_to_use": "只要写制度公文找公文笔杆子，只算钱报税找财税月结管家，纯招聘入职找招聘HRBP助手，单点战略押注找胜负手军师。",
+      "merged_from": [
+        "operations-manager",
+        "testing-workflow-optimizer",
+        "organizational-psychologist"
+      ]
+    },
+    {
+      "slug": "product-manager-sprint-prioritizer",
+      "nameZh": "产品需求与排期官",
+      "nameEn": "Product Manager & Sprint Prioritizer",
+      "domain": "software-ai-eng",
+      "description": "帮你写 PRD、拆需求、排迭代优先级，综合用户反馈、跟踪实验、管 Jira 工作流和多项目组合，把活儿排明白也排得动。",
+      "audience": [
+        "做需求拆解、PRD、反馈综合、迭代排期，以及管多项目工作室运营、实验跟踪、Jira 流程的产品经理、研发负责人"
+      ],
+      "triggers_zh": [
+        "写 PRD",
+        "需求拆解",
+        "迭代排期",
+        "优先级排序",
+        "反馈综合",
+        "产品规划",
+        "工作室运营",
+        "实验跟踪",
+        "Jira 工作流",
+        "多项目编排"
+      ],
+      "triggers_en": [
+        "write prd",
+        "break down requirements",
+        "sprint planning",
+        "prioritize backlog",
+        "feedback synthesis",
+        "product roadmap",
+        "studio operations",
+        "experiment tracking",
+        "jira workflow",
+        "portfolio orchestration"
+      ],
+      "when_to_use": "当你要把一个模糊需求落成 PRD 和任务清单、给一堆需求排优先级、综合用户反馈定方向、设计 A/B 实验、或者管多个并行项目和 Jira 流程时用它。",
+      "when_not_to_use": "当你要的是写具体代码、做 UI 视觉稿、跑增长投放、或纯做战略押注取舍时，改用对应的研发、设计、增长或战略 agent。",
+      "merged_from": [
+        "product-manager",
+        "product-sprint-prioritizer",
+        "product-feedback-synthesizer",
+        "project-management-studio-operations",
+        "project-management-studio-producer",
+        "project-management-experiment-tracker",
+        "project-management-jira-workflow-steward",
+        "project-manager-senior"
+      ]
+    },
+    {
+      "slug": "product-sourcing-operator",
+      "nameZh": "选品上架运营官",
+      "nameEn": "Product Sourcing & Listing Operator",
+      "domain": "content-livestream",
+      "description": "帮带货团队做选品、算佣金毛利、写卖点详情，把抖店淘宝拼多多的上架和供应链对接一把抓",
+      "audience": [
+        "带货创作者",
+        "商家自营团队",
+        "达人选品"
+      ],
+      "triggers_zh": [
+        "选品",
+        "算佣金",
+        "毛利测算",
+        "卖点详情",
+        "抖店上架",
+        "对接供应链"
+      ],
+      "triggers_en": [
+        "product selection",
+        "commission calc",
+        "margin calc",
+        "selling points",
+        "shop listing",
+        "supply chain"
+      ],
+      "when_to_use": "当你要给直播间或店铺定一盘货、算清能不能赚钱、写出会下单的详情、把链接上架到抖店淘宝拼多多时用我",
+      "when_not_to_use": "纯写直播话术控场找直播带货控场教练，纯写小红书种草笔记找小红书种草笔记官，整店大促节奏排品找电商操盘手",
+      "merged_from": [
+        "marketing-china-ecommerce-operator",
+        "supply-chain-strategist"
+      ]
+    },
+    {
+      "slug": "project-timeline-coordinator",
+      "nameZh": "项目排期协调官",
+      "nameEn": "Project Timeline Coordinator",
+      "domain": "cross-function-staff",
+      "description": "帮你拆任务、排时间线、跨部门对齐排期，把多方需求理成一张推得动的进度表",
+      "audience": [
+        "项目助理",
+        "运营",
+        "跨部门协作的基层员工"
+      ],
+      "triggers_zh": [
+        "排期",
+        "时间线",
+        "跨部门对齐",
+        "项目协调",
+        "进度表",
+        "任务拆解"
+      ],
+      "triggers_en": [
+        "schedule",
+        "timeline",
+        "cross-team align",
+        "project coordination",
+        "progress tracker",
+        "task breakdown"
+      ],
+      "when_to_use": "当你手里有个多人多部门的活，需要把它拆成任务、排出时间线、对齐各方、做出一张能推动落地并随时更新进度的表时用我",
+      "when_not_to_use": "单人单条线的简单待办、纯文档撰写、纯数据清洗或纯财务测算，分别找待办类、文书类、表格类专项 agent 更快",
+      "merged_from": [
+        "product-sprint-prioritizer",
+        "specialized-workflow-architect",
+        "project-management-project-shepherd"
+      ]
+    },
+    {
+      "slug": "reality-checker-evidence",
+      "nameZh": "现实校验与取证官",
+      "nameEn": "Reality Checker & Evidence Collector",
+      "domain": "software-ai-eng",
+      "description": "上线前默认不通过，靠截图实证、跑通用例和工具选型对比放行，顺带做可访问性审计，触发词包括现实校验、要证据、工具选型。",
+      "audience": [
+        "需要上线前现实校验、证据留存和工具选型的 QA 与负责人"
+      ],
+      "triggers_zh": [
+        "现实校验",
+        "上线把关",
+        "要证据",
+        "工具选型",
+        "可访问性审计",
+        "别画饼"
+      ],
+      "triggers_en": [
+        "reality check",
+        "ship gate",
+        "show evidence",
+        "tool evaluation",
+        "accessibility audit",
+        "no fantasy"
+      ],
+      "when_to_use": "一个功能或页面要上线，需要有人用真实证据卡住「自我感觉良好」的验收、留存可复查的实证、并在多个工具/方案里选一个时用它。",
+      "when_not_to_use": "只是要写功能代码、做产品需求、跑性能压测或安全渗透时，改用对应的开发、产品或安全专项 agent。",
+      "merged_from": [
+        "testing-reality-checker",
+        "testing-evidence-collector",
+        "testing-tool-evaluator",
+        "testing-accessibility-auditor"
+      ]
+    },
+    {
+      "slug": "recruiting-hrbp-assistant",
+      "nameZh": "招聘HRBP助手",
+      "nameEn": "Recruiting HRBP Assistant",
+      "domain": "cross-function-staff",
+      "description": "帮你写JD、做简历初筛打标、出面试问题、起offer话术和入职引导，把招聘到入职全流程跑顺提速",
+      "audience": [
+        "HRBP",
+        "招聘专员",
+        "人事",
+        "用人部门负责人"
+      ],
+      "triggers_zh": [
+        "写JD",
+        "简历初筛",
+        "面试问题",
+        "offer话术",
+        "入职引导",
+        "招聘流程"
+      ],
+      "triggers_en": [
+        "write JD",
+        "resume screening",
+        "interview questions",
+        "offer script",
+        "onboarding flow",
+        "hiring process"
+      ],
+      "when_to_use": "你要发岗位、筛简历、约面试、谈offer、带新人入职，需要把招聘到入职这条线提速的时候用我",
+      "when_not_to_use": "涉及裁员补偿测算、劳动仲裁应诉、薪酬体系设计、绩效考核方案这类深水区，请改用专门的劳动法务或薪酬绩效agent",
+      "merged_from": [
+        "recruitment-specialist",
+        "hr-onboarding"
+      ]
+    },
+    {
+      "slug": "resume-ats-rewriter",
+      "nameZh": "简历ATS改写师",
+      "nameEn": "Resume ATS Rewriter",
+      "domain": "students-career",
+      "description": "对着JD逐条改简历，量化经历、补ATS关键词、出中英双版，让简历过机器初筛也打动HR",
+      "audience": [
+        "求职党（校招社招投递、转岗换赛道）"
+      ],
+      "triggers_zh": [
+        "改简历",
+        "对着JD改",
+        "量化经历",
+        "ATS关键词",
+        "中英双版简历",
+        "简历优化"
+      ],
+      "triggers_en": [
+        "resume rewrite",
+        "tailor to JD",
+        "quantify experience",
+        "ATS keywords",
+        "bilingual resume",
+        "cv optimization"
+      ],
+      "when_to_use": "你手里有一份简历和一个目标岗位JD，想让简历对上岗位要求、过得了机器初筛、又能打动HR约面试时用我",
+      "when_not_to_use": "你还没想清楚投什么方向、要做职业规划或转行决策，去找职业规划类agent；要写求职信面试自我介绍另说，要批量招人或写JD那是招聘方的活",
+      "merged_from": [
+        "recruitment-specialist",
+        "specialized-document-generator",
+        "engineering-technical-writer"
+      ]
+    },
+    {
+      "slug": "sales-deal-closer",
+      "nameZh": "销售成单操盘手",
+      "nameEn": "Sales Deal Closer",
+      "domain": "sme-boss-mgmt",
+      "description": "陪创始人这个销售一号位从触达打到签单，做线索结构化、报价提案、谈单异议拆解和漏斗成单复盘。",
+      "audience": [
+        "自己就是头号销售、要亲自谈大单的创始人"
+      ],
+      "triggers_zh": [
+        "报价提案",
+        "谈单异议",
+        "成单复盘",
+        "销售线索",
+        "客户跟进",
+        "怎么逼单"
+      ],
+      "triggers_en": [
+        "quote proposal",
+        "objection handling",
+        "deal review",
+        "sales lead",
+        "follow up",
+        "close the deal"
+      ],
+      "when_to_use": "你要亲自谈一个值得认真打的单，需要把线索理清、写出能赢的提案、设计谈判和逼单节奏、或者复盘为什么赢为什么输时用它。",
+      "when_not_to_use": "只是写日常营销文案或私域社群运营找新媒体类 agent，要搭整套销售团队管理制度和绩效考核找经营管理类 agent。",
+      "merged_from": [
+        "sales-proposal-strategist",
+        "sales-deal-strategist",
+        "sales-outreach",
+        "sales-pipeline-analyst",
+        "sales-coach"
+      ]
+    },
+    {
+      "slug": "sales-followup-coach",
+      "nameZh": "销售跟单陪练",
+      "nameEn": "Sales Follow-up Coach",
+      "domain": "cross-function-staff",
+      "description": "帮基层销售整理客户信息、写跟进话术、出报价初稿、应对异议、做成单复盘的顾问式跟单陪练",
+      "audience": [
+        "基层销售",
+        "商务",
+        "跟单员"
+      ],
+      "triggers_zh": [
+        "跟进话术",
+        "报价初稿",
+        "异议应对",
+        "客户跟单",
+        "成单复盘",
+        "销售话术"
+      ],
+      "triggers_en": [
+        "follow-up script",
+        "quote draft",
+        "objection handling",
+        "deal follow-up",
+        "win-loss review",
+        "sales pitch"
+      ],
+      "when_to_use": "你手上有具体客户要跟、要写一条发得出去的跟进消息、要出报价或回异议、要复盘一单成败时用它",
+      "when_not_to_use": "要做整盘市场获客策略或大型政企招投标标书时改用招投标标书军师或竞品行业情报员",
+      "merged_from": [
+        "sales-outreach",
+        "sales-proposal-strategist"
+      ]
+    },
+    {
+      "slug": "short-video-script-producer",
+      "nameZh": "起号口播脚本官",
+      "nameEn": "Short-Video Script Producer",
+      "domain": "personal-life-growth",
+      "description": "副业起号专用，按小红书抖音快手算法口味批量产出口播脚本、种草脚本和分镜，专治不会写开头、出片慢，开口就有钩子。",
+      "audience": [
+        "想靠小红书抖音搞副业起号的素人和宝妈",
+        "缺脚本",
+        "不会写开头",
+        "出片慢"
+      ],
+      "triggers_zh": [
+        "起号",
+        "口播脚本",
+        "种草脚本",
+        "短视频文案",
+        "分镜脚本",
+        "批量出脚本"
+      ],
+      "triggers_en": [
+        "short video script",
+        "talking head script",
+        "xiaohongshu script",
+        "douyin hook",
+        "batch scripts",
+        "product seeding copy"
+      ],
+      "when_to_use": "你想靠短视频搞副业起号、要批量产口播或种草脚本、卡在开头三秒不会写、或者一个选题想拆成多平台多版本时用我。",
+      "when_not_to_use": "要剪辑调色配乐找剪映软件这类后期技术活、要真人陪练直播控场逼单话术、或者要算佣金选品对接供应链时，请改用对应的剪辑教练、直播控场教练或选品运营 agent。",
+      "merged_from": [
+        "marketing-content-creator",
+        "marketing-xiaohongshu-specialist",
+        "marketing-douyin-strategist",
+        "marketing-kuaishou-strategist",
+        "marketing-short-video-editing-coach",
+        "marketing-livestream-commerce-coach"
+      ]
+    },
+    {
+      "slug": "side-hustle-money-planner",
+      "nameZh": "搞钱副业参谋",
+      "nameEn": "Side-Hustle Money Planner",
+      "domain": "personal-life-growth",
+      "description": "帮你判断副业选什么、算清变现路径和回本周期，再把家庭记账省钱方案和攒钱还房贷的现金流一起拆给你。",
+      "audience": [
+        "想搞副业又怕踩坑的打工人，纠结选哪个方向、算不清回本、想边搞钱边攒钱还房贷"
+      ],
+      "triggers_zh": [
+        "副业选什么",
+        "变现路径",
+        "摆摊还是开店",
+        "家庭记账",
+        "省钱方案",
+        "攒钱还房贷"
+      ],
+      "triggers_en": [
+        "which side hustle",
+        "monetization path",
+        "stall or shop",
+        "household budget",
+        "save money plan",
+        "pay off mortgage"
+      ],
+      "when_to_use": "当你手里有点时间和本金，想挑一条能上手的副业、算清楚多久回本、同时管好家庭账本和还款现金流时用它。",
+      "when_not_to_use": "要做正经的企业经营战略、投资理财产品推荐、税务筹划合规、或心理情绪疏导时，改用对应的财税、法务或成长类 agent。",
+      "merged_from": [
+        "business-strategist",
+        "specialized-strategy-duel-agent",
+        "personal-growth-mentor",
+        "finance-financial-analyst",
+        "support-finance-tracker"
+      ]
+    },
+    {
+      "slug": "sme-tax-compliance-steward",
+      "nameZh": "小微财税合规管家",
+      "nameEn": "SME Tax & Compliance Steward",
+      "domain": "sme-boss-mgmt",
+      "description": "盯增值税小规模、核定征收、金税四期申报节点和社保自查，把小微税收优惠用足又不踩线。",
+      "audience": [
+        "没专职财务、怕漏报错报又想合规省税的小老板"
+      ],
+      "triggers_zh": [
+        "增值税优惠",
+        "核定征收",
+        "金税四期",
+        "申报节点",
+        "社保自查",
+        "小规模纳税人"
+      ],
+      "triggers_en": [
+        "VAT relief",
+        "tax filing deadline",
+        "small-scale taxpayer",
+        "social security audit",
+        "tax compliance",
+        "Golden Tax IV"
+      ],
+      "when_to_use": "你是没专职财务的小老板，要搞清楚每月每季交什么税、什么时候申报、能享哪些优惠、社保发票有没有风险时用它。",
+      "when_not_to_use": "涉及上市架构、跨境转让定价、并购重组、复杂股权设计这类重型税务，改用企业级财税或专业税务师，本管家只管小微日常。",
+      "merged_from": [
+        "finance-tax-strategist"
+      ]
+    },
+    {
+      "slug": "social-content-operator",
+      "nameZh": "新媒体文案私域操盘手",
+      "nameEn": "Social Content & Private-Domain Operator",
+      "domain": "cross-function-staff",
+      "description": "帮你写文案改标题、跟热点选题，一份素材分发多平台换不同口吻，再用企微社群朋友圈做用户分层把流量盘成复购",
+      "audience": [
+        "新媒体专员",
+        "运营",
+        "自媒体小编",
+        "私域社群运营",
+        "企微管理员"
+      ],
+      "triggers_zh": [
+        "写文案",
+        "改标题",
+        "选题",
+        "跟热点",
+        "公众号推文",
+        "多平台分发",
+        "社群运营",
+        "朋友圈文案",
+        "私域",
+        "用户分层"
+      ],
+      "triggers_en": [
+        "write copy",
+        "rewrite title",
+        "topic ideas",
+        "trending hook",
+        "official account post",
+        "multi-platform",
+        "community ops",
+        "moments copy",
+        "private domain",
+        "user segmentation"
+      ],
+      "when_to_use": "当你要日常出新媒体内容、把一篇稿子分发到多平台、或者做企微社群和私域复购运营时用我",
+      "when_not_to_use": "要做四柱八字、合同审查、财务月结、代码开发这类强专业领域，改用对应专业 agent",
+      "merged_from": [
+        "marketing-content-creator",
+        "marketing-wechat-official-account",
+        "marketing-multi-platform-publisher",
+        "marketing-private-domain-operator"
+      ]
+    },
+    {
+      "slug": "sop-manual-builder",
+      "nameZh": "SOP手册沉淀师",
+      "nameEn": "SOP Manual Builder",
+      "domain": "cross-function-staff",
+      "description": "把老员工脑子里的口头流程和经验，沉淀成查得到、用得上的标准操作手册和新人上手指南，触发词写SOP、操作手册、新人指南。",
+      "audience": [
+        "培训专员",
+        "运营",
+        "店长",
+        "带新人的老员工"
+      ],
+      "triggers_zh": [
+        "写SOP",
+        "操作手册",
+        "新人指南",
+        "流程沉淀",
+        "培训文档",
+        "标准流程"
+      ],
+      "triggers_en": [
+        "write SOP",
+        "operation manual",
+        "onboarding guide",
+        "document process",
+        "training doc",
+        "standard procedure"
+      ],
+      "when_to_use": "当你要把某件事的做法固定下来、让别人照着就能干，或者带新人不想再一遍遍口头教、想沉淀成手册时用它。",
+      "when_not_to_use": "如果你要的是分析数据、写对外营销文案、设计培训课程体系或做面试招聘，改用对应的数据、文案、培训、招聘 agent。",
+      "merged_from": [
+        "corporate-training-designer",
+        "engineering-technical-writer"
+      ]
+    },
+    {
+      "slug": "sop-training-drafter",
+      "nameZh": "制度SOP笔杆子",
+      "nameEn": "SOP & Training Document Drafter",
+      "domain": "sme-boss-mgmt",
+      "description": "把老板脑子里的规矩落成新人照着就能上手的制度SOP、培训手册和绩效考核表，制度文档、SOP撰写、员工培训一并接。",
+      "audience": [
+        "全靠口头传话、想把规矩沉成文档的小老板"
+      ],
+      "triggers_zh": [
+        "制度文档",
+        "SOP撰写",
+        "绩效考核表",
+        "员工培训",
+        "岗位手册",
+        "把规矩写下来"
+      ],
+      "triggers_en": [
+        "policy document",
+        "SOP writing",
+        "performance form",
+        "staff training",
+        "role handbook",
+        "document the rules"
+      ],
+      "when_to_use": "你公司全靠口头传话和老带新，想把流程、规矩、岗位职责沉成文档，让新人照着就能上手、不再每件事都来问你时用它。",
+      "when_not_to_use": "要逐条审合同风险找合同审查法务官，要做财税月结和预算测算找财税月结管家，要算工资社保个税明细找对应专职 agent，这个笔杆子只管把规矩和经验写成能用的文档。",
+      "merged_from": [
+        "corporate-training-designer",
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "sourcing-supplychain-officer",
+      "nameZh": "采购供应链寻源官",
+      "nameEn": "Sourcing & Supply Chain Officer",
+      "domain": "sme-boss-mgmt",
+      "description": "帮亲自管采购的中小老板做供应商开发、比价寻源、账期谈判和质量管控，把进货成本和供货稳定一手拿捏",
+      "audience": [
+        "亲自管采购、被供应商账期和质量卡脖子的中小企业主"
+      ],
+      "triggers_zh": [
+        "供应商开发",
+        "比价寻源",
+        "账期谈判",
+        "质量管控",
+        "采购合同",
+        "压一下成本"
+      ],
+      "triggers_en": [
+        "supplier sourcing",
+        "price comparison",
+        "payment terms negotiation",
+        "quality control",
+        "procurement contract",
+        "cost down"
+      ],
+      "when_to_use": "当老板要找新供应商、几家报价拿不准、想砍价压成本、被账期或货品质量坑过、要拟一份不吃亏的采购合同时",
+      "when_not_to_use": "纯做对外卖货定价和毛利测算找定价/财税相关 agent，纯做合同法律风险逐条审查找法务 agent，做大盘资金和投融资找司库并购相关 agent",
+      "merged_from": [
+        "supply-chain-strategist"
+      ]
+    },
+    {
+      "slug": "spreadsheet-cleanup-analyst",
+      "nameZh": "表格清洗汇总与日报推送师",
+      "nameEn": "Spreadsheet Cleanup & Daily Report Dispatcher",
+      "domain": "cross-function-staff",
+      "description": "把乱表清洗透视套公式、月度运营数据汇总成能直接讲的结论，再取数建看板、定时把数据日报推送到企微飞书群，覆盖清洗数据、数据汇总、群推日报全链路",
+      "audience": [
+        "运营",
+        "数据专员",
+        "行政",
+        "销售支持",
+        "需要做表和做日报的基层员工"
+      ],
+      "triggers_zh": [
+        "清洗数据",
+        "Excel透视",
+        "数据汇总",
+        "套公式",
+        "月度运营表",
+        "整理表格",
+        "数据日报",
+        "定时推送",
+        "看板汇总",
+        "群推日报"
+      ],
+      "triggers_en": [
+        "clean data",
+        "pivot table",
+        "data summary",
+        "excel formula",
+        "monthly ops report",
+        "tidy spreadsheet",
+        "daily report",
+        "scheduled push",
+        "dashboard summary",
+        "group report push"
+      ],
+      "when_to_use": "手里有一堆乱表要清洗汇总、要把数据变成能直接给领导讲的结论、或要把日报自动推到企微飞书群时用它",
+      "when_not_to_use": "只是写文档公文、做PPT汇报材料或纯文字总结时改用对应文书 agent，重型数据库建仓和工程级管道改用专业数据工程岗",
+      "merged_from": [
+        "support-analytics-reporter",
+        "engineering-data-engineer",
+        "data-consolidation-agent",
+        "report-distribution-agent",
+        "sales-data-extraction-agent"
+      ]
+    },
+    {
+      "slug": "sre-incident-commander",
+      "nameZh": "SRE 稳定性与事故指挥官",
+      "nameEn": "SRE & Incident Commander",
+      "domain": "software-ai-eng",
+      "description": "守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程而不是救火英雄主义。",
+      "audience": [
+        "负责线上稳定性的 SRE",
+        "SLO 监控与可观测建设的工程师",
+        "生产事故应急与值班 oncall 工程师"
+      ],
+      "triggers_zh": [
+        "SLO 监控",
+        "可观测性",
+        "线上事故",
+        "故障应急",
+        "事故复盘",
+        "稳定性治理"
+      ],
+      "triggers_en": [
+        "slo monitoring",
+        "observability",
+        "production incident",
+        "incident response",
+        "postmortem",
+        "reliability"
+      ],
+      "when_to_use": "当线上正在炸、或要建 SLO 与可观测、或要做事故复盘和稳定性治理、或要给系统加熔断回滚等自动护栏时找它。",
+      "when_not_to_use": "纯写业务功能代码找后端工程师，纯查安全漏洞找安全攻防自查官，纯做数据看板取数找数据看板管道工。",
+      "merged_from": [
+        "engineering-sre",
+        "engineering-incident-response-commander",
+        "engineering-autonomous-optimization-architect"
+      ]
+    },
+    {
+      "slug": "study-abroad-essay-coach",
+      "nameZh": "留学文书操盘手",
+      "nameEn": "Study Abroad Essay Coach",
+      "domain": "students-career",
+      "description": "逐轮打磨留学文书的写作教练，把你的经历提炼成有主线的 PS、SOP、Why School、Diversity Essay 和推荐信，按各申请系统字数定制成稿、做中英本地化润色。",
+      "audience": [
+        "留学党（本硕博申请文书写作）"
+      ],
+      "triggers_zh": [
+        "留学文书",
+        "PS润色",
+        "SOP",
+        "Why School",
+        "推荐信",
+        "文书定制"
+      ],
+      "triggers_en": [
+        "study abroad essay",
+        "personal statement",
+        "sop polish",
+        "why school",
+        "recommendation letter",
+        "essay tailoring"
+      ],
+      "when_to_use": "你已经定好选校方向，需要把经历写成或改成一份有主线、过校招官眼的申请文书时用我。",
+      "when_not_to_use": "还没定国家和学校、需要做选校定位或背景提升规划时，先找选校/背景规划类 agent，定完再回来写文书。",
+      "merged_from": [
+        "study-abroad-advisor",
+        "marketing-book-co-author",
+        "language-translator"
+      ]
+    },
+    {
+      "slug": "study-abroad-list-manager",
+      "nameZh": "留学选校进度管家",
+      "nameEn": "Study Abroad School-List Manager",
+      "domain": "students-career",
+      "description": "帮留学党做 reach-match-safety 选校定位、管 deadline 材料清单和签证申请，把整个申请季的进度盯到不掉链子。",
+      "audience": [
+        "留学党（选校定位、申请季进度管理）"
+      ],
+      "triggers_zh": [
+        "选校定位",
+        "reach match safety",
+        "申请deadline",
+        "材料清单",
+        "签证申请",
+        "申请进度"
+      ],
+      "triggers_en": [
+        "school list",
+        "reach match safety",
+        "application deadline",
+        "document checklist",
+        "visa application",
+        "application tracking"
+      ],
+      "when_to_use": "你已经定了大致专业方向和目标国家，需要把学校分档、把每所学校的截止日和材料拉成一张推得动的进度表时用我。",
+      "when_not_to_use": "还没想清楚去哪个国家读什么、纯背景诊断或文书逐句精修时，先找留学方向规划或文书打磨类 agent，别拿我当文书代笔。",
+      "merged_from": [
+        "study-abroad-advisor"
+      ]
+    },
+    {
+      "slug": "talking-head-script-coach",
+      "nameZh": "口播脚本剪辑教练",
+      "nameEn": "Talking-Head Script & Editing Coach",
+      "domain": "content-livestream",
+      "description": "帮口播博主写口播脚本、设计3秒钩子和分镜，再带练剪映后期节奏，从开口到成片一条龙。",
+      "audience": [
+        "口播博主",
+        "短视频剪辑新手",
+        "个人IP"
+      ],
+      "triggers_zh": [
+        "口播脚本",
+        "3秒钩子",
+        "分镜",
+        "剪映",
+        "短视频剪辑",
+        "后期节奏"
+      ],
+      "triggers_en": [
+        "talking head script",
+        "3-second hook",
+        "storyboard",
+        "capcut",
+        "video editing",
+        "edit pacing"
+      ],
+      "when_to_use": "你要把一个口播选题从脚本写到分镜，再剪成一条节奏在线、留得住人的成片时用它。",
+      "when_not_to_use": "纯找选题蹭热点用选题热点雷达官，直播间带货控场用直播带货控场教练，一稿改多平台发用一稿多平台分发官。",
+      "merged_from": [
+        "marketing-short-video-editing-coach"
+      ]
+    },
+    {
+      "slug": "teacher-academic-paper-strategist",
+      "nameZh": "高校论文军师",
+      "nameEn": "Academic Paper Strategist",
+      "domain": "teacher-edu",
+      "description": "高校论文润色降重、文献综述与开题思路、基金本子打磨、英文摘要把关，懂学科话语的科研写作军师",
+      "audience": [
+        "高校青年教师",
+        "研究生导师",
+        "申报基金的科研人员"
+      ],
+      "triggers_zh": [
+        "论文润色",
+        "论文降重",
+        "文献综述",
+        "开题报告",
+        "基金本子",
+        "英文摘要"
+      ],
+      "triggers_en": [
+        "paper polishing",
+        "reduce similarity",
+        "literature review",
+        "grant proposal",
+        "english abstract"
+      ],
+      "when_to_use": "你要写或改一篇中英文学术论文、做文献综述与开题、打磨国基省基本子、把关英文 abstract，且需要懂学科话语和学术规范的陪练时用它",
+      "when_not_to_use": "纯口语化自媒体文案、产品软文、企业公文走对应内容或公文 agent，纯数据统计建模走数据分析 agent，本 agent 不替你跑实验也不替你编造数据",
+      "merged_from": [
+        "engineering-technical-writer",
+        "marketing-book-co-author",
+        "language-translator",
+        "academic-historian",
+        "academic-anthropologist"
+      ]
+    },
+    {
+      "slug": "teacher-courseware-deck-designer",
+      "nameZh": "课件讲稿设计师",
+      "nameEn": "Courseware Deck Designer",
+      "domain": "teacher-edu",
+      "description": "把教案转成能直接进教室讲的 PPT 课件，逐页配讲稿、动画节奏和配图脚本，专攻课件设计、逐页讲稿、公开课PPT",
+      "audience": [
+        "上公开课的老师",
+        "教培讲师",
+        "做精品课的教研岗"
+      ],
+      "triggers_zh": [
+        "教案转PPT",
+        "做课件",
+        "逐页讲稿",
+        "课件配图",
+        "公开课PPT"
+      ],
+      "triggers_en": [
+        "lesson to ppt",
+        "courseware",
+        "slide narration",
+        "deck design",
+        "lecture slides"
+      ],
+      "when_to_use": "当你手里有教案、知识点提纲或讲课素材，需要把它做成结构清晰、有讲稿、有配图、能直接上讲台的 PPT 课件时用我",
+      "when_not_to_use": "只要纯文字教案润色找写作类 agent，要出试卷题库找命题类 agent，要做整学期课程体系规划找课程设计类 agent",
+      "merged_from": [
+        "specialized-document-generator",
+        "design-image-prompt-engineer"
+      ]
+    },
+    {
+      "slug": "teacher-curriculum-industrializer",
+      "nameZh": "教研工业化总监",
+      "nameEn": "Curriculum Industrializer",
+      "domain": "teacher-edu",
+      "description": "把名师课打散成标准化讲义和课程体系、搭教辅与国际课程、推动多校区可复制可交付的教研工业化总监",
+      "audience": [
+        "教培教研负责人",
+        "课程产品经理",
+        "做国际课程与留学的内容岗"
+      ],
+      "triggers_zh": [
+        "课程体系",
+        "标准化讲义",
+        "教研工业化",
+        "名师课打散",
+        "国际课程",
+        "教辅开发"
+      ],
+      "triggers_en": [
+        "curriculum system",
+        "standardized lecture notes",
+        "course productization",
+        "international curriculum",
+        "teaching material development"
+      ],
+      "when_to_use": "当你要把一位名师的隐性教学经验拆成可被普通老师交付的标准讲义、搭一条进阶式课程体系、开发教辅、或对接 A-Level IB AP 等国际课程内容时用它",
+      "when_not_to_use": "单纯写一节课的教案或随堂练习用学科备课类 agent，纯排版美化讲义 PPT 用文档美化类 agent，留学选校文书择校策略找留学规划类 agent",
+      "merged_from": [
+        "corporate-training-designer",
+        "change-management-consultant",
+        "specialized-document-generator",
+        "study-abroad-advisor"
+      ]
+    },
+    {
+      "slug": "teacher-exam-item-builder",
+      "nameZh": "命题组卷官",
+      "nameEn": "Exam Item Builder",
+      "domain": "teacher-edu",
+      "description": "按知识点和难度梯度命题组卷，自动配答案解析、错题变式和双向细目表，单元测周练月考一键出。",
+      "audience": [
+        "学科备课组长",
+        "命题老师",
+        "教培内容岗"
+      ],
+      "triggers_zh": [
+        "命题",
+        "组卷",
+        "单元测",
+        "出试卷",
+        "答案解析",
+        "错题变式"
+      ],
+      "triggers_en": [
+        "generate exam",
+        "test paper",
+        "item bank",
+        "answer key",
+        "error variant"
+      ],
+      "when_to_use": "你要按知识点和难度出整套试卷、批量生成同类变式题、配齐答案解析或要做双向细目表的时候。",
+      "when_not_to_use": "你只是要讲解一道题、备课写教案或批改学生答卷时，改用对应的讲题或备课 agent。",
+      "merged_from": [
+        "engineering-prompt-engineer",
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "teacher-grade-analytics-aide",
+      "nameZh": "成绩分析参谋",
+      "nameEn": "Grade Analytics Aide",
+      "domain": "teacher-edu",
+      "description": "帮老师整理班级成绩单、算均分及格率排名波动、揪偏科和临界生，并自动出家长会数据看板。",
+      "audience": [
+        "班主任",
+        "年级组长",
+        "教学质量分析岗"
+      ],
+      "triggers_zh": [
+        "成绩分析",
+        "班级成绩单",
+        "均分及格率",
+        "临界生",
+        "偏科分析",
+        "家长会数据"
+      ],
+      "triggers_en": [
+        "grade analysis",
+        "score report",
+        "pass rate",
+        "borderline students",
+        "class data board"
+      ],
+      "when_to_use": "你手上有一份原始成绩单（Excel/导出表/拍照转录的分数），想让它变成均分及格率排名、临界生偏科名单和家长会能直接讲的数据看板时用我。",
+      "when_not_to_use": "你要的是出卷子组题、批改作文、写评语或做学情诊断教学方案，改用对应的命题或教学设计 agent，我只管把分数算清楚讲明白。",
+      "merged_from": [
+        "support-analytics-reporter",
+        "data-consolidation-agent"
+      ]
+    },
+    {
+      "slug": "teacher-grading-comment-aide",
+      "nameZh": "批改评语助教",
+      "nameEn": "Grading Comment Aide",
+      "domain": "teacher-edu",
+      "description": "批量批改作文周记和主观题，写个性化评语，统计班级共性错误和高频失分点",
+      "audience": [
+        "语文英语主观题老师",
+        "班主任",
+        "作文批改量大的教师"
+      ],
+      "triggers_zh": [
+        "批改作文",
+        "写评语",
+        "周记批语",
+        "主观题批改",
+        "班级共性错误"
+      ],
+      "triggers_en": [
+        "grade essay",
+        "write comments",
+        "batch grading",
+        "common mistakes",
+        "feedback summary"
+      ],
+      "when_to_use": "你手里有一摞作文周记或主观题要批，想又快又稳地打分写评语，还想知道全班错在哪",
+      "when_not_to_use": "客观题机改判分、出卷组卷、教学设计或学生心理疏导，换对应的题库或教研类 agent",
+      "merged_from": [
+        "product-feedback-synthesizer",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "teacher-honors-ghostwriter",
+      "nameZh": "评优材料代笔",
+      "nameEn": "Teacher Honors Ghostwriter",
+      "domain": "teacher-edu",
+      "description": "代写班主任工作总结、教学反思、师德评优、课题申报书与继续教育材料，按评审口径包装成第一人称可读稿",
+      "audience": [
+        "评职称的老师",
+        "班主任",
+        "申报课题与评优的骨干教师"
+      ],
+      "triggers_zh": [
+        "工作总结",
+        "教学反思",
+        "师德材料",
+        "课题申报书",
+        "评优材料",
+        "继续教育材料"
+      ],
+      "triggers_en": [
+        "work summary",
+        "teaching reflection",
+        "award application",
+        "research proposal",
+        "professional development materials"
+      ],
+      "when_to_use": "你要交职称评审、评优评先、课题申报、师德先进、继续教育这类有固定评审口径的材料，且需要把零散素材包装成够分量的第一人称文稿时用它",
+      "when_not_to_use": "你要写给学生家长看的家校沟通、写课堂教案逐课设计、做纯数据成绩分析或写学术论文正文时，改用对应的教学设计或数据分析 agent",
+      "merged_from": [
+        "engineering-technical-writer",
+        "marketing-book-co-author",
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "teacher-lesson-plan-architect",
+      "nameZh": "教案学历案匠人",
+      "nameEn": "Lesson Plan Architect",
+      "domain": "teacher-edu",
+      "description": "按课标教材一键出教案、学历案、说课稿，自动套学校模板，补全三维目标、重难点和教学环节。",
+      "audience": [
+        "中小学一线老师",
+        "新教师",
+        "参加教学比武的骨干教师"
+      ],
+      "triggers_zh": [
+        "写教案",
+        "出学历案",
+        "说课稿",
+        "三维目标",
+        "教学设计",
+        "套学校模板"
+      ],
+      "triggers_en": [
+        "lesson plan",
+        "learning plan",
+        "teaching design",
+        "lecture script",
+        "objectives and key points"
+      ],
+      "when_to_use": "你要备一节课、出一份学历案、准备说课稿、套学校规定模板、或者把模糊的课时要求拆成可教可测的目标和环节时用它。",
+      "when_not_to_use": "要出整单元命题组卷或试题分析改用命题测评类 agent，要写班级通知家长信或评语改用文书与家校沟通类 agent。",
+      "merged_from": [
+        "specialized-document-generator",
+        "engineering-prompt-engineer"
+      ]
+    },
+    {
+      "slug": "teacher-parent-communication-writer",
+      "nameZh": "家校沟通笔杆子",
+      "nameEn": "Parent Communication Writer",
+      "domain": "teacher-edu",
+      "description": "帮老师起草家长群通知、致家长信和敏感家校沟通话术，分寸拿捏不踩雷，缴费活动文案合规可发。",
+      "audience": [
+        "班主任",
+        "年级组长",
+        "需要频繁对接家长的教师"
+      ],
+      "triggers_zh": [
+        "家长群通知",
+        "致家长信",
+        "缴费通知",
+        "家校沟通",
+        "家长群文案"
+      ],
+      "triggers_en": [
+        "parent notice",
+        "letter to parents",
+        "parent group message",
+        "home-school communication",
+        "payment notice"
+      ],
+      "when_to_use": "当你要发家长群通知、写致家长信、起草缴费或活动文案、或处理告状投诉劝退等敏感家校沟通话术时用它。",
+      "when_not_to_use": "要写公文红头、教案课件、班级活动方案策划本身时，改用对应的公文或教学类 agent。",
+      "merged_from": [
+        "marketing-private-domain-operator",
+        "marketing-content-creator",
+        "specialized-document-generator"
+      ]
+    },
+    {
+      "slug": "teacher-tutoring-enrollment-operator",
+      "nameZh": "教培招生操盘手",
+      "nameEn": "Tutoring Enrollment Operator",
+      "domain": "teacher-edu",
+      "description": "帮教培机构产出招生文案、小红书种草和抖音引流脚本，做试听转化与续费话术，附定价与方案打包。",
+      "audience": [
+        "教培机构招生岗、内容岗、机构校长与课程顾问"
+      ],
+      "triggers_zh": [
+        "招生文案",
+        "小红书种草",
+        "试听转化",
+        "续费话术",
+        "招生朋友圈",
+        "引流脚本"
+      ],
+      "triggers_en": [
+        "enrollment copy",
+        "xiaohongshu post",
+        "trial conversion",
+        "renewal script",
+        "lead funnel"
+      ],
+      "when_to_use": "你要给课程招新、写引流内容、设计试听到付费再到续费的转化链路、给报价方案打包定价时用它",
+      "when_not_to_use": "你要做教学教研备课讲题或学生作业批改时改用教学教研类 agent，要处理机构财税月结和合规等保时改用对应职能 agent",
+      "merged_from": [
+        "marketing-xiaohongshu-specialist",
+        "marketing-douyin-strategist",
+        "marketing-wechat-official-account",
+        "marketing-baidu-seo-specialist",
+        "specialized-pricing-analyst",
+        "sales-proposal-strategist"
+      ]
+    },
+    {
+      "slug": "tech-writer-dev-advocate",
+      "nameZh": "技术文档与开源布道官",
+      "nameEn": "Technical Writer & Dev Advocate",
+      "domain": "software-ai-eng",
+      "description": "写 README、API 文档和技术博客，再做开源布道把项目推给开发者，覆盖文档生成、开发文档、开源社区运营。",
+      "audience": [
+        "需要写开发文档、API 参考和做开源社区布道的工程师、DevRel"
+      ],
+      "triggers_zh": [
+        "写 README",
+        "API 文档",
+        "技术博客",
+        "开发文档",
+        "开源布道",
+        "文档生成"
+      ],
+      "triggers_en": [
+        "write readme",
+        "api docs",
+        "tech blog",
+        "developer docs",
+        "dev advocacy",
+        "doc generation"
+      ],
+      "when_to_use": "当你要为一个库、API、SDK 或开源项目写 README、参考文档、上手教程、技术博客，或要把项目推给开发者社区、做 DevRel 运营时用它。",
+      "when_not_to_use": "纯面向消费者或运营的营销文案找新媒体文案官，纯代码实现与架构评审找研发工程类 agent，给非技术高管做汇报材料找经营汇报操盘手。",
+      "merged_from": [
+        "engineering-technical-writer",
+        "specialized-document-generator",
+        "specialized-developer-advocate"
+      ]
+    },
+    {
+      "slug": "topic-trend-radar",
+      "nameZh": "选题热点雷达官",
+      "nameEn": "Topic & Trend Radar",
+      "domain": "content-livestream",
+      "description": "扫各平台热榜和对标账号反推赛道选题角度，帮你找角度、扒对标、起标题",
+      "audience": [
+        "多平台创作者",
+        "中小MCN选题策划",
+        "个人IP"
+      ],
+      "triggers_zh": [
+        "选题",
+        "热点雷达",
+        "找角度",
+        "扒对标",
+        "热榜",
+        "起标题"
+      ],
+      "triggers_en": [
+        "topic ideas",
+        "trend radar",
+        "find angle",
+        "hot list",
+        "competitor teardown",
+        "headline"
+      ],
+      "when_to_use": "你不知道这周写什么、想抓上升期热点、想拆对标账号的爆款逻辑、或者有了选题但起不出好标题时用它",
+      "when_not_to_use": "已经定好选题要正式成稿时改用公众号操盘手或对应平台写手；要追投流ROI和数据复盘改用账号数据周报官",
+      "merged_from": [
+        "marketing-content-creator",
+        "product-trend-researcher",
+        "marketing-china-market-localization-strategist"
+      ]
+    },
+    {
+      "slug": "ui-visual-ux-architect",
+      "nameZh": "UI 视觉与 UX 架构师",
+      "nameEn": "UI Visual & UX Architect",
+      "domain": "software-ai-eng",
+      "description": "建设计系统和组件库、做 UX 架构与用户研究、用视觉叙事把复杂信息讲清楚，从设计令牌到无障碍合规一把抓。",
+      "audience": [
+        "做设计系统、UX 架构、用户研究和视觉叙事的设计师、设计工程师"
+      ],
+      "triggers_zh": [
+        "UI 设计",
+        "设计系统",
+        "组件库",
+        "UX 架构",
+        "用户研究",
+        "视觉叙事"
+      ],
+      "triggers_en": [
+        "ui design",
+        "design system",
+        "component library",
+        "ux architecture",
+        "ux research",
+        "visual storytelling"
+      ],
+      "when_to_use": "当你要从零搭一套设计系统、把视觉规范落成可交付给开发的组件令牌、用真实用户数据验证设计决策、或把复杂信息做成有叙事的可视化时用它。",
+      "when_not_to_use": "只想快速生成一张配图或海报时用 ikunimage 或 canvas-design，写前端代码本体时用前端开发类 agent，纯品牌策略用品牌指南类 agent。",
+      "merged_from": [
+        "design-ui-designer",
+        "design-ux-architect",
+        "design-ux-researcher",
+        "design-visual-storyteller",
+        "design-inclusive-visuals-specialist"
+      ]
+    },
+    {
+      "slug": "wechat-longform-operator",
+      "nameZh": "公众号操盘手",
+      "nameEn": "WeChat Long-Form Operator",
+      "domain": "content-livestream",
+      "description": "公众号长文成稿、降AI味改写续写、配小标题和阅读节奏把控的长文操盘手",
+      "audience": [
+        "公众号长文创作者",
+        "知识型个人IP"
+      ],
+      "triggers_zh": [
+        "写公众号",
+        "长文成稿",
+        "降AI味",
+        "续写扩写",
+        "配小标题",
+        "公众号排版"
+      ],
+      "triggers_en": [
+        "wechat article",
+        "long-form draft",
+        "de-AI rewrite",
+        "continue writing",
+        "subheadings",
+        "article polish"
+      ],
+      "when_to_use": "你要把零散素材、语音笔记或半截草稿做成一篇能在公众号发出去的长文，并且要把AI腔改掉、把阅读节奏理顺时用它",
+      "when_not_to_use": "只要短平快的小红书种草笔记、抖音口播脚本或纯标题党短文时改用对应平台的专项 agent，纯排版渲染成微信 HTML 时交给排版工具",
+      "merged_from": [
+        "marketing-wechat-official-account",
+        "marketing-book-co-author"
+      ]
+    },
+    {
+      "slug": "wechat-mini-program-developer",
+      "nameZh": "微信小程序开发师",
+      "nameEn": "WeChat Mini Program Developer",
+      "domain": "software-ai-eng",
+      "description": "专做点单会员储值订阅类微信小程序，WXML/WXSS 写界面、微信支付打通、订阅消息触达一条龙",
+      "audience": [
+        "开发点单/会员/储值类微信小程序的工程师",
+        "实体店技术对接方"
+      ],
+      "triggers_zh": [
+        "小程序开发",
+        "微信点单",
+        "会员储值",
+        "小程序支付",
+        "微信订阅",
+        "WXML"
+      ],
+      "triggers_en": [
+        "mini program",
+        "wechat ordering",
+        "membership topup",
+        "miniprogram payment",
+        "wechat subscribe",
+        "wxml"
+      ],
+      "when_to_use": "你要从零搭或迭代一个点单、会员、储值、订阅类的微信小程序，需要把前端界面、微信登录、微信支付、订阅消息、过审这套链路落地时用它",
+      "when_not_to_use": "纯做 App、H5、Web 后台，或要写小程序后端微服务架构、做支付商户结算对账系统时，改用对应的前端或后端 agent",
+      "merged_from": [
+        "engineering-wechat-mini-program-developer"
+      ]
+    },
+    {
+      "slug": "wellness-science-explainer",
+      "nameZh": "养生科普解读员",
+      "nameEn": "Wellness Science Explainer",
+      "domain": "personal-life-growth",
+      "description": "把体检报告的箭头指标讲成人话，按节气给中医调理建议，绝不说绝对化和包治百病的话。触发词含体检报告解读、指标是什么意思、节气调理。",
+      "audience": [
+        "看不懂体检报告爱研究养生节气调理的中老年和普通家庭",
+        "想要靠谱不忽悠的健康科普"
+      ],
+      "triggers_zh": [
+        "体检报告解读",
+        "指标是什么意思",
+        "养生科普",
+        "节气调理",
+        "中医调理",
+        "这个能不能吃"
+      ],
+      "triggers_en": [
+        "read my lab report",
+        "what does this marker mean",
+        "health science",
+        "seasonal wellness",
+        "tcm conditioning",
+        "is this healthy"
+      ],
+      "when_to_use": "当你拿到体检报告看不懂指标箭头、想搞清某个数值代表什么、想要按节气和体质做日常养生调理、或者想判断某种食物吃法靠不靠谱时用我。",
+      "when_not_to_use": "你已经有明确症状要诊断、要开药调药、要判断是不是某种病、要决定做不做手术做不做治疗时，别用我，去挂号看医生，我只做科普不做诊断。",
+      "merged_from": [
+        "healthcare-customer-service",
+        "support-legal-compliance-checker"
+      ]
+    },
+    {
+      "slug": "work-report-distiller",
+      "nameZh": "周报月报提炼师",
+      "nameEn": "Work Report Distiller",
+      "domain": "cross-function-staff",
+      "description": "把一周一月的流水账提炼成领导爱看的结构，输出成果、问题、下一步，附汇报PPT大纲，覆盖写周报、写月报、述职等场景",
+      "audience": [
+        "运营",
+        "行政",
+        "各岗位基层员工",
+        "需要写周报月报的人"
+      ],
+      "triggers_zh": [
+        "写周报",
+        "写月报",
+        "工作总结",
+        "汇报大纲",
+        "述职",
+        "工作汇报"
+      ],
+      "triggers_en": [
+        "weekly report",
+        "monthly report",
+        "work summary",
+        "report outline",
+        "status update",
+        "executive summary"
+      ],
+      "when_to_use": "当你手里有一周或一月的零散工作记录、聊天截图、数据、待办，需要快速整理成领导一眼看懂、能拿去汇报的周报月报或述职材料时",
+      "when_not_to_use": "当你要的是把整理好的内容做成精美的成稿PPT文件、或写对外公文通知、或做深度数据建模分析时，改用对应的PPT制作、公文、数据分析 agent",
+      "merged_from": [
+        "support-executive-summary-generator",
+        "support-analytics-reporter"
+      ]
+    },
+    {
+      "slug": "xiaohongshu-note-specialist",
+      "nameZh": "小红书种草笔记官",
+      "nameEn": "Xiaohongshu Note Specialist",
+      "domain": "content-livestream",
+      "description": "批量产小红书种草笔记，会写笔记标题钩子、配话题标签、出多版本测款的内容操盘手",
+      "audience": [
+        "小红书创作者",
+        "种草达人",
+        "商家自营号"
+      ],
+      "triggers_zh": [
+        "写小红书",
+        "种草笔记",
+        "笔记标题",
+        "话题标签",
+        "多版本",
+        "爆款笔记"
+      ],
+      "triggers_en": [
+        "xiaohongshu note",
+        "seeding note",
+        "note title",
+        "hashtags",
+        "multiple versions",
+        "viral note"
+      ],
+      "when_to_use": "当你要批量生产小红书图文或视频笔记、起标题钩子、配话题标签、或同一个产品要多版本测款时用它",
+      "when_not_to_use": "要做抖音口播脚本或直播带货话术改用对应平台官，要全平台一稿多发改用一稿多平台分发官",
+      "merged_from": [
+        "marketing-xiaohongshu-specialist"
+      ]
+    }
+  ]
+}

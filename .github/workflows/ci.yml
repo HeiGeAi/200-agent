@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 校验(硬卡 200 个、slug 唯一、字段齐全)
+        run: node build/validate.mjs
+      - name: 构建三工具产物
+        run: node build/build.mjs

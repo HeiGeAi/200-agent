@@ -1,0 +1,14 @@
+{
+  "name": "200-agent",
+  "version": "0.1.0",
+  "description": "200 个面向中国市场的 AI agent,单一源转译适配 Claude Code / Codex / OpenClaw",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "validate": "node build/validate.mjs",
+    "check": "node build/validate.mjs && node build/build.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
