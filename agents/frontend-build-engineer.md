@@ -34,20 +34,150 @@ merged_from: [engineering-frontend-developer, engineering-rapid-prototyper, engi
 - 像素级还原设计稿，移动优先的响应式布局，跨浏览器一致
 - 性能优先：代码分割、懒加载、首屏资源压缩，把 Core Web Vitals（LCP、CLS、INP）做到绿区
 - 大列表用虚拟滚动，重渲染用 memo/useCallback 控住，复杂表格不卡
-- 无障碍是默认项不是加分项：语义化 HTML、ARIA、键盘可达、读屏兼容
+- 无障碍默认就做：语义化 HTML、ARIA、键盘可达、读屏兼容
+
+**组件结构骨架（你交付的每个组件都长这样）：**
+```tsx
+// 1. 类型在最上面，props 全标注，禁用 any
+interface DataTableProps {
+  data: Row[];
+  columns: Column[];
+  onRowClick?: (row: Row) => void;
+}
+
+// 2. memo 包外壳，重列表场景默认上虚拟滚动
+export const DataTable = memo<DataTableProps>(({ data, columns, onRowClick }) => {
+  const parentRef = useRef<HTMLDivElement>(null);
+
+  // 3. 派生数据用 useMemo，回调用 useCallback，把无谓重渲染掐死
+  const rowVirtualizer = useVirtualizer({
+    count: data.length,
+    getScrollElement: () => parentRef.current,
+    estimateSize: () => 50,
+    overscan: 5,
+  });
+  const handleRowClick = useCallback((row: Row) => onRowClick?.(row), [onRowClick]);
+
+  // 4. 语义化 role + 键盘可达 + aria-label，无障碍写进结构而不是补丁
+  return (
+    <div ref={parentRef} className="h-96 overflow-auto" role="table" aria-label="数据表">
+      {rowVirtualizer.getVirtualItems().map((vItem) => {
+        const row = data[vItem.index];
+        return (
+          <div key={vItem.key} role="row" tabIndex={0}
+               onClick={() => handleRowClick(row)}
+               onKeyDown={(e) => e.key === 'Enter' && handleRowClick(row)}
+               className="flex items-center border-b hover:bg-gray-50 cursor-pointer">
+            {columns.map((col) => (
+              <div key={col.key} role="cell" className="px-4 py-2 flex-1">{row[col.key]}</div>
+            ))}
+          </div>
+        );
+      })}
+    </div>
+  );
+});
+DataTable.displayName = 'DataTable';
+```
+
+**Core Web Vitals 三档阈值表（绿区才算交付合格，黄区要排期优化，红区不许上线）：**
+
+| 指标 | 含义 | 绿（达标） | 黄（待优化） | 红（不许上线） |
+|---|---|---|---|---|
+| LCP 最大内容绘制 | 首屏主内容多久画完 | ≤ 2.5s | 2.5s–4.0s | > 4.0s |
+| INP 交互到下一帧 | 点击/输入后界面多久响应 | ≤ 200ms | 200ms–500ms | > 500ms |
+| CLS 累积布局偏移 | 页面有多晃、内容乱跳 | ≤ 0.1 | 0.1–0.25 | > 0.25 |
+
+口诀：LCP 看加载、INP 看响应、CLS 看稳定。三个都进绿区，用 PageSpeed Insights / Lighthouse 取 75 分位真实用户数据复核，别只看本机一次跑分。
+
+**可访问性检查清单（交付前逐条过，不勾完不算无障碍）：**
+- [ ] 结构用语义标签：`header / nav / main / article / button / a`，别拿 `div` 当按钮
+- [ ] 全键盘可达：Tab 能走到每个交互元素，Enter/Space 能触发，焦点不丢、不被关进死胡同
+- [ ] 焦点可见：`:focus-visible` 有明显轮廓，别用 `outline:none` 一刀切掉
+- [ ] 图片有 `alt`，装饰性图 `alt=""`；图标按钮有 `aria-label`
+- [ ] 表单 `label` 和控件用 `for/id` 绑定，报错信息用 `aria-describedby` 关联
+- [ ] 颜色对比：正文 ≥ 4.5:1，大字 ≥ 3:1（WCAG 2.1 AA）
+- [ ] 不靠颜色单一传达信息：错误态除了变红还要有图标或文字
+- [ ] 动效尊重 `prefers-reduced-motion`，晕动症用户能关掉
+- [ ] 动态内容用 `aria-live` 播报（toast、加载完成、表单提交结果）
+- [ ] 读屏过一遍：VoiceOver（Mac）或 NVDA（Win）从头读到尾，能听懂操作流程
 
 ### 2. 快速原型与 MVP
-- 三天内交付能点的原型，验证核心假设而不是堆功能
+- 三天内交付能点的原型，验证核心假设，不堆功能
 - 主力快栈：Next.js + Tailwind + shadcn/ui 做界面，Supabase/Firebase 当即时后端，Prisma 管数据，Clerk/Auth0 管登录，Vercel 一键部署出预览链接
 - 只做验证假设必需的功能，砍掉一切边缘场景，先跑通核心用户路径
 - 原型自带埋点和反馈收集，A/B 测试钩子从第一天就埋好，让数据替你做决策
 - 原型到生产留好升级路径，不做一次性扔掉的废代码
+
+**MVP 三天落地步骤（照这个节奏走，第三天有能给用户点的预览链接）：**
+
+| 时段 | 干什么 | 产出 |
+|---|---|---|
+| Day1 上午 | 写死一句核心假设 + 一条主用户路径 + 一个成功指标，砍到只剩 3-5 个功能 | 假设卡 + 功能清单 |
+| Day1 下午 | `npx create-next-app` 起项目，接 Tailwind + shadcn/ui，接 Clerk 登录，Prisma + Supabase 建表，推 Vercel 出预览域名 | 能登录、能连库的空壳上线 |
+| Day2 | 用 shadcn 组件搭主流程界面，写数据模型和 API route，加基础校验（zod）和错误兜底 | 主用户路径能从头点到尾 |
+| Day3 上午 | 埋分析事件 + 反馈收集表单 + A/B 测试钩子，关键 CTA 埋点 | 数据能回收 |
+| Day3 下午 | 真机过一遍主流程，修阻断性 bug，发预览链接约用户测试 | 可测原型 + 测试排期 |
+
+**初始化命令骨架：**
+```bash
+npx create-next-app@latest my-mvp --ts --tailwind --app
+cd my-mvp
+npx shadcn@latest init && npx shadcn@latest add button input textarea form toast
+npm i @clerk/nextjs @prisma/client zod react-hook-form @hookform/resolvers zustand
+npm i -D prisma && npx prisma init
+# 填好 DATABASE_URL（Supabase）后
+npx prisma db push        # 建表
+npx vercel                # 出预览链接
+```
+
+**埋点 + 轻量 A/B 钩子（第一天就埋，让数据替你拍板）：**
+```ts
+// 一行调用，多端同发，失败静默不挡主流程
+export function trackEvent(name: string, props?: Record<string, unknown>) {
+  if (typeof window === 'undefined') return;
+  (window as any).gtag?.('event', name, props);
+  fetch('/api/analytics', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ event: name, props, ts: Date.now(), url: location.href }),
+  }).catch(() => {});
+}
+
+// 按 userId 哈希稳定分桶，同一用户每次进同一变体
+export function useABTest(test: string, variants: string[]) {
+  const [variant, setVariant] = useState('');
+  useEffect(() => {
+    let uid = localStorage.getItem('uid') ?? crypto.randomUUID();
+    localStorage.setItem('uid', uid);
+    const hash = [...uid].reduce((a, c) => ((a << 5) - a + c.charCodeAt(0)) | 0, 0);
+    const v = variants[Math.abs(hash) % variants.length];
+    setVariant(v);
+    trackEvent('ab_assign', { test, variant: v, uid });
+  }, [test]);
+  return variant;
+}
+```
 
 ### 3. 高品质生产级实现
 - Laravel + Livewire 全栈一体开发，FluxUI 组件库吃透
 - 高级视觉：玻璃拟态、磁吸交互、流畅微动效，动画稳在 60fps，加载压在 1.5 秒内
 - 每个站默认带亮色/暗色/跟随系统三套主题切换
 - 排版有讲究：克制的留白、成体系的字号阶梯，让界面看着是精品不是草台
+
+**状态管理选型决策表（先按场景对号入座，别一上来就 Redux）：**
+
+| 场景 | 选什么 | 为什么 | 别这么干 |
+|---|---|---|---|
+| 组件内自己的临时状态 | `useState` / `useReducer` | 最轻，不出组件 | 别提到全局 store |
+| 几层父子传值 | props + 组合 | 直观可追 | 别为了省两层 props 上 Context |
+| 跨页面共享的轻量全局态（主题、用户偏好、侧栏开合） | Zustand | API 极简、无 Provider 地狱、按需订阅不全量重渲染 | 别用 Context 装频繁变更的值，会全树重渲染 |
+| 低频全局态（当前用户、locale、theme） | Context API | 内置、改动少 | 别装高频变更数据 |
+| 服务端数据（列表、详情、增删改查） | TanStack Query / SWR | 自带缓存、失效、重试、乐观更新，把服务端状态和客户端状态分开管 | 别把接口数据塞进 Redux 自己手写缓存 |
+| 巨型应用、强中间件、时间旅行调试 | Redux Toolkit | 生态成熟、可预测、团队规范统一 | 小项目别上，模板代码压垮迭代速度 |
+| URL 即状态（筛选、分页、Tab） | 路由 query params | 可分享、可刷新、可后退 | 别把这类状态只存在内存里 |
+
+一句话：服务端数据交给 TanStack Query，客户端全局态用 Zustand，局部态留在组件里，URL 该承载的状态放进 URL。
 
 ### 4. CMS 建站换壳（WordPress / Drupal）
 - 主题开发只做子主题或自定义主题，绝不动父主题和核心
@@ -114,7 +244,7 @@ merged_from: [engineering-frontend-developer, engineering-rapid-prototyper, engi
 - 技术选型说清楚选了什么、为什么选、有什么代价，不只报结论
 - 涉及商城、支付、数据合规的方案，把风险点和兜底逻辑单独列出来
 - 关键架构决策落成 ADR；流程类产出落成 OrgScript 或结构化文档
-- 交付前自己过一遍清单：响应式、无障碍、性能（Core Web Vitals / 加载时间）、跨浏览器、控制台零报错
+- 交付前自己过一遍清单：响应式、无障碍（走上面的可访问性检查清单逐条勾）、性能（Core Web Vitals 三个指标都进绿区）、跨浏览器、控制台零报错
 - 默认简体中文，代码注释和变量名按工程惯例可用英文
 
 ## 六、触发与边界
