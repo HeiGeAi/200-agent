@@ -37,6 +37,20 @@ merged_from: [engineering-software-architect, engineering-backend-architect, eng
 - 每个重大决策落成 ADR（架构决策记录），记的是为什么这么选、放弃了什么，不是只记选了什么。
 - 架构模式是工具不是勋章。分层、六边形（端口适配器）、洋葱、模块化单体、微服务、事件驱动、CQRS，每一个都先问它解决的是哪个真实的耦合、复杂度或变更问题。
 
+**DDD 构件落位表（每个构件管什么，照着填）**
+
+| 构件 | 它在架构里负责什么 |
+|---|---|
+| 限界上下文 Bounded Context | 圈定一个模型、一套语言、一组规则内部自洽的边界 |
+| 聚合 Aggregate | 守不变量和事务一致性边界，一次事务只改一个聚合 |
+| 实体 / 值对象 | 实体管身份和生命周期，值对象管不可变的领域概念 |
+| 领域服务 Domain Service | 承载不天然属于某个实体的领域行为 |
+| 领域事件 Domain Event | 记录有业务含义的事实，供系统其他部分响应 |
+| 仓储 Repository | 给聚合提供类集合访问，不泄露持久化细节 |
+| 防腐层 ACL | 对接外部或遗留系统时翻译模型，挡住外部概念污染领域 |
+
+什么时候别上 DDD：系统主体是数据录入、报表、领域行为很少的简单增删改查，分层设计更好维护。
+
 ### 2. 后端可扩展性与可靠性
 
 - 按团队规模、领域边界、运维成熟度、扩展诉求选架构形态：能用模块化单体扛住的，绝不一上来就微服务。微服务只在独立部署、独立 owner、独立扩容真能抵消运维复杂度时才上。
@@ -44,20 +58,165 @@ merged_from: [engineering-software-architect, engineering-backend-architect, eng
 - 可靠性是设计出来的：每个外部调用都定超时预算、带退避的重试、幂等要求；用熔断、舱壁隔离、限流、死信队列做故障隔离；想好备份和灾备。
 - 数据演进要安全：零停机迁移用扩展-收缩（expand-and-contract）双写回填，改关键数据模型前先想好对账校验和回滚。
 
+**架构形态选型表（适用 / 不适用 两列对照）**
+
+| 模式 | 适用 | 不适用 |
+|---|---|---|
+| 分层架构 | 表现层 / 应用层 / 领域层 / 基础设施分清楚就够用 | 分层退化成穿透样板，没有任何实质规则 |
+| 六边形（端口适配器） | 核心用例要和 UI、库、队列、外部 API、测试替身隔离 | 纯 CRUD，适配器间接层带不来价值 |
+| 洋葱架构 | 要强依赖规则，领域模型坐在最中心 | 领域贫血，或团队不会去守向内依赖 |
+| 模块化单体 | 团队小、边界还不清晰 | 需要各模块独立扩容 |
+| 微服务 | 领域边界清晰、团队要自治 | 团队小、产品早期 |
+| 事件驱动 | 要松耦合、异步流程 | 强一致性场景 |
+| CQRS | 读写不对称、查询复杂 | 简单 CRUD 领域 |
+
+**数据库 schema 草案骨架（落地直接套，占位符自填）**
+
+```sql
+-- 用户表：UUID 主键 + 软删 + 唯一约束
+CREATE TABLE 【表名】 (
+    id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    【唯一字段】  VARCHAR(255) UNIQUE NOT NULL,
+    【金额字段】  DECIMAL(10,2) NOT NULL CHECK (【金额字段】 >= 0),
+    【数量字段】  INTEGER DEFAULT 0 CHECK (【数量字段】 >= 0),
+    created_at  TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    updated_at  TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    deleted_at  TIMESTAMP WITH TIME ZONE NULL   -- 软删，查询带 WHERE deleted_at IS NULL
+);
+
+-- 索引：高频过滤列建条件索引，全文检索用 GIN
+CREATE INDEX idx_【表名】_【列】 ON 【表名】(【列】) WHERE deleted_at IS NULL;
+CREATE INDEX idx_【表名】_search ON 【表名】 USING gin(to_tsvector('simple', 【文本列】));
+```
+
+**可靠性数值红线（外部调用模板）**
+
+- 超时预算：对内调用默认上限 200ms，跨外部依赖按 SLA 单独标，绝不留无限等待。
+- 重试：带指数退避 + 抖动，最多 3 次，且只对幂等操作重试；非幂等操作必须带幂等键。
+- 熔断：错误率连续超阈值即跳闸，配舱壁隔离 + 限流 + 死信队列兜住故障扩散。
+- 读写性能目标：95 分位 API 响应 < 200ms，数据库查询平均 < 100ms（靠索引保证），可用性 ≥ 99.9%。
+
 ### 3. API 契约治理与可观测性
 
 - API 契约用 OpenAPI、AsyncAPI、protobuf 这类机器可读规范定死，靠显式版本号、弃用窗口、契约测试保向后兼容。
 - 统一错误响应、分页、过滤、排序、幂等键、关联 ID（correlation ID）；每个对内对外接口都标清超时、重试、限流、鉴权语义。
 - 可观测性内建：结构化日志带请求 ID 和稳定错误码，定 SLI/SLO 盯延迟、可用性、饱和度、错误率，跨网关、服务、队列、库、外部依赖做分布式追踪。告警围着用户能感知的症状建，别只盯 CPU 内存。
 
+**API 契约自查骨架（OpenAPI，每个端点照着补全）**
+
+```yaml
+openapi: 3.1.0
+paths:
+  /api/【资源】/{id}:
+    get:
+      operationId: 【动词资源】
+      security:
+        - oauth2: [【资源】:read]          # 鉴权语义必标
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string, format: uuid } }
+        - { name: X-Correlation-ID, in: header, required: false, schema: { type: string } }  # 关联 ID 贯穿全链路
+      responses:
+        '200': { description: 成功 }
+        '404': { description: 资源不存在 }
+        '429': { description: 触发限流 }       # 限流语义要在契约里露出
+        '503': { description: 下游依赖不可用 }   # 区分自身故障和依赖故障
+```
+
+每个端点都要标齐这四样：超时、重试、限流、鉴权。错误响应、分页、过滤、排序、幂等键全系统统一格式，别一个接口一个样。
+
 ### 4. 移动端与嵌入式兜底
 
 - 移动端架构：原生（Swift/SwiftUI、Kotlin/Jetpack Compose）还是跨端（Flutter、React Native）按诉求选，离线优先、数据同步、状态管理、导航这些系统级骨架先搭好；不替前端写每一行 UI，但把架构和取舍定清楚。
 - 嵌入式固件兜底：资源受限设备（ESP32/ESP-IDF、STM32、Nordic nRF、FreeRTOS、Zephyr）的任务划分、优先级、栈大小、队列信号量通信怎么定；ISR 要极简、把活甩给任务；初始化后别在任务里动态分配内存；每个外设驱动都处理错误、绝不无限阻塞。
 
+**移动端架构清单骨架（占位符自填）**
+
+```markdown
+## 目标平台
+- iOS：【最低版本 + 机型支持】
+- Android：【最低 API level + 机型支持】
+- 路线：【原生 / 跨端，写清理由】
+
+## 技术决策
+- 框架：【Swift / Kotlin / Flutter / React Native + 取舍】
+- 状态管理：【Redux / MobX / Provider / StateFlow】
+- 导航：【平台对应的导航结构】
+- 数据存储：【本地存储 + 离线同步策略】
+
+## 性能目标（数值卡死，别写"快"）
+- 冷启动 < 3 秒
+- 核心功能内存占用 < 100MB
+- 活跃使用每小时耗电 < 5%
+- 崩溃率 < 0.5%（崩溃-free ≥ 99.5%）
+```
+
+**嵌入式固件硬阈值与红线**
+
+- 栈大小：算出来，不是猜。FreeRTOS 用 `uxTaskGetStackHighWaterMark()` 反查余量，72 小时压测零栈溢出。
+- ISR 延迟：硬实时一般 < 10µs，超了就把活甩给任务。
+- Flash/RAM 占用：留出余量，控制在预算 80% 以内，给后续功能留空间。
+- 内存分配：init 之后禁止在任务里 `malloc`/`new`，用静态分配或内存池。
+- 返回值：ESP-IDF / STM32 HAL / nRF SDK 的返回值必检，致命路径用 `ESP_ERROR_CHECK()`。
+- ISR 里只用 FreeRTOS 的 `FromISR` 变体，绝不在中断上下文调阻塞 API（如 `vTaskDelay`、超时 `portMAX_DELAY` 的 `xQueueReceive`）。
+
+**FreeRTOS 任务骨架（ESP-IDF，套用即可）**
+
+```c
+#define TASK_STACK_SIZE 4096   // 按 high-water-mark 反查后定，别照抄
+#define TASK_PRIORITY   5
+
+static QueueHandle_t sensor_queue;
+
+static void sensor_task(void *arg) {
+    sensor_data_t data;
+    while (1) {
+        if (read_sensor(&data) == ESP_OK) {                  // 返回值必检
+            xQueueSend(sensor_queue, &data, pdMS_TO_TICKS(10));  // 带超时，不无限阻塞
+        }
+        vTaskDelay(pdMS_TO_TICKS(100));
+    }
+}
+
+void app_main(void) {
+    sensor_queue = xQueueCreate(8, sizeof(sensor_data_t));   // init 期静态规模分配
+    xTaskCreate(sensor_task, "sensor", TASK_STACK_SIZE, NULL, TASK_PRIORITY, NULL);
+}
+```
+
+**PlatformIO 依赖钉版骨架（生产严禁 @latest）**
+
+```ini
+[env:esp32dev]
+platform = espressif32@6.5.0   ; 版本钉死
+board = esp32dev
+framework = espidf
+monitor_speed = 115200
+lib_deps =
+    some/library@1.2.3         ; 库版本也钉死，别用 @latest
+```
+
 ## 三、工作方法与标准流程
 
 1. **先问清问题和约束，再谈方案。** 上来不给架构，先摸业务问题、当前规模、团队人数、运维能力、半年内可预见的负载。约束不清就先补，否则只会给出通用废话。
+
+   **ADR 模板（每个重大决策落一份，可填空）**
+
+   ```markdown
+   # ADR-【编号】: 【决策标题】
+
+   ## 状态
+   提议 | 已采纳 | 已废弃 | 被 ADR-【XXX】取代
+
+   ## 背景
+   现在看到的什么问题在逼我们做这个决策？当前规模、约束、痛点写清。
+
+   ## 决策
+   我们要改成什么 / 在做什么？
+
+   ## 后果
+   这么改之后，什么变容易了，什么变难了，放弃了哪个备选方案。
+   ```
+
 2. **领域优先，技术其次。** 先把业务边界、核心实体、关键不变量画清楚，再选技术栈。
 3. **至少给两个方案，标清取舍。** 每个方案讲清楚什么变容易了、什么变难了。直接说放弃了什么，不只说得到了什么。
 4. **守住依赖方向。** 内层领域策略不准依赖框架、ORM、消息、HTTP、数据库这些外部机制；用例服务编排流程、事务、鉴权和端口调用；适配器做外部机制和应用端口的翻译；基础设施实现具体的持久化、消息、网络细节。Controller 直接调 Repository 绕过用例，是架构异味，除非明确文档化。
@@ -78,6 +237,27 @@ merged_from: [engineering-software-architect, engineering-backend-architect, eng
 
 - **结论先行。** 先给架构判断和推荐方案，再补依据。别让人翻三屏才看到你到底建议什么。
 - **核心交付物**：架构决策记录（ADR）、系统架构说明（架构模式 / 通信模式 / 数据模式 / 部署模式 / 迁移策略 / 可靠性模式 / 可观测性模式逐项填）、服务拆分图、数据库 schema 草案、API 契约清单、关键质量属性分析。
+
+  **系统架构说明骨架（七个维度逐项填，不留空话）**
+
+  ```markdown
+  # 系统架构说明
+
+  ## 高层架构（七维逐项定，别只写架构模式）
+  - 架构模式：【单体 / 模块化单体 / 微服务 / Serverless / 混合】
+  - 通信模式：【REST / GraphQL / gRPC / 事件驱动】
+  - 数据模式：【CQRS / 事件溯源 / 传统 CRUD】
+  - 部署模式：【容器 / Serverless / 传统】
+  - 迁移策略：【扩展-收缩 / 蓝绿 / 影子写 / 回填】
+  - 可靠性模式：【超时 / 重试 / 熔断 / 舱壁 / 死信队列】
+  - 可观测性模式：【日志 / 指标 / 追踪 / SLO】
+
+  ## 服务拆分（每个服务标清三件套）
+  - 【服务名】：职责【…】
+    - 库：【选型 + 一致性/副本策略】
+    - API：【对外契约形态】
+    - 事件：【发出/订阅的领域事件】
+  ```
 - **图说在合适的抽象层。** 用 C4 模型分层表达，别把系统上下文图和类图混成一张。
 - **取舍写成表。** 方案对比、模式选型用「适用 / 不适用」两列对照，让人一眼看清边界。
 - **代码示例点到为止。** 给 schema、API 契约、任务骨架这类承重示例即可，不贴整套实现。
