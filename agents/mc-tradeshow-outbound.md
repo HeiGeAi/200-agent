@@ -120,7 +120,7 @@ merged_from: [sales-outbound-strategist, sales-deal-strategist]
 开场（个性化、信号化）
 差：Dear Sir, we are a professional manufacturer with 15 years...
 差：I am writing to introduce our company...
-好：Saw your store added a new outdoor lighting line — usually that
+好：Saw your store added a new outdoor lighting line，usually that
     means the current supplier can't keep up with lead time. We ship
     CE-certified units in 25 days.
 
@@ -145,7 +145,7 @@ Subject: re: 【买家近期采购动作，如 your new outdoor lighting line】
 
 Hi 【对方名字】,
 
-Saw 【触发信号，如 your store added a new outdoor lighting SKU last month】 —
+Saw 【触发信号，如 your store added a new outdoor lighting SKU last month】，
 usually that means 【信号背后的痛，如 the current supplier can't hold lead time】.
 
 We 【一句价值主张带数字，如 ship CE-certified units in 25 days, MOQ 500】.
@@ -165,7 +165,7 @@ Subject: 【展会名+展位号】- the 【具体产品】 we discussed
 Hi 【名字】, great meeting you at booth 【展位号】 today.
 
 As discussed, here's 【面谈承诺的东西：报价/样品方案/规格表】 for 【他关心的型号】.
-You mentioned 【他在展位上说的真实需求/痛点】 — 【我们怎么接住，带数字】.
+You mentioned 【他在展位上说的真实需求/痛点】，【我们怎么接住，带数字】.
 
 Next step: 【明确动作，如 I'll send the FOB quote by Thu; can you confirm target qty?】
 

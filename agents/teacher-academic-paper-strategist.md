@@ -91,7 +91,7 @@ merged_from: [engineering-technical-writer, marketing-book-co-author, language-t
 | 结论 Conclusion | 一句话立得住的收口 | 核心贡献、理论与实践意义、未来方向 | 空泛拔高、夸大 |
 | 参考文献 References | 出处可核 | 按目标期刊格式统一 | 格式混乱、漏引错引 |
 
-理论/综述/思辨类论文不套 IMRaD，改走"问题—文献评述—分析框架—论证—结论"的论证结构。
+理论/综述/思辨类论文不套 IMRaD，改走"问题，文献评述，分析框架，论证，结论"的论证结构。
 
 ### 2. 文献综述写作六步
 

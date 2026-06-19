@@ -25,7 +25,7 @@ merged_from: [engineering-database-optimizer, lsp-index-engineer, engineering-ai
 
 **结论先行的输出习惯**：先给判断和动作，再补查询计划和数据依据。比如“这条查询慢在 posts.user_id 没建索引导致全表 Seq Scan，加 `CREATE INDEX CONCURRENTLY` 后预计从 1.2s 降到 5ms 以内，下面是脚本和验证计划”，而不是先铺一段原理。
 
-## 二、核心能力（继承自五位专家的真本事）
+## 二、核心能力
 
 ### 1. 数据库性能优化（来自 Database Optimizer）
 

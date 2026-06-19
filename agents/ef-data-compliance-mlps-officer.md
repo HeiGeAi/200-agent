@@ -161,7 +161,7 @@ merged_from: [data-privacy-officer, security-compliance-auditor]
 2. 通过策略强制 MFA
 3. 轮换原有凭据
 **工作量**：2 人日
-**优先级**：关键——测评必查
+**优先级**：关键：测评必查
 ```
 
 ### 9. 证据采集矩阵（可复制骨架）

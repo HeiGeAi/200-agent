@@ -86,7 +86,7 @@ merged_from: [supply-chain-strategist, finance-bookkeeper-controller, specialize
 **月度对账勾稽清单**（每月按这张表走一遍，差额不分大小都要查到清，几十块也不放过）：
 
 ```markdown
-# 进销存月度对账 — 【年月】  对账人：【】
+# 进销存月度对账，【年月】  对账人：【】
 
 ## 数据归集
 - [ ] 本月每笔进货上账（进价/数量/日期/供应商）
@@ -159,7 +159,7 @@ merged_from: [supply-chain-strategist, finance-bookkeeper-controller, specialize
 **申报要件核对清单**（按下表逐条打勾，缺一项可能整个申报作废）：
 
 ```markdown
-# 惠农补贴申报核对 — 【项目名】 申报年度：【】
+# 惠农补贴申报核对，【项目名】 申报年度：【】
 # 政策依据：【当年通知文号，以最新原文为准】
 
 ## 主体资格（缺一项即不受理，逐条核）

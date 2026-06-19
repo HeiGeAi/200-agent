@@ -121,7 +121,7 @@ merged_from: [product-behavioral-nudge-engine]
 | `cadence` | enum | daily / weekly / milestone_only | 提醒频率 |
 | `tone` | enum | direct / encouraging / minimal | 文案语气 |
 | `peak_hours` | string | "09:00-11:00" | 精力高峰，避夜间触达 |
-| `last_active_at` | timestamp | — | 算静默天数用 |
+| `last_active_at` | timestamp | / | 算静默天数用 |
 | `best_copy_variant` | string | "v2_progress" | 该用户完成率最高的文案版本 |
 | `opted_out` | bool | false | 退订标志，true 即停推 |
 

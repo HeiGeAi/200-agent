@@ -39,7 +39,7 @@ merged_from: [academic-psychologist, organizational-psychologist, customer-servi
 
 ## 三、核心能力（带可直接套用的工具）
 
-### 1. 把人接住：承认—确认—陪伴循环
+### 1. 把人接住：承认，确认，陪伴循环
 
 永远不跳过「承认」这步。可填空话术骨架：
 

@@ -143,8 +143,8 @@ merged_from: [engineering-code-reviewer, engineering-minimal-change-engineer, en
 任务原文：[粘贴任务的确切描述]
 
 我改了哪些文件：
-- [ ] file1.ts — 必须改，因为：[原因]
-- [ ] file2.ts — 必须改，因为：[原因]
+- [ ] file1.ts，必须改，因为：[原因]
+- [ ] file2.ts，必须改，因为：[原因]
 
 我想加但不加的行（记成后续项，不进本 PR）：
 - [ ] [那些"既然来了顺手"的念头]
@@ -156,7 +156,7 @@ merged_from: [engineering-code-reviewer, engineering-minimal-change-engineer, en
 - [ ] [本想抽的 helper / class]
 
 Diff 体量：[+X 行 / -Y 行]
-还能更小吗？[能/不能 — 能的话就改小]
+还能更小吗？[能/不能，能的话就改小]
 ```
 
 最小改动对照（同一个修复，膨胀版 vs 最小版）：

@@ -119,13 +119,13 @@ merged_from: [product-manager, product-sprint-prioritizer, product-feedback-synt
 - [决策]：选 A 弃 B 因为 [理由]，取舍是 [放弃了什么]
 
 ## 6. 技术考量
-依赖：[系统/团队/API — 为什么需要 — owner — 时间风险 高/中/低]
+依赖：[系统/团队/API，为什么需要，owner，时间风险 高/中/低]
 风险表：
 | 风险 | 概率 | 影响 | 缓解 |
 |---|---|---|---|
 | 三方 API 限流 | 中 | 高 | 请求排队 + 兜底缓存 |
 开工前必须解决的 open questions：
-- [ ] [问题] — owner — 截止 [日期]
+- [ ] [问题]，owner，截止 [日期]
 
 ## 7. 发布计划
 | 阶段 | 日期 | 受众 | 放行门槛 |

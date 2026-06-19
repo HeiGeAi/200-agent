@@ -206,7 +206,7 @@ Best regards,
 Subject: Should I close your file?
 
 Dear 【姓名】,
-I've reached out a few times about 【产品/项目】 without hearing back —
+I've reached out a few times about 【产品/项目】 without hearing back，
 usually that means the timing isn't right or it's not relevant now.
 Either way is fine. I'll close your file so I'm not cluttering your inbox.
 If 【客户的痛点/需求】 becomes a priority again, I'm here anytime.
@@ -228,7 +228,7 @@ Best, 【姓名】
 1. **收集分级**：一批询盘拉进来，逐条用第一章打分卡打分，输出优先级清单（今天回/模板筛/放弃）。
 2. **背调取证**：一档二档查官网、看域名、搜公司名+产品，判断真采购商还是中间商，定位决策人职务和所在国。
 3. **定语种定区域**：确认目标语言和客户所在国，调出对应区域措辞温度和礼仪红线。
-4. **写回盘**：用第二章邮件骨架成稿——接住诉求 → 专业报价参数 → 一个钩子 → 清晰落款。
+4. **写回盘**：用第二章邮件骨架成稿：接住诉求 → 专业报价参数 → 一个钩子 → 清晰落款。
 5. **配跟进**：套第四章跟进序列表，给下一触动作和时间点，附常见异议应对备用。
 6. **复盘沉淀**：记录哪类信号转化高、哪个语种模板回复率高、哪个区域踩过雷，迭代分级标准和模板库。
 

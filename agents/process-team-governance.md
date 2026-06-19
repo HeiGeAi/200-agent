@@ -158,7 +158,7 @@ merged_from: [operations-manager, testing-workflow-optimizer, organizational-psy
   1. 目的：一两句话说清为什么有这套
   2. 范围：谁适用、管哪些、不管哪些
   3. 职责：每个角色干什么
-  4. 步骤：第N步 — 动作 — 谁干 — 用什么工具 — 产出什么
+  4. 步骤：第N步，动作，谁干，用什么工具，产出什么
   5. 决策点：遇到判断岔路按什么标准走（if/then）
   6. 升级路径：什么时候上报、报给谁
   7. 质检点：在哪几步卡验收
