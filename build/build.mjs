@@ -4,7 +4,7 @@
 //   dist/openclaw/agents/<slug>.md      OpenClaw agent
 //   catalog.json                        机器可读索引
 //   ROUTER.md                           人读路由表(按域分组)
-import { writeFileSync, mkdirSync, rmSync } from 'node:fs'
+import { writeFileSync, readFileSync, existsSync, mkdirSync, rmSync } from 'node:fs'
 import { join } from 'node:path'
 import { ROOT, DIST_DIR, DOMAINS, DOMAIN_NAMES, loadAgents, asList, triggersOf } from './lib.mjs'
 
@@ -68,6 +68,23 @@ for (const [id, name] of DOMAINS) {
   router += list.map(a => `| \`${a.slug}\` | ${a.nameZh} | ${(a.description || '').replace(/\|/g, '/')} | ${triggersOf(a).slice(0, 5).join('、')} |`).join('\n') + '\n'
 }
 writeFileSync(join(ROOT, 'ROUTER.md'), router)
+
+// ---- README 全量 agent 列表(写入标记之间,分域可折叠)----
+const readmePath = join(ROOT, 'README.md')
+if (existsSync(readmePath)) {
+  let readme = readFileSync(readmePath, 'utf8')
+  if (readme.includes('<!-- AGENT-LIST:START -->')) {
+    let block = ''
+    for (const [id, name] of DOMAINS) {
+      const list = agents.filter(a => a.domain === id)
+      block += `<details>\n<summary><b>${name}</b>（${list.length}）</summary>\n\n| Agent | slug | 能力 |\n|---|---|---|\n`
+      block += list.map(a => `| ${a.nameZh} | \`${a.slug}\` | ${(a.description || '').replace(/\|/g, '/').replace(/\n/g, ' ')} |`).join('\n')
+      block += `\n\n</details>\n\n`
+    }
+    readme = readme.replace(/<!-- AGENT-LIST:START -->[\s\S]*?<!-- AGENT-LIST:END -->/, `<!-- AGENT-LIST:START -->\n\n${block}<!-- AGENT-LIST:END -->`)
+    writeFileSync(readmePath, readme)
+  }
+}
 
 console.log(`构建完成:`)
 console.log(`  Claude Code -> dist/claude-code/agents/ (${agents.length})`)
