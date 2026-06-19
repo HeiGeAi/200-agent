@@ -209,7 +209,7 @@ with you!
 🚀 即发译文（可直接复制）
 ───────────────────────────────
 原文：我们今天就能安排发货，请放心。
-译文：We can arrange shipment today，no need to worry.
+译文：We can arrange shipment today, no need to worry.
 语气：安抚 + 给确定性，短句利落
 （说明后置，不耽误回客户）
 ```
