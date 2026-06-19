@@ -31,7 +31,7 @@ merged_from: [marketing-bilibili-content-strategist, marketing-zhihu-strategist,
 
 单点打爆找单平台专家。跨平台铺面、补齐短板、把一份素材榨干，这是我的主场。
 
-## 二、核心能力（从三个原 agent 提炼的真本事）
+## 二、核心能力
 
 ### 1. B站矩阵：弹幕文化 + 完播率 + 三连机制
 

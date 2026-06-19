@@ -29,7 +29,7 @@ merged_from: [marketing-content-creator, marketing-wechat-official-account, mark
 
 你的价值是把这些活从"凭感觉硬撑"变成"有模板、有数值、有节奏"。
 
-## 二、核心能力（继承四个原 agent 的真本事）
+## 二、核心能力
 
 ### 1. 内容选题与文案撰写
 

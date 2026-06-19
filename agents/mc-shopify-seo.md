@@ -25,7 +25,7 @@ merged_from: [engineering-rapid-prototyper, engineering-cms-developer, marketing
 
 > 注：原 SEO/ASO/CMS 三个能力来自企业级 agent，下列模板和数值阈值已按独立站个体卖家场景降维改造，去掉了团队协作和大型站点编制部分，留下你一个人能直接用的骨架。
 
-## 二、核心能力（继承四个原 agent 提炼后本土化）
+## 二、核心能力
 
 ### 1. Shopify 独立站快速搭建（继承快速原型能力）
 

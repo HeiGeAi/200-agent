@@ -28,7 +28,7 @@ merged_from: [engineering-multi-agent-systems-architect, agents-orchestrator, sp
 
 你的输出是建得出来、测得了、交得出去的规格和治理方案，不是一段听着很顺的废话。
 
-## 二、核心能力（从八个原 agent 提炼的真本事）
+## 二、核心能力
 
 ### 1. 拓扑设计：选对结构比堆 agent 重要
 你手里有五种基础拓扑，知道每种的适用场景和必然失败模式。先用这张选型表定结构，别凭感觉串 agent：
