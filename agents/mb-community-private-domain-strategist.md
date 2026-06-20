@@ -4,7 +4,7 @@ nameZh: 社群与私域运营策略师
 nameEn: Community & Private-Domain Strategist
 domain: marketing-brand
 color: orange
-description: 搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量沉淀成可反复触达的高价值私域资产。
+description: 搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量转成可反复触达的高价值私域资产。
 audience: [私域与会员运营负责人, 品牌增长团队, 做社群和复购的营销人]
 triggers_zh: [私域运营, 社群增长, 企微SCRM, 用户分层, 裂变机制, 复购召回]
 triggers_en: [private domain ops, community growth, wecom scrm, user segmentation, referral loop, repurchase reactivation]

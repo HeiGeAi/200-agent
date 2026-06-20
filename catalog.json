@@ -875,7 +875,7 @@
       "nameZh": "商业模式设计师",
       "nameEn": "Business Model Designer",
       "domain": "business-strategy",
-      "description": "用商业模式画布和单位经济拆收入、成本、护城河与增长飞轮，设计并压测盈利模式，找出现金流闭环和可规模化的引擎，专治模式跑不通。",
+      "description": "用商业模式画布和单位经济拆收入、成本、护城河与增长飞轮，设计并压测盈利模式，找出现金流跑通的路径和可规模化的引擎，专治模式跑不通。",
       "audience": [
         "创始人",
         "新业务负责人",
@@ -1942,7 +1942,7 @@
       "nameZh": "个人品牌架构师",
       "nameEn": "Personal Brand Architect",
       "domain": "career-productivity",
-      "description": "提炼你的专业定位与差异化叙事，规划领英脉脉公众号的内容支柱和人设主线，把专业积累沉淀成会带来机会的影响力资产。",
+      "description": "提炼你的专业定位与差异化叙事，规划领英脉脉公众号的内容支柱和人设主线，把专业积累攒成会带来机会的影响力资产。",
       "audience": [
         "想建立行业影响力的专业人士",
         "独立顾问与自由职业者",
@@ -3122,7 +3122,7 @@
       "nameZh": "用户旅程策略师",
       "nameEn": "User Journey Strategist",
       "domain": "design-ux",
-      "description": "画全链路用户旅程图和服务蓝图，标出情绪曲线、关键时刻和痛点，把断点连成可优化的体验闭环",
+      "description": "画全链路用户旅程图和服务蓝图，标出情绪曲线、关键时刻和痛点，把断点连成可优化的完整体验链路。",
       "audience": [
         "服务设计师",
         "体验策略师",
@@ -3842,7 +3842,7 @@
       "nameZh": "社群与私域运营策略师",
       "nameEn": "Community & Private-Domain Strategist",
       "domain": "marketing-brand",
-      "description": "搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量沉淀成可反复触达的高价值私域资产。",
+      "description": "搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量转成可反复触达的高价值私域资产。",
       "audience": [
         "私域与会员运营负责人",
         "品牌增长团队",
@@ -4300,7 +4300,7 @@
       "nameZh": "小红书抖音增长策略师",
       "nameEn": "Xiaohongshu & Douyin Growth Strategist",
       "domain": "marketing-brand",
-      "description": "操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制的增长曲线而不是赌一次爆款。",
+      "description": "操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制、可持续的增长曲线。",
       "audience": [
         "品牌增长负责人、MCN操盘手、做小红书抖音的资深创作者与营销人"
       ],
@@ -6282,7 +6282,7 @@
       "nameZh": "React 技术栈专家",
       "nameEn": "React Stack Specialist",
       "domain": "software-engineering",
-      "description": "深耕 React 生态把项目调到工业级，专攻 React优化、Next.js、Hooks、状态管理、服务端渲染和 React性能。",
+      "description": "深耕 React 技术栈把项目调到工业级，专攻 React 优化、Next.js、Hooks、状态管理、服务端渲染和 React 性能。",
       "audience": [
         "React 工程师",
         "Next.js 用户",
@@ -6604,7 +6604,7 @@
       "nameZh": "SRE 稳定性与事故指挥官",
       "nameEn": "SRE & Incident Commander",
       "domain": "software-engineering",
-      "description": "守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程而不是救火英雄主义。",
+      "description": "守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程能力，让线上少炸、炸了能快速止血。",
       "audience": [
         "负责线上稳定性的 SRE",
         "SLO 监控与可观测建设的工程师",
@@ -6887,7 +6887,7 @@
       "nameZh": "资深商业文案匠人",
       "nameEn": "Senior Copywriting Craftsman",
       "domain": "writing-content",
-      "description": "写转化型商业文案，从落地页、卖点提炼到 slogan 和广告语，把卖点写成下单理由而不是自嗨。",
+      "description": "写转化型商业文案，从落地页、卖点提炼到 slogan 和广告语，把卖点写成让人下单的理由。",
       "audience": [
         "品牌主理人",
         "独立创业者",

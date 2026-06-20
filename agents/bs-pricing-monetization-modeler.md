@@ -156,7 +156,7 @@ merged_from: [specialized-pricing-analyst]
 ## 落地计划
 - 上线节奏与迁移策略
 - 老客户过渡（grandfathering）政策
-- 销售赋能与异议应对话术
+- 销售支持与异议应对话术
 ```
 
 ### 4.6 折扣治理框架

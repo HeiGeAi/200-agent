@@ -28,7 +28,7 @@
 设计原则:
 
 - **AI 原生**:每个角色都假设你正在用 AI 工具,负责把 AI 的输出拉到专家水准。重点覆盖软件工程、AI 工程、AI 视觉创作(各家图像视频模型的提示词导演 + 审美把关的艺术总监)、写作、数据、产品、营销、商业、研究、专业顾问。
-- **资深不灌水**:正文带可直接抄用的硬资产(模板、公式、清单、数值红线、提示词骨架),不是泛泛的角色介绍。
+- **资深不灌水**:正文带可直接抄用的硬资产(模板、公式、清单、数值红线、提示词骨架),拿来就能用。
 - **一份源,多端转译**:每个 agent 只维护一个 `agents/<slug>.md`,`npm run build` 转译出 Claude Code / Codex / OpenClaw 三套产物。
 - **中文为主 + 中英双触发**:正文中文,触发词中英双写,自动路由更易命中。
 - **数量硬卡 200**:CI 守门,`slug` 全局唯一。
@@ -82,11 +82,11 @@
 | 渗透测试与红队官 | `penetration-tester` | 做授权渗透测试和红队演练，针对 Web、API、网络和云做漏洞利用与攻击链复现，把孤立漏洞串成能打到业务核心的完整链路，再配上能落地的整改报告和复测验证。 |
 | 性能调优工程师 | `performance-tuning-engineer` | 做性能压测和剖析，定位 CPU/内存/IO 热点，调并发缓存和算法复杂度，用基准数据证明优化前后的真实提升。 |
 | Python 工程专家 | `python-engineering-expert` | 用 Python 写工程化代码，做 FastAPI/Django 服务、异步并发、类型注解和打包测试，把能跑就行的脚本流升级成可维护的生产工程。 |
-| React 技术栈专家 | `react-stack-specialist` | 深耕 React 生态把项目调到工业级，专攻 React优化、Next.js、Hooks、状态管理、服务端渲染和 React性能。 |
+| React 技术栈专家 | `react-stack-specialist` | 深耕 React 技术栈把项目调到工业级，专攻 React 优化、Next.js、Hooks、状态管理、服务端渲染和 React 性能。 |
 | 重构与技术债治理工程师 | `refactor-tech-debt-engineer` | 识别坏味道、拆大函数、解耦模块、补测试护网，做有节制不破坏行为的重构，把技术债按优先级一点点还清。 |
 | 智能合约工程与审计官 | `smart-contract-engineer-auditor` | 写 Solidity/EVM 合约做 gas 优化和可升级代理，再独立做安全审计，漏洞检测、形式化验证和攻击复现，出审计报告 |
 | 资深软件架构师 | `software-architect` | 做系统设计与领域驱动建模，定分层、边界和技术选型，给可落地、抗演进的架构决策和取舍依据，专治架构选型、领域建模和技术决策。 |
-| SRE 稳定性与事故指挥官 | `sre-incident-commander` | 守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程而不是救火英雄主义。 |
+| SRE 稳定性与事故指挥官 | `sre-incident-commander` | 守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程能力，让线上少炸、炸了能快速止血。 |
 | 技术文档与 API 文档官 | `tech-docs-api-writer` | 写 README、API 参考、架构说明和上手教程，把复杂工程概念讲成开发者真会读会用的文档，每段代码示例都跑得通。 |
 | 测试 QA 与自动化工程师 | `test-qa-automation-engineer` | 给你设计测试策略、写单元集成端到端用例和接口契约测试，做覆盖率与测试结果分析，默认挑刺要实证才放行。 |
 
@@ -156,7 +156,7 @@
 | 画像走查体验官 | `dux-persona-walkthrough-specialist` | 以设定画像的心智视角逐屏走查页面，结合转化心理学做页面体验诊断，记录情绪反应，输出可执行的 CRO 报告。 |
 | 产品设计专家 | `dux-product-designer` | 从需求到上线全程操盘产品体验，把功能需求设计成可发布方案，平衡商业目标、用户价值和实现成本，专攻产品设计、0到1设计、端到端设计 |
 | 高保真原型工程师 | `dux-prototyping-engineer` | 用代码和 AI 工具快速搭可交互高保真原型，带真实数据和动效，把模糊想法变成能点能测的验证物，专治高保真原型、原型验证、代码原型卡在静态稿走不到能用。 |
-| 用户旅程策略师 | `dux-user-journey-strategist` | 画全链路用户旅程图和服务蓝图，标出情绪曲线、关键时刻和痛点，把断点连成可优化的体验闭环 |
+| 用户旅程策略师 | `dux-user-journey-strategist` | 画全链路用户旅程图和服务蓝图，标出情绪曲线、关键时刻和痛点，把断点连成可优化的完整体验链路。 |
 | UX 研究专家 | `dux-ux-researcher` | 设计用户访谈脚本和可用性测试，跑定性定量混合研究，把行为数据炼成可决策的研究洞察和优先级。 |
 | Web 体验设计专家 | `dux-web-experience-designer` | 设计响应式落地页和营销站，统管排版网格、滚动叙事和性能感知，把品牌官网做到各端都好看、好用、加载快。 |
 
@@ -170,7 +170,7 @@
 | 学术写作精修教练 | `wc-academic-writing-coach` | 辅导学术写作，搭论文论证结构、改摘要与文献综述、调学术语体和引用规范，把口语化或松散的论述改成严谨清晰的学术表达 |
 | 成书合著与书稿统筹官 | `wc-book-coauthor-manuscript-lead` | 把零散的语音、片段和定位攒成一本可出版的书，搭章节大纲、统一全书声音、逐章成稿并管控篇幅与一致性，从想法走到完整书稿。 |
 | 内容策略与选题总监 | `wc-content-strategy-director` | 做内容战略，定内容支柱和受众分层、排编辑日历、设计选题矩阵和复用链路，把零散更新整成有方向能复利的内容体系。 |
-| 资深商业文案匠人 | `wc-copywriting-craftsman` | 写转化型商业文案，从落地页、卖点提炼到 slogan 和广告语，把卖点写成下单理由而不是自嗨。 |
+| 资深商业文案匠人 | `wc-copywriting-craftsman` | 写转化型商业文案，从落地页、卖点提炼到 slogan 和广告语，把卖点写成让人下单的理由。 |
 | 降AI味人味改写师 | `wc-deai-humanizer-rewriter` | 把一眼AI的稿子改成有人味，专攻降AI味、去模板腔、人机感改写，拆对仗删废话还原真实语感。 |
 | 结构与逐句双层编辑 | `wc-developmental-line-editor` | 做两层改稿，上层重排结构补逻辑断点调叙事节奏，下层逐句润色去赘词，把烂稿改成能直接发的好稿并讲清每处为什么改 |
 | GEO/AEO 内容被引官 | `wc-geo-aeo-content-strategist` | 让你的内容被 AI 引擎引用，做 GEO 优化和答案引擎优化，审计 ChatGPT、Claude、豆包、Kimi、DeepSeek 里的 AI 搜索可见度，写 llms.txt 和被引格式 |
@@ -235,7 +235,7 @@
 |---|---|---|
 | 广告创意与测试策略师 | `mb-ad-creative-testing-strategist` | 做投放端广告创意与测试，写钩子和卖点、设计素材脚本和RSA响应式资产、搭创意测试与迭代框架，用数据反推哪条素材该上量、哪条该砍。 |
 | 品牌战略与定位架构师 | `mb-brand-strategy-positioning-architect` | 给你定品牌定位与差异化，把模糊的"我们是谁"锤成可执行的品牌战略、价值主张和品牌叙事，管住全渠道品牌一致性。 |
-| 社群与私域运营策略师 | `mb-community-private-domain-strategist` | 搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量沉淀成可反复触达的高价值私域资产。 |
+| 社群与私域运营策略师 | `mb-community-private-domain-strategist` | 搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量转成可反复触达的高价值私域资产。 |
 | AI搜索品牌被引策略师（GEO/AEO） | `mb-geo-aeo-brand-visibility-strategist` | 做品牌在 AI 引擎里的可见度，审计你在 ChatGPT、Claude、豆包、Kimi、Perplexity 里被不被引用、被谁抢，诊断竞品为什么被推荐，设计 GEO 被引策略和 agent 可完成任务的站点就绪度。 |
 | 海外社媒增长策略师 | `mb-global-social-strategist` | 统筹 LinkedIn、X、Instagram、TikTok、Threads 五平台自然增长，按各平台算法和文化做海外社媒策略、个人品牌和 thought leadership，把账号做成获客和影响力资产 |
 | 增长黑客与实验策略师 | `mb-growth-experimentation-strategist` | 帮你做数据驱动增长，搭获客转化留存全漏斗、设计 AB 测试和增长实验、找可规模化渠道和病毒裂变循环，把增长从拍脑袋变成可复盘的实验体系。 |
@@ -248,7 +248,7 @@
 | SEO与ASO可发现性策略师 | `mb-seo-aso-discoverability-strategist` | 做搜索和应用商店的可发现性，统筹技术SEO、百度SEO双引擎排名和ASO优化，把自然搜索与应用市场流量做成稳定获客通道。 |
 | 视频与播客增长策略师 | `mb-video-podcast-growth-strategist` | 做长视频和播客的增长策略，专攻视频留存优化、YouTube增长、播客增长、节目定位和音视频分发，把长内容做成复利型受众资产。 |
 | 公众号知乎B站内容生态策略师 | `mb-wechat-knowledge-platform-strategist` | 给知识型品牌做公众号、知乎、B站、视频号的长内容生态策略，定栏目和分发节奏，跑各平台算法与社区调性，用专业度沉淀品牌信任和私域转化。 |
-| 小红书抖音增长策略师 | `mb-xhs-douyin-growth-strategist` | 操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制的增长曲线而不是赌一次爆款。 |
+| 小红书抖音增长策略师 | `mb-xhs-douyin-growth-strategist` | 操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制、可持续的增长曲线。 |
 
 </details>
 
@@ -258,7 +258,7 @@
 | Agent | slug | 能力 |
 |---|---|---|
 | 董事会高管汇报官 | `bs-board-exec-briefing-officer` | 把经营数据和战略议题揉成董事会和高管秒懂的一页纸，结论先行、风险透明、决策点清晰，配高管摘要、决策汇报和问答预案 |
-| 商业模式设计师 | `bs-business-model-designer` | 用商业模式画布和单位经济拆收入、成本、护城河与增长飞轮，设计并压测盈利模式，找出现金流闭环和可规模化的引擎，专治模式跑不通。 |
+| 商业模式设计师 | `bs-business-model-designer` | 用商业模式画布和单位经济拆收入、成本、护城河与增长飞轮，设计并压测盈利模式，找出现金流跑通的路径和可规模化的引擎，专治模式跑不通。 |
 | 竞品情报分析师 | `bs-competitive-intelligence-analyst` | 系统扒竞品的定位产品定价渠道打法，建对标矩阵和能力差距表，识别对手战略意图与软肋，给出差异化卡位与反制策略，覆盖竞品分析、竞争格局、反制策略 |
 | 创始人参谋长 | `bs-founder-chief-of-staff` | 替创始人过滤噪音、梳理决策清单、推动跨部门对齐和承诺跟踪，把战略意图翻译成可执行节奏，盯关键议题不掉球，当老板的左右脑。 |
 | 融资BP与路演军师 | `bs-fundraising-pitch-strategist` | 帮你搭融资故事线、做财务预测和估值锚点、防御投资人Q&A，把市场模式数据团队讲成投资人买账的pitch deck。 |
@@ -330,7 +330,7 @@
 | 职场写作助手 | `cp-knowledge-worker-writing-aide` | 把邮件、汇报、提案、述职和复盘从草稿改成结论先行、逻辑清晰的专业文本，控住语气和篇幅，让你的表达配得上你的判断。擅长结论先行改写、文档润色、述职报告搭骨架。 |
 | 心智模型思考搭子 | `cp-mental-models-thinking-partner` | 用第一性原理、逆向思维、机会成本和多元心智模型陪你拆复杂问题、识破认知偏误，把模糊直觉逼成可执行的清晰结构 |
 | 薪酬谈判军师 | `cp-offer-negotiation-strategist` | 拆 Offer 结构和市场分位、设你的 BATNA 和让步边界，给逐句谈薪话术和多 Offer 博弈策略，帮你把总包谈到顶。 |
-| 个人品牌架构师 | `cp-personal-brand-architect` | 提炼你的专业定位与差异化叙事，规划领英脉脉公众号的内容支柱和人设主线，把专业积累沉淀成会带来机会的影响力资产。 |
+| 个人品牌架构师 | `cp-personal-brand-architect` | 提炼你的专业定位与差异化叙事，规划领英脉脉公众号的内容支柱和人设主线，把专业积累攒成会带来机会的影响力资产。 |
 | 效率系统设计官 | `cp-productivity-system-designer` | 用 GTD、PARA、看板和周回顾给你搭一套真正跑得起来的个人生产力系统，清空大脑、理顺收件箱、把每条承诺都变成可执行的下一步行动。 |
 | 简历ATS优化师 | `cp-resume-ats-optimizer` | 按目标JD重写简历的关键词匹配、成就量化和STAR句式，做ATS解析自检和投递版本管理，让机器筛得过、HR看得中。 |
 | 专业副业操盘参谋 | `cp-solopreneur-side-venture-strategist` | 帮你把专业技能变现成咨询、知识产品或一人公司，先验证需求再设计 offer 定价，规划副业转全职的过渡节奏，只押杠杆最大的那条路。 |

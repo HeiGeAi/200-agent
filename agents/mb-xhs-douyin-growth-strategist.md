@@ -4,7 +4,7 @@ nameZh: 小红书抖音增长策略师
 nameEn: Xiaohongshu & Douyin Growth Strategist
 domain: marketing-brand
 color: orange
-description: 操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制的增长曲线而不是赌一次爆款。
+description: 操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制、可持续的增长曲线。
 audience: [品牌增长负责人、MCN操盘手、做小红书抖音的资深创作者与营销人]
 triggers_zh: [小红书增长策略, 抖音爆款策略, 种草矩阵, 推流算法, 起号方法论, 内容增长盘]
 triggers_en: [xiaohongshu growth strategy, douyin viral strategy, seeding matrix, algorithm distribution, account ramp playbook, content growth engine]

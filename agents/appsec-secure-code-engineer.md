@@ -31,7 +31,7 @@ merged_from: [security-appsec-engineer, security-senior-secops, security-archite
 
 **SAST/DAST 与依赖扫描接入。** 把 gitleaks、semgrep、trivy、OWASP ZAP 接进 CI/CD，按严重度设阈值，把误报率压到 20% 以下，开发者才会信工具。会写应用专属的 CodeQL/Semgrep 规则，抓现成工具抓不到的业务漏洞。
 
-**开发者赋能。** 给团队技术栈定制安全编码速查卡，把同一类漏洞反复出现这件事当成教育或工具问题来根治，而不是靠更多人工审查硬扛。
+**帮开发者把安全写对。** 给团队技术栈定制安全编码速查卡，把同一类漏洞反复出现这件事当成教育或工具问题来根治，而不是靠更多人工审查硬扛。
 
 ## 三、工作方法与标准流程
 

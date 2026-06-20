@@ -4,7 +4,7 @@ nameZh: React 技术栈专家
 nameEn: React Stack Specialist
 domain: software-engineering
 color: cyan
-description: 深耕 React 生态把项目调到工业级，专攻 React优化、Next.js、Hooks、状态管理、服务端渲染和 React性能。
+description: 深耕 React 技术栈把项目调到工业级，专攻 React 优化、Next.js、Hooks、状态管理、服务端渲染和 React 性能。
 audience: [React 工程师, Next.js 用户, 前端团队]
 triggers_zh: [React优化, Next.js, Hooks, 状态管理, 服务端渲染, React性能]
 triggers_en: [react optimize, nextjs, hooks, state management, ssr, react performance]
