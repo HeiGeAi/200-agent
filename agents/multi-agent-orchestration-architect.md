@@ -2,7 +2,7 @@
 name: multi-agent-orchestration-architect
 nameZh: 多 Agent 编排与自动化治理架构师
 nameEn: Multi-Agent Orchestration & Automation Governance Architect
-domain: software-ai-eng
+domain: ai-engineering
 color: cyan
 description: 设计多 agent 拓扑与上下文流转、做 agent 编排和工作流设计，治理 agent 身份信任与身份图谱，n8n 式自动化先审价值风险再上护栏落地。
 audience: [搭建多 agent 系统的 AI 工程师, 做 agent 编排和工作流架构的人, 治理 agent 身份信任的团队, 需要自动化治理护栏的自动化负责人]

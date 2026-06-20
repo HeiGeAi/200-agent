@@ -2,16 +2,16 @@
 
 # 200 agent
 
-**200 个面向中国市场的 AI agent,一份源,三套工具通吃**
+**200 个专家级 AI 角色,让你手里的 AI 工具发挥到行业专家水平**
 
-200 China-ready AI agents · single source · works on Claude Code, Codex & OpenClaw
+200 expert AI personas that turn your AI tools into world-class specialists · single source · Claude Code · Codex · OpenClaw
 
 [![agents](https://img.shields.io/badge/agents-200-brightgreen)](./ROUTER.md)
 [![domains](https://img.shields.io/badge/domains-14-blue)](./ROUTER.md)
 [![license](https://img.shields.io/badge/license-MIT-black)](./LICENSE)
 [![tools](https://img.shields.io/badge/Claude%20Code%20·%20Codex%20·%20OpenClaw-ready-orange)](./docs/SCHEMA.md)
 
-[路由总表 ROUTER](./ROUTER.md) · [格式规范 SCHEMA](./docs/SCHEMA.md) · [架构设计](./架构设计-v2.md)
+[路由总表 ROUTER](./ROUTER.md) · [格式规范 SCHEMA](./docs/SCHEMA.md)
 
 </div>
 
@@ -19,35 +19,38 @@
 
 ## 这是什么
 
-把一套 232 个欧美底盘的专家 agent,**取其能力、按中国国情自下而上重做**成正好 **200 个** agent。覆盖中国市场几乎所有人群:个体户、中小企业主、基础员工、大中型企业职能岗、学校老师、政府机构、内容创作者、专业服务者,到普通人的生活与成长。
+一套 **200 个专家级 AI 角色**,装进 Claude Code / Codex / OpenClaw。你在用 AI 写代码、做架构、出图出视频、写内容、做分析、跑增长、搞研究时,它让 AI 表现得像请了一位行业资深专家在旁边带着干。
+
+为**重度使用 AI 工具的人**而建:开发者、创作者、营销人、分析师、创业者、研究者、专业顾问。每个角色都是为「人 + AI 工具协作」设计的。
 
 名字图好记,就叫 **200 agent**。
 
 设计原则:
 
-- **中国为主**:砍掉在中国受众极低的品类(欧美游戏引擎、XR、专业测绘、欧美社媒与投放),把名额让给中小微企业运营、个体户、私域直播、政务体制内、教师、考公考研、财税、制造外贸、本地生活这些高频场景。能力不丢,全部换壳归入对口域。
+- **AI 原生**:每个角色都假设你正在用 AI 工具,负责把 AI 的输出拉到专家水准。重点覆盖软件工程、AI 工程、AI 视觉创作(各家图像视频模型的提示词导演 + 审美把关的艺术总监)、写作、数据、产品、营销、商业、研究、专业顾问。
+- **资深不灌水**:正文带可直接抄用的硬资产(模板、公式、清单、数值红线、提示词骨架),不是泛泛的角色介绍。
 - **一份源,多端转译**:每个 agent 只维护一个 `agents/<slug>.md`,`npm run build` 转译出 Claude Code / Codex / OpenClaw 三套产物。
 - **中文为主 + 中英双触发**:正文中文,触发词中英双写,自动路由更易命中。
 - **数量硬卡 200**:CI 守门,`slug` 全局唯一。
 
 ## 14 个域
 
-| 域 | 数量 | 主受众 |
+| 域 | 数量 | 谁在用 |
 |---|---|---|
-| 个体工商户与小微商家 | 14 | 夫妻店 / 网店 / 摊主 |
-| 中小企业主与创始人 | 14 | 10-200 人公司老板 |
-| 职场基础员工与通用职能 | 15 | 文秘 / 运营 / 客服 |
-| 大中型企业职能岗 | 15 | 总监经理级(可私有化) |
-| 体制内与政务数字化 | 13 | 机关笔杆子 + 政务乙方 |
-| 教育工作者 | 10 | 中小学 / 高校 / 教培 |
-| 学生与升学就业 | 14 | 高考 / 考研 / 考公 / 留学 / 求职 |
-| 内容创作者与直播电商 | 23 | 多平台创作者 / MCN / 主播 |
-| 制造外贸与跨境电商 | 16 | 工厂 / 外贸 / 跨境卖家 |
-| 本地生活服务 | 16 | 餐饮 / 零售 / 医美 / 家政 / 汽修 / 宠物 |
-| 专业服务·财税法律医疗保险房产 | 16 | C 端最大职业群体 |
-| 软件研发与 AI 工程与设计 | 19 | 工程师 / AI / 前后端 / 设计 |
-| 农业与县域经济 | 4 | 新农人 / 助农直播 |
-| 个人生活与成长 | 11 | 健康 / 亲子 / 副业 / 心理 / 维权 / 理财 |
+| 软件工程 | 26 | 工程师 / 架构师 |
+| AI 工程与智能体 | 16 | AI 应用 / Agent 开发者 |
+| AI 视觉创作 | 18 | 设计师 / 创作者(MJ / 即梦 / Sora) |
+| 设计与体验 | 12 | UI / UX / 产品设计 |
+| 写作与内容 | 18 | 作者 / 编剧 / 内容人 |
+| 数据与分析 | 12 | 分析师 / 数据岗 |
+| 产品与增长 | 12 | 产品经理 / 增长 |
+| 营销与品牌 | 16 | 营销人 / 品牌 / 投放 |
+| 商业与战略 | 14 | 创始人 / 战略 / 咨询 |
+| 研究与学习 | 12 | 研究者 / 学习者 |
+| 专业领域顾问 | 16 | 法务 / 财税 / 医疗 / HR |
+| 职业与个人效能 | 12 | 职场人 / 求职者 |
+| 运营·项目·销售 | 12 | 项目 / 运营 / 销售 |
+| 行业垂直 | 4 | 游戏 / 跨境 / Web3 / GIS |
 
 ## 全部 200 个 agent
 
@@ -56,314 +59,314 @@
 <!-- AGENT-LIST:START -->
 
 <details>
-<summary><b>个体工商户与小微商家</b>（14）</summary>
+<summary><b>软件工程</b>（26）</summary>
 
 | Agent | slug | 能力 |
 |---|---|---|
-| 零工招人结账员 | `mm-casual-hire-helper` | 帮小店小作坊招零工、写招工启事、谈工资、算工时、当月结清，缺人时快速找到人、把账理清。 |
-| 差评安抚补偿师 | `mm-complaint-handler` | 碰上差评投诉别慌，给你软下来又不吃亏的道歉话术和补偿方案，把退款纠纷化成回头客 |
-| 跨境小单翻译客服 | `mm-cross-border-translator-cs` | 帮不会外语的小微卖家在速卖通Temu接外国买家小单，做商品翻译和多语言回复，把跨境沟通这道坎踩平 |
-| 电商店铺运营师 | `mm-ecommerce-listing-operator` | 帮小店主写商品标题、改详情页、排店铺SEO关键词，让商品在拼多多淘宝抖音店里被搜得到、被点进去、被买走。 |
-| 营业执照税务办事向导 | `mm-license-tax-guide` | 帮个体户搞定营业执照年报、定额核定征收、社保缴纳和补贴减免，告诉你去哪办、要带啥、怎么填。 |
-| 同城直播带货教练 | `mm-livestream-coach` | 教第一次开播的小老板怎么开播、写直播脚本、发福袋、卡逼单节奏，把同城直播带货从零做到有人下单。 |
-| 毛利测算师 | `mm-margin-pricing-calc` | 帮小微商家算清进价加多少卖、折扣套餐到底亏不亏、毛利够不够，定价不再凭感觉 |
-| 小程序点单上线助手 | `mm-mini-program-helper` | 帮小店上一个微信小程序点单系统，顾客扫码自助下单，老板自己接单不靠平台抽成 |
-| 发圈带货文案手 | `mm-moments-content-hand` | 把你拍的产品图和视频改成一发就有人问的朋友圈文案和短视频脚本，解决你每天不知道发什么、带货文案写不出、图配字没词用的难题。 |
-| 巴掌海报台卡设计员 | `mm-poster-tablecard-designer` | 帮不会用设计软件的小店老板做海报、价目表、二维码台卡和开业告示，手机上点几下出一张能直接打印张贴的图。 |
-| 私域复购运营官 | `mm-private-domain-operator` | 帮小店老板建客户群、发老顾客优惠、做会员和复购提醒，把回头客攒成自己的私域。 |
-| 极简记账对账员 | `mm-simple-bookkeeper` | 帮小摊主小作坊记流水账、月底对账、一眼看清这个月赚了还是亏了，不懂会计也能管好自己的钱。 |
-| 进货比价砍价参谋 | `mm-sourcing-bargain-advisor` | 帮小店和摊位老板找供货商、看懂批发报价单、算清账期成本、跟上游砍价，进货不被坑、压低进价 |
-| 微信客服回话管家 | `mm-wechat-cs-replier` | 顾客问价问库存问发货退换货时，一键给你现成话术模板，把客服话术、退换货怎么说、回复模板都接住，一个人也能稳稳应付刷屏咨询 |
-
-</details>
-
-<details>
-<summary><b>中小企业主与创始人</b>（14）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 现金流账款参谋 | `cashflow-receivables-advisor` | 帮中小企业主盯应收账龄、写催款话术、做现金流预警，提前算清钱什么时候到账、断点在哪天。 |
-| 合同法务初审官 | `contract-legal-prereview` | 帮请不起法务的中小企业主做合同审查、风险标注和合规自查，签字前先把采购销售劳动合同里的坑挑出来 |
-| 客户成功续费官 | `customer-success-renewal` | 做客户健康度盘点、续费续约谈判、找增购扩张点，把签下来的客户从一次性变成复购增长盘，专治防流失和续约谈判 |
-| 飞书微信生态打通工程师 | `feishu-wechat-integration` | 帮没技术班子的小老板搭飞书审批流、配多维表、做机器人，把飞书微信生态打通成不用换屏的自动化办公台。 |
-| 老板贴身参谋长 | `founder-chief-of-staff` | 把语音和会议变成待办、起草通知制度、过滤信息理清决策的老板外脑，语音转待办、会议纪要、决策外脑随叫随到。 |
-| 政企投标申报顾问 | `gov-bid-advisory` | 帮中小企业主读懂政策、写标书、报专精特新和各类补贴，敲开政企ToG和财政红利的门。自然命中标书撰写、补贴申报、政策解读。 |
-| 招聘用工管家 | `hiring-onboarding-manager` | 帮小老板写JD发BOSS直聘、筛简历约面试、办入职手续做用工管理，从招到管一条龙。 |
-| 定价毛利胜负手 | `pricing-bet-strategist` | 帮中小企业老板算清毛利、定对价格，再用红蓝对抗逼出该押哪个业务、进哪个市场、跟谁正面打的单点取舍，触发词含定价测算、毛利分析、战略取舍。 |
-| 私域获客运营官 | `private-domain-operator` | 帮小老板搭企微SCRM、运营社群朋友圈、写带货文案、做客户分层，把老客盘活、复购召回拉起来。 |
-| 流程提效团队治理官 | `process-team-governance` | 帮老板梳流程砍浪费、定KPI治指标、诊团队管人心，把降本提效和带团队两件难事一起落地。 |
-| 销售成单操盘手 | `sales-deal-closer` | 陪创始人这个销售一号位从触达打到签单，做线索结构化、报价提案、谈单异议拆解和漏斗成单复盘。 |
-| 小微财税合规管家 | `sme-tax-compliance-steward` | 盯增值税小规模、核定征收、金税四期申报节点和社保自查，把小微税收优惠用足又不踩线。 |
-| 制度SOP笔杆子 | `sop-training-drafter` | 把老板脑子里的规矩落成新人照着就能上手的制度SOP、培训手册和绩效考核表，制度文档、SOP撰写、员工培训一并接。 |
-| 采购供应链寻源官 | `sourcing-supplychain-officer` | 帮亲自管采购的中小老板做供应商开发、比价寻源、账期谈判和质量管控，把进货成本和供货稳定一手拿捏 |
-
-</details>
-
-<details>
-<summary><b>职场基础员工与通用职能</b>（15）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 中英商务互译官 | `business-cn-en-translator` | 把邮件、产品资料、海外客户消息做中英互译并本地化语气，专业不生硬，擅长翻译邮件、本地化、外贸翻译 |
-| 竞品行业情报员 | `competitor-brief-researcher` | 帮运营市场销售做竞品分析、行业简报、情报搜集，把零散资料整理成能直接用的市场调研简报。 |
-| 客户消息应答官 | `customer-reply-composer` | 把客户咨询、客诉、退换货消息批量转成有温度又得体的标准话术，自带升级方案和安抚话术，支持回客户消息、批量回复、退换货回复 |
-| 反馈差评分析师 | `feedback-insight-analyst` | 把客户反馈、差评、问卷批量做归类与共性提炼，按优先级排序，产出能直接给上级看的结论。擅长分析差评、问卷分析、反馈归类。 |
-| 效率习惯助推官 | `habit-nudge-engine` | 用行为科学帮你把待办拆成微行动、卡好节奏养成习惯，既能做个人效率助推也能设计用户激活的提醒序列 |
-| 会议纪要与聊天要点提炼官 | `meeting-notes-four-section` | 把会议录音逐字稿转成决议待办责任人未决问题四段式纪要，也能从长邮件和 IM 聊天里抽诉求要点和待回复事项，多线程沟通不漏球 |
-| 公文文书笔杆子 | `official-document-drafter` | 帮你写通知、起草公文、出活动方案和邀请函，按红头格式规范成稿，称谓抬头落款一个不错 |
-| 页面走查趣味师 | `page-walkthrough-whimsy` | 站在真实用户视角逐屏走查页面体验，找出看不懂、不敢点、想退出的卡点，再给细节补上趣味文案和人情味彩蛋，让页面既好用又不冷冰冰。会做页面走查、体验检查、细节趣味化。 |
-| 项目排期协调官 | `project-timeline-coordinator` | 帮你拆任务、排时间线、跨部门对齐排期，把多方需求理成一张推得动的进度表 |
-| 招聘HRBP助手 | `recruiting-hrbp-assistant` | 帮你写JD、做简历初筛打标、出面试问题、起offer话术和入职引导，把招聘到入职全流程跑顺提速 |
-| 销售跟单陪练 | `sales-followup-coach` | 帮基层销售整理客户信息、写跟进话术、出报价初稿、应对异议、做成单复盘的顾问式跟单陪练 |
-| 新媒体文案私域操盘手 | `social-content-operator` | 帮你写文案改标题、跟热点选题，一份素材分发多平台换不同口吻，再用企微社群朋友圈做用户分层把流量盘成复购 |
-| SOP手册沉淀师 | `sop-manual-builder` | 把老员工脑子里的口头流程和经验，沉淀成查得到、用得上的标准操作手册和新人上手指南，触发词写SOP、操作手册、新人指南。 |
-| 表格清洗汇总与日报推送师 | `spreadsheet-cleanup-analyst` | 把乱表清洗透视套公式、月度运营数据汇总成能直接讲的结论，再取数建看板、定时把数据日报推送到企微飞书群，覆盖清洗数据、数据汇总、群推日报全链路 |
-| 周报月报提炼师 | `work-report-distiller` | 把一周一月的流水账提炼成领导爱看的结构，输出成果、问题、下一步，附汇报PPT大纲，覆盖写周报、写月报、述职等场景 |
-
-</details>
-
-<details>
-<summary><b>大中型企业职能岗</b>（15）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 土木结构工程师 | `cn-civil-structural-engineer` | 按国标和抗规做结构计算、施工图技术配合与工程预算造价复核，给设计院、施工企业和造价人员当懂规范的算量助手，专攻结构计算、施工图、工程预算、建筑规范、抗震、造价。 |
-| 职能自动化变革官 | `ef-automation-change-enablement-lead` | 把重复职能活封装成带治理护栏的内部 agent，并用变革管理方法推动落地、培训和持续采用，覆盖流程自动化、自动化治理、变革落地三件核心事。 |
-| 招投标标书军师 | `ef-bid-proposal-strategist` | 拆解招标需求建响应矩阵、做逐条符合性对照、写出能拿分的标书初稿，懂政企 ToG 打法和废标红线 |
-| 经营汇报操盘手 | `ef-board-briefing-strategist` | 把季度经营数据揉成董事会看得懂的战略复盘汇报，自动出 PPT 初稿和高管摘要，专做季度经营分析、战略复盘汇报、董事会材料。 |
-| 品牌公关传播官 | `ef-brand-pr-communications-lead` | 替企业把对外发声全口径管起来,写新闻稿、出危机声明、做品牌一致性审查、发官微推文,一句话定调先稳住再回应。 |
-| 资本司库并购官 | `ef-capital-treasury-ma-officer` | 一个把资本配置、司库现金、并购整合、ESG披露、应付款执行和投资研究一肩挑的重型财务职能助手，覆盖资本配置、司库管理、并购整合、ESG披露、应付款处理、投资研究 |
-| 合同审查法务官 | `ef-contract-review-counsel` | 逐条审查采购供应商劳动等各类合同、标注风险等级并给修改建议，同时记法务计时工时、统计法务工作量 |
-| 数据合规等保官 | `ef-data-compliance-mlps-officer` | 对照数据安全法、个人信息保护法和等保2.0，帮你做数据分类分级、权限梳理和整改清单，把合规要求翻译成能落地的控制项。 |
-| 数据看板管道工 | `ef-data-pipeline-dashboard-engineer` | 帮企业取数清洗建数据管道、做自动分发的报表看板，顺手把慢查询和库表性能也调优，触发词为数据管道、做看板、慢查询调优。 |
-| 行业情报扫描员 | `ef-industry-intel-scanner` | 定期扫竞品动态、追行业政策、抓中标信息，汇成一份能直接发的情报简报；触发词包括竞品扫描、行业政策追踪、中标信息。 |
-| IT服务台应急指挥 | `ef-itil-service-incident-commander` | 按ITIL做工单分诊、变更管控和SLA跟踪，故障应急一键拉起应急响应，安全事件来了同步取证溯源 |
-| 知识库制度归并官 | `ef-knowledge-sop-steward` | 把散落各处的 SOP、制度、流程文件去重归并、原子化拆分、加索引互链，建成查得到用得上的内部知识库，含知识库整理、制度归并、结构化文档三大本事 |
-| 财税月结管家 | `ef-month-end-close-controller` | 帮财务团队跑通月结、对账勾稽、预算编制、滚动预测和预实差异归因，把流水数据揉成能上会的结论 |
-| 安全攻防自查官 | `ef-security-redteam-assurance-lead` | 一个把安全架构自查、威胁建模、检测工程、渗透红队、威胁情报和云安全打通的攻防一体专家，帮你做安全合规自查、威胁建模、渗透测试与红队演练。 |
-| 寻源比价采购官 | `ef-sourcing-pricing-negotiator` | 帮采购供应商寻源比价、拆成本结构、算议价依据，把采购降本砍到底，覆盖战略寻源与供应商开发全程 |
-
-</details>
-
-<details>
-<summary><b>体制内与政务数字化</b>（13）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| GIS测绘与空间分析专家 | `cn-gis-mapping-specialist` | 做国土规划制图、空间分析、WebGIS开发与无人机测绘成果处理，从数据清洗到成果出图全流程上手 |
-| 政务公开操盘手 | `gov-affairs-publicity` | 把政务公开稿、政务公众号推文、宣传通稿一稿改成多渠道版本，官方口吻不踩线又能让群众读得进去，覆盖政务公开、政务推文、多渠道改写、对外发布全流程 |
-| 考核测评设计官 | `gov-appraisal-designer` | 帮你设计绩效考核打分表、做督查测评打分，再把项目申报材料写到对得上申报指南，指标可量化、评分可追溯、申报有据可查 |
-| 招投标对标官 | `gov-bid-tender` | 从招标文件编制到投标符合性逐条对照，拆评分项、排废标点、把应答材料对齐评审办法，让你的标书既不被废、又能拿高分。 |
-| 公文笔杆子 | `gov-document-drafter` | 按党政机关公文格式套写通知请示报告函纪要，做文种判定、行文规则核对、版头版记一键合规校对的公文写作助手。 |
-| 12345工单答复官 | `gov-hotline-responder` | 把12345和信访的群众诉求工单分清职责边界、做出工单分类、写出有温度又留痕的办理回复，触发词包括 12345工单、信访答复、办理回复。 |
-| 迎检台账管家 | `gov-inspection-ledger` | 帮机关业务科室和事业单位做台账报表、迎检材料、自查报告，统一口径、多表数据归并核对，一套数字对到底不打架。 |
-| 制度SOP起草官 | `gov-institution-sop` | 起草修订制度规章与内部流程SOP，对照上位法和上级规定做合规对照，新老制度衔接不留矛盾条款。 |
-| 会议纪要督办员 | `gov-meeting-minutes` | 把专题会督查会的录音草稿整理成规范会议纪要，提炼决策事项、责任人和办结时限，带得动后续督办闭环。 |
-| 政策落实拆解官 | `gov-policy-implementer` | 把上级文件读透做本地化政策解读，拆成任务清单、责任分工和时间节点，谁干什么干到哪天一张表说清，支持贯彻落实和督查跟踪。 |
-| 政策依据溯源官 | `gov-policy-tracer` | 帮政研法制岗做政策检索、找文件依据、法规问答，每条结论都标依据溯源到原文，把零散文件养成可查可信的内部知识库 |
-| 讲话稿代笔 | `gov-speech-ghostwriter` | 帮办公室笔杆子起草领导讲话稿、述职报告、工作总结和工作要点，吃透往年口径接住今年新精神，分场合配文气。 |
-| 信创可研论证官 | `gov-xinchuang-feasibility` | 帮你做政务信创项目的可研报告、立项论证、国产化适配评估和采购论证，把变革推行的账算明白。 |
-
-</details>
-
-<details>
-<summary><b>教育工作者</b>（10）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 高校论文军师 | `teacher-academic-paper-strategist` | 高校论文润色降重、文献综述与开题思路、基金本子打磨、英文摘要把关，懂学科话语的科研写作军师 |
-| 课件讲稿设计师 | `teacher-courseware-deck-designer` | 把教案转成能直接进教室讲的 PPT 课件，逐页配讲稿、动画节奏和配图脚本，专攻课件设计、逐页讲稿、公开课PPT |
-| 教研工业化总监 | `teacher-curriculum-industrializer` | 把名师课打散成标准化讲义和课程体系、搭教辅与国际课程、推动多校区可复制可交付的教研工业化总监 |
-| 命题组卷官 | `teacher-exam-item-builder` | 按知识点和难度梯度命题组卷，自动配答案解析、错题变式和双向细目表，单元测周练月考一键出。 |
-| 成绩分析参谋 | `teacher-grade-analytics-aide` | 帮老师整理班级成绩单、算均分及格率排名波动、揪偏科和临界生，并自动出家长会数据看板。 |
-| 批改评语助教 | `teacher-grading-comment-aide` | 批量批改作文周记和主观题，写个性化评语，统计班级共性错误和高频失分点 |
-| 评优材料代笔 | `teacher-honors-ghostwriter` | 代写班主任工作总结、教学反思、师德评优、课题申报书与继续教育材料，按评审口径包装成第一人称可读稿 |
-| 教案学历案匠人 | `teacher-lesson-plan-architect` | 按课标教材一键出教案、学历案、说课稿，自动套学校模板，补全三维目标、重难点和教学环节。 |
-| 家校沟通笔杆子 | `teacher-parent-communication-writer` | 帮老师起草家长群通知、致家长信和敏感家校沟通话术，分寸拿捏不踩雷，缴费活动文案合规可发。 |
-| 教培招生操盘手 | `teacher-tutoring-enrollment-operator` | 帮教培机构产出招生文案、小红书种草和抖音引流脚本，做试听转化与续费话术，附定价与方案打包。 |
-
-</details>
-
-<details>
-<summary><b>学生与升学就业</b>（14）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 校招信息追踪助手 | `campus-recruiting-tracker` | 帮求职党聚合校招公告、追网申进度和笔试时间，把投递日程排成不漏一场的提醒清单 |
-| 行测申论刷题教练 | `civil-exam-drill-coach` | 讲解行测题型解法、带刷题拆错题、按给分点批改申论大作文，国省考都能陪练 |
-| 考公职位筛选官 | `civil-service-position-matcher` | 按你的专业、政治面貌、学历、户籍、应届身份硬筛职位表，算竞争比、识别定向条款陷阱，挑出最值得报的岗位 |
-| 备考学习教练 | `exam-prep-study-coach` | 帮考研考公备考党拆解大纲、排每日计划、做错题复盘和背诵规划，把长周期复习变成可执行的节奏。 |
-| 应届身份政策答疑官 | `fresh-grad-policy-advisor` | 帮应届生讲清三方协议、报到证、档案户口和应届身份政策，识别背调避坑点，把求职签约里的政策红线说明白。 |
-| 高考志愿规划师 | `gaokao-application-planner` | 按分数位次和招生计划排冲稳保梯度，逐条扒专业就业和招生章程里的坑，帮你把志愿表填得既不浪费分也不滑档。 |
-| 语言考试写作口语陪练 | `language-test-tutor` | 按官方评分标准批改雅思托福写作口语和四六级考研英语作文，逐项打分、定位失分点、给出提分改写和口语陪练。 |
-| 学情诊断与备考心态教练 | `learning-diagnosis-mindset-coach` | 给在校生和备考党做学情诊断、出个性化辅导方案、疏导备考焦虑、帮你把学习习惯养起来 |
-| 模拟面试陪练教练 | `mock-interview-coach` | 陪你练结构化面试、行为面、技术面和留学套磁，带追问、打分、反馈，连谈薪一起练 |
-| 升学路径决策参谋 | `pathway-decision-advisor` | 把保研考研留学秋招几条路摆上桌，算清成本收益和成功概率，逼出毕业去向该押哪条的取舍。 |
-| 考研择校参谋 | `postgrad-school-selector` | 对比目标分数、报录比、复试线和参考书，按地域院校梯度算出性价比最高的考研目标，做考研择校与院校梯度规划 |
-| 简历ATS改写师 | `resume-ats-rewriter` | 对着JD逐条改简历，量化经历、补ATS关键词、出中英双版，让简历过机器初筛也打动HR |
-| 留学文书操盘手 | `study-abroad-essay-coach` | 逐轮打磨留学文书的写作教练，把你的经历提炼成有主线的 PS、SOP、Why School、Diversity Essay 和推荐信，按各申请系统字数定制成稿、做中英本地化润色。 |
-| 留学选校进度管家 | `study-abroad-list-manager` | 帮留学党做 reach-match-safety 选校定位、管 deadline 材料清单和签证申请，把整个申请季的进度盯到不掉链子。 |
-
-</details>
-
-<details>
-<summary><b>内容创作者与直播电商</b>（23）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 账号数据周报官 | `account-analytics-reporter` | 把抖音小红书视频号的播放完播转化数据拉成能看懂的周报，专做掉量归因、起号复盘和涨粉实验设计。 |
-| AI引用优化官（GEO/AEO） | `ai-citation-optimizer` | 让你的内容被豆包、Kimi、DeepSeek、文心引用推荐的GEO优化打法，从被AI引用、AI搜索优化到百度SEO一套搞定。 |
-| 录屏语音转写成稿官 | `audio-transcript-to-draft` | 把直播录屏、语音笔记、采访录音转写后整理成可发布成稿，擅长录音转写、口述成文、逐字稿整理 |
-| 商单软文报价官 | `brand-deal-copy-strategist` | 帮内容创作者写商单广告稿和软文植入，搭配报价模型和商务对账清单，让恰饭文案既不硬又不亏钱 |
-| 知识付费操盘与引流钩子官 | `cn-knowledge-monetization-operator` | 帮你设计卖课训练营、做引流款钩子和lead magnet、用发现式提问把流量转成线索，再用社群陪跑和课程分销跑通转化漏斗。 |
-| MCN矩阵养号起号操盘手 | `cn-mcn-matrix-operator` | 多账号矩阵管理与达人撮合商务一把抓,从养号起号到限流自救、起号标签纠正和爆款拆解全程操盘。 |
-| 微短剧编剧投流与叙事感染力官 | `cn-microdrama-writer-promoter` | 写微短剧剧本、设计分集钩子与情绪曲线、算投流ROI和素材测试，把叙事结构和人设揉进每一集让观众一直划下去 |
-| 评论私信引流与生命周期触达官 | `comment-dm-lead-capture` | 把评论区私信里的高意向粉丝批量识别、应答、加微引流进私域，再用企微邮件短信做生命周期触达和复购召回，有App就顺手做ASO残值。 |
-| 社区运营策展官 | `community-curation-operator` | 把欧美社媒的社区运营、视觉策展、趋势侦测和职业内容方法论换壳进小红书微博知乎B站豆瓣，帮你建圈层、做策展、攒信任。 |
-| 封面图文卡设计官 | `cover-carousel-designer` | 给创作者出封面图、小红书图文卡和信息图轮播的配图脚本与视觉设计，把内容拆成会让人停下手指的视觉叙事。 |
-| 抖音爆款策略师 | `douyin-viral-strategist` | 懂抖音算法和推流逻辑，从抖音爆款选题、短视频脚本到起号涨粉一把把控，用完播率反推内容结构。 |
-| 快手下沉运营官 | `kuaishou-sinking-operator` | 帮你在快手做下沉市场的短视频起号和直播带货，吃透老铁经济和私域信任，把产地优势和真实感讲成下单理由。 |
-| 直播带货控场教练 | `livestream-commerce-coach` | 直播带货话术、憋单逼单、福袋互动和全场控场SOP陪练，帮主播从开口卡壳练到一场带货百万。 |
-| 长视频留存优化官 | `long-video-retention-optimizer` | 专做B站视频号长视频的留存优化，从开头钩子、章节切分到封面标题包装把完播率拉起来，也做长视频跨平台分发。 |
-| 矩阵内容补全官 | `matrix-content-strategist` | 帮你把一套内容铺满 B站、知乎、微博、视频号四个平台，按各平台调性和算法做内容矩阵、补全、矩阵补全。 |
-| 一稿多平台分发官 | `multi-platform-publisher` | 一稿改写成抖音口播、小红书图文、视频号、公众号多平台分发，自动做改写分发、跨平台改写、一键分发的内容复用。 |
-| 播客运营官 | `podcast-ops-strategist` | 帮你做播客运营，覆盖小宇宙喜马拉雅的节目定位、播客选题、音频内容策略和涨听众运营。 |
-| 舆情危机公关与创意守门官 | `pr-crisis-manager` | 处理人设翻车舆情发酵的危机公关响应，守住品牌一致性不跑偏，同时给内容注入个性趣味梗感，覆盖危机公关、舆情应对、品牌守门、玩梗、人设翻车 |
-| 选品上架运营官 | `product-sourcing-operator` | 帮带货团队做选品、算佣金毛利、写卖点详情，把抖店淘宝拼多多的上架和供应链对接一把抓 |
-| 口播脚本剪辑教练 | `talking-head-script-coach` | 帮口播博主写口播脚本、设计3秒钩子和分镜，再带练剪映后期节奏，从开口到成片一条龙。 |
-| 选题热点雷达官 | `topic-trend-radar` | 扫各平台热榜和对标账号反推赛道选题角度，帮你找角度、扒对标、起标题 |
-| 公众号操盘手 | `wechat-longform-operator` | 公众号长文成稿、降AI味改写续写、配小标题和阅读节奏把控的长文操盘手 |
-| 小红书种草笔记官 | `xiaohongshu-note-specialist` | 批量产小红书种草笔记，会写笔记标题钩子、配话题标签、出多版本测款的内容操盘手 |
-
-</details>
-
-<details>
-<summary><b>制造外贸与跨境电商</b>（16）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 报关单证管家 | `mc-customs-docs-checker` | 帮外贸工厂和报关跟单做 HS 归类、报关单证一致性核对、出口退税资料合规审查的单证专家 |
-| 经营日报分析师 | `mc-daily-report-analyst` | 把抖店天猫拼多多亚马逊速卖通各平台的销量库存毛利回款拉到一张表，做经营日报和周报，专治多平台销量对不上、库存毛利算不清、回款汇总没人盯。触发词包括经营日报、多平台销量、库存毛利、回款汇总、数据合并。 |
-| 外贸谈单提案官 | `mc-deal-proposal-strategist` | 写外贸谈单提案和 win narrative，做技术答疑、方案应标和报价博弈，把工厂实力翻译成海外买家肯下单的理由。 |
-| 飞书订单对账搬运官 | `mc-feishu-order-sync` | 把订单库存对账搬进飞书多维表，建协同看板和自动化流程，让工厂团队在一张表上对单不串账。 |
-| 主图视频脚本师 | `mc-image-video-scripter` | 给跨境电商出产品主图与场景图的生图提示词，写 TikTok Shop 带货短视频脚本和分镜，交付可直接拍剪的镜头清单。 |
-| 询盘抓手 | `mc-inquiry-triage-reply` | 把海外询盘和 RFQ 按金额意向体量分级，大单优先，再用英阿俄葡西多语种生成专业回盘模板，并做区域跨文化措辞和商务礼仪适配。 |
-| Listing 本地化写手 | `mc-listing-localizer` | 给亚马逊 Temu 独立站写本地化标题 五点描述 后台关键词和 A+ 详情页 让中国工厂的产品在海外平台一眼被点开 |
-| 国际物流方案官 | `mc-logistics-planner` | 帮跨境卖家和工厂比选国际物流方案、算时效成本、处理清关异常、做海外仓决策，给最划算又稳的发货路径 |
-| 海外客服应答官 | `mc-overseas-cs-responder` | 跨境电商海外客服专家，处理 listing 差评、物流催问、退换货和常见 FAQ，给出多语种客服话术和自动应答模板。 |
-| 出海投放操盘手 | `mc-paid-ads-strategist` | 管亚马逊 PPC 和 TikTok/Meta 投放，会设否定词、调出价、复盘 ROAS、跑素材 A/B 测试，把广告费花在出单上。 |
-| 封号风控官 | `mc-platform-compliance-guard` | 跨境电商封号风险预警与申诉救号专家，排查违规词、侵权图、品牌侵权，账号被封时写申诉信(POA)拉回链接和店铺 |
-| 选品研判官 | `mc-product-selection-analyst` | 帮跨境卖家和工厂做选品分析与竞品研判，查需求、算利润、判蓝海红海，给出上架优先级和铺货顺序。 |
-| 报价核算师 | `mc-quote-costing` | 帮外贸业务和工厂做报价单和形式发票 PI，按 FOB/CIF/CFR 拆全成本，吃透汇率波动设阶梯报价和保护性加点。 |
-| 独立站建站 SEO 官 | `mc-shopify-seo` | 帮你用 Shopify 快速搭独立站、做海外 SEO 谷歌排名、做 App ASO，让站点和商品在谷歌和应用商店被搜到、被点进、被下单 |
-| 供应商寻源谈判官 | `mc-supplier-sourcing` | 帮你做供应商寻源比价、采购谈判话术、对账和付款节点设计，把采购成本和账期一起谈下来。 |
-| 展会开发信官 | `mc-tradeshow-outbound` | 为广交会和海外展写开发信、设计多触点获客序列、做客户背调判断真假买家，把展会名片和询盘变成能成单的订单。 |
-
-</details>
-
-<details>
-<summary><b>本地生活服务</b>（16）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 汽车后市场获客顾问 | `cn-auto-aftermarket-advisor` | 给汽修厂、二手车商、4S店做获客钩子、报价话术和到店转化，把保养提醒和回店复购沉淀进企微私域。 |
-| 宠物商家运营官 | `cn-pet-business-operator` | 为宠物店、宠物医院和宠物博主做宠物选品、宠物种草、客户运营和会员复购的全链路操盘手 |
-| 建筑装修报价管家 | `cn-renovation-quote-manager` | 帮你出装修报价单、拆工程预算、列主辅材清单、管增项漏项、对装修合同，把含糊的口头报价做成业主签得放心、工长算得过账的清单。 |
-| 餐饮成本管控师 | `cn-restaurant-cost-controller` | 给餐饮门店和连锁算清菜品成本卡、控住损耗与毛利、做中央厨房配送测算和采购比价，让每一道菜都明明白白知道赚多少。 |
-| 广告法合规自查官 | `lls-ad-law-compliance-checker` | 给医美美业餐饮食品的宣传文案做广告法合规自查，揪出绝对化用语、医疗效果宣称和违禁词，逐句给安全改写。 |
-| 美业客资转化教练 | `lls-beauty-lead-conversion-coach` | 帮美业医美门店做客资跟进、到店转化SOP和咨询师话术，把线上咨询变成进店、成交和复购 |
-| 连锁扩张操盘官 | `lls-chain-expansion-operator` | 帮本地生活连锁老板搭多店运营SOP、算单店模型与扩张判断，串起小程序点单储值会员数据和巡店表培训手册招商话术。 |
-| 店员招聘初筛官 | `lls-frontline-staff-recruiter` | 帮门店写招聘文案、做简历初筛、约面试，把合适的服务员技师店员快速约进店面谈 |
-| 团购套餐文案手 | `lls-groupbuy-deal-copywriter` | 把门店卖点和菜单改写成美团点评抖音团购里能拉点击、能核销的套餐标题与详情页文案，懂写团购套餐文案、改门店介绍、做抖音团购标题。 |
-| 选品定价组合师 | `lls-menu-pricing-combo-designer` | 帮你做选品定价、搭套餐组合、设引流款，把价格盘成能赚钱的结构，触发词包括选品定价、套餐组合、引流款定价、菜单组合 |
-| 私域社群运营官 | `lls-private-domain-community-operator` | 帮本地店主把微信群企微社群做活、靠活动接龙、会员唤醒、新品上新和朋友圈素材把老客盘活复购 |
-| 门店日清月结管家 | `lls-store-daily-monthly-books-controller` | 帮单店多店小老板做日清月结、营业额对账和外卖佣金扣点核算，算清食材成本毛利揪出门店亏损点 |
-| 门店评价回复官 | `lls-store-review-responder` | 处理美团点评抖音的差评公关和好评引导，把每条评价回成既消火又护评分的话术，专攻回差评、好评引导、门店评分维护 |
-| 门店排班调度官 | `lls-store-shift-scheduling-manager` | 按客流高峰排班排工时，算清提成核算和工时账，临时缺人时快速调度补位的门店人力管家 |
-| 门店视觉物料官 | `lls-store-visual-collateral-designer` | 帮没设计师的小老板出门店海报、菜单价目表、活动易拉宝和九宫格视觉物料，按门店调性做成能直接打印能直接发的图 |
-| 探店种草内容官 | `lls-tanjia-seeding-content-lead` | 给本地门店写探店种草的小红书笔记、抖音口播脚本和快手老铁短视频，蹭同城节日热点、挂POI定位，把刷手机的人引到店里下单核销。 |
-
-</details>
-
-<details>
-<summary><b>专业服务·财税法律医疗保险房产</b>（16）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| 代账记账管家 | `cn-bookkeeping-workpaper-agent` | 从票据、银行流水、工资表里抽数据，自动套会计科目、编记账凭证、做月末对账。 |
-| 卷宗证据梳理师 | `cn-case-file-analyst` | 帮诉讼律师读卷宗做证据摘要、拉案件时间线、提炼争议焦点，庭前一页看清案情 |
-| 私立诊所导医官 | `cn-clinic-patient-concierge` | 做患者咨询分诊、预约答疑、费用解释、就诊随访和投诉安抚的私立导医接待 |
-| 医保编码控费师 | `cn-drg-dip-coding-agent` | 做国内医保 DRG/DIP 收费编码、病案首页与医保结算清单核对、拒付管理和控费分析，把每一份病案编到不亏钱又不违规的位置。 |
-| 保险保障诊断师 | `cn-insurance-coverage-diagnostic-agent` | 诊断家庭保障缺口、出配置方案、做条款对比、帮客户应对拒赔异议的保险顾问助手 |
-| 保险谈单陪练教练 | `cn-insurance-sales-coach` | 帮保险代理人做线索跟进、谈单话术打磨和异议处理，通过实战话术陪练把成交技巧和转化率练起来。 |
-| 律师工时账单官 | `cn-legal-billing-time-agent` | 帮律所记工时、生成计费账单、写账单说明、做应收催收，把律师的可计费时间换成稳定现金流。 |
-| 法律文书起草手 | `cn-legal-drafting-agent` | 帮你起草合同、起诉状、答辩状、法律意见书首稿，逐条标条款风险并给修改建议 |
-| 案件初筛接待官 | `cn-legal-intake-conflict-agent` | 给律所做新客户案件初筛、利益冲突核查和首次接待，把不该接的案子挡在门外。核心触发词为案件初筛、利益冲突核查、新客户接待。 |
-| 房源内容种草手 | `cn-listing-content-creator` | 把户型地段价格写成小红书房源笔记和朋友圈文案，做房源种草、户型卖点提炼和带看前预热，让客户没进门先动心。 |
-| 房贷测算政策官 | `cn-mortgage-calculator-agent` | 帮你算首付月供税费过户、查限购限贷政策、对比商贷公积金组合贷方案，把一套房的钱算到分。 |
-| 保单续期运营官 | `cn-policy-renewal-referral-agent` | 帮保险代理人管存量保单续期、做周年关怀、跑转介绍裂变，把老客户运营成持续保费来源，核心场景是保单续期、续期提醒、转介绍。 |
-| 财税法务定价中台官 | `cn-proservices-pricing-miniapp-agent` | 给代账律所中介诊所做服务定价和套餐设计，并把客户管理落到飞书集成和微信小程序工具上 |
-| 房产盘客带看官 | `cn-real-estate-client-viewing-agent` | 把客需结构化、做房源匹配、出带看话术、做盘客回访，串起从私域到成交的全链路。 |
-| 金税四期申报调度官 | `cn-tax-filing-scheduler` | 盯增值税小规模、个税、社保各申报节点，排申报日历、自动催收客户资料、对账金税四期，专管报税节点、申报日历和资料催收。 |
-| 财税政策答疑顾问 | `cn-tax-policy-qa-advisor` | 用大白话把能不能开专票、核定征收还是查账征收、税收优惠怎么落地讲清楚，7x24 接住代账客服和小微老板的发票问题与财税政策问答。 |
-
-</details>
-
-<details>
-<summary><b>软件研发与AI工程与设计</b>（19）</summary>
-
-| Agent | slug | 能力 |
-|---|---|---|
-| AI 模型工程与质检官 | `ai-model-engineer-qa` | 把 ML 和大模型集成进生产系统，再独立做模型质检、复现审计和上线验证，确保线上真靠谱 |
-| 接口与性能测试官 | `api-performance-test-engineer` | 接口契约测试与性能压测一肩挑，覆盖回归用例设计、压力测试执行与测试报告分析，给出发布放行判断。 |
+| API 设计架构师 | `api-design-architect` | 设计 REST/GraphQL/gRPC 的接口契约与版本策略，把分页、鉴权、错误码、幂等和限流定成可演进规范，让 API 设计稳、好用、对外可长期兼容。 |
+| 应用安全与安全编码工程师 | `appsec-secure-code-engineer` | 在你写代码和提交前就把安全前置，扫密钥泄露、做威胁建模、跑安全代码审查和 SAST/DAST 集成，把鉴权、注入、CORS 这类坑堵在合并之前。 |
 | 后端架构师 | `backend-architect` | 做系统架构与领域建模，定 API 设计、数据流和分层架构，给可落地的技术选型，兜底移动端架构和嵌入式固件的系统级设计 |
-| 手游与微信小游戏开发 | `cn-game-minigame-developer` | 用 Unity、Cocos 做手游和微信小游戏的全链路开发，从玩法数值、关卡叙事到游戏音频一手包，懂买量包体和小游戏平台规则 |
-| Web3与XR前沿工程 | `cn-web3-xr-frontier-engineer` | 写智能合约做合约审计、搭 WebXR/AR/VR 与空间计算原型，并打通终端命令行环境集成的前沿工程专家 |
-| 代码审查与 Git 工作流把关人 | `code-review-gatekeeper` | 在 PR 合并前盯紧正确性、安全性、性能，只做最小改动拒绝顺手扩大范围，并把分支策略、规范化提交、rebase 和 worktree 这套 Git 流捋顺。 |
+| Bug 修复最小改动工程师 | `bug-fix-minimal-change-engineer` | 定位根因、复现 bug、给最小可行修复，只改该改的，拒绝顺手扩大范围把修 bug 变成重构灾难 |
+| 代码审查官 | `code-reviewer` | 对 PR 做代码审查，盯正确性、安全、可维护性和性能给可执行反馈，把真问题揪出来再放行，不纠结代码风格。 |
 | 祖传代码向导 | `codebase-onboarding-guide` | 接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手祖传代码。 |
-| 数据库与数据修复专家 | `database-data-remediation-expert` | 治慢查询、设索引调 schema，本地自愈修脏数据，建代码语义索引，并把语音转写和邮件文档里的非结构化信息抽成系统能用的结构数据。 |
-| 信创私有化运维官 | `devops-private-deploy-engineer` | 一手抓 CI/CD 流水线、容器化和信创私有化离网部署，让系统本地能跑、离网能交付、上线能回滚 |
-| 飞书集成开发官 | `feishu-integration-developer` | 帮你把系统接进飞书生态，做飞书机器人、审批流对接和多维表 API 自动化，吃透开放平台的鉴权与事件回调坑。 |
-| 前端落地工程师 | `frontend-build-engineer` | 写前端组件、管理后台、落地页和 MVP 原型一把梭，也能用 WordPress/Drupal/Laravel/Filament/Salesforce 老栈快速建站换壳搭企业站和商城 |
-| 多 Agent 编排与自动化治理架构师 | `multi-agent-orchestration-architect` | 设计多 agent 拓扑与上下文流转、做 agent 编排和工作流设计，治理 agent 身份信任与身份图谱，n8n 式自动化先审价值风险再上护栏落地。 |
-| 提交前安全自查官 | `pre-commit-security-engineer` | 代码提交前先扫密钥和敏感信息泄露，再做威胁建模和安全代码审查，把可利用漏洞挡在合入之前。 |
-| 产品需求与排期官 | `product-manager-sprint-prioritizer` | 帮你写 PRD、拆需求、排迭代优先级，综合用户反馈、跟踪实验、管 Jira 工作流和多项目组合，把活儿排明白也排得动。 |
-| 现实校验与取证官 | `reality-checker-evidence` | 上线前默认不通过，靠截图实证、跑通用例和工具选型对比放行，顺带做可访问性审计，触发词包括现实校验、要证据、工具选型。 |
+| 数据管道工程师 | `data-pipeline-engineer` | 建可靠的 ETL/ELT 和湖仓管道，搞定 Spark、dbt、流处理和数据质量，把杂乱原始数据变成可信可分析的资产。 |
+| 数据库与 SQL 优化专家 | `database-sql-optimizer` | 治慢查询、设索引、调 schema 和分库分表，看执行计划做数据库调优，把卡死的 SQL 一条条拆开。 |
+| DevOps 与 CI/CD 工程师 | `devops-cicd-engineer` | 搭 CI/CD 流水线、容器化与 K8s、IaC 和云运维，做信创私有化与离网交付，把部署做到一键可重复 |
+| 嵌入式固件工程师 | `embedded-firmware-engineer` | 写裸机与 RTOS 生产级固件，做嵌入式开发、单片机驱动和 RTOS 任务架构，覆盖 STM32/ESP32/Nordic 全栈，让跑在硬件上的代码稳定不崩、时序可控、内存可算。 |
+| 前端工程专家 | `frontend-engineer` | 深耕现代前端的资深工程专家，从 React/Vue/Angular 组件、管理后台到落地页一把梭，把前端性能、可访问性和工程化全栈做到工业级。 |
+| 全栈快速交付工程师 | `fullstack-rapid-builder` | 一个人从想法到能跑的产品全栈打通，前后端、数据库、部署一条龙，用 AI 把 MVP 和快速原型做到生产可用的速度。 |
+| Git 工作流大师 | `git-workflow-master` | 帮团队捋顺 Git 工作流，定分支策略、规范提交、做 rebase 和 worktree 并行，把冲突解决和合流变得干净可追溯。 |
+| Go/Rust 系统工程师 | `go-rust-systems-engineer` | 用 Go 和 Rust 写高性能系统级服务，吃透并发编程、内存安全和高性能服务的吞吐与延迟极限。 |
+| 移动端开发工程师 | `mobile-app-engineer` | iOS/Android 原生加 Flutter/React Native 跨端开发，搞定 App开发 的生命周期、性能、上架审核和原生能力桥接。 |
+| Node.js 后端工程师 | `node-backend-engineer` | 用 Node 和 TypeScript 搭服务端，做 Express/NestJS 服务、事件循环调优和 BFF 层，把 JS 全栈的后端做扎实。 |
+| 渗透测试与红队官 | `penetration-tester` | 做授权渗透测试和红队演练，针对 Web、API、网络和云做漏洞利用与攻击链复现，把孤立漏洞串成能打到业务核心的完整链路，再配上能落地的整改报告和复测验证。 |
+| 性能调优工程师 | `performance-tuning-engineer` | 做性能压测和剖析，定位 CPU/内存/IO 热点，调并发缓存和算法复杂度，用基准数据证明优化前后的真实提升。 |
+| Python 工程专家 | `python-engineering-expert` | 用 Python 写工程化代码，做 FastAPI/Django 服务、异步并发、类型注解和打包测试，把能跑就行的脚本流升级成可维护的生产工程。 |
+| React 技术栈专家 | `react-stack-specialist` | 深耕 React 生态把项目调到工业级，专攻 React优化、Next.js、Hooks、状态管理、服务端渲染和 React性能。 |
+| 重构与技术债治理工程师 | `refactor-tech-debt-engineer` | 识别坏味道、拆大函数、解耦模块、补测试护网，做有节制不破坏行为的重构，把技术债按优先级一点点还清。 |
+| 智能合约工程与审计官 | `smart-contract-engineer-auditor` | 写 Solidity/EVM 合约做 gas 优化和可升级代理，再独立做安全审计，漏洞检测、形式化验证和攻击复现，出审计报告 |
+| 资深软件架构师 | `software-architect` | 做系统设计与领域驱动建模，定分层、边界和技术选型，给可落地、抗演进的架构决策和取舍依据，专治架构选型、领域建模和技术决策。 |
 | SRE 稳定性与事故指挥官 | `sre-incident-commander` | 守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程而不是救火英雄主义。 |
-| 技术文档与开源布道官 | `tech-writer-dev-advocate` | 写 README、API 文档和技术博客，再做开源布道把项目推给开发者，覆盖文档生成、开发文档、开源社区运营。 |
-| UI 视觉与 UX 架构师 | `ui-visual-ux-architect` | 建设计系统和组件库、做 UX 架构与用户研究、用视觉叙事把复杂信息讲清楚，从设计令牌到无障碍合规一把抓。 |
-| 微信小程序开发师 | `wechat-mini-program-developer` | 专做点单会员储值订阅类微信小程序，WXML/WXSS 写界面、微信支付打通、订阅消息触达一条龙 |
+| 技术文档与 API 文档官 | `tech-docs-api-writer` | 写 README、API 参考、架构说明和上手教程，把复杂工程概念讲成开发者真会读会用的文档，每段代码示例都跑得通。 |
+| 测试 QA 与自动化工程师 | `test-qa-automation-engineer` | 给你设计测试策略、写单元集成端到端用例和接口契约测试，做覆盖率与测试结果分析，默认挑刺要实证才放行。 |
 
 </details>
 
 <details>
-<summary><b>农业与县域经济</b>（4）</summary>
+<summary><b>AI工程与智能体</b>（16）</summary>
 
 | Agent | slug | 能力 |
 |---|---|---|
-| 合作社供应链与惠农账管家 | `agri-coop-supplychain-steward` | 管合作社采购销售和冷链账期，把进销存毛利、农产品定价、惠农补贴申报和采购成本测算一并算清，让你心里有数手上有账。 |
-| 农产品电商详情操盘手 | `agri-ecommerce-listing-operator` | 给农产品在淘宝拼多多抖店写会下单的详情页、产地故事和品质卖点，把土特产做成转化得起来的链接，触发词含农产品详情页、产地故事、土特产上架。 |
-| 助农直播带货操盘手 | `agri-livestream-sales-lead` | 为农产品直播间写带货话术、排品控场节奏、做溯源助农选题，把产地优势讲成下单理由。 |
-| 农时节气种养答疑师 | `agri-season-agronomy-advisor` | 按农时节气和县域气候地理答种养殖问题，覆盖播种采收、病虫防治、农事建议，把专业农技讲成地头听得懂的话。 |
+| Agent 架构设计师 | `agent-architecture-designer` | 为单体 agent 设计规划-工具调用-反思循环、状态机和失败恢复，配 agent 状态机、人类介入闸门和工具调用循环，把会乱跑的 agent 收成稳定可控的执行体。 |
+| Agent 工作流自动化工程师 | `agentic-workflow-automation-engineer` | 用 agent 把重复业务流封装成自动化工作流，先做工作流自动化的价值与流程风险评估，再上自动化护栏和人审节点，n8n 式编排让活自动化又不失控。 |
+| AI 应用架构师 | `ai-app-architect` | 把 LLM 能力落进生产系统的端到端架构，做模型网关、流式输出和降级兜底，把 demo 级 AI 功能架成扛得住量的服务。 |
+| AI 成本优化工程师 | `ai-cost-optimization-engineer` | 拆 token 账单做模型路由分级、提示词压缩与缓存命中，在效果不掉的前提下做 AI 成本优化、推理降本，并给失控前的成本护栏。 |
+| AI 产品工程师 | `ai-product-engineer` | 把模型能力翻译成用户用得爽的功能，做 AI 产品化、AI 功能设计、人机交互与流式体验，专治模型很强但产品很难用。 |
+| AI 安全红队工程师 | `ai-redteam-safety-engineer` | 对 LLM 应用做对抗测试和 AI 红队，专攻提示词注入、越狱攻击、数据外泄防护，给出输入输出防护栏和兜底策略，把 AI 攻击面系统性堵上。 |
+| 上下文工程专家 | `context-engineering-specialist` | 为长任务设计上下文窗口预算、记忆分层、压缩裁剪和动态拼装策略，专治上下文超限、中段遗忘和提示词注入污染。 |
+| 数据标注与训练集策展官 | `data-annotation-curation-lead` | 为微调和评测建标注规范、做数据清洗去重和标注一致性校验，把脏乱语料策展成口径不漂、质量可审计的训练集与评测语料。 |
+| 大模型评测与质检官 | `llm-eval-qa-engineer` | 为 LLM 应用搭可复现的评测体系，做模型评测集、LLM-as-judge 打分和效果回归，把上线前质检从拍脑袋变成有数据的判断。 |
+| 大模型选型顾问 | `llm-selection-advisor` | 按任务场景、效果基准、上下文长度、合规与成本给大模型选型矩阵，对比闭源开源国内外模型，给主选加兜底的模型组合而非单押一家。 |
+| MCP 服务开发专家 | `mcp-server-builder` | 设计、实现并测试 Model Context Protocol 服务，把外部工具、资源和数据源封装成 agent 能稳定调用的 MCP 能力，含鉴权、错误契约和兼容性测试。 |
+| 模型微调训练工程师 | `model-finetuning-engineer` | 做 SFT/LoRA/DPO 微调全流程，从训练数据配比、超参调优到过拟合诊断，先帮你判断该微调还是该改提示词，别白烧卡。 |
+| 多 Agent 编排与自动化治理架构师 | `multi-agent-orchestration-architect` | 设计多 agent 拓扑与上下文流转、做 agent 编排和工作流设计，治理 agent 身份信任与身份图谱，n8n 式自动化先审价值风险再上护栏落地。 |
+| 提示词工程架构师 | `prompt-engineering-architect` | 把模糊指令打磨成可量化、抗漂移的生产级系统提示词，建提示词版本库、评测集和回归用例，专治 prompt 优化里输出不稳、指令跑偏、换模型就崩。 |
+| RAG 检索增强工程师 | `rag-pipeline-engineer` | 搭检索增强生成全链路，做文档切块、混合检索、重排序和引用归因，专治检索召不准、答非所问和瞎编引用。 |
+| 向量检索与嵌入工程师 | `vector-retrieval-engineer` | 选嵌入模型、调向量数据库索引、做召回评测，把语义检索的精度、延迟和成本同时压到达标线。 |
 
 </details>
 
 <details>
-<summary><b>个人生活与成长</b>（11）</summary>
+<summary><b>AI视觉创作</b>（18）</summary>
 
 | Agent | slug | 能力 |
 |---|---|---|
-| 合规心理支持陪伴 | `cn-compliant-mental-support` | 给深夜失眠、焦虑、亲子矛盾的成年人做情绪疏导和压力陪伴，听得见情绪、给得出方法、识别危机就转介，明确不做诊断不做治疗 |
-| 就医陪诊与报告解读 | `cn-medical-visit-companion` | 帮你把三甲就医流程、检查报告、慢病复查吃药提醒讲成人话的陪诊助手，不做诊断 |
-| 中立家庭理财顾问 | `cn-neutral-family-finance-advisor` | 站在不卖产品、不拿提成的中立视角，帮普通家庭做家庭理财、资产配置、基金定投和保险规划，把销售话术里的坑挑出来给你看。 |
-| 个人法律维权助手 | `cn-personal-legal-rights-helper` | 把离婚、劳动仲裁、欠款、消费维权讲成你听得懂的步骤，帮你判清诉讼时效、备齐证据材料、走对维权流程，只做通俗指引不当诉讼代理。 |
-| 日常文案润色员 | `everyday-writing-polisher` | 帮你把朋友圈、周报、节日祝福、送礼贺词、应酬场面话随手润色成得体表达，能中能英，张口就来 |
-| 习惯陪跑监督官 | `habit-accountability-coach` | 用行为科学帮你做打卡监督、把年度计划和考证目标拆成每天能做的小步，顺手把笔记灵感归档进知识库，做你随叫随到的习惯陪跑搭子 |
-| 陪写作业辅导老师 | `homework-tutor-coach` | 把语数英错题拆成家长一看就会讲的步骤和话术，辅导作业讲题不卡壳，陪写作业不跟娃急。 |
-| 一日三餐食谱管家 | `meal-plan-housekeeper` | 按减脂、孕产、三高慢病的需求配一周三餐，连买菜清单和做法分量一起给你。 |
-| 起号口播脚本官 | `short-video-script-producer` | 副业起号专用，按小红书抖音快手算法口味批量产出口播脚本、种草脚本和分镜，专治不会写开头、出片慢，开口就有钩子。 |
-| 搞钱副业参谋 | `side-hustle-money-planner` | 帮你判断副业选什么、算清变现路径和回本周期，再把家庭记账省钱方案和攒钱还房贷的现金流一起拆给你。 |
-| 养生科普解读员 | `wellness-science-explainer` | 把体检报告的箭头指标讲成人话，按节气给中医调理建议，绝不说绝对化和包治百病的话。触发词含体检报告解读、指标是什么意思、节气调理。 |
+| AI 3D 与动效设计师 | `ai-3d-motion-designer` | 用 AI 工具做 3D 渲染风、C4D 质感和图标动效，定材质灯光参数、等距小场景和动效节奏，把扁平内容做出立体动起来的高级感。 |
+| AI 艺术总监 | `ai-art-director` | 替你把审美关，定视觉调性、从一堆 AI 出图里选出最对的那张、点出哪里塑料感哪里廉价，把零散素材统一成有品的成套作品 |
+| AI 品牌视觉系统设计师 | `ai-brand-visual-system-designer` | 用 AI 工具搭一套能复用的品牌视觉系统，定调色板和字体气质、锁图像风格和 sref 种子，让全平台出图都像出自同一个品牌。 |
+| AI 角色与概念设计师 | `ai-character-concept-designer` | 用 AI 工具做角色概念设计与人设三视图，保住角色一致性，产出可迭代的设定集和概念图 |
+| AI 色彩与字体策划师 | `ai-color-typography-curator` | 按情绪和场景给你定调色板、搭字体组合、调对比和视觉层级，把 AI 出图和版面的颜色字体调到既好看又传达对情绪，专治配色方案、字体气质、色彩情绪。 |
+| AI 插画与漫画师 | `ai-illustration-comic-artist` | 用 AI 做插画和分格漫画，定画风、保人物一致性、排格子和分镜、配对白气泡，把一个故事或知识点画成成套的图。 |
+| AI 摄影指导 | `ai-photography-director` | 用摄影师的语言写 AI 出图，把布光方案、镜头焦段、胶片质感翻译成提示词，让生成图有真实相机感。 |
+| AI 海报与信息图设计师 | `ai-poster-infographic-designer` | 用 AI 出海报和信息图，定版式层级、做文字精准上图、把数据和流程视觉化，给排版网格和配色方案，出能直接用的高密度信息大图。 |
+| AI 产品场景图与换装造型师 | `ai-product-staging-tryon-stylist` | 用图生图做电商产品场景图和 AI 换装，保住产品和人物主体不变形，换背景换模特换服装，出能直接挂链接的电商主图与产品摆拍图 |
+| AI 视觉叙事分镜导演 | `ai-visual-storyboard-director` | 把一个想法拆成有节奏的视觉故事，写分镜脚本、设计镜头序列和情绪曲线，再落成连贯的生图与生视频提示词。 |
+| GPT-Image / Nano Banana 编辑工程师 | `gpt-image-nano-banana-engineer` | 专精对话式生图与图生图，吃透 GPT-Image 与 Gemini Nano Banana 的指令编辑、多图融合、局部重绘和文字精准上图，把改图说清楚一次到位。 |
+| 即梦提示词导演 | `jimeng-prompt-director` | 专攻即梦/Dreamina 出图，吃透中文语义模型脾气、参考图权重和分区描述，把国风、电商、人像写成能复现的中文生图咒语。 |
+| 可灵视频提示词导演 | `kling-video-director` | 专攻可灵 Kling 视频，懂首尾帧控制、运镜语言和运动幅度，把分镜写成能跑出连贯运动和镜头感的视频提示词。 |
+| Midjourney 提示词工程师 | `midjourney-prompt-engineer` | 把脑子里的画面翻译成 Midjourney 能听懂的精准咒语，吃透 sref 风格参考、cref 角色一致和 stylize/chaos 参数，帮你稳定出片、控住风格一致性。 |
+| Runway 动态视效导演 | `runway-motion-director` | 玩透 Runway 的运动笔刷、镜头控制和视频特效合成，把静图变动态、做转场和视觉特效，给可直接套用的参数和分镜方案。 |
+| Seedance 视频提示词导演 | `seedance-video-director` | 专精即梦 Seedance 2.0 视频生成，按短剧、广告、口播节奏写时间戳分镜提示词，懂视频延长、镜头衔接和带货素材的爆点设计。 |
+| Seedream 出图架构师 | `seedream-image-architect` | 玩透 Seedream 的高分辨率出图、长文本理解和组图一致性，把品牌大片、系列视觉、成套海报做成风格统一可复现的成套作品。 |
+| Sora 视频提示词导演 | `sora-video-director` | 用电影语言写 Sora 提示词的资深导演，吃透场景调度、物理一致性、长镜头与多镜头叙事，把一句创意拍成有导演感的 AI 短片。 |
+
+</details>
+
+<details>
+<summary><b>设计与体验</b>（12）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 无障碍设计专家 | `dux-accessibility-specialist` | 对照 WCAG 2.2 和信创无障碍标准做无障碍设计审计，查对比度、焦点管理、读屏适配和键盘可达，给能直接改的整改清单和验收标准。 |
+| AI 原生体验设计专家 | `dux-ai-native-experience-designer` | 为对话、agent 和生成式产品做 AI 原生体验设计，吃透流式输出体验、不确定性设计和人机协作信任，把模型很强但产品难用的功能调成用户敢用、能纠错的交互。 |
+| 设计评审主审官 | `dux-design-critic-reviewer` | 用层级、对齐、间距、可读性和一致性做系统化设计评审，逐条给问题、原因和改法，把含糊点评变成可执行批注，专治设计走查没标准、改稿建议说不清 |
+| 设计系统架构师 | `dux-design-system-architect` | 从 design token、组件 API 到主题与暗色模式，搭一套跨端可治理、能让 AI 直接生成组件的设计系统底座 |
+| 信息架构专家 | `dux-information-architect` | 梳理内容分类、导航结构和命名体系,用卡片分类和树测试验证,让用户一眼找得到、产品扩展不塌方。 |
+| 交互设计专家 | `dux-interaction-designer` | 把复杂流程拆成顺手的状态、转场和微交互，定义手势、反馈与空态边界态，让每一步操作都有清晰因果。涵盖交互设计、微交互、状态设计。 |
+| 画像走查体验官 | `dux-persona-walkthrough-specialist` | 以设定画像的心智视角逐屏走查页面，结合转化心理学做页面体验诊断，记录情绪反应，输出可执行的 CRO 报告。 |
+| 产品设计专家 | `dux-product-designer` | 从需求到上线全程操盘产品体验，把功能需求设计成可发布方案，平衡商业目标、用户价值和实现成本，专攻产品设计、0到1设计、端到端设计 |
+| 高保真原型工程师 | `dux-prototyping-engineer` | 用代码和 AI 工具快速搭可交互高保真原型，带真实数据和动效，把模糊想法变成能点能测的验证物，专治高保真原型、原型验证、代码原型卡在静态稿走不到能用。 |
+| 用户旅程策略师 | `dux-user-journey-strategist` | 画全链路用户旅程图和服务蓝图，标出情绪曲线、关键时刻和痛点，把断点连成可优化的体验闭环 |
+| UX 研究专家 | `dux-ux-researcher` | 设计用户访谈脚本和可用性测试，跑定性定量混合研究，把行为数据炼成可决策的研究洞察和优先级。 |
+| Web 体验设计专家 | `dux-web-experience-designer` | 设计响应式落地页和营销站，统管排版网格、滚动叙事和性能感知，把品牌官网做到各端都好看、好用、加载快。 |
+
+</details>
+
+<details>
+<summary><b>写作与内容</b>（18）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 学术写作精修教练 | `wc-academic-writing-coach` | 辅导学术写作，搭论文论证结构、改摘要与文献综述、调学术语体和引用规范，把口语化或松散的论述改成严谨清晰的学术表达 |
+| 成书合著与书稿统筹官 | `wc-book-coauthor-manuscript-lead` | 把零散的语音、片段和定位攒成一本可出版的书，搭章节大纲、统一全书声音、逐章成稿并管控篇幅与一致性，从想法走到完整书稿。 |
+| 内容策略与选题总监 | `wc-content-strategy-director` | 做内容战略，定内容支柱和受众分层、排编辑日历、设计选题矩阵和复用链路，把零散更新整成有方向能复利的内容体系。 |
+| 资深商业文案匠人 | `wc-copywriting-craftsman` | 写转化型商业文案，从落地页、卖点提炼到 slogan 和广告语，把卖点写成下单理由而不是自嗨。 |
+| 降AI味人味改写师 | `wc-deai-humanizer-rewriter` | 把一眼AI的稿子改成有人味，专攻降AI味、去模板腔、人机感改写，拆对仗删废话还原真实语感。 |
+| 结构与逐句双层编辑 | `wc-developmental-line-editor` | 做两层改稿，上层重排结构补逻辑断点调叙事节奏，下层逐句润色去赘词，把烂稿改成能直接发的好稿并讲清每处为什么改 |
+| GEO/AEO 内容被引官 | `wc-geo-aeo-content-strategist` | 让你的内容被 AI 引擎引用，做 GEO 优化和答案引擎优化，审计 ChatGPT、Claude、豆包、Kimi、DeepSeek 里的 AI 搜索可见度，写 llms.txt 和被引格式 |
+| 代笔与口吻克隆师 | `wc-ghostwriter-voice-cloner` | 以第一人称替你或客户代笔，先扒清楚目标对象的语感、节奏、口头禅和价值观，再写成读者认不出是代笔的稿子，专治模仿口吻和克隆文风。 |
+| 标题与开篇钩子专家 | `wc-headline-hook-specialist` | 批量产标题和开篇钩子，卖收益、埋好奇、玩反差，按平台调性出多版本测款，把点击率和完读率从第一行抓起来。 |
+| 长文随笔写作大家 | `wc-longform-essayist` | 操刀深度长文和随笔，搭得起几千字的论证骨架，铺得开叙事张力，把一个观点写到既有思想密度又读得下去 |
+| 叙事故事架构师 | `wc-narrative-story-architect` | 用经典叙事学框架搭故事，把控人物弧光、冲突升级和情绪曲线，给品牌故事、案例、纪实内容注入让人读下去的张力 |
+| Newsletter 主理操盘官 | `wc-newsletter-architect` | 策划并撰写邮件 newsletter，定栏目定位、设计开信钩子和邮件序列，把订阅做成高打开率的长期内容资产。 |
+| 播客脚本与对谈构稿官 | `wc-podcast-script-writer` | 写播客脚本和对谈大纲，设计开场钩子、问题链和章节节奏，把口语内容写成既自然又有信息密度的可录制脚本 |
+| 短视频短剧编剧 | `wc-screenwriting-scriptwriter` | 写短视频口播脚本和微短剧剧本，把3秒钩子、分镜、分集反转、情绪节奏一次写到位，让脚本既留得住人又拍得出来。 |
+| SEO内容写作策略师 | `wc-seo-content-writer` | 做关键词意图研究、内容布局和搜索友好的成稿，把搜索意图翻译成既排得上又读得顺的长尾内容，专攻SEO内容、关键词布局和自然流量内容。 |
+| 演讲稿撰稿人 | `wc-speechwriter` | 写演讲稿和发言稿，开场抓人、中段立论、收尾点燃，设计停顿排比金句节奏，按演讲者口吻和场合把稿子写成听得进记得住的现场表达。 |
+| 技术文档与开发者写作官 | `wc-technical-documentation-writer` | 写开发者文档、API 参考、教程和 README，把复杂工程概念讲成开发者照着就跑通的清晰文档，核心触发词包括写技术文档、API文档、README。 |
+| 翻译与本地化专家 | `wc-translation-localization-expert` | 做多语种精翻和本地化，统一术语表、贴合目标语境的语气和文化梗，把直译腔改成母语者读着自然的地道表达。 |
+
+</details>
+
+<details>
+<summary><b>数据与分析</b>（12）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| AB 实验科学家 | `da-ab-experiment-scientist` | 帮你把 AB 测试做得能信能复现，从 AB实验设计、样本量估算到显著性判读和效应量解读，专治偷看数据提前停、被新奇效应骗、护栏指标失守。 |
+| 数据管道工程师 | `da-analytics-engineer` | 用 dbt、Spark、Airflow 搭 ETL/ELT 管道和数仓分层，建可复用的指标模型，把数据质量校验、调度和血缘做成产线级资产。 |
+| 应用统计学家 | `da-applied-statistician` | 帮你选对统计方法、把假设检验和置信区间算明白，做回归分析和方差分析，防住 p-hacking 和样本偏差，把不确定性说清楚。 |
+| BI 看板架构师 | `da-bi-dashboard-architect` | 从业务目标倒推看板结构、维度度量和钻取路径，建语义层和数据模型，对接 Tableau、Power BI、Superset、Metabase 落成能自助分析的看板。 |
+| 数据叙事顾问 | `da-data-storyteller` | 把分析结论包装成决策者听得进的故事，用金字塔结构、一图一结论和 So-What 提炼，产出能直接讲的数据汇报和洞察叙事。 |
+| 数据可视化设计师 | `da-data-viz-designer` | 按数据关系和受众选对图表类型，避开误导性视觉，把配色、坐标轴、标注调到一眼看懂，可出 echarts、plotly、matplotlib 代码。 |
+| 数据清洗整理专家 | `da-data-wrangler` | 把脏乱数据收拾成分析就绪的干净数据集，专攻缺失值处理、数据去重和实体对齐，用 pandas/Polars/OpenRefine 出可复现的清洗管道。 |
+| 预测建模专家 | `da-forecasting-modeler` | 帮你做时间序列预测和销量需求预测，按场景在 ARIMA、Prophet、XGBoost 之间选型，处理季节性和节假日，交付带置信区间的预测和回测评估。 |
+| 指标体系架构师 | `da-metrics-system-architect` | 用 OSM、北极星、UJM 方法搭一二三级指标体系，统一指标口径，建指标字典，把全公司看数从各算各的治成一套可信口径。 |
+| 资深数据分析顾问 | `da-senior-data-analyst` | 拿到一坨数据先帮你把问题问对，再用拆解、对比、归因、漏斗、留存这套分析框架给出能落地的结论和下一步动作。 |
+| 表格函数大师 | `da-spreadsheet-grandmaster` | 专治表格疑难杂症的资深专家，复杂嵌套公式、数组与 LAMBDA、Power Query 清洗、数据透视、VBA 与 Apps Script 自动化一把抓，把 Excel、Google Sheets、飞书表格用到极致。 |
+| SQL 查询大师 | `da-sql-query-master` | 把模糊的取数需求翻成精准 SQL，窗口函数、复杂JOIN、CTE子查询信手拈来，再读执行计划把慢查询优化调快。 |
+
+</details>
+
+<details>
+<summary><b>产品与增长</b>（12）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| AB 实验设计官 | `pg-ab-experiment-designer` | 把增长假设变成严谨可上线的 AB 实验，专做样本量计算、统计显著判定和上线还是回滚的明确决策。 |
+| AI 产品趋势侦察官 | `pg-ai-product-trend-scout` | 扫 AI 赛道的新模型、新形态和竞品动向，拆解谁在做什么、机会窗口在哪，给资深产品人一份能据此调方向的 AI产品趋势 与 机会窗口 简报，专做竞品拆解与前沿模型动向追踪。 |
+| 用户反馈综合官 | `pg-feedback-synthesizer` | 把应用商店评价、社群吐槽、客服工单和访谈记录批量做反馈聚类与痛点提炼，转成产品能直接排进迭代的需求池，专攻评价分析和 VOC。 |
+| 增长黑客操盘手 | `pg-growth-hacker` | 用 AARRR 海盗指标拆增长杠杆、排实验优先级、设计病毒环，把一次单点爆发做成能复制的增长引擎。 |
+| GTM 上市发布官 | `pg-gtm-launch-strategist` | 做新品和新功能的 GTM 全案，定目标人群和价值主张、排发布节奏、配渠道与上市定价钩子、写发布脚本，把上市做成一次有声量的增长事件。 |
+| PRD 需求文档官 | `pg-prd-spec-author` | 把一句话想法写成工程能直接开工的 PRD，专做目标、用户故事、验收标准、边界与非目标、埋点口径，一份说明书改完不返工。 |
+| 产品数据分析官 | `pg-product-analytics-analyst` | 帮你搭埋点体系、建漏斗和留存看板、定指标口径，从行为数据里挖出为什么涨为什么掉，给一张能直接决策的产品数据结论。 |
+| 产品战略主理官 | `pg-product-strategy-lead` | AI 原生产品的战略推演官，帮你定愿景、切赛道、画护城河、立北极星，把模糊的产品方向逼成一句话押注和取舍清单。 |
+| 留存生命周期策略官 | `pg-retention-lifecycle-strategist` | 盯次留周留和流失节点，设计激活上手、习惯养成、召回唤醒的全生命周期触达，用行为科学把一次性用户变成长期留存。 |
+| 路线图优先级官 | `pg-roadmap-prioritization-lead` | 用 RICE/Kano/价值复杂度框架做需求优先级，把一堆要做的事排成季度路线图，讲清为什么先做这个、砍掉那个有理有据。 |
+| 迭代排期协调官 | `pg-sprint-delivery-coordinator` | 把路线图拆成能按时发版的迭代，做迭代排期、工时估点、范围管控、跨职能对齐和阻塞跟踪，把每个 sprint 推到准点交付。 |
+| 用户研究访谈官 | `pg-user-research-interviewer` | 做用户访谈、问卷与可用性测试的研究官，设计不诱导的访谈脚本，把质性原话提炼成可执行洞察和用户画像，专治需求验证全靠拍脑袋 |
+
+</details>
+
+<details>
+<summary><b>营销与品牌</b>（16）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 广告创意与测试策略师 | `mb-ad-creative-testing-strategist` | 做投放端广告创意与测试，写钩子和卖点、设计素材脚本和RSA响应式资产、搭创意测试与迭代框架，用数据反推哪条素材该上量、哪条该砍。 |
+| 品牌战略与定位架构师 | `mb-brand-strategy-positioning-architect` | 给你定品牌定位与差异化，把模糊的"我们是谁"锤成可执行的品牌战略、价值主张和品牌叙事，管住全渠道品牌一致性。 |
+| 社群与私域运营策略师 | `mb-community-private-domain-strategist` | 搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量沉淀成可反复触达的高价值私域资产。 |
+| AI搜索品牌被引策略师（GEO/AEO） | `mb-geo-aeo-brand-visibility-strategist` | 做品牌在 AI 引擎里的可见度，审计你在 ChatGPT、Claude、豆包、Kimi、Perplexity 里被不被引用、被谁抢，诊断竞品为什么被推荐，设计 GEO 被引策略和 agent 可完成任务的站点就绪度。 |
+| 海外社媒增长策略师 | `mb-global-social-strategist` | 统筹 LinkedIn、X、Instagram、TikTok、Threads 五平台自然增长，按各平台算法和文化做海外社媒策略、个人品牌和 thought leadership，把账号做成获客和影响力资产 |
+| 增长黑客与实验策略师 | `mb-growth-experimentation-strategist` | 帮你做数据驱动增长，搭获客转化留存全漏斗、设计 AB 测试和增长实验、找可规模化渠道和病毒裂变循环，把增长从拍脑袋变成可复盘的实验体系。 |
+| 达人KOL投放与合作策略师 | `mb-kol-influencer-partnership-strategist` | 做达人营销全链路，从达人画像组合、商单报价谈判、种草brief到投后ROI复盘，把KOL投放和达人合作做成可量化增长 |
+| 生命周期CRM与营销自动化策略师 | `mb-lifecycle-crm-automation-strategist` | 设计生命周期营销和CRM自动化，做人群分层、培育序列和召回挽回，把邮件短信push微信多通道触达搭成自动跑的留存复购引擎。 |
+| 营销数据归因与度量官 | `mb-marketing-analytics-attribution-lead` | 搭营销度量体系，做转化追踪和归因建模，把 GA4、广告平台、CRM 数据打通成能指导预算分配的 ROI 看板，专治数据各报各的、口径打架、钱花了说不清效果。 |
+| 付费搜索与购物广告策略师 | `mb-paid-search-shopping-strategist` | 搭账户架构、做关键词意图与否定词体系、按 ROI 分预算定出价，专治 SEM投放 跑量不赚钱、搜索词分析 找不到漏点、购物广告 和 Performance Max 黑盒难控。 |
+| 付费社媒与程序化投放官 | `mb-paid-social-programmatic-buyer` | 操盘 Meta/TikTok/巨量信息流和程序化展示投放，做全漏斗人群与重定向、版位预算策略、媒体采买，把社媒和展示流量买成可规模化转化。 |
+| 公关传播与危机应对官 | `mb-pr-crisis-communications-lead` | 做公关传播全盘，从新闻稿、媒体口径到危机公关一手抓，主动设置叙事、舆情应对把损失控到最小。 |
+| SEO与ASO可发现性策略师 | `mb-seo-aso-discoverability-strategist` | 做搜索和应用商店的可发现性，统筹技术SEO、百度SEO双引擎排名和ASO优化，把自然搜索与应用市场流量做成稳定获客通道。 |
+| 视频与播客增长策略师 | `mb-video-podcast-growth-strategist` | 做长视频和播客的增长策略，专攻视频留存优化、YouTube增长、播客增长、节目定位和音视频分发，把长内容做成复利型受众资产。 |
+| 公众号知乎B站内容生态策略师 | `mb-wechat-knowledge-platform-strategist` | 给知识型品牌做公众号、知乎、B站、视频号的长内容生态策略，定栏目和分发节奏，跑各平台算法与社区调性，用专业度沉淀品牌信任和私域转化。 |
+| 小红书抖音增长策略师 | `mb-xhs-douyin-growth-strategist` | 操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制的增长曲线而不是赌一次爆款。 |
+
+</details>
+
+<details>
+<summary><b>商业与战略</b>（14）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 董事会高管汇报官 | `bs-board-exec-briefing-officer` | 把经营数据和战略议题揉成董事会和高管秒懂的一页纸，结论先行、风险透明、决策点清晰，配高管摘要、决策汇报和问答预案 |
+| 商业模式设计师 | `bs-business-model-designer` | 用商业模式画布和单位经济拆收入、成本、护城河与增长飞轮，设计并压测盈利模式，找出现金流闭环和可规模化的引擎，专治模式跑不通。 |
+| 竞品情报分析师 | `bs-competitive-intelligence-analyst` | 系统扒竞品的定位产品定价渠道打法，建对标矩阵和能力差距表，识别对手战略意图与软肋，给出差异化卡位与反制策略，覆盖竞品分析、竞争格局、反制策略 |
+| 创始人参谋长 | `bs-founder-chief-of-staff` | 替创始人过滤噪音、梳理决策清单、推动跨部门对齐和承诺跟踪，把战略意图翻译成可执行节奏，盯关键议题不掉球，当老板的左右脑。 |
+| 融资BP与路演军师 | `bs-fundraising-pitch-strategist` | 帮你搭融资故事线、做财务预测和估值锚点、防御投资人Q&A，把市场模式数据团队讲成投资人买账的pitch deck。 |
+| 并购整合操盘手 | `bs-ma-deal-integration-strategist` | 给并购做战略论证、标的筛选与尽调要点、估值与协同测算，再排 Day1 和百日整合方案，盯协同兑现和文化磨合。 |
+| 市场与赛道研究员 | `bs-market-sizing-researcher` | 做市场规模 TAM/SAM/SOM 测算、赛道结构与趋势研判、需求供给侧扫描，把碎信息聚成有判断的赛道情报，回答这个市场值不值得进。 |
+| OKR与战略落地教练 | `bs-okr-strategy-execution-coach` | 把战略目标拆成可衡量的 OKR 和关键举措，校准 O 的野心和 KR 的可量化，建复盘节奏和对齐机制，专治目标拆解落不了地。 |
+| 定价与盈利模型师 | `bs-pricing-monetization-modeler` | 基于成本结构、支付意愿和竞品锚点设计定价模型与套餐分层，做价格弹性测算、毛利敏感性和涨价路径，把定价从拍脑袋变成可算账的增长杠杆。 |
+| 战略红蓝对抗官 | `bs-redblue-strategy-duelist` | 用博弈论和三十六计对你的战略方案做红蓝军推演，红军扮演最狠的对手模拟反击，蓝军逼你出应招，反复对打到把一厢情愿的计划压成能扛住真实对抗的方案。专治假设压测、对手反制模拟、盲点暴露。 |
+| 单点胜负手军师 | `bs-single-leverage-point-strategist` | 不做面面俱到的规划，只逼出那个做到极致就能撬动全局的单点胜负手，从终局倒推砍掉次要项，给 all in 级别的强判断和押注理由。专治战略聚焦、第一优先级、该押什么。 |
+| 商业战略总顾问 | `bs-strategy-chief-advisor` | 用麦肯锡式假设驱动拆商业问题，做战略诊断、市场进入和增长路径分析，给出有取舍能落地的战略主张。 |
+| 结构化咨询表达官 | `bs-structured-consulting-communicator` | 用 SCQA、金字塔原理和 MECE 把杂乱信息搭成结论先行、逻辑互斥穷尽的论证结构，专做咨询级故事线、议题树和一页纸主张，让方案一眼讲得清 |
+| 0到1创业顾问 | `bs-zero-to-one-startup-advisor` | 陪早期创始人验真问题、找 PMF、设最小验证实验，判断该 all in 还是该转向，给敢拍板的强判断 |
+
+</details>
+
+<details>
+<summary><b>研究与学习</b>（12）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 读书拆解官 | `book-deconstruction-analyst` | 按主题阅读法把一本书拆成核心命题、论证骨架和可迁移模型，做跨书互参与批判，产出能内化也能讲出去的读书笔记 |
+| 概念拆解讲解员 | `concept-explainer-tutor` | 把硬核概念按你的水平分层讲透，用类比、第一性原理和苏格拉底提问带你从直觉到本质，专治似懂非懂和听过就忘。 |
+| 深度研究主理人 | `deep-research-lead` | 把一个模糊问题拆成可检索的子问题，扇出多源检索、交叉验证、再合成一份带引用和置信度的研究报告，全程留证据链。 |
+| 提炼总结分析师 | `distill-summarize-analyst` | 把长文、报告、论文、会议长稿做分层摘要，抽核心论点、证据和反方，按金字塔结构给你能直接复用的要点和金句。触发词包括提炼总结、长文摘要、核心论点、论文速读、抽要点。 |
+| 备考学习教练 | `exam-prep-study-coach` | 帮考研考公备考党拆解大纲、排每日计划、做错题复盘和背诵规划，把长周期复习变成可执行的节奏。 |
+| 事实核查校验官 | `fact-check-verifier` | 把文稿或一组断言逐条拆成可核验声明，做溯源出处、断言核验和防AI幻觉，标可信度、给反证、出可追溯的核查报告。 |
+| 语言习得陪练教练 | `language-acquisition-tutor` | 用可理解输入、影子跟读和间隔复习把学外语变成有方法的长期训练，做听说读写陪练、地道表达纠错和写作批改。 |
+| 学习策略教练 | `learning-strategy-coach` | 用主动回忆、间隔重复、费曼讲解和刻意练习帮你设计学习路径，做学情诊断、排复习节奏、把任何技能拆成可执行的进阶阶梯 |
+| 文献综述合成官 | `literature-review-synthesizer` | 围绕一个主题系统检索文献、梳理研究脉络、做主题矩阵和分歧点对比，产出可投稿质量的综述骨架与引文表。 |
+| 研究问题与方法设计师 | `research-question-designer` | 把宽泛兴趣收敛成可研究的好问题，定研究框架、变量假设和方法路线，开题前帮你把研究问题问对、把方法论坑提前避开。 |
+| 留学申请策略军师 | `study-abroad-application-strategist` | 做留学申请的选校定位、套磁导师和文书叙事，把零散背景拼成一条招生官记得住的故事，给可落地的申请策略和项目匹配判断。 |
+| 卡片盒知识管家 | `zettelkasten-knowledge-steward` | 按卢曼卡片盒方法帮你把碎片输入炼成原子笔记、建双链和索引、长成可生长的知识网络，让笔记从仓库变成会思考的第二大脑。 |
+
+</details>
+
+<details>
+<summary><b>专业领域顾问</b>（16）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 会计记账底稿管家 | `pa-bookkeeping-workpaper-agent` | 从票据、银行流水、工资表抽数据自动套科目、编记账凭证、做银行对账和底稿勾稽，把代账记账从录入苦力解放出来。 |
+| 合同审查法务顾问 | `pa-contract-review-counsel` | 逐条审采购销售劳动投融资各类合同，标红风险条款、补缺漏、对照对赌违约赔付管辖条款给修改建议，签字前帮你把坑挑出来。只做合同审查与条款风险标注，不当诉讼代理。 |
+| 数据合规与个保等保顾问 | `pa-data-compliance-officer` | 对照个保法、数据安全法和等保2.0，做数据分类分级、权限梳理、隐私政策审查和整改清单，把合规要求翻译成业务能落地的动作 |
+| 健康报告解读与就医导航顾问 | `pa-health-report-navigator` | 把体检报告的箭头指标和检查单讲成人话，理清该挂哪个科、问医生哪些问题、慢病复查吃药怎么安排，给科普和就医动线指引，明确不做诊断、危急值即提醒就医。 |
+| HR用工与劳动合规顾问 | `pa-hr-employment-compliance` | 做入职到离职全周期的用工管理、劳动合同与规章制度合规自查、社保公积金和考勤薪酬口径核对、劳动争议风险预判，给合规边界和处理思路。 |
+| 保险保障诊断顾问 | `pa-insurance-coverage-diagnostic` | 从中立视角诊断家庭保障缺口，按预算出重疾医疗意外寿险配置思路，逐条对比产品条款和免责，帮你看懂拒赔逻辑和理赔要点，不卖保险也不替你投保 |
+| 知识产权与商标策略顾问 | `pa-ip-trademark-strategist` | 做商标布局、专利策略和版权保护的护城河顾问，帮你跑近似检索、研判侵权风险、理清维权取证思路，把品牌和原创的法律保护提前圈出来 |
+| 律师工时计费顾问 | `pa-legal-billing-time-counsel` | 帮律师和咨询师做工时记录、计费账单生成、账单说明撰写、应收催收和分润测算，把专业人士的时间精准换成现金流。 |
+| 并购财务与估值顾问 | `pa-ma-deal-finance-advisor` | 做并购财务尽调要点、估值建模与协同测算，排 Day1 和百日整合财务方案、盯协同兑现，把买了又消化不了的财务坑提前堵上，不替你拍板交易。 |
+| 财务月结与预实分析师 | `pa-month-end-close-controller` | 帮你跑通月结对账勾稽、做预算编制和滚动预测、把预实差异归因成经营结论，AI 加速取数与分析。 |
+| 中立投资理财顾问 | `pa-neutral-wealth-advisor` | 从不卖产品的中立视角帮你做资产配置、基金定投和风险测评，拆穿销售话术、讲透复利与回撤，给框架和取舍判断。 |
+| 个人法律维权助手 | `pa-personal-legal-rights-helper` | 把离婚、劳动仲裁、欠款、消费维权讲成你听得懂的步骤，帮你算清诉讼时效、判断管辖、列齐材料清单、写好申请书初稿，只做流程指引，不当诉讼代理也不替代律师。 |
+| 房产交易与房贷测算顾问 | `pa-real-estate-deal-advisor` | 帮你算清首付月供税费过户成本、对比商贷公积金组合贷方案、查限购限贷政策、理清买卖与过户流程和合同要点，给测算和决策框架，不当中介也不荐盘。 |
+| 招聘与人才甄选顾问 | `pa-recruiting-talent-advisor` | 写精准 JD、设结构化面试题和评分维度、做简历打标初筛和人才画像匹配，理清渠道与薪酬带宽，把招对人这件事用 AI 变成有标准的筛选。 |
+| 金税四期申报调度官 | `pa-tax-filing-scheduler` | 帮代账和企业财务把多主体申报排成不漏报的日历，盯增值税申报、个税申报、社保申报各节点，自动催收客户资料并对账金税四期。 |
+| 财税政策答疑顾问 | `pa-tax-policy-qa-advisor` | 把能不能开专票、核定还是查账、小微优惠怎么用足、金税四期怎么落地用大白话讲清楚，给可执行口径和申报节点，专治财税政策看不懂、不敢做主、踩雷怕罚。 |
+
+</details>
+
+<details>
+<summary><b>职业与个人效能</b>（12）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 职业战略教练 | `cp-career-strategist` | 把你的职业卡点摊开做盘点，专攻职业规划、跳槽时机和晋升答辩，逼出该押哪一步的强判断而非鸡汤。 |
+| 重大决策分析参谋 | `cp-decision-analysis-advisor` | 把人生和职业的岔路口拆成可比较的决策矩阵，估概率收益、做预判和复盘日志，逼出该不该跳槽这类重大决策的取舍而不替你拍板 |
+| 习惯养成行为教练 | `cp-habit-formation-coach` | 用行为科学的提示-惯例-奖赏和习惯堆叠，把你想立的习惯拆成最小可行动作，设触发、追打卡、防破戒，靠系统而非意志力坚持下来。 |
+| 高阶面试陪练官 | `cp-interview-rehearsal-coach` | 陪你跑模拟面试，带追问、打分和逐题反馈，把高光经历压成可复用的答题框架，专治行为面、案例面和高管终面。 |
+| 职场写作助手 | `cp-knowledge-worker-writing-aide` | 把邮件、汇报、提案、述职和复盘从草稿改成结论先行、逻辑清晰的专业文本，控住语气和篇幅，让你的表达配得上你的判断。擅长结论先行改写、文档润色、述职报告搭骨架。 |
+| 心智模型思考搭子 | `cp-mental-models-thinking-partner` | 用第一性原理、逆向思维、机会成本和多元心智模型陪你拆复杂问题、识破认知偏误，把模糊直觉逼成可执行的清晰结构 |
+| 薪酬谈判军师 | `cp-offer-negotiation-strategist` | 拆 Offer 结构和市场分位、设你的 BATNA 和让步边界，给逐句谈薪话术和多 Offer 博弈策略，帮你把总包谈到顶。 |
+| 个人品牌架构师 | `cp-personal-brand-architect` | 提炼你的专业定位与差异化叙事，规划领英脉脉公众号的内容支柱和人设主线，把专业积累沉淀成会带来机会的影响力资产。 |
+| 效率系统设计官 | `cp-productivity-system-designer` | 用 GTD、PARA、看板和周回顾给你搭一套真正跑得起来的个人生产力系统，清空大脑、理顺收件箱、把每条承诺都变成可执行的下一步行动。 |
+| 简历ATS优化师 | `cp-resume-ats-optimizer` | 按目标JD重写简历的关键词匹配、成就量化和STAR句式，做ATS解析自检和投递版本管理，让机器筛得过、HR看得中。 |
+| 专业副业操盘参谋 | `cp-solopreneur-side-venture-strategist` | 帮你把专业技能变现成咨询、知识产品或一人公司，先验证需求再设计 offer 定价，规划副业转全职的过渡节奏，只押杠杆最大的那条路。 |
+| 时间精力管理官 | `cp-time-energy-manager` | 用时间块、深度工作和精力曲线帮你重排日程，砍掉低价值会议和切换损耗，把硬活排进精力高峰，专治日程被会议切碎、时间管理失控、深度工作做不出来。 |
+
+</details>
+
+<details>
+<summary><b>运营·项目·销售</b>（12）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 流程自动化治理与变革落地架构师 | `ops-automation-change-enablement-architect` | 先审价值、风险、可维护性再做流程自动化编排，给工作流加治理护栏，再用 ADKAR 和 Kotter 推变革落地、化解阻力、做采纳培训，专治上了系统没人用、改了流程就反弹。 |
+| 业务运营卓越官 | `ops-business-operations-excellence-lead` | 用精益和六西格玛做流程优化、瓶颈诊断、产能规划和 KPI 治理，把混乱的业务运营拆成可重复、可度量、能持续提效的体系。 |
+| 客户成功经理 | `ops-customer-success-manager` | 从客户入职启动、健康分预警到 QBR 复盘和续约保住，用客户成功打法把成交单做成长期续费的净收入留存 |
+| 销售发现式访谈教练 | `ops-discovery-call-coach` | 教你把发现式提问问出真买点，做需求挖掘、现状差距分析和痛点量化，把客户的隐性诉求逼成可衡量的购买动机。 |
+| 事故指挥与复盘官 | `ops-incident-command-lead` | 线上故障一键拉起结构化应急，做事故指挥、升级机制、SLO 守护与无指责复盘，把混乱收成可控、把同类事故堵死。 |
+| 复杂大单谈判军师（MEDDPICC） | `ops-meddpicc-deal-strategist` | 用 MEDDPICC 给复杂大单赢单计划打分定级，做决策链梳理和竞争卡位，专杀一厢情愿的乐观漏斗。 |
+| 外呼拓客与管道架构师 | `ops-outbound-pipeline-architect` | 帮你定 ICP 与触发信号、设计多渠道外呼序列和高个性化开场，把陌拜从拼数量改成基于信号的精准撬动，搭出可复制可预测的获客管道。 |
+| 售前方案工程师 | `ops-presales-solution-engineer` | 做技术发现、Demo 设计与 POC 范围、写竞品对抗手册，把产品能力翻译成客户业务结果，拿下技术决策让单子往前推。 |
+| 项目集与 PMO 治理架构师 | `ops-program-pmo-architect` | 帮你把一堆零散项目理成有统一节奏的项目集，建立 PMO 治理、立项门禁和项目组合优先级，做资源分配和复盘机制，让管理层能向上看清全局。 |
+| 项目交付牧羊人 | `ops-project-delivery-shepherd` | 把项目从立项推到交付，做关键路径排程、风险与依赖识别、干系人对齐，专盯跨部门掉球和延期预警。 |
+| 方案标书赢单军师 | `ops-proposal-rfp-win-strategist` | 拆 RFP 招标需求建符合性矩阵，提炼赢单主题和价值主张，把投标响应从逐条应付写成有故事线、能说服评审的赢单标书。 |
+| 收入运营与预测分析官 | `ops-revenue-operations-analyst` | 诊断管道健康、算成交速度、校准预测准度，把 CRM 和 Excel 里的销售数据变成能在季度落空前就预警的收入运营情报。命中收入运营、管道健康诊断、预测准度等场景时启用。 |
+
+</details>
+
+<details>
+<summary><b>行业垂直</b>（4）</summary>
+
+| Agent | slug | 能力 |
+|---|---|---|
+| 跨境电商运营操盘手 | `cn-cross-border-ecommerce-operator` | 帮工厂和卖家把货卖到亚马逊、Temu、TikTok Shop 和独立站，做跨境运营的选品测款、Listing 本地化、广告投放节奏和海外仓物流合规一肩挑，触发词含跨境运营、亚马逊运营、TikTok Shop。 |
+| 手游与微信小游戏开发 | `cn-game-minigame-developer` | 用 Unity、Cocos 做手游和微信小游戏的全链路开发，从玩法数值、关卡叙事到游戏音频一手包，懂买量包体和小游戏平台规则 |
+| GIS测绘与空间分析专家 | `cn-gis-mapping-specialist` | 做国土规划制图、空间分析、WebGIS开发与无人机测绘成果处理，从数据清洗到成果出图全流程上手 |
+| Web3 智能合约工程师 | `cn-web3-smartcontract-engineer` | 用 Solidity 写 EVM 智能合约，做 DeFi 协议架构、Gas优化、可升级代理模式，再自审重入和权限漏洞出安全审计结论，覆盖以太坊和各 L2 |
 
 </details>
 

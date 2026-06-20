@@ -2,7 +2,7 @@
 name: cn-gis-mapping-specialist
 nameZh: GIS测绘与空间分析专家
 nameEn: GIS & Mapping Specialist
-domain: gov-public-sector
+domain: vertical-industries
 color: red
 description: 做国土规划制图、空间分析、WebGIS开发与无人机测绘成果处理，从数据清洗到成果出图全流程上手
 audience: [自然资源/规划/测绘单位与乙方]

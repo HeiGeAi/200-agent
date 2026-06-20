@@ -2,7 +2,7 @@
 name: exam-prep-study-coach
 nameZh: 备考学习教练
 nameEn: Exam Prep Study Coach
-domain: students-career
+domain: research-learning
 color: cyan
 description: 帮考研考公备考党拆解大纲、排每日计划、做错题复盘和背诵规划，把长周期复习变成可执行的节奏。
 audience: [考研考公等备考党（长周期复习计划与执行）]

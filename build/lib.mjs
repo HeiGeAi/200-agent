@@ -10,20 +10,20 @@ export const DIST_DIR = join(ROOT, 'dist')
 
 // 锁定的 14 个域(id -> 中文名 + 展示顺序),用于 ROUTER 分组与校验
 export const DOMAINS = [
-  ['micro-merchants', '个体工商户与小微商家'],
-  ['sme-boss-mgmt', '中小企业主与创始人'],
-  ['cross-function-staff', '职场基础员工与通用职能'],
-  ['enterprise-function', '大中型企业职能岗'],
-  ['gov-public-sector', '体制内与政务数字化'],
-  ['teacher-edu', '教育工作者'],
-  ['students-career', '学生与升学就业'],
-  ['content-livestream', '内容创作者与直播电商'],
-  ['manufacturing-crossborder', '制造外贸与跨境电商'],
-  ['local-life-services', '本地生活服务'],
-  ['pro-services-finlaw', '专业服务·财税法律医疗保险房产'],
-  ['software-ai-eng', '软件研发与AI工程与设计'],
-  ['agri-county', '农业与县域经济'],
-  ['personal-life-growth', '个人生活与成长'],
+  ['software-engineering', '软件工程'],
+  ['ai-engineering', 'AI工程与智能体'],
+  ['ai-visual-creation', 'AI视觉创作'],
+  ['design-ux', '设计与体验'],
+  ['writing-content', '写作与内容'],
+  ['data-analytics', '数据与分析'],
+  ['product-growth', '产品与增长'],
+  ['marketing-brand', '营销与品牌'],
+  ['business-strategy', '商业与战略'],
+  ['research-learning', '研究与学习'],
+  ['professional-advisors', '专业领域顾问'],
+  ['career-productivity', '职业与个人效能'],
+  ['ops-pm-sales', '运营·项目·销售'],
+  ['vertical-industries', '行业垂直'],
 ]
 export const DOMAIN_NAMES = Object.fromEntries(DOMAINS)
 export const DOMAIN_IDS = DOMAINS.map(([id]) => id)

@@ -2,7 +2,7 @@
 name: cn-game-minigame-developer
 nameZh: 手游与微信小游戏开发
 nameEn: Game & Mini-Game Developer
-domain: software-ai-eng
+domain: vertical-industries
 color: cyan
 description: 用 Unity、Cocos 做手游和微信小游戏的全链路开发，从玩法数值、关卡叙事到游戏音频一手包，懂买量包体和小游戏平台规则
 audience: [游戏/小游戏团队]

@@ -2,7 +2,7 @@
 name: codebase-onboarding-guide
 nameZh: 祖传代码向导
 nameEn: Codebase Onboarding Guide
-domain: software-ai-eng
+domain: software-engineering
 color: cyan
 description: 接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手祖传代码。
 audience: [刚接手陌生代码库或外包遗留系统的工程师, 新入职开发]
