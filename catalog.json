@@ -1598,10 +1598,10 @@
     },
     {
       "slug": "codebase-onboarding-guide",
-      "nameZh": "祖传代码向导",
+      "nameZh": "代码库上手向导",
       "nameEn": "Codebase Onboarding Guide",
       "domain": "software-engineering",
-      "description": "接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手祖传代码。",
+      "description": "接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手陌生代码库。",
       "audience": [
         "刚接手陌生代码库或外包遗留系统的工程师",
         "新入职开发"
@@ -1874,7 +1874,7 @@
       "nameZh": "心智模型思考搭子",
       "nameEn": "Mental Models Thinking Partner",
       "domain": "career-productivity",
-      "description": "用第一性原理、逆向思维、机会成本和多元心智模型陪你拆复杂问题、识破认知偏误，把模糊直觉逼成可执行的清晰结构",
+      "description": "用第一性原理、逆向思维、机会成本和多元心智模型陪你拆复杂问题、识破认知偏差，把模糊直觉逼成可执行的清晰结构",
       "audience": [
         "做复杂判断的专业人士",
         "想升级思维框架的知识工作者",
@@ -2147,7 +2147,7 @@
     },
     {
       "slug": "da-analytics-engineer",
-      "nameZh": "数据管道工程师",
+      "nameZh": "分析工程师",
       "nameEn": "Analytics Engineer",
       "domain": "data-analytics",
       "description": "用 dbt、Spark、Airflow 搭 ETL/ELT 管道和数仓分层，建可复用的指标模型，把数据质量校验、调度和血缘做成产线级资产。",
@@ -2566,7 +2566,7 @@
     },
     {
       "slug": "data-annotation-curation-lead",
-      "nameZh": "数据标注与训练集策展官",
+      "nameZh": "数据标注与策管负责人",
       "nameEn": "Data Annotation & Curation Lead",
       "domain": "ai-engineering",
       "description": "为微调和评测建标注规范、做数据清洗去重和标注一致性校验，把脏乱语料策展成口径不漂、质量可审计的训练集与评测语料。",
@@ -3655,7 +3655,7 @@
     },
     {
       "slug": "literature-review-synthesizer",
-      "nameZh": "文献综述合成官",
+      "nameZh": "文献综述整合官",
       "nameEn": "Literature Review Synthesizer",
       "domain": "research-learning",
       "description": "围绕一个主题系统检索文献、梳理研究脉络、做主题矩阵和分歧点对比，产出可投稿质量的综述骨架与引文表。",
@@ -4792,10 +4792,10 @@
     },
     {
       "slug": "ops-outbound-pipeline-architect",
-      "nameZh": "外呼拓客与管道架构师",
+      "nameZh": "主动拓客与销售管道架构师",
       "nameEn": "Outbound Prospecting & Pipeline Architect",
       "domain": "ops-pm-sales",
-      "description": "帮你定 ICP 与触发信号、设计多渠道外呼序列和高个性化开场，把陌拜从拼数量改成基于信号的精准撬动，搭出可复制可预测的获客管道。",
+      "description": "帮你定 ICP 与触发信号、设计多渠道触达序列和高个性化开场，把陌生拓客从拼数量改成基于信号的精准撬动，搭出可复制可预测的获客管道。",
       "audience": [
         "外呼销售与 SDR",
         "增长销售",
@@ -4908,7 +4908,7 @@
     },
     {
       "slug": "ops-project-delivery-shepherd",
-      "nameZh": "项目交付牧羊人",
+      "nameZh": "项目交付护航官",
       "nameEn": "Project Delivery Shepherd",
       "domain": "ops-pm-sales",
       "description": "把项目从立项推到交付，做关键路径排程、风险与依赖识别、干系人对齐，专盯跨部门掉球和延期预警。",
@@ -5365,7 +5365,7 @@
     },
     {
       "slug": "pa-month-end-close-controller",
-      "nameZh": "财务月结与预实分析师",
+      "nameZh": "财务月结与财务规划分析师",
       "nameEn": "Month-End Close & FP&A Analyst",
       "domain": "professional-advisors",
       "description": "帮你跑通月结对账勾稽、做预算编制和滚动预测、把预实差异归因成经营结论，AI 加速取数与分析。",
@@ -5552,7 +5552,7 @@
     },
     {
       "slug": "pa-tax-filing-scheduler",
-      "nameZh": "金税四期申报调度官",
+      "nameZh": "税务申报调度官",
       "nameEn": "Tax Filing Scheduler",
       "domain": "professional-advisors",
       "description": "帮代账和企业财务把多主体申报排成不漏报的日历，盯增值税申报、个税申报、社保申报各节点，自动催收客户资料并对账金税四期。",
@@ -6604,7 +6604,7 @@
       "nameZh": "SRE 稳定性与事故指挥官",
       "nameEn": "SRE & Incident Commander",
       "domain": "software-engineering",
-      "description": "守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程能力，让线上少炸、炸了能快速止血。",
+      "description": "守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定止损措施，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程能力，让线上少炸、炸了能快速止血。",
       "audience": [
         "负责线上稳定性的 SRE",
         "SLO 监控与可观测建设的工程师",
@@ -7163,7 +7163,7 @@
     },
     {
       "slug": "wc-newsletter-architect",
-      "nameZh": "Newsletter 主理操盘官",
+      "nameZh": "Newsletter 主理架构师",
       "nameEn": "Newsletter Architect",
       "domain": "writing-content",
       "description": "策划并撰写邮件 newsletter，定栏目定位、设计开信钩子和邮件序列，把订阅做成高打开率的长期内容资产。",

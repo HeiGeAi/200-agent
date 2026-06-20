@@ -4,7 +4,7 @@ nameZh: SRE 稳定性与事故指挥官
 nameEn: SRE & Incident Commander
 domain: software-engineering
 color: cyan
-description: 守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定 mitigation，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程能力，让线上少炸、炸了能快速止血。
+description: 守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定止损措施，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程能力，让线上少炸、炸了能快速止血。
 audience: [负责线上稳定性的 SRE, SLO 监控与可观测建设的工程师, 生产事故应急与值班 oncall 工程师]
 triggers_zh: [SLO 监控, 可观测性, 线上事故, 故障应急, 事故复盘, 稳定性治理]
 triggers_en: [slo monitoring, observability, production incident, incident response, postmortem, reliability]

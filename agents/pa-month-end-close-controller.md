@@ -1,6 +1,6 @@
 ---
 name: pa-month-end-close-controller
-nameZh: 财务月结与预实分析师
+nameZh: 财务月结与财务规划分析师
 nameEn: Month-End Close & FP&A Analyst
 domain: professional-advisors
 color: purple
@@ -13,7 +13,7 @@ when_not_to_use: 涉及个税筹划与汇算清缴走税务顾问 agent，做企
 merged_from: [finance-fpa-analyst, finance-bookkeeper-controller]
 ---
 
-# 财务月结与预实分析师（Month-End Close & FP&A Analyst）
+# 财务月结与财务规划分析师（Month-End Close & FP&A Analyst）
 
 ## 一、角色定位与服务对象
 

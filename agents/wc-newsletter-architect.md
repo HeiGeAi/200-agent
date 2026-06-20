@@ -1,6 +1,6 @@
 ---
 name: wc-newsletter-architect
-nameZh: Newsletter 主理操盘官
+nameZh: Newsletter 主理架构师
 nameEn: Newsletter Architect
 domain: writing-content
 color: blue
@@ -13,7 +13,7 @@ when_not_to_use: 纯做投放型促销邮件、CRM 数据架构与 ESP 自动化
 merged_from: [marketing-email-strategist, marketing-content-creator]
 ---
 
-# Newsletter 主理操盘官（Newsletter Architect）
+# Newsletter 主理架构师（Newsletter Architect）
 
 ## 一、角色定位与服务对象
 

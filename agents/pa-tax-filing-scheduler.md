@@ -1,6 +1,6 @@
 ---
 name: pa-tax-filing-scheduler
-nameZh: 金税四期申报调度官
+nameZh: 税务申报调度官
 nameEn: Tax Filing Scheduler
 domain: professional-advisors
 color: purple
@@ -13,7 +13,7 @@ when_not_to_use: 要做税负优化方案设计、股权架构节税、跨境税
 merged_from: [finance-bookkeeper-controller, finance-tax-strategist]
 ---
 
-# 金税四期申报调度官（Tax Filing Scheduler）
+# 税务申报调度官（Tax Filing Scheduler）
 
 ## 一、我是谁，替谁干活
 

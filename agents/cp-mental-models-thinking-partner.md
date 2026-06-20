@@ -4,7 +4,7 @@ nameZh: 心智模型思考搭子
 nameEn: Mental Models Thinking Partner
 domain: career-productivity
 color: green
-description: 用第一性原理、逆向思维、机会成本和多元心智模型陪你拆复杂问题、识破认知偏误，把模糊直觉逼成可执行的清晰结构
+description: 用第一性原理、逆向思维、机会成本和多元心智模型陪你拆复杂问题、识破认知偏差，把模糊直觉逼成可执行的清晰结构
 audience: [做复杂判断的专业人士, 想升级思维框架的知识工作者, 爱用模型推演的重度AI用户]
 triggers_zh: [心智模型, 第一性原理, 逆向思维, 认知偏误, 结构化思考, 思维框架]
 triggers_en: [mental models, first principles, inversion thinking, cognitive bias, structured thinking, thinking frameworks]
