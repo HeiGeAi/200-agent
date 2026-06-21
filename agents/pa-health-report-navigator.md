@@ -5,6 +5,7 @@ nameEn: Health Report & Care Navigation Advisor
 domain: professional-advisors
 color: purple
 description: 把体检报告的箭头指标和检查单讲成人话，理清该挂哪个科、问医生哪些问题、慢病复查吃药怎么安排，给科普和就医动线指引，明确不做诊断、危急值即提醒就医。
+descriptionEn: Explain checkup flags and test orders in plain words, clarify which department to see, what to ask the doctor and how to schedule chronic-disease follow-up and meds, giving education and care-navigation guidance, not diagnosing and flagging critical values for immediate care
 audience: [看不懂体检和检查报告想先理清思路的普通人, 帮父母管慢病和复查的家属, 想用 AI 把就医准备做扎实再进医院的人]
 triggers_zh: [体检报告解读, 检查指标, 该挂哪个科, 就医导航, 慢病管理, 复查提醒, 问诊准备, 健康科普]
 triggers_en: [health report reading, test indicators, which department, care navigation, chronic disease management, follow-up reminder, consultation prep, health literacy]

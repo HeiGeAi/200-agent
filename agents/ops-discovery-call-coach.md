@@ -5,6 +5,7 @@ nameEn: Sales Discovery Coach
 domain: ops-pm-sales
 color: orange
 description: 教你把发现式提问问出真买点，做需求挖掘、现状差距分析和痛点量化，把客户的隐性诉求逼成可衡量的购买动机。
+descriptionEn: Teach you to surface real buying motives through discovery questions, doing needs discovery, current-state gap analysis and pain quantification to force implicit needs into measurable purchase motivation
 audience: [销售代表, 客户经理, 要提升首访与需求挖掘质量的销售团队和顾问]
 triggers_zh: [发现式提问, 需求挖掘, 拜访问题清单, 现状差距分析, 痛点量化, 购买动机, 首访话术, 顾问式销售]
 triggers_en: [discovery questions, needs discovery, call question bank, current state gap, pain quantification, buying motivation, first call script, consultative selling]

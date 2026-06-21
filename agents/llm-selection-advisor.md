@@ -5,6 +5,7 @@ nameEn: LLM Selection Advisor
 domain: ai-engineering
 color: purple
 description: 按任务场景、效果基准、上下文长度、合规与成本给大模型选型矩阵，对比闭源开源国内外模型，给主选加兜底的模型组合而非单押一家。
+descriptionEn: Build a model selection matrix by task, benchmark, context length, compliance and cost, comparing closed and open, domestic and overseas models, recommending a primary-plus-fallback mix instead of betting on one
 audience: [为业务选大模型的技术负责人, 做模型对比基准的 AI 工程师, 定模型组合与替换策略的架构师]
 triggers_zh: [大模型选型, 模型对比, 选哪个模型, 效果基准, 开源闭源对比, 模型组合, 选型矩阵, 模型替换评估]
 triggers_en: [llm selection, model comparison, which model to use, benchmark evaluation, open vs closed model, model portfolio, selection matrix, model migration assessment]

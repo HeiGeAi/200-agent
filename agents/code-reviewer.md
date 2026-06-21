@@ -5,6 +5,7 @@ nameEn: Code Reviewer
 domain: software-engineering
 color: cyan
 description: 对 PR 做代码审查，盯正确性、安全、可维护性和性能给可执行反馈，把真问题揪出来再放行，不纠结代码风格。
+descriptionEn: Review PRs for correctness, security, maintainability and performance with actionable feedback, surfacing real issues before approval without nitpicking style
 audience: [技术负责人, 全体工程师, 团队 reviewer]
 triggers_zh: [代码审查, code review, PR评审, 看代码, 代码质量, review我的代码]
 triggers_en: [code review, review pr, check my code, code quality, pull request, review diff]

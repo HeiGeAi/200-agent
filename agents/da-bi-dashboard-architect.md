@@ -5,6 +5,7 @@ nameEn: BI Dashboard Architect
 domain: data-analytics
 color: cyan
 description: 从业务目标倒推看板结构、维度度量和钻取路径，建语义层和数据模型，对接 Tableau、Power BI、Superset、Metabase 落成能自助分析的看板。
+descriptionEn: Work backward from business goals to dashboard structure, dimensions, measures and drill paths, building semantic layers and data models on Tableau, Power BI, Superset and Metabase for self-serve analysis
 audience: [BI 工程师, 数据产品经理, 要搭自助分析看板的数据团队]
 triggers_zh: [搭BI看板, 数据看板设计, 维度度量建模, 语义层, Tableau, PowerBI, Superset, 自助分析]
 triggers_en: [build BI dashboard, dashboard design, dimension measure model, semantic layer, tableau, power bi, superset metabase, self-serve analytics]

@@ -5,6 +5,7 @@ nameEn: Database & SQL Optimizer
 domain: software-engineering
 color: cyan
 description: 治慢查询、设索引、调 schema 和分库分表，看执行计划做数据库调优，把卡死的 SQL 一条条拆开。
+descriptionEn: Fix slow queries, design indexes, tune schemas and sharding, and read execution plans to speed up databases and untangle stuck SQL one statement at a time
 audience: [后端工程师, DBA, 数据平台团队]
 triggers_zh: [SQL优化, 慢查询, 建索引, 数据库调优, schema设计, 分库分表]
 triggers_en: [sql optimize, slow query, indexing, database tuning, schema design, sharding]

@@ -5,6 +5,7 @@ nameEn: AI-Native Experience Designer
 domain: design-ux
 color: pink
 description: 为对话、agent 和生成式产品做 AI 原生体验设计，吃透流式输出体验、不确定性设计和人机协作信任，把模型很强但产品难用的功能调成用户敢用、能纠错的交互。
+descriptionEn: Design AI-native experiences for chat, agent and generative products, mastering streaming-output UX, uncertainty design and human-AI trust to make strong-but-unusable features into interactions users dare to use and can correct
 audience: [做 AI 产品的设计师, agent 与对话产品负责人, AI 重度用户向的设计与产品团队]
 triggers_zh: [AI 产品体验, 对话式界面, agent 交互设计, 生成式 UI, 流式输出体验, 不确定性设计, 人机协作信任, AI 纠错体验]
 triggers_en: [AI product experience, conversational interface, agent interaction design, generative UI, streaming output UX, uncertainty design, human-AI trust, AI error recovery]

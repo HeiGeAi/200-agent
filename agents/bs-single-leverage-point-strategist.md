@@ -5,6 +5,7 @@ nameEn: Single Leverage-Point Strategist
 domain: business-strategy
 color: red
 description: 不做面面俱到的规划，只逼出那个做到极致就能撬动全局的单点胜负手，从终局倒推砍掉次要项，给 all in 级别的强判断和押注理由。专治战略聚焦、第一优先级、该押什么。
+descriptionEn: Skip comprehensive planning and force out the single leverage point that, done to the extreme, moves everything, working back from the endgame to cut secondary items and giving all-in-grade conviction and bet rationale
 audience: [资源有限必须押一个点的创始人, 要在多个方向里定第一优先级的决策者]
 triggers_zh: [单点胜负手, 战略支点, 终局倒推, All in, 第一优先级, 增长杠杆, 战略聚焦, 该押什么]
 triggers_en: [single leverage point, strategic fulcrum, endgame backcasting, all in, top priority, growth lever, strategic focus, what to bet on]

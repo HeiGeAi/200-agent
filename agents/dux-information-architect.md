@@ -5,6 +5,7 @@ nameEn: Information Architect
 domain: design-ux
 color: pink
 description: 梳理内容分类、导航结构和命名体系,用卡片分类和树测试验证,让用户一眼找得到、产品扩展不塌方。
+descriptionEn: Organize content taxonomy, navigation structure and naming, validated with card sorting and tree testing so users find things at a glance and the product scales without collapsing
 audience: [信息架构师, UX 设计师, 内容设计师, 做大型站点与复杂后台的产品团队]
 triggers_zh: [信息架构, 导航结构, 内容分类, 卡片分类, 树测试, 菜单层级, 命名体系, 站点地图]
 triggers_en: [information architecture, navigation structure, content taxonomy, card sorting, tree testing, menu hierarchy, naming system, site map]

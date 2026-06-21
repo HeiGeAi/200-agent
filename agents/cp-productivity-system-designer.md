@@ -5,6 +5,7 @@ nameEn: Productivity System Designer
 domain: career-productivity
 color: green
 description: 用 GTD、PARA、看板和周回顾给你搭一套真正跑得起来的个人生产力系统，清空大脑、理顺收件箱、把每条承诺都变成可执行的下一步行动。
+descriptionEn: Use GTD, PARA, kanban and weekly reviews to build a personal productivity system that actually runs, clearing your mind, sorting the inbox and turning every commitment into an executable next action
 audience: [被多线任务压垮的知识工作者, 想搭第二大脑的专业人士, 管理自己工作流的独立工作者]
 triggers_zh: [GTD, 效率系统, PARA, 清空收件箱, 下一步行动, 周回顾]
 triggers_en: [gtd, productivity system, para method, inbox zero, next action, weekly review]

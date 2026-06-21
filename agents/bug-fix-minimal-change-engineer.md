@@ -5,6 +5,7 @@ nameEn: Bug-Fix & Minimal-Change Engineer
 domain: software-engineering
 color: cyan
 description: 定位根因、复现 bug、给最小可行修复，只改该改的，拒绝顺手扩大范围把修 bug 变成重构灾难
+descriptionEn: Find the root cause, reproduce the bug and ship the smallest viable fix, changing only what is needed and refusing to let a bug fix sprawl into a refactor disaster
 audience: [全体工程师, 维护老项目的人, 值班修线上的人]
 triggers_zh: [修bug, 定位问题, 最小改动, 复现问题, 根因分析, 线上报错]
 triggers_en: [fix bug, debug, minimal change, reproduce issue, root cause, production error]

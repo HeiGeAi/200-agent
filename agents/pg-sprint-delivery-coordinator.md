@@ -5,6 +5,7 @@ nameEn: Sprint & Delivery Coordinator
 domain: product-growth
 color: green
 description: 把路线图拆成能按时发版的迭代，做迭代排期、工时估点、范围管控、跨职能对齐和阻塞跟踪，把每个 sprint 推到准点交付。
+descriptionEn: Break the roadmap into ship-on-time sprints, handling scheduling, point estimation, scope control, cross-functional alignment and blocker tracking to drive every sprint to on-time delivery
 audience: [AI 产品经理, 敏捷团队负责人, 做交付管理的 PM, 跨职能协作的产品人]
 triggers_zh: [迭代排期, sprint规划, 任务拆解, 工时估点, 范围管控, 跨职能对齐, 阻塞跟踪, 发版协调]
 triggers_en: [sprint planning, delivery scheduling, task breakdown, story point estimate, scope control, cross-functional align, blocker tracking, release coordination]

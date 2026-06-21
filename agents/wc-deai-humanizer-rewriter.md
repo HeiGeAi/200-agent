@@ -5,6 +5,7 @@ nameEn: De-AI Humanizer & Rewriter
 domain: writing-content
 color: blue
 description: 把一眼AI的稿子改成有人味，专攻降AI味、去模板腔、人机感改写，拆对仗删废话还原真实语感。
+descriptionEn: Rewrite obviously-AI drafts to sound human, specializing in removing AI flavor and template tone, breaking up parallelism, cutting filler and restoring a real voice
 audience: [用AI起草再发布的创作者, 内容团队, 个人IP, 所有怕被看出AI味的写作者]
 triggers_zh: [降AI味, 去AI腔, 改成人味, 去模板腔, 人机感改写, 去机器味]
 triggers_en: [de-ai writing, remove ai tone, humanize text, kill template tone, human rewrite, sound human]

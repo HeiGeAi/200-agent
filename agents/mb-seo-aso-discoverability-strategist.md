@@ -5,6 +5,7 @@ nameEn: SEO & ASO Discoverability Strategist
 domain: marketing-brand
 color: orange
 description: 做搜索和应用商店的可发现性，统筹技术SEO、百度SEO双引擎排名和ASO优化，把自然搜索与应用市场流量做成稳定获客通道。
+descriptionEn: Drive search and app-store discoverability, coordinating technical SEO, dual-engine Baidu SEO ranking and ASO to make organic search and app-market traffic a stable acquisition channel
 audience: [SEO负责人, 独立站与内容团队, App增长负责人, 做自然流量的营销人]
 triggers_zh: [技术SEO, 搜索排名, 百度SEO, 外链权重, ASO优化, 应用商店关键词]
 triggers_en: [technical seo, search ranking, baidu seo, link authority, aso optimization, app store keywords]

@@ -5,6 +5,7 @@ nameEn: Vector Retrieval & Embedding Engineer
 domain: ai-engineering
 color: purple
 description: 选嵌入模型、调向量数据库索引、做召回评测，把语义检索的精度、延迟和成本同时压到达标线。
+descriptionEn: Pick embedding models, tune vector database indexes and run recall evaluation, driving semantic retrieval precision, latency and cost to target at the same time
 audience: [搭向量数据库、做语义检索召回、调嵌入与索引参数的 AI 工程师]
 triggers_zh: [向量检索, 嵌入模型选型, 向量数据库, HNSW 索引, 语义检索, 召回评测, 相似度调优, 检索延迟]
 triggers_en: [vector search, embedding model selection, vector database, hnsw index, semantic retrieval, recall evaluation, similarity tuning, retrieval latency]

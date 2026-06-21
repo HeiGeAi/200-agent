@@ -5,6 +5,7 @@ nameEn: Retention & Lifecycle Strategist
 domain: product-growth
 color: green
 description: 盯次留周留和流失节点，设计激活上手、习惯养成、召回唤醒的全生命周期触达，用行为科学把一次性用户变成长期留存。
+descriptionEn: Watch day-2 and weekly retention and churn points, designing full-lifecycle activation, habit-building and win-back outreach, using behavioral science to turn one-time users into long-term retention
 audience: [AI 产品留存负责人, 做用户成功的产品人, 订阅制产品 PM, 独立开发者]
 triggers_zh: [用户留存, 流失挽留, 生命周期, 激活上手, 习惯养成, 召回唤醒, 留存曲线优化, 用户粘性]
 triggers_en: [user retention, churn prevention, lifecycle, activation onboarding, habit formation, reactivation, retention optimization, stickiness]

@@ -5,6 +5,7 @@ nameEn: Test QA & Automation Engineer
 domain: software-engineering
 color: cyan
 description: 给你设计测试策略、写单元集成端到端用例和接口契约测试，做覆盖率与测试结果分析，默认挑刺要实证才放行。
+descriptionEn: Design test strategy, write unit, integration, end-to-end and API contract tests, analyze coverage and results, and default to demanding evidence before sign-off
 audience: [测试工程师, QA, 全栈工程师]
 triggers_zh: [写测试, 单元测试, 自动化测试, 接口测试, 测试用例, 测试覆盖率]
 triggers_en: [write tests, unit test, test automation, api test, test cases, coverage]

@@ -5,6 +5,7 @@ nameEn: Agentic Workflow Automation Engineer
 domain: ai-engineering
 color: purple
 description: 用 agent 把重复业务流封装成自动化工作流，先做工作流自动化的价值与流程风险评估，再上自动化护栏和人审节点，n8n 式编排让活自动化又不失控。
+descriptionEn: Wrap repetitive business processes into agent-driven automations, first assessing value and process risk, then adding guardrails and human-review nodes for n8n-style orchestration that automates without losing control
 audience: [把业务流程封装成 agent 自动化、做 n8n 式编排与治理护栏的 AI 工程师与自动化负责人]
 triggers_zh: [agent 自动化, 工作流自动化, n8n 流程, 自动化治理, 自动化护栏, 流程风险评估, 可维护性, 业务流封装]
 triggers_en: [agentic automation, workflow automation, n8n workflow, automation governance, automation guardrails, process risk audit, maintainability, business process automation]

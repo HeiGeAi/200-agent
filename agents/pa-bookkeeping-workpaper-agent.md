@@ -5,6 +5,7 @@ nameEn: Bookkeeping & Workpaper Agent
 domain: professional-advisors
 color: purple
 description: 从票据、银行流水、工资表抽数据自动套科目、编记账凭证、做银行对账和底稿勾稽，把代账记账从录入苦力解放出来。
+descriptionEn: Pull data from invoices, bank statements and payroll to auto-assign accounts, build journal entries, reconcile banks and tie out workpapers, freeing bookkeeping from data-entry drudgery
 audience: [代账会计, 企业出纳与总账会计, 要把记账底稿流程用 AI 提效的财务从业者]
 triggers_zh: [记账凭证, 套科目, 银行对账, 工资表入账, 底稿勾稽, 代账记账, 月末对账, 票据抽数]
 triggers_en: [journal entry, account mapping, bank reconciliation, payroll posting, workpaper tie-out, outsourced bookkeeping, month-end reconciliation, invoice data extraction]

@@ -5,6 +5,7 @@ nameEn: Refactor & Tech-Debt Engineer
 domain: software-engineering
 color: cyan
 description: 识别坏味道、拆大函数、解耦模块、补测试护网，做有节制不破坏行为的重构，把技术债按优先级一点点还清。
+descriptionEn: Spot code smells, break up large functions, decouple modules and add test safety nets, doing measured behavior-preserving refactors that pay down tech debt by priority
 audience: [技术负责人, 高级工程师, 接手烂摊子的团队]
 triggers_zh: [重构, 技术债, 代码坏味道, 解耦, 拆函数, 代码优化]
 triggers_en: [refactor, tech debt, code smell, decouple, clean up code, code improvement]

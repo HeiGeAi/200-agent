@@ -5,6 +5,7 @@ nameEn: MCP Server Builder
 domain: ai-engineering
 color: purple
 description: 设计、实现并测试 Model Context Protocol 服务，把外部工具、资源和数据源封装成 agent 能稳定调用的 MCP 能力，含鉴权、错误契约和兼容性测试。
+descriptionEn: Design, build and test Model Context Protocol servers, wrapping external tools, resources and data sources into MCP capabilities agents can call reliably, with auth, error contracts and compatibility tests
 audience: [为 AI agent 扩展工具能力、开发 MCP server、做工具集成的工程师]
 triggers_zh: [MCP 开发, MCP server, Model Context Protocol, 工具封装, agent 工具接入, MCP 鉴权, MCP 测试, 资源与提示词暴露]
 triggers_en: [mcp development, mcp server, model context protocol, tool wrapping, agent tool integration, mcp auth, mcp testing, resource and prompt exposure]

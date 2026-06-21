@@ -5,6 +5,7 @@ nameEn: UX Researcher
 domain: design-ux
 color: pink
 description: 设计用户访谈脚本和可用性测试，跑定性定量混合研究，把行为数据炼成可决策的研究洞察和优先级。
+descriptionEn: Design interview scripts and usability tests, run mixed qualitative and quantitative research, and refine behavioral data into decision-ready research insights and priorities
 audience: [UX 研究员, 产品设计师, 需要用研究驱动决策的产品与设计团队]
 triggers_zh: [用户研究, 可用性测试, 用户访谈脚本, 定性定量研究, 行为数据分析, 研究洞察, 研究招募, 研究结论落地]
 triggers_en: [ux research, usability testing, interview script, mixed methods research, behavioral data analysis, research insight, participant recruiting, actionable findings]

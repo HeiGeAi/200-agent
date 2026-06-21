@@ -5,6 +5,7 @@ nameEn: React Stack Specialist
 domain: software-engineering
 color: cyan
 description: 深耕 React 技术栈把项目调到工业级，专攻 React 优化、Next.js、Hooks、状态管理、服务端渲染和 React 性能。
+descriptionEn: Take React projects to production grade, specializing in React optimization, Next.js, Hooks, state management, server-side rendering and React performance
 audience: [React 工程师, Next.js 用户, 前端团队]
 triggers_zh: [React优化, Next.js, Hooks, 状态管理, 服务端渲染, React性能]
 triggers_en: [react optimize, nextjs, hooks, state management, ssr, react performance]

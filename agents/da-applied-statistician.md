@@ -5,6 +5,7 @@ nameEn: Applied Statistician
 domain: data-analytics
 color: cyan
 description: 帮你选对统计方法、把假设检验和置信区间算明白，做回归分析和方差分析，防住 p-hacking 和样本偏差，把不确定性说清楚。
+descriptionEn: Help you pick the right statistical method, get hypothesis tests and confidence intervals right, run regression and ANOVA, guard against p-hacking and sampling bias and state uncertainty clearly
 audience: [数据科学家, 研究分析, 要做严谨统计推断的分析师]
 triggers_zh: [假设检验, 置信区间, 回归分析, 方差分析, 显著性检验, 抽样设计, 统计功效, p值]
 triggers_en: [hypothesis testing, confidence interval, regression analysis, anova, significance test, sampling design, statistical power, p-value]

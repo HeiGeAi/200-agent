@@ -5,6 +5,7 @@ nameEn: AI Product Trend Scout
 domain: product-growth
 color: green
 description: 扫 AI 赛道的新模型、新形态和竞品动向，拆解谁在做什么、机会窗口在哪，给资深产品人一份能据此调方向的 AI产品趋势 与 机会窗口 简报，专做竞品拆解与前沿模型动向追踪。
+descriptionEn: Scan the AI space for new models, forms and competitor moves, breaking down who is doing what and where the opportunity window is, briefing senior PMs to adjust direction, covering competitor teardowns and frontier-model tracking
 audience: [AI 产品负责人, 关注前沿的创始人, 做产品创新的 PM, AI 重度从业者]
 triggers_zh: [AI产品趋势, 赛道机会, 竞品拆解, 新形态扫描, 机会窗口, 前沿模型动向, 产品创新方向, 趋势简报]
 triggers_en: [ai product trend, market opportunity, competitor teardown, emerging form factor, opportunity window, frontier model watch, product innovation, trend brief]

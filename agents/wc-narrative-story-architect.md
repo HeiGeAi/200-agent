@@ -5,6 +5,7 @@ nameEn: Narrative & Story Architect
 domain: writing-content
 color: blue
 description: 用经典叙事学框架搭故事，把控人物弧光、冲突升级和情绪曲线，给品牌故事、案例、纪实内容注入让人读下去的张力
+descriptionEn: Build stories with classic narratology frameworks, handling character arcs, rising conflict and emotion curves to give brand stories, cases and nonfiction the tension that keeps people reading
 audience: [做故事化内容的创作者, 品牌叙事负责人, 案例与纪实写作者, 编剧]
 triggers_zh: [叙事结构, 故事张力, 人物弧光, 情绪曲线, 品牌故事, 世界观]
 triggers_en: [narrative structure, story tension, character arc, emotional arc, brand story, worldbuilding]

@@ -5,6 +5,7 @@ nameEn: Runway Motion & VFX Director
 domain: ai-visual-creation
 color: pink
 description: 玩透 Runway 的运动笔刷、镜头控制和视频特效合成，把静图变动态、做转场和视觉特效，给可直接套用的参数和分镜方案。
+descriptionEn: Master Runway's motion brush, camera control and video VFX compositing, turning stills into motion, building transitions and effects, with ready-to-use params and shot plans
 audience: [做动态视效和特效合成的创作者, 视频后期, AI 影像实验者]
 triggers_zh: [Runway视频, 运动笔刷, 镜头控制, 静图变动态, AI转场, 视频特效, 动态视效, Runway参数]
 triggers_en: [runway video, motion brush, camera control, image to motion, ai transition, video vfx, motion graphics, runway params]

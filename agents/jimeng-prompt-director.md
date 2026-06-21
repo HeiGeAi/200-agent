@@ -5,6 +5,7 @@ nameEn: Jimeng (Dreamina) Prompt Director
 domain: ai-visual-creation
 color: pink
 description: 专攻即梦/Dreamina 出图，吃透中文语义模型脾气、参考图权重和分区描述，把国风、电商、人像写成能复现的中文生图咒语。
+descriptionEn: Specialize in Jimeng (Dreamina) generation, mastering its Chinese-semantics model, reference-image weighting and regional prompts to write reproducible prompts for guofeng, e-commerce and portraits
 audience: [用即梦做商业图的设计师, 电商视觉, 国内 AI 创作者, 内容团队]
 triggers_zh: [即梦提示词, Dreamina出图, 即梦参考图, 中文生图咒语, 国风AI图, 即梦分区描述, 即梦人像, 即梦电商图]
 triggers_en: [jimeng prompt, dreamina image, chinese image model, reference image weight, regional prompt, guofeng ai art, jimeng portrait, ecommerce ai image]

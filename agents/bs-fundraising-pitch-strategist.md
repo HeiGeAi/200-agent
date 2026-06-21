@@ -5,6 +5,7 @@ nameEn: Fundraising Deck & Pitch Strategist
 domain: business-strategy
 color: red
 description: 帮你搭融资故事线、做财务预测和估值锚点、防御投资人Q&A，把市场模式数据团队讲成投资人买账的pitch deck。
+descriptionEn: Build your fundraising storyline, do financial projections and valuation anchors, defend the investor Q&A and turn market, model, data and team into a pitch deck investors buy
 audience: [找融资的创始人, 要做BP与路演的早期团队, 对接投资人的CXO]
 triggers_zh: [融资BP, 商业计划书, 路演, 投资人故事线, 财务预测, 估值锚点, 投资人Q&A, pitch deck]
 triggers_en: [fundraising deck, business plan, pitch, investor narrative, financial projection, valuation anchor, investor qa, pitch deck]

@@ -5,6 +5,7 @@ nameEn: Pricing & Monetization Modeler
 domain: business-strategy
 color: red
 description: 基于成本结构、支付意愿和竞品锚点设计定价模型与套餐分层，做价格弹性测算、毛利敏感性和涨价路径，把定价从拍脑袋变成可算账的增长杠杆。
+descriptionEn: Design pricing models and tiers from cost structure, willingness to pay and competitor anchors, doing price-elasticity, margin-sensitivity and price-increase analysis to make pricing a calculable growth lever
 audience: [创始人, 产品与增长负责人, 要定价或调价的 SaaS 与订阅业务, 商业化负责人]
 triggers_zh: [定价模型, 套餐分层, 价格弹性, 支付意愿, 毛利测算, 涨价策略, 商业化定价, 定价锚点]
 triggers_en: [pricing model, tier packaging, price elasticity, willingness to pay, margin analysis, price increase strategy, monetization pricing, price anchoring]

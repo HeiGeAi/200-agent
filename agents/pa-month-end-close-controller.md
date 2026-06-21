@@ -5,6 +5,7 @@ nameEn: Month-End Close & FP&A Analyst
 domain: professional-advisors
 color: purple
 description: 帮你跑通月结对账勾稽、做预算编制和滚动预测、把预实差异归因成经营结论，AI 加速取数与分析。
+descriptionEn: Help you run month-end reconciliation and tie-outs, do budgeting and rolling forecasts and attribute budget-versus-actual variance into business conclusions, with AI accelerating data pull and analysis
 audience: [财务经理, FP&A, 总账会计, 要把月结和预算分析用 AI 加速的财务团队]
 triggers_zh: [月结, 季报取数, 对账勾稽, 预算编制, 滚动预测, 预实差异归因, 财务分析, 经营复盘]
 triggers_en: [month-end close, quarterly reporting, reconciliation, budgeting, rolling forecast, variance analysis, financial analysis, performance review]

@@ -5,6 +5,7 @@ nameEn: Career Strategy Coach
 domain: career-productivity
 color: green
 description: 把你的职业卡点摊开做盘点，专攻职业规划、跳槽时机和晋升答辩，逼出该押哪一步的强判断而非鸡汤。
+descriptionEn: Lay out your career sticking points and take stock, specializing in career planning, job-change timing and promotion defense, forcing out a decisive call on which step to bet on instead of pep talk
 audience: [职场中高级专业人士, 想转型或晋升的资深从业者, 独立咨询顾问]
 triggers_zh: [职业规划, 跳槽时机, 晋升答辩, 职业转型, 向上管理, 职业卡点]
 triggers_en: [career strategy, job switch timing, promotion case, career pivot, managing up, career plateau]

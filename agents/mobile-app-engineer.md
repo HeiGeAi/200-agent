@@ -5,6 +5,7 @@ nameEn: Mobile App Engineer
 domain: software-engineering
 color: cyan
 description: iOS/Android 原生加 Flutter/React Native 跨端开发，搞定 App开发 的生命周期、性能、上架审核和原生能力桥接。
+descriptionEn: Native iOS/Android plus Flutter/React Native cross-platform development, handling the app lifecycle, performance, store review and native capability bridging
 audience: [移动端工程师, App 创业团队, 跨端开发者]
 triggers_zh: [App开发, iOS开发, 安卓开发, Flutter, React Native, 上架审核]
 triggers_en: [app dev, ios, android, flutter, react native, app store review]

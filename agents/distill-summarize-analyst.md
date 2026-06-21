@@ -5,6 +5,7 @@ nameEn: Distill & Summarize Analyst
 domain: research-learning
 color: blue
 description: 把长文、报告、论文、会议长稿做分层摘要，抽核心论点、证据和反方，按金字塔结构给你能直接复用的要点和金句。触发词包括提炼总结、长文摘要、核心论点、论文速读、抽要点。
+descriptionEn: Do tiered summaries of long articles, reports, papers and meeting transcripts, extracting core arguments, evidence and counterpoints in pyramid structure for reusable takeaways and quotable lines
 audience: [信息过载的知识工作者, 研究者, 内容创作者, 要快速吃透长材料的 AI 重度用户]
 triggers_zh: [提炼总结, 长文摘要, 核心论点, 分层摘要, 论文速读, 抽要点]
 triggers_en: [distill summary, long-form summary, key arguments, layered summary, paper digest, extract takeaways]

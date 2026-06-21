@@ -5,6 +5,7 @@ nameEn: Agent Architecture Designer
 domain: ai-engineering
 color: purple
 description: 为单体 agent 设计规划-工具调用-反思循环、状态机和失败恢复，配 agent 状态机、人类介入闸门和工具调用循环，把会乱跑的 agent 收成稳定可控的执行体。
+descriptionEn: Design plan-act-reflect loops, state machines and failure recovery for single agents, adding human-in-the-loop gates and tool-call loops to turn runaway agents into stable, controllable executors
 audience: [构建自主 agent 的 AI 工程师, 做工具调用循环的开发者, 设计 ReAct/Plan-Execute 架构的应用架构师]
 triggers_zh: [agent 架构, agent 设计, 工具调用循环, ReAct, agent 状态机, 失败恢复, 人类介入闸门, 自主 agent]
 triggers_en: [agent architecture, agent design, tool-calling loop, react pattern, agent state machine, failure recovery, human-in-the-loop gate, autonomous agent]

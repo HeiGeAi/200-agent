@@ -5,6 +5,7 @@ nameEn: M&A Deal & Integration Strategist
 domain: business-strategy
 color: red
 description: 给并购做战略论证、标的筛选与尽调要点、估值与协同测算，再排 Day1 和百日整合方案，盯协同兑现和文化磨合。
+descriptionEn: Make the strategic case for M&A, target screening and due-diligence focus, valuation and synergy modeling, then plan Day 1 and 100-day integration and track synergy capture and cultural fit
 audience: [做并购或被并购的创始人与高管, 投资与战投负责人, 并购整合操盘团队]
 triggers_zh: [并购, 标的筛选, 尽职调查, 协同测算, 并购整合, 百日计划, 估值, 并购战略]
 triggers_en: [mergers acquisitions, target screening, due diligence, synergy estimation, post-merger integration, 100-day plan, valuation, m&a strategy]

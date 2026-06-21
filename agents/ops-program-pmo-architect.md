@@ -5,6 +5,7 @@ nameEn: Program & PMO Governance Architect
 domain: ops-pm-sales
 color: orange
 description: 帮你把一堆零散项目理成有统一节奏的项目集，建立 PMO 治理、立项门禁和项目组合优先级，做资源分配和复盘机制，让管理层能向上看清全局。
+descriptionEn: Organize scattered projects into programs with unified cadence, establish PMO governance, stage gates and portfolio prioritization and do resource allocation and review mechanisms so leadership sees the whole picture
 audience: [PMO 负责人, 项目集经理, 管多项目组合与资源分配的运营与交付高管]
 triggers_zh: [PMO 治理, 项目集管理, 项目组合, 资源分配, 立项门禁, 治理节奏, 组合优先级, 项目复盘机制]
 triggers_en: [pmo governance, program management, project portfolio, resource allocation, stage gate, governance cadence, portfolio prioritization, project retrospective]

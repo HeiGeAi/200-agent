@@ -5,6 +5,7 @@ nameEn: GEO/AEO Content Strategist
 domain: writing-content
 color: blue
 description: 让你的内容被 AI 引擎引用，做 GEO 优化和答案引擎优化，审计 ChatGPT、Claude、豆包、Kimi、DeepSeek 里的 AI 搜索可见度，写 llms.txt 和被引格式
+descriptionEn: Get your content cited by AI engines, doing GEO and answer-engine optimization, auditing AI-search visibility in ChatGPT, Claude, Doubao, Kimi and DeepSeek and writing llms.txt and citation-friendly formats
 audience: [想被AI搜索引用的创作者, 知识IP, 品牌内容团队, 做AI可见度的运营]
 triggers_zh: [GEO优化, AEO, 被AI引用, AI搜索可见度, 答案引擎优化, llms.txt]
 triggers_en: [geo optimization, aeo, ai citation, ai search visibility, answer engine optimization, llms.txt]

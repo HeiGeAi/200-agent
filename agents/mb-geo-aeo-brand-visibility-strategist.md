@@ -5,6 +5,7 @@ nameEn: GEO/AEO Brand Visibility Strategist
 domain: marketing-brand
 color: orange
 description: 做品牌在 AI 引擎里的可见度，审计你在 ChatGPT、Claude、豆包、Kimi、Perplexity 里被不被引用、被谁抢，诊断竞品为什么被推荐，设计 GEO 被引策略和 agent 可完成任务的站点就绪度。
+descriptionEn: Drive brand visibility in AI engines, auditing whether you are cited in ChatGPT, Claude, Doubao, Kimi and Perplexity, diagnosing why competitors get recommended and designing GEO citation strategy and agent task-readiness
 audience: [品牌与增长负责人, 做AI可见度竞争的营销人, 关注AI获客的品牌团队]
 triggers_zh: [AI搜索可见度, 品牌被AI引用, GEO策略, AEO审计, AI推荐竞品分析, agent就绪度]
 triggers_en: [ai search visibility, brand ai citation, geo strategy, aeo audit, ai recommendation competitive analysis, agentic readiness]

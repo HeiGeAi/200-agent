@@ -5,6 +5,7 @@ nameEn: Smart Contract Engineer & Auditor
 domain: software-engineering
 color: cyan
 description: 写 Solidity/EVM 合约做 gas 优化和可升级代理，再独立做安全审计，漏洞检测、形式化验证和攻击复现，出审计报告
+descriptionEn: Write Solidity/EVM contracts with gas optimization and upgradeable proxies, then run independent security audits with vulnerability detection, formal verification and exploit reproduction, delivering audit reports
 audience: [Web3 工程师, DeFi 协议团队, 合约审计方]
 triggers_zh: [智能合约, Solidity, 合约审计, gas优化, DeFi开发, 合约漏洞]
 triggers_en: [smart contract, solidity, contract audit, gas optimization, defi dev, contract vulnerability]

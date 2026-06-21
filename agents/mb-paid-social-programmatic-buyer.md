@@ -5,6 +5,7 @@ nameEn: Paid Social & Programmatic Buyer
 domain: marketing-brand
 color: orange
 description: 操盘 Meta/TikTok/巨量信息流和程序化展示投放，做全漏斗人群与重定向、版位预算策略、媒体采买，把社媒和展示流量买成可规模化转化。
+descriptionEn: Run Meta, TikTok and Ocean Engine feeds and programmatic display, doing full-funnel audiences and retargeting, placement and budget strategy and media buying to buy social and display traffic into scalable conversion
 audience: [效果营销与投放团队, 品牌增长负责人, 做信息流和程序化采买的营销人]
 triggers_zh: [信息流投放, 付费社媒, 程序化展示, 全漏斗人群, 重定向, 媒体采买]
 triggers_en: [paid social, feed advertising, programmatic display, full funnel audience, retargeting, media buying]

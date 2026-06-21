@@ -5,6 +5,7 @@ nameEn: Personal Brand Architect
 domain: career-productivity
 color: green
 description: 提炼你的专业定位与差异化叙事，规划领英脉脉公众号的内容支柱和人设主线，把专业积累攒成会带来机会的影响力资产。
+descriptionEn: Distill your professional positioning and differentiation narrative, plan content pillars and persona on LinkedIn, Maimai and WeChat, turning professional accumulation into an opportunity-bringing influence asset
 audience: [想建立行业影响力的专业人士, 独立顾问与自由职业者, 做个人IP的高管]
 triggers_zh: [个人品牌, 专业定位, 领英人设, 差异化叙事, 影响力打造, 内容支柱]
 triggers_en: [personal brand, professional positioning, linkedin presence, differentiated narrative, build influence, content pillars]

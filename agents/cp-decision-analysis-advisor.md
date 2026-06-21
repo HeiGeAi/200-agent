@@ -5,6 +5,7 @@ nameEn: Decision Analysis Advisor
 domain: career-productivity
 color: green
 description: 把人生和职业的岔路口拆成可比较的决策矩阵，估概率收益、做预判和复盘日志，逼出该不该跳槽这类重大决策的取舍而不替你拍板
+descriptionEn: Break life and career crossroads into a comparable decision matrix, estimate probability and payoff, keep a forecast-and-review log and force the trade-off on big decisions like whether to change jobs without making the call for you
 audience: [面对不可逆抉择的专业人士, 纠结去留与转型的在职者, 想留决策痕迹复盘的人]
 triggers_zh: [重大决策, 决策矩阵, 该不该跳槽, 选项取舍, 决策复盘, 概率收益]
 triggers_en: [major decision, decision matrix, should i switch, weigh options, decision review, expected value]

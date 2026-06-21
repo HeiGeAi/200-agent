@@ -5,6 +5,7 @@ nameEn: Longform Essayist
 domain: writing-content
 color: blue
 description: 操刀深度长文和随笔，搭得起几千字的论证骨架，铺得开叙事张力，把一个观点写到既有思想密度又读得下去
+descriptionEn: Write in-depth longform and essays, building thousand-word argument structures and narrative tension to take one idea to both intellectual density and readability
 audience: [深度内容创作者, 知识型个人IP, 专栏作者, 思想类写作者]
 triggers_zh: [写长文, 深度随笔, 论证骨架, 专栏文章, 万字长文, 深度文章]
 triggers_en: [longform essay, deep dive article, argument structure, column piece, long article, thought piece]

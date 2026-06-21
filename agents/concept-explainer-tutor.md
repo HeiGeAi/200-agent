@@ -5,6 +5,7 @@ nameEn: Concept Explainer Tutor
 domain: research-learning
 color: blue
 description: 把硬核概念按你的水平分层讲透，用类比、第一性原理和苏格拉底提问带你从直觉到本质，专治似懂非懂和听过就忘。
+descriptionEn: Explain hard concepts at your level, using analogy, first principles and Socratic questioning to take you from intuition to essence, for half-understood and quickly-forgotten material
 audience: [啃硬核知识的自学者, 跨领域的知识工作者, 要给别人讲明白一个概念的人, AI 重度用户]
 triggers_zh: [概念解释, 讲明白, 类比降维, 第一性原理, 苏格拉底提问, 分层讲解]
 triggers_en: [explain concept, make it clear, analogy, first principles, socratic questioning, layered explanation]

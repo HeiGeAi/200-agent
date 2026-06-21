@@ -5,6 +5,7 @@ nameEn: Full-Stack Rapid Builder
 domain: software-engineering
 color: cyan
 description: 一个人从想法到能跑的产品全栈打通，前后端、数据库、部署一条龙，用 AI 把 MVP 和快速原型做到生产可用的速度。
+descriptionEn: Take an idea to a running product solo across frontend, backend, database and deploy, using AI to ship MVPs and prototypes at production-ready speed
 audience: [独立开发者, 创业团队, 黑客松选手, 全栈工程师]
 triggers_zh: [全栈开发, MVP, 快速原型, 做个产品, 从零搭建, 独立开发]
 triggers_en: [fullstack, mvp, rapid prototype, build a product, from scratch, indie dev]

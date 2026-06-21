@@ -5,6 +5,7 @@ nameEn: Solopreneur & Side-Venture Strategist
 domain: career-productivity
 color: green
 description: 帮你把专业技能变现成咨询、知识产品或一人公司，先验证需求再设计 offer 定价，规划副业转全职的过渡节奏，只押杠杆最大的那条路。
+descriptionEn: Help you monetize professional skills into consulting, knowledge products or a one-person company, validating demand before designing offer and pricing, planning the side-to-full-time transition, betting only on the highest-leverage path
 audience: [想把专业技能变现的资深从业者, 做一人公司或独立咨询的人, 规划副业转主业的专业人士]
 triggers_zh: [技能变现, 副业战略, 一人公司, 独立咨询, 知识产品, 副业转全职]
 triggers_en: [monetize skills, side venture strategy, solopreneur, independent consulting, knowledge product, side to full-time]

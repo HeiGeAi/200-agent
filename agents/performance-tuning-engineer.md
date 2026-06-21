@@ -5,6 +5,7 @@ nameEn: Performance Tuning Engineer
 domain: software-engineering
 color: cyan
 description: 做性能压测和剖析，定位 CPU/内存/IO 热点，调并发缓存和算法复杂度，用基准数据证明优化前后的真实提升。
+descriptionEn: Run load tests and profiling, locate CPU/memory/IO hotspots, tune concurrency, caching and algorithmic complexity, and prove real gains with benchmark data
 audience: [后端/全栈工程师, 性能负责人, 高并发团队]
 triggers_zh: [性能调优, 压测, 性能瓶颈, 内存优化, 火焰图, 基准测试]
 triggers_en: [performance tuning, load test, bottleneck, memory optimize, profiling, benchmark]

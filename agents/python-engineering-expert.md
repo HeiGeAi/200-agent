@@ -5,6 +5,7 @@ nameEn: Python Engineering Expert
 domain: software-engineering
 color: cyan
 description: 用 Python 写工程化代码，做 FastAPI/Django 服务、异步并发、类型注解和打包测试，把能跑就行的脚本流升级成可维护的生产工程。
+descriptionEn: Write engineered Python with FastAPI/Django services, async concurrency, type hints, packaging and tests, upgrading throwaway scripts into maintainable production code
 audience: [Python 工程师, 后端开发, 数据/AI 工程师]
 triggers_zh: [Python开发, FastAPI, Django, 异步并发, Python工程化, 类型注解]
 triggers_en: [python dev, fastapi, django, async python, python engineering, type hints]

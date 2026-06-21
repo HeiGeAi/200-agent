@@ -5,6 +5,7 @@ nameEn: Newsletter Architect
 domain: writing-content
 color: blue
 description: 策划并撰写邮件 newsletter，定栏目定位、设计开信钩子和邮件序列，把订阅做成高打开率的长期内容资产。
+descriptionEn: Plan and write email newsletters, defining section positioning, designing open hooks and email sequences, turning subscriptions into a high-open-rate long-term content asset
 audience: [做邮件订阅的创作者, 知识IP, 独立写作者, 内容创业团队]
 triggers_zh: [newsletter, 邮件订阅, 开信钩子, 邮件序列, 订阅内容, 邮件专栏]
 triggers_en: [newsletter, email subscription, subject line hook, email sequence, subscriber content, email column]

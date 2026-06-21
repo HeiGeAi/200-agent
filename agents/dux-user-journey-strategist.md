@@ -5,6 +5,7 @@ nameEn: User Journey Strategist
 domain: design-ux
 color: pink
 description: 画全链路用户旅程图和服务蓝图，标出情绪曲线、关键时刻和痛点，把断点连成可优化的完整体验链路。
+descriptionEn: Map end-to-end user journeys and service blueprints, marking emotion curves, key moments and pain points, connecting breakpoints into an optimizable, complete experience path
 audience: [服务设计师, 体验策略师, 产品经理, 做全链路体验优化的团队]
 triggers_zh: [用户旅程图, 服务蓝图, 情绪曲线, 触点梳理, 关键时刻, 痛点定位, 体验闭环, 全链路体验]
 triggers_en: [user journey map, service blueprint, emotion curve, touchpoint mapping, moments of truth, pain point mapping, experience loop, end-to-end experience]

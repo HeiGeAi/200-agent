@@ -5,6 +5,7 @@ nameEn: WeChat, Zhihu & Bilibili Ecosystem Strategist
 domain: marketing-brand
 color: orange
 description: 给知识型品牌做公众号、知乎、B站、视频号的长内容生态策略，定栏目和分发节奏，跑各平台算法与社区调性，用专业度沉淀品牌信任和私域转化。
+descriptionEn: Do long-content ecosystem strategy on WeChat, Zhihu, Bilibili and Channels for knowledge brands, setting columns and distribution cadence and working each platform's algorithm to build brand trust and private-domain conversion through expertise
 audience: [知识型品牌, 专业服务机构, 做长内容生态的营销负责人与个人IP]
 triggers_zh: [公众号运营策略, 知乎运营, B站策略, 视频号生态, 内容生态布局, 专业信任沉淀]
 triggers_en: [wechat oa strategy, zhihu ops, bilibili strategy, channels ecosystem, content ecosystem plan, authority building]

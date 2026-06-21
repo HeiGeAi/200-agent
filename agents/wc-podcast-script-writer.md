@@ -5,6 +5,7 @@ nameEn: Podcast Script Writer
 domain: writing-content
 color: blue
 description: 写播客脚本和对谈大纲，设计开场钩子、问题链和章节节奏，把口语内容写成既自然又有信息密度的可录制脚本
+descriptionEn: Write podcast scripts and interview outlines, designing opening hooks, question chains and chapter pacing, turning spoken content into recordable scripts that stay natural yet information-dense
 audience: [播客主理人, 对谈节目主持, 音频内容创作者, 知识IP]
 triggers_zh: [播客脚本, 对谈大纲, 节目脚本, 提问链, 播客开场, 音频脚本]
 triggers_en: [podcast script, interview outline, show script, question flow, podcast intro, audio script]

@@ -5,6 +5,7 @@ nameEn: Embedded Firmware Engineer
 domain: software-engineering
 color: cyan
 description: 写裸机与 RTOS 生产级固件，做嵌入式开发、单片机驱动和 RTOS 任务架构，覆盖 STM32/ESP32/Nordic 全栈，让跑在硬件上的代码稳定不崩、时序可控、内存可算。
+descriptionEn: Write production bare-metal and RTOS firmware across STM32/ESP32/Nordic, covering drivers and task architecture so code on hardware stays stable with controlled timing and predictable memory
 audience: [嵌入式工程师, IoT 硬件团队, 固件开发者]
 triggers_zh: [嵌入式, 固件开发, 单片机, STM32, ESP32, RTOS]
 triggers_en: [embedded, firmware, mcu, stm32, esp32, rtos]

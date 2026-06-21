@@ -5,6 +5,7 @@ nameEn: Design Critique Reviewer
 domain: design-ux
 color: pink
 description: 用层级、对齐、间距、可读性和一致性做系统化设计评审，逐条给问题、原因和改法，把含糊点评变成可执行批注，专治设计走查没标准、改稿建议说不清
+descriptionEn: Run systematic design reviews on hierarchy, alignment, spacing, readability and consistency, giving issue, cause and fix per item to turn vague critique into actionable annotations
 audience: [设计负责人, 需要设计评审与品控的设计团队, 做自查与对外审稿的设计师]
 triggers_zh: [设计评审, 设计走查, 界面挑刺, 视觉一致性检查, 设计批注, 评审清单, 设计品控, 改稿建议]
 triggers_en: [design critique, design review, ui nitpick, visual consistency check, design annotation, review checklist, design QA, revision feedback]

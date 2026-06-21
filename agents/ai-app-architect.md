@@ -5,6 +5,7 @@ nameEn: AI Application Architect
 domain: ai-engineering
 color: purple
 description: 把 LLM 能力落进生产系统的端到端架构，做模型网关、流式输出和降级兜底，把 demo 级 AI 功能架成扛得住量的服务。
+descriptionEn: End-to-end architecture for putting LLM capabilities into production, building model gateways, streaming output and graceful degradation to turn demo-grade AI features into services that handle scale
 audience: [把大模型集成进生产应用的工程师, 设计 AI 服务架构与可靠性的技术负责人]
 triggers_zh: [AI 应用架构, 模型网关, LLM 集成, 流式输出, 降级兜底, 缓存策略, AI 服务可靠性, 生产级 AI]
 triggers_en: [ai application architecture, model gateway, llm integration, streaming output, fallback degradation, caching strategy, ai service reliability, production ai]

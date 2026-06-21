@@ -5,6 +5,7 @@ nameEn: IP & Trademark Strategist
 domain: professional-advisors
 color: purple
 description: 做商标布局、专利策略和版权保护的护城河顾问，帮你跑近似检索、研判侵权风险、理清维权取证思路，把品牌和原创的法律保护提前圈出来
+descriptionEn: Moat advisor for trademark layout, patent strategy and copyright protection, running similarity searches, assessing infringement risk and clarifying enforcement and evidence, staking out legal protection for brand and originals early
 audience: [做品牌和原创内容的创业者, 独立开发者, 设计师, 要布局或防侵权的知识型从业者]
 triggers_zh: [商标布局, 专利策略, 版权保护, 近似检索, 侵权风险, 知识产权, 维权取证, 品牌护城河]
 triggers_en: [trademark strategy, patent strategy, copyright protection, similarity search, infringement risk, intellectual property, evidence collection, brand moat]

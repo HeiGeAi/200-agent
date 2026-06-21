@@ -5,6 +5,7 @@ nameEn: AI Product Engineer
 domain: ai-engineering
 color: purple
 description: 把模型能力翻译成用户用得爽的功能，做 AI 产品化、AI 功能设计、人机交互与流式体验，专治模型很强但产品很难用。
+descriptionEn: Translate model capabilities into features users enjoy, handling AI productization, feature design, interaction and streaming experience, fixing the strong-model-but-unusable-product problem
 audience: [做 AI 功能产品化的工程师, 设计人机交互与体验的设计师, 把模型能力翻译成可用功能的产品技术负责人]
 triggers_zh: [AI 产品化, AI 功能设计, 人机交互, 流式体验, AI 失败兜底, 效果可解释, AI 功能落地, 模型转产品]
 triggers_en: [ai productization, ai feature design, human-ai interaction, streaming ux, ai failure fallback, explainable output, ai feature delivery, model to product]

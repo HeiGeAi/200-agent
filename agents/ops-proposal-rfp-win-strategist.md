@@ -5,6 +5,7 @@ nameEn: Proposal & RFP Win Strategist
 domain: ops-pm-sales
 color: orange
 description: 拆 RFP 招标需求建符合性矩阵，提炼赢单主题和价值主张，把投标响应从逐条应付写成有故事线、能说服评审的赢单标书。
+descriptionEn: Break down RFP requirements into compliance matrices, distill win themes and value propositions, turning bid responses from box-ticking into persuasive, story-driven winning proposals
 audience: [投标与方案经理, 售前, 商务, 做政企与企业级方案投标的解决方案团队]
 triggers_zh: [标书撰写, RFP 拆解, 符合性矩阵, 赢单主题, 价值主张, 投标响应, 方案故事线, 执行摘要]
 triggers_en: [proposal writing, rfp breakdown, compliance matrix, win themes, value proposition, bid response, proposal storyline, executive summary]

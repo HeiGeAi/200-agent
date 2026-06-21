@@ -5,6 +5,7 @@ nameEn: PR & Crisis Communications Lead
 domain: marketing-brand
 color: orange
 description: 做公关传播全盘，从新闻稿、媒体口径到危机公关一手抓，主动设置叙事、舆情应对把损失控到最小。
+descriptionEn: Run the full PR and communications play from press releases and media messaging to crisis comms, proactively setting the narrative and managing sentiment to keep damage minimal
 audience: [公关与品牌负责人, 市场总监, 创始人, 负责对外发声与舆情的团队]
 triggers_zh: [公关传播, 新闻稿, 危机公关, 舆情应对, 媒体口径, 声明回应]
 triggers_en: [pr communications, press release, crisis pr, sentiment response, media messaging, statement response]

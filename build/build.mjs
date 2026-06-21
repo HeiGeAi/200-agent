@@ -11,6 +11,25 @@ import { ROOT, DIST_DIR, DOMAINS, DOMAIN_NAMES, loadAgents, asList, triggersOf }
 const agents = loadAgents()
 console.log(`加载 ${agents.length} 个 canonical agent`)
 
+// 英文域名(README 英文版列表用)
+const DOMAIN_NAMES_EN = {
+  'software-engineering': 'Software Engineering',
+  'ai-engineering': 'AI Engineering & Agents',
+  'ai-visual-creation': 'AI Visual Creation',
+  'design-ux': 'Design & UX',
+  'writing-content': 'Writing & Content',
+  'data-analytics': 'Data & Analytics',
+  'product-growth': 'Product & Growth',
+  'marketing-brand': 'Marketing & Brand',
+  'business-strategy': 'Business & Strategy',
+  'research-learning': 'Research & Learning',
+  'professional-advisors': 'Professional Advisors',
+  'career-productivity': 'Career & Productivity',
+  'ops-pm-sales': 'Ops · PM · Sales',
+  'vertical-industries': 'Vertical Industries',
+}
+const descEn = a => (a.descriptionEn || a.description || a.nameEn || '').replace(/\|/g, '/').replace(/\n/g, ' ')
+
 rmSync(DIST_DIR, { recursive: true, force: true })
 const dirs = {
   cc: join(DIST_DIR, 'claude-code', 'agents'),
@@ -54,7 +73,7 @@ writeFileSync(join(DIST_DIR, 'codex', 'AGENTS.md'), `# 200 agent · Codex 提示
 // ---- catalog.json ----
 const catalog = agents.map(a => ({
   slug: a.slug, nameZh: a.nameZh, nameEn: a.nameEn, domain: a.domain,
-  description: a.description, audience: asList(a.audience),
+  description: a.description, descriptionEn: a.descriptionEn || '', audience: asList(a.audience),
   triggers_zh: asList(a.triggers_zh), triggers_en: asList(a.triggers_en),
   when_to_use: a.when_to_use, when_not_to_use: a.when_not_to_use, merged_from: asList(a.merged_from),
 }))
@@ -82,8 +101,19 @@ if (existsSync(readmePath)) {
       block += `\n\n</details>\n\n`
     }
     readme = readme.replace(/<!-- AGENT-LIST:START -->[\s\S]*?<!-- AGENT-LIST:END -->/, `<!-- AGENT-LIST:START -->\n\n${block}<!-- AGENT-LIST:END -->`)
-    writeFileSync(readmePath, readme)
   }
+  // 英文版列表(写入 AGENT-LIST-EN 标记之间,供 README 英文折叠块使用)
+  if (readme.includes('<!-- AGENT-LIST-EN:START -->')) {
+    let blockEn = ''
+    for (const [id] of DOMAINS) {
+      const list = agents.filter(a => a.domain === id)
+      blockEn += `<details>\n<summary><b>${DOMAIN_NAMES_EN[id]}</b> (${list.length})</summary>\n\n| Agent | slug | What it does |\n|---|---|---|\n`
+      blockEn += list.map(a => `| ${a.nameEn} | \`${a.slug}\` | ${descEn(a)} |`).join('\n')
+      blockEn += `\n\n</details>\n\n`
+    }
+    readme = readme.replace(/<!-- AGENT-LIST-EN:START -->[\s\S]*?<!-- AGENT-LIST-EN:END -->/, `<!-- AGENT-LIST-EN:START -->\n\n${blockEn}<!-- AGENT-LIST-EN:END -->`)
+  }
+  writeFileSync(readmePath, readme)
 }
 
 console.log(`构建完成:`)

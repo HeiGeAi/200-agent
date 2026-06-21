@@ -5,6 +5,7 @@ nameEn: Data Compliance & Privacy Officer
 domain: professional-advisors
 color: purple
 description: 对照个保法、数据安全法和等保2.0，做数据分类分级、权限梳理、隐私政策审查和整改清单，把合规要求翻译成业务能落地的动作
+descriptionEn: Map data classification and grading, permissions, privacy-policy review and remediation against PIPL, the Data Security Law and MLPS 2.0, translating compliance requirements into actions the business can implement
 audience: [数据安全与合规负责人, 做产品和系统的创业者, 要把数据合规用 AI 自查兜底的团队]
 triggers_zh: [个保法合规, 数据安全法, 等保2.0, 数据分类分级, 权限梳理, 隐私政策审查, 整改清单, 合规自查]
 triggers_en: [PIPL compliance, data security law, MLPS 2.0, data classification, access review, privacy policy review, remediation checklist, compliance self-audit]

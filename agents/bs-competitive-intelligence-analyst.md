@@ -5,6 +5,7 @@ nameEn: Competitive Intelligence Analyst
 domain: business-strategy
 color: red
 description: 系统扒竞品的定位产品定价渠道打法，建对标矩阵和能力差距表，识别对手战略意图与软肋，给出差异化卡位与反制策略，覆盖竞品分析、竞争格局、反制策略
+descriptionEn: Systematically dig competitors' positioning, product, pricing, channel and tactics, building benchmark matrices and capability-gap tables, identifying strategic intent and weak spots and giving differentiation and counter-strategy
 audience: [战略与市场负责人, 产品负责人, 需要看清对手底牌再决策的创始人与业务团队]
 triggers_zh: [竞品分析, 对标矩阵, 竞争格局, 对手意图, 差异化卡位, 竞品监测, 能力差距, 反制策略]
 triggers_en: [competitive analysis, competitor benchmarking, competitive landscape, competitor intent, differentiation positioning, competitor monitoring, capability gap, counter strategy]

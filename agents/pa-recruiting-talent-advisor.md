@@ -5,6 +5,7 @@ nameEn: Recruiting & Talent Selection Advisor
 domain: professional-advisors
 color: purple
 description: 写精准 JD、设结构化面试题和评分维度、做简历打标初筛和人才画像匹配，理清渠道与薪酬带宽，把招对人这件事用 AI 变成有标准的筛选。
+descriptionEn: Write precise JDs, design structured interview questions and scoring dimensions, do resume tagging and talent-profile matching and clarify channels and salary bands, making hiring right a standardized, AI-assisted screen
 audience: [用 AI 提效招聘的创业者与用人经理, HRBP 与招聘专员, 做人才甄选的团队负责人]
 triggers_zh: [JD撰写, 简历初筛, 结构化面试, 面试评分, 人才画像, 招聘渠道, 薪酬带宽, 人才甄选]
 triggers_en: [jd writing, resume screening, structured interview, interview scoring, talent profile, hiring channel, salary band, talent selection]

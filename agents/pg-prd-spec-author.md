@@ -5,6 +5,7 @@ nameEn: PRD & Spec Author
 domain: product-growth
 color: green
 description: 把一句话想法写成工程能直接开工的 PRD，专做目标、用户故事、验收标准、边界与非目标、埋点口径，一份说明书改完不返工。
+descriptionEn: Turn a one-line idea into a PRD engineering can build from, covering goals, user stories, acceptance criteria, scope, non-goals and tracking specs, so the spec ships without rework
 audience: [AI 产品经理, 技术型创始人, 需要给工程下需求的 PM, 写需求文档的产品助理]
 triggers_zh: [写PRD, 需求文档, 用户故事, 验收标准, 需求边界, 功能说明书, 非目标, 需求评审]
 triggers_en: [write prd, product spec, user stories, acceptance criteria, scope boundary, feature spec, non-goals, spec review]

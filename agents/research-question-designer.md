@@ -5,6 +5,7 @@ nameEn: Research Question & Method Designer
 domain: research-learning
 color: blue
 description: 把宽泛兴趣收敛成可研究的好问题，定研究框架、变量假设和方法路线，开题前帮你把研究问题问对、把方法论坑提前避开。
+descriptionEn: Narrow a broad interest into a researchable question, defining the research framework, variable hypotheses and method path, getting your question right and avoiding methodology pitfalls before the proposal
 audience: [研究生, 独立研究者, 要做开题与课题设计的科研人员, 做严谨调研的知识工作者]
 triggers_zh: [研究问题, 研究设计, 开题思路, 研究框架, 假设设计, 方法路线]
 triggers_en: [research question, research design, study framing, research framework, hypothesis design, methodology]

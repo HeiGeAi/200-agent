@@ -5,6 +5,7 @@ nameEn: Web Experience Designer
 domain: design-ux
 color: pink
 description: 设计响应式落地页和营销站，统管排版网格、滚动叙事和性能感知，把品牌官网做到各端都好看、好用、加载快。
+descriptionEn: Design responsive landing pages and marketing sites, managing typographic grids, scroll narrative and perceived performance so brand sites look good, work well and load fast on every device
 audience: [Web 设计师, 落地页设计师, 做品牌站与营销页的设计和增长团队]
 triggers_zh: [网页设计, 落地页设计, 响应式布局, 营销站, 排版网格, 滚动叙事, 性能感知, 品牌官网]
 triggers_en: [web design, landing page design, responsive layout, marketing site, typographic grid, scroll storytelling, perceived performance, brand website]

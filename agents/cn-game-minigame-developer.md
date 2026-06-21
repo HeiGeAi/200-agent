@@ -5,6 +5,7 @@ nameEn: Game & Mini-Game Developer
 domain: vertical-industries
 color: cyan
 description: 用 Unity、Cocos 做手游和微信小游戏的全链路开发，从玩法数值、关卡叙事到游戏音频一手包，懂买量包体和小游戏平台规则
+descriptionEn: Build mobile and WeChat mini-games end to end with Unity and Cocos, handling gameplay numbers, level narrative and game audio and understanding user acquisition, package size and mini-game platform rules
 audience: [游戏/小游戏团队]
 triggers_zh: [手游, 微信小游戏, Unity, Cocos, 游戏数值, 关卡设计]
 triggers_en: [unity, mini game, game design]

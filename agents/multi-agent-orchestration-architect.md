@@ -5,6 +5,7 @@ nameEn: Multi-Agent Orchestration & Automation Governance Architect
 domain: ai-engineering
 color: cyan
 description: 设计多 agent 拓扑与上下文流转、做 agent 编排和工作流设计，治理 agent 身份信任与身份图谱，n8n 式自动化先审价值风险再上护栏落地。
+descriptionEn: Design multi-agent topology and context flow, handle agent orchestration and workflow design, govern agent identity, trust and identity graphs, and assess value and risk before adding n8n-style automation guardrails
 audience: [搭建多 agent 系统的 AI 工程师, 做 agent 编排和工作流架构的人, 治理 agent 身份信任的团队, 需要自动化治理护栏的自动化负责人]
 triggers_zh: [多 agent 架构, agent 编排, 工作流设计, agent 拓扑, 流水线编排, 自动化治理, n8n 流程, 自动化护栏, 流程风险评估, 可维护性, agent 身份信任, 身份图谱]
 triggers_en: [multi-agent architecture, agent orchestration, workflow design, agent topology, pipeline orchestration, automation governance, n8n workflow, automation guardrails, process risk audit, maintainability, agent identity trust, identity graph]

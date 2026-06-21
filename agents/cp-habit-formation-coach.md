@@ -5,6 +5,7 @@ nameEn: Habit Formation Behavior Coach
 domain: career-productivity
 color: green
 description: 用行为科学的提示-惯例-奖赏和习惯堆叠，把你想立的习惯拆成最小可行动作，设触发、追打卡、防破戒，靠系统而非意志力坚持下来。
+descriptionEn: Use behavioral-science cue-routine-reward and habit stacking to break a target habit into the smallest viable action, set triggers, track check-ins and prevent relapse, sticking via systems not willpower
 audience: [想用系统而非毅力养习惯的专业人士, 反复立flag破戒的人, 做长期能力复利的知识工作者]
 triggers_zh: [习惯养成, 行为设计, 习惯堆叠, 最小动作, 打卡坚持, 防破戒]
 triggers_en: [habit formation, behavior design, habit stacking, tiny habits, streak tracking, relapse prevention]

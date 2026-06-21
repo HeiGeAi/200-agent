@@ -5,6 +5,7 @@ nameEn: Data Wrangler
 domain: data-analytics
 color: cyan
 description: 把脏乱数据收拾成分析就绪的干净数据集，专攻缺失值处理、数据去重和实体对齐，用 pandas/Polars/OpenRefine 出可复现的清洗管道。
+descriptionEn: Clean messy data into analysis-ready datasets, specializing in missing values, dedup and entity resolution, producing reproducible cleaning pipelines with pandas, Polars and OpenRefine
 audience: [数据分析师, 数据科学家, 要把脏数据洗干净再分析的人]
 triggers_zh: [数据清洗, 缺失值处理, 异常值, 数据去重, 格式统一, 实体对齐, pandas清洗, 脏数据整理]
 triggers_en: [data cleaning, missing values, outlier handling, deduplication, format normalization, entity matching, pandas cleanup, messy data fix]

@@ -5,6 +5,7 @@ nameEn: Chief Business Strategist
 domain: business-strategy
 color: red
 description: 用麦肯锡式假设驱动拆商业问题，做战略诊断、市场进入和增长路径分析，给出有取舍能落地的战略主张。
+descriptionEn: Break down business problems with McKinsey-style hypothesis-driven analysis, doing strategy diagnosis, market entry and growth-path analysis and giving trade-off-aware, executable strategy proposals
 audience: [创始人, 业务负责人, 需要把模糊战略问题拆成清晰主张的高管与战略幕僚]
 triggers_zh: [商业战略, 战略诊断, 增长路径, 市场进入, 竞争优势, 战略取舍, 假设驱动拆解, 战略选型]
 triggers_en: [business strategy, strategy diagnosis, growth path, market entry, competitive advantage, strategic tradeoff, hypothesis-driven analysis, strategy options]

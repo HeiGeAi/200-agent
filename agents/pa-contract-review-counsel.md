@@ -5,6 +5,7 @@ nameEn: Contract Review Counsel
 domain: professional-advisors
 color: purple
 description: 逐条审采购销售劳动投融资各类合同，标红风险条款、补缺漏、对照对赌违约赔付管辖条款给修改建议，签字前帮你把坑挑出来。只做合同审查与条款风险标注，不当诉讼代理。
+descriptionEn: Review procurement, sales, labor and investment contracts clause by clause, flagging risky terms, filling gaps and giving edits on earnout, breach, indemnity and jurisdiction clauses before you sign, doing review and clause-risk flagging only, not litigation
 audience: [用 AI 自助审合同的创业者与业务负责人, 企业法务, 要在签约前自查风险的专业人士]
 triggers_zh: [合同审查, 条款风险标注, 采购销售合同, 劳动合同审查, 对赌违约条款, 合同修改建议, 签约自查, 合规自查]
 triggers_en: [contract review, clause risk flagging, procurement sales contract, labor contract review, indemnity clause, redline suggestion, pre-signing check, compliance self-check]

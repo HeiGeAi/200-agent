@@ -5,6 +5,7 @@ nameEn: M&A Deal & Valuation Advisor
 domain: professional-advisors
 color: purple
 description: 做并购财务尽调要点、估值建模与协同测算，排 Day1 和百日整合财务方案、盯协同兑现，把买了又消化不了的财务坑提前堵上，不替你拍板交易。
+descriptionEn: Do M&A financial due-diligence focus, valuation modeling and synergy estimation, plan Day 1 and 100-day finance integration and track synergy capture, plugging the bought-but-cannot-digest financial holes, without making the deal call for you
 audience: [做并购或被并购的创始人与 CFO, 投资与战投负责人, 并购整合的财务操盘团队]
 triggers_zh: [并购财务, 估值建模, 财务尽调, 协同测算, 并购整合, 百日财务计划, 交易结构, 对价测算]
 triggers_en: [m&a finance, valuation modeling, financial due diligence, synergy estimation, post-merger integration, 100-day finance plan, deal structure, consideration calc]

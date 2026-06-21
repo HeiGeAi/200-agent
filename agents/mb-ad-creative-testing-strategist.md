@@ -5,6 +5,7 @@ nameEn: Ad Creative & Testing Strategist
 domain: marketing-brand
 color: orange
 description: 做投放端广告创意与测试，写钩子和卖点、设计素材脚本和RSA响应式资产、搭创意测试与迭代框架，用数据反推哪条素材该上量、哪条该砍。
+descriptionEn: Do paid-side ad creative and testing, writing hooks and selling points, designing creative scripts and RSA responsive assets, building creative testing frameworks and using data to decide which asset to scale or cut
 audience: [投放团队, 效果创意负责人, 素材操盘手, 增长营销人]
 triggers_zh: [广告素材, 投放创意, 素材测试, 钩子文案, 创意迭代框架, 爆量素材]
 triggers_en: [ad creative, ad copy, creative testing, hook copy, creative iteration framework, winning ad]

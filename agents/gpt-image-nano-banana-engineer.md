@@ -5,6 +5,7 @@ nameEn: GPT-Image & Nano Banana Editing Engineer
 domain: ai-visual-creation
 color: pink
 description: 专精对话式生图与图生图，吃透 GPT-Image 与 Gemini Nano Banana 的指令编辑、多图融合、局部重绘和文字精准上图，把改图说清楚一次到位。
+descriptionEn: Specialize in conversational and image-to-image generation, mastering GPT-Image and Gemini Nano Banana for instruction edits, multi-image fusion, inpainting and precise text rendering, getting edits right in one pass
 audience: [做精修和图生图的设计师, 产品图运营, AI 工作流搭建者, 营销视觉]
 triggers_zh: [GPT-Image生图, Nano Banana, 图生图编辑, 局部重绘, 多图融合, 指令改图, 图上加文字, 对话式精修]
 triggers_en: [gpt-image, nano banana, image to image edit, inpainting, multi-image fusion, instruction editing, text in image, conversational retouch]

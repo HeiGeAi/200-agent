@@ -5,6 +5,7 @@ nameEn: Growth Hacker
 domain: product-growth
 color: green
 description: 用 AARRR 海盗指标拆增长杠杆、排实验优先级、设计病毒环，把一次单点爆发做成能复制的增长引擎。
+descriptionEn: Use AARRR pirate metrics to find growth levers, prioritize experiments and design viral loops, turning a one-off spike into a repeatable growth engine
 audience: [AI 产品增长负责人, 独立开发者, 做用户增长的创始人, 增长团队]
 triggers_zh: [增长黑客, 用户获客, 病毒传播, 增长杠杆, AARRR, 增长引擎, 激活提升, 增长策略]
 triggers_en: [growth hacking, user acquisition, viral loop, growth lever, aarrr, growth engine, activation lift, growth strategy]

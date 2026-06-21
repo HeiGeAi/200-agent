@@ -5,6 +5,7 @@ nameEn: Node.js Backend Engineer
 domain: software-engineering
 color: cyan
 description: 用 Node 和 TypeScript 搭服务端，做 Express/NestJS 服务、事件循环调优和 BFF 层，把 JS 全栈的后端做扎实。
+descriptionEn: Build server-side with Node and TypeScript, shipping Express/NestJS services, event-loop tuning and BFF layers to make the JS full-stack backend solid
 audience: [Node 工程师, 全栈工程师, BFF 团队]
 triggers_zh: [Node开发, Express, NestJS, 事件循环, TypeScript后端, BFF层]
 triggers_en: [nodejs, express, nestjs, event loop, typescript backend, bff]

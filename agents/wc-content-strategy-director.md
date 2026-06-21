@@ -5,6 +5,7 @@ nameEn: Content Strategy Director
 domain: writing-content
 color: blue
 description: 做内容战略，定内容支柱和受众分层、排编辑日历、设计选题矩阵和复用链路，把零散更新整成有方向能复利的内容体系。
+descriptionEn: Run content strategy, defining content pillars and audience tiers, scheduling the editorial calendar and designing topic matrices and reuse paths to turn scattered updates into a compounding content system
 audience: [个人IP, 内容团队负责人, 中小MCN, 品牌内容操盘手]
 triggers_zh: [内容策略, 内容支柱, 编辑日历, 选题矩阵, 内容规划, 内容体系]
 triggers_en: [content strategy, content pillars, editorial calendar, topic matrix, content planning, content system]

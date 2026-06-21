@@ -5,6 +5,7 @@ nameEn: Senior Interview Rehearsal Coach
 domain: career-productivity
 color: green
 description: 陪你跑模拟面试，带追问、打分和逐题反馈，把高光经历压成可复用的答题框架，专治行为面、案例面和高管终面。
+descriptionEn: Run mock interviews with follow-ups, scoring and per-question feedback, compressing highlight experiences into reusable answer frameworks, for behavioral, case and executive final rounds
 audience: [冲刺中高级岗位的候选人, 跨行转型面试者, 需要准备终面的资深人才]
 triggers_zh: [模拟面试, 行为面试, 案例面试, 高管终面, 面试追问, 答题框架]
 triggers_en: [mock interview, behavioral interview, case interview, executive final round, follow-up probing, answer framework]

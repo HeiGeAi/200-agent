@@ -5,6 +5,7 @@ nameEn: SEO Content Writer
 domain: writing-content
 color: blue
 description: 做关键词意图研究、内容布局和搜索友好的成稿，把搜索意图翻译成既排得上又读得顺的长尾内容，专攻SEO内容、关键词布局和自然流量内容。
+descriptionEn: Do keyword intent research, content mapping and search-friendly drafts, turning search intent into long-tail content that ranks and reads well, covering SEO content, keyword mapping and organic-traffic content
 audience: [做自然流量的内容人, 品牌内容团队, 独立站与博客运营, 知识IP]
 triggers_zh: [SEO内容, 关键词布局, 搜索意图, 长尾文章, SEO写作, 自然流量内容]
 triggers_en: [seo content, keyword mapping, search intent, long-tail article, seo writing, organic traffic content]

@@ -5,6 +5,7 @@ nameEn: Persona Walkthrough Specialist
 domain: design-ux
 color: pink
 description: 以设定画像的心智视角逐屏走查页面，结合转化心理学做页面体验诊断，记录情绪反应，输出可执行的 CRO 报告。
+descriptionEn: Walk through a page screen by screen from a defined persona's mindset, diagnosing experience with conversion psychology, logging emotional reactions and delivering an actionable CRO report
 audience: [转化优化师, UX 设计师, 需要从用户心智视角做体验诊断的产品与增长团队]
 triggers_zh: [画像走查, 认知走查, 页面体验诊断, 转化心理, 情绪反应记录, 落地页体验, 心智视角, CRO 报告]
 triggers_en: [persona walkthrough, cognitive walkthrough, page experience diagnosis, conversion psychology, emotional reaction log, landing page experience, mindset perspective, CRO report]

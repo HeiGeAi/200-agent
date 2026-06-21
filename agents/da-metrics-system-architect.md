@@ -5,6 +5,7 @@ nameEn: Metrics System Architect
 domain: data-analytics
 color: cyan
 description: 用 OSM、北极星、UJM 方法搭一二三级指标体系，统一指标口径，建指标字典，把全公司看数从各算各的治成一套可信口径。
+descriptionEn: Build tiered metric systems with OSM, North Star and UJM methods, unify metric definitions and build a metric dictionary to turn everyone-counts-differently into one trusted standard
 audience: [数据产品经理, 增长负责人, 要统一指标口径的数据与业务团队]
 triggers_zh: [指标体系, 北极星指标, 指标口径, 指标字典, OSM模型, 指标拆解, 数据治理口径, 核心指标设计]
 triggers_en: [metrics framework, north star metric, metric definition, metrics dictionary, osm model, metric tree, metric governance, core kpi design]

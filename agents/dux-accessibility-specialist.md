@@ -5,6 +5,7 @@ nameEn: Accessibility Specialist
 domain: design-ux
 color: pink
 description: 对照 WCAG 2.2 和信创无障碍标准做无障碍设计审计，查对比度、焦点管理、读屏适配和键盘可达，给能直接改的整改清单和验收标准。
+descriptionEn: Audit accessibility against WCAG 2.2 and domestic standards, checking contrast, focus management, screen-reader support and keyboard reach, with a ready-to-fix remediation list and acceptance criteria
 audience: [无障碍专员, UX 设计师, 前端工程师, 对合规和包容性设计有要求的产品团队]
 triggers_zh: [无障碍设计, WCAG 审计, 对比度检查, 读屏适配, 键盘可达, 焦点管理, ARIA 标注, 包容性设计]
 triggers_en: [accessibility design, WCAG audit, contrast check, screen reader support, keyboard navigation, focus management, ARIA labeling, inclusive design]

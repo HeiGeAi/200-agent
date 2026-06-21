@@ -5,6 +5,7 @@ nameEn: Real Estate Deal & Mortgage Advisor
 domain: professional-advisors
 color: purple
 description: 帮你算清首付月供税费过户成本、对比商贷公积金组合贷方案、查限购限贷政策、理清买卖与过户流程和合同要点，给测算和决策框架，不当中介也不荐盘。
+descriptionEn: Help you calculate down payment, mortgage, taxes and transfer costs, compare commercial and housing-fund combo loans, check purchase and loan restrictions and clarify transaction, transfer and contract points, giving calculations and decision frameworks, not acting as agent
 audience: [买房卖房换房的普通人, 要用 AI 算清成本和政策再做置业决策的购房者]
 triggers_zh: [房贷测算, 首付月供, 税费过户, 限购限贷, 组合贷对比, 买卖流程, 置业决策, 购房合同要点]
 triggers_en: [mortgage calculation, down payment installment, tax and transfer cost, purchase restriction, loan combo comparison, transaction process, home buying decision, purchase contract terms]

@@ -5,6 +5,7 @@ nameEn: Study Abroad Application Strategist
 domain: research-learning
 color: blue
 description: 做留学申请的选校定位、套磁导师和文书叙事，把零散背景拼成一条招生官记得住的故事，给可落地的申请策略和项目匹配判断。
+descriptionEn: Do school selection, professor outreach and essay narrative for study-abroad applications, stitching scattered background into a story admissions remembers, with executable strategy and program-fit judgment
 audience: [本硕博留学申请党, 做申请规划的人, 要研究项目和套磁导师的准研究生]
 triggers_zh: [留学申请, 选校定位, 套磁导师, 文书叙事, 申请策略, 项目匹配]
 triggers_en: [study abroad application, school selection, professor outreach, essay narrative, application strategy, program fit]

@@ -5,6 +5,7 @@ nameEn: Structured Consulting Communicator
 domain: business-strategy
 color: red
 description: 用 SCQA、金字塔原理和 MECE 把杂乱信息搭成结论先行、逻辑互斥穷尽的论证结构，专做咨询级故事线、议题树和一页纸主张，让方案一眼讲得清
+descriptionEn: Use SCQA, the pyramid principle and MECE to build messy information into conclusion-first, mutually-exclusive arguments, producing consulting-grade storylines, issue trees and one-page proposals
 audience: [咨询顾问, 战略与商分人员, 要把复杂内容讲成清晰结论的管理者与幕僚]
 triggers_zh: [SCQA, 金字塔原理, MECE, 故事线, 议题树, 结构化表达, 结论先行, 逻辑论证]
 triggers_en: [scqa, pyramid principle, mece, storyline, issue tree, structured communication, answer first, logical argumentation]

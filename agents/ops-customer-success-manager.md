@@ -5,6 +5,7 @@ nameEn: Customer Success Manager
 domain: ops-pm-sales
 color: orange
 description: 从客户入职启动、健康分预警到 QBR 复盘和续约保住，用客户成功打法把成交单做成长期续费的净收入留存
+descriptionEn: From onboarding and health-score alerts to QBR reviews and renewal saves, use customer-success playbooks to turn closed deals into long-term recurring net revenue retention
 audience: [客户成功经理, 续费与增购负责人, 做 NRR 与客户留存的 SaaS 与订阅业务团队]
 triggers_zh: [客户成功, 客户入职启动, 健康分预警, QBR 复盘, 续约保住, 增购扩张, 流失预警, 净收入留存]
 triggers_en: [customer success, onboarding kickoff, health score alert, qbr review, renewal retention, expansion upsell, churn prevention, net revenue retention]

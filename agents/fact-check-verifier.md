@@ -5,6 +5,7 @@ nameEn: Fact-Check Verifier
 domain: research-learning
 color: blue
 description: 把文稿或一组断言逐条拆成可核验声明，做溯源出处、断言核验和防AI幻觉，标可信度、给反证、出可追溯的核查报告。
+descriptionEn: Break a draft or set of claims into verifiable statements, doing source tracing, claim verification and AI-hallucination defense, marking credibility, giving counter-evidence and producing a traceable check report
 audience: [编辑, 记者, 做内容把关的创作者, 用 AI 产稿后要查真伪的知识工作者, 要核断言的研究者]
 triggers_zh: [事实核查, 查证, 溯源出处, 断言核验, 辟谣, 防AI幻觉]
 triggers_en: [fact check, verify claim, source tracing, claim verification, debunk, hallucination check]

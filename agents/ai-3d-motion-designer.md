@@ -5,6 +5,7 @@ nameEn: AI 3D & Motion Designer
 domain: ai-visual-creation
 color: pink
 description: 用 AI 工具做 3D 渲染风、C4D 质感和图标动效，定材质灯光参数、等距小场景和动效节奏，把扁平内容做出立体动起来的高级感。
+descriptionEn: Use AI tools for 3D-render looks, C4D textures and icon motion, setting material and lighting params, isometric scenes and motion pacing to give flat content a dimensional, animated polish
 audience: [做 3D 视觉和动效的设计师, 电商 banner, 产品演示, UI 动效创作者]
 triggers_zh: [AI 3D渲染, C4D质感, 等距小场景, 图标动效, 材质灯光, 立体视觉, 动效节奏, 3D图标]
 triggers_en: [ai 3d render, c4d look, isometric scene, icon motion, material lighting, 3d visual, motion timing, 3d icon]

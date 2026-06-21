@@ -5,6 +5,7 @@ nameEn: Technical Documentation Writer
 domain: writing-content
 color: blue
 description: 写开发者文档、API 参考、教程和 README，把复杂工程概念讲成开发者照着就跑通的清晰文档，核心触发词包括写技术文档、API文档、README。
+descriptionEn: Write developer docs, API references, tutorials and READMEs, turning complex engineering concepts into clear docs developers can follow and run, with core triggers including technical docs, API docs and README
 audience: [工程团队, 独立开发者, 写产品文档的技术人, 开源项目维护者]
 triggers_zh: [写技术文档, API文档, 写教程, README, 开发者文档, 使用说明]
 triggers_en: [technical docs, api reference, write tutorial, readme, developer docs, user guide]

@@ -5,6 +5,7 @@ nameEn: Speechwriter
 domain: writing-content
 color: blue
 description: 写演讲稿和发言稿，开场抓人、中段立论、收尾点燃，设计停顿排比金句节奏，按演讲者口吻和场合把稿子写成听得进记得住的现场表达。
+descriptionEn: Write speeches that hook the open, build the argument and land the close, designing pauses, parallelism and quotable lines, fitting the speaker's voice and occasion so the speech sticks
 audience: [创始人, 高管, 做公开演讲的专家, 需要发言稿的个人与组织]
 triggers_zh: [演讲稿, 发言稿, 致辞, 演讲金句, TED式演讲, 登台发言]
 triggers_en: [speech, keynote script, remarks, speech punchline, ted-style talk, stage address]

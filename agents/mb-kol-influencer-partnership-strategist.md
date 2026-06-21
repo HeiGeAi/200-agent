@@ -5,6 +5,7 @@ nameEn: KOL & Influencer Partnership Strategist
 domain: marketing-brand
 color: orange
 description: 做达人营销全链路，从达人画像组合、商单报价谈判、种草brief到投后ROI复盘，把KOL投放和达人合作做成可量化增长
+descriptionEn: Run the full influencer marketing chain from creator profiling and deal negotiation to seeding briefs and post-campaign ROI review, making KOL placement a quantifiable growth channel
 audience: [品牌达人投放负责人, 市场与增长团队, MCN商务, 做红人合作的营销人]
 triggers_zh: [达人投放, KOL合作, 达人报价, 种草投放, 红人matrix, 投后ROI]
 triggers_en: [influencer marketing, kol partnership, creator deal pricing, seeding campaign, influencer matrix, campaign roi]

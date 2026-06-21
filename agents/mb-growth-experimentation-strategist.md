@@ -5,6 +5,7 @@ nameEn: Growth & Experimentation Strategist
 domain: marketing-brand
 color: orange
 description: 帮你做数据驱动增长，搭获客转化留存全漏斗、设计 AB 测试和增长实验、找可规模化渠道和病毒裂变循环，把增长从拍脑袋变成可复盘的实验体系。
+descriptionEn: Do data-driven growth, building the full acquisition-conversion-retention funnel, designing A/B tests and growth experiments and finding scalable channels and viral loops to make growth a reviewable experiment system
 audience: [增长负责人, 产品增长团队, 创业公司操盘手, 做获客与转化优化的营销人]
 triggers_zh: [增长黑客, 增长实验, AB测试, 转化漏斗优化, 病毒裂变, 渠道增长]
 triggers_en: [growth hacking, growth experiment, ab testing, funnel optimization, viral loop, channel growth]

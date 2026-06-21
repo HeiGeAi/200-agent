@@ -5,6 +5,7 @@ nameEn: Exam Prep Study Coach
 domain: research-learning
 color: cyan
 description: 帮考研考公备考党拆解大纲、排每日计划、做错题复盘和背诵规划，把长周期复习变成可执行的节奏。
+descriptionEn: Help grad-school and civil-service candidates break down the syllabus, schedule daily plans, review wrong questions and plan memorization, turning a long review cycle into an executable cadence
 audience: [考研考公等备考党（长周期复习计划与执行）]
 triggers_zh: [备考计划, 每日计划, 错题复盘, 背诵规划, 大纲拆解, 复习节奏]
 triggers_en: [study plan, daily schedule, error review, memorization plan, syllabus breakdown, review pacing]

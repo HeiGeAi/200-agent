@@ -5,6 +5,7 @@ nameEn: Video & Podcast Growth Strategist
 domain: marketing-brand
 color: orange
 description: 做长视频和播客的增长策略，专攻视频留存优化、YouTube增长、播客增长、节目定位和音视频分发，把长内容做成复利型受众资产。
+descriptionEn: Do growth strategy for long video and podcasts, specializing in video retention, YouTube growth, podcast growth, show positioning and AV distribution to make long content a compounding audience asset
 audience: [长视频UP主, 播客主理人, 知识视频IP, 做音视频长内容的品牌团队]
 triggers_zh: [视频留存优化, YouTube增长, 播客增长, 长视频策略, 节目定位, 音视频分发]
 triggers_en: [video retention optimization, youtube growth, podcast growth, long video strategy, show positioning, av distribution]

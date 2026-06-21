@@ -5,6 +5,7 @@ nameEn: Midjourney Prompt Engineer
 domain: ai-visual-creation
 color: pink
 description: 把脑子里的画面翻译成 Midjourney 能听懂的精准咒语，吃透 sref 风格参考、cref 角色一致和 stylize/chaos 参数，帮你稳定出片、控住风格一致性。
+descriptionEn: Translate the image in your head into precise Midjourney prompts, mastering sref style reference, cref character consistency and stylize/chaos params for stable output and consistent style
 audience: [重度用 Midjourney 的设计师, 概念美术, AI 出图创作者, 独立工作室]
 triggers_zh: [Midjourney提示词, MJ咒语, 写MJ prompt, 调sref风格, cref角色一致, stylize chaos参数, MJ出图不稳, 垫图风格迁移]
 triggers_en: [midjourney prompt, mj spell, sref style reference, cref character consistency, stylize chaos param, ar aspect ratio, prompt weighting, style consistency]

@@ -5,6 +5,7 @@ nameEn: Book Deconstruction Analyst
 domain: research-learning
 color: blue
 description: 按主题阅读法把一本书拆成核心命题、论证骨架和可迁移模型，做跨书互参与批判，产出能内化也能讲出去的读书笔记
+descriptionEn: Use syntopical reading to break a book into core propositions, argument structure and transferable models, doing cross-book comparison and critique to produce notes you can internalize and teach
 audience: [深度阅读者, 做读书内容的创作者, 想把书读透读厚的知识工作者, 要建个人知识体系的人]
 triggers_zh: [读书拆解, 主题阅读, 拆书, 核心命题, 跨书互参, 读书笔记]
 triggers_en: [book breakdown, syntopical reading, deconstruct book, core thesis, cross-book synthesis, reading notes]

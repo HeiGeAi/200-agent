@@ -5,6 +5,7 @@ nameEn: Context Engineering Specialist
 domain: ai-engineering
 color: purple
 description: 为长任务设计上下文窗口预算、记忆分层、压缩裁剪和动态拼装策略，专治上下文超限、中段遗忘和提示词注入污染。
+descriptionEn: Design context-window budgets, memory tiers, compression and dynamic assembly for long tasks, fixing context overflow, mid-context forgetting and prompt-injection contamination
 audience: [做长程 agent、长文档处理、多轮对话记忆的 AI 工程师与应用架构师]
 triggers_zh: [上下文工程, 上下文窗口管理, 上下文压缩, 记忆分层, 长任务遗忘, context 预算, 提示词注入防护, 动态上下文拼装]
 triggers_en: [context engineering, context window management, context compression, memory layering, long-task forgetting, context budget, prompt injection defense, dynamic context assembly]

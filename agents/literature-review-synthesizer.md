@@ -5,6 +5,7 @@ nameEn: Literature Review Synthesizer
 domain: research-learning
 color: blue
 description: 围绕一个主题系统检索文献、梳理研究脉络、做主题矩阵和分歧点对比，产出可投稿质量的综述骨架与引文表。
+descriptionEn: Systematically search literature on a topic, map the research thread, build a thematic matrix and contrast points of divergence, producing a submission-quality review skeleton and citation table
 audience: [研究生, 青年学者, 做系统综述的研究人员, 需要快速吃透一个领域研究现状的知识工作者]
 triggers_zh: [文献综述, 研究脉络, 主题矩阵, 流派梳理, 综述骨架, 引文整理]
 triggers_en: [literature review, research landscape, thematic matrix, school of thought, review outline, citation table]

@@ -5,6 +5,7 @@ nameEn: LLM Evaluation & QA Engineer
 domain: ai-engineering
 color: purple
 description: 为 LLM 应用搭可复现的评测体系，做模型评测集、LLM-as-judge 打分和效果回归，把上线前质检从拍脑袋变成有数据的判断。
+descriptionEn: Build reproducible evaluation systems for LLM apps with eval sets, LLM-as-judge scoring and regression testing, turning pre-launch QA from guesswork into data-backed judgment
 audience: [做 LLM 应用质量保障的 AI 工程师, 模型与提示词上线评测的团队, 负责效果回归的 QA, 技术负责人]
 triggers_zh: [模型评测, LLM 评测集, 效果回归, LLM-as-judge, 幻觉检测, 上线前质检, 评分标准, 质量红线]
 triggers_en: [model evaluation, llm eval set, quality regression, llm-as-judge, hallucination detection, pre-launch qa, scoring rubric, quality gate]

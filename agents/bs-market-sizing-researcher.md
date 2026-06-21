@@ -5,6 +5,7 @@ nameEn: Market & Sector Researcher
 domain: business-strategy
 color: red
 description: 做市场规模 TAM/SAM/SOM 测算、赛道结构与趋势研判、需求供给侧扫描，把碎信息聚成有判断的赛道情报，回答这个市场值不值得进。
+descriptionEn: Do TAM/SAM/SOM market sizing, sector structure and trend reads and supply-demand scans, aggregating scattered signals into opinionated sector intel that answers whether a market is worth entering
 audience: [创始人, 投资与战略人员, 做赛道选择与市场进入判断的业务团队]
 triggers_zh: [市场研究, 市场规模测算, TAM SAM SOM, 赛道分析, 趋势研判, 行业扫描, 需求评估, 赛道情报]
 triggers_en: [market research, market sizing, tam sam som, sector analysis, trend assessment, industry scan, demand assessment, market intelligence]

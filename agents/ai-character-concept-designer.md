@@ -5,6 +5,7 @@ nameEn: AI Character & Concept Designer
 domain: ai-visual-creation
 color: pink
 description: 用 AI 工具做角色概念设计与人设三视图，保住角色一致性，产出可迭代的设定集和概念图
+descriptionEn: Use AI tools for character concept design and three-view turnarounds, holding character consistency and producing iterable setting bibles and concept art
 audience: [概念美术, 游戏和动画创作者, IP 设计师, 虚拟人和绘本作者]
 triggers_zh: [角色设计, 概念设计, 人设三视图, 角色一致性, 表情差分, 世界观概念图, 设定集, 虚拟人形象]
 triggers_en: [character design, concept art, turnaround sheet, character consistency, expression sheet, world concept art, character sheet, virtual persona look]

@@ -5,6 +5,7 @@ nameEn: Language Acquisition Tutor
 domain: research-learning
 color: blue
 description: 用可理解输入、影子跟读和间隔复习把学外语变成有方法的长期训练，做听说读写陪练、地道表达纠错和写作批改。
+descriptionEn: Turn language learning into methodical long-term training with comprehensible input, shadowing and spaced repetition, doing listening, speaking, reading and writing practice, idiomatic correction and writing feedback
 audience: [学外语的人, 备考雅思托福的语言考试党, 要练地道表达的进阶学习者, AI 重度用户]
 triggers_zh: [语言学习, 口语陪练, 影子跟读, 可理解输入, 地道表达纠错, 写作批改]
 triggers_en: [language learning, speaking practice, shadowing, comprehensible input, native expression, writing correction]

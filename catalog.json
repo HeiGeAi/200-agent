@@ -79,6 +79,7 @@
       "nameEn": "Agent Architecture Designer",
       "domain": "ai-engineering",
       "description": "为单体 agent 设计规划-工具调用-反思循环、状态机和失败恢复，配 agent 状态机、人类介入闸门和工具调用循环，把会乱跑的 agent 收成稳定可控的执行体。",
+      "descriptionEn": "Design plan-act-reflect loops, state machines and failure recovery for single agents, adding human-in-the-loop gates and tool-call loops to turn runaway agents into stable, controllable executors",
       "audience": [
         "构建自主 agent 的 AI 工程师",
         "做工具调用循环的开发者",
@@ -117,6 +118,7 @@
       "nameEn": "Agentic Workflow Automation Engineer",
       "domain": "ai-engineering",
       "description": "用 agent 把重复业务流封装成自动化工作流，先做工作流自动化的价值与流程风险评估，再上自动化护栏和人审节点，n8n 式编排让活自动化又不失控。",
+      "descriptionEn": "Wrap repetitive business processes into agent-driven automations, first assessing value and process risk, then adding guardrails and human-review nodes for n8n-style orchestration that automates without losing control",
       "audience": [
         "把业务流程封装成 agent 自动化、做 n8n 式编排与治理护栏的 AI 工程师与自动化负责人"
       ],
@@ -154,6 +156,7 @@
       "nameEn": "AI 3D & Motion Designer",
       "domain": "ai-visual-creation",
       "description": "用 AI 工具做 3D 渲染风、C4D 质感和图标动效，定材质灯光参数、等距小场景和动效节奏，把扁平内容做出立体动起来的高级感。",
+      "descriptionEn": "Use AI tools for 3D-render looks, C4D textures and icon motion, setting material and lighting params, isometric scenes and motion pacing to give flat content a dimensional, animated polish",
       "audience": [
         "做 3D 视觉和动效的设计师",
         "电商 banner",
@@ -194,6 +197,7 @@
       "nameEn": "AI Application Architect",
       "domain": "ai-engineering",
       "description": "把 LLM 能力落进生产系统的端到端架构，做模型网关、流式输出和降级兜底，把 demo 级 AI 功能架成扛得住量的服务。",
+      "descriptionEn": "End-to-end architecture for putting LLM capabilities into production, building model gateways, streaming output and graceful degradation to turn demo-grade AI features into services that handle scale",
       "audience": [
         "把大模型集成进生产应用的工程师",
         "设计 AI 服务架构与可靠性的技术负责人"
@@ -232,6 +236,7 @@
       "nameEn": "AI Art Director",
       "domain": "ai-visual-creation",
       "description": "替你把审美关，定视觉调性、从一堆 AI 出图里选出最对的那张、点出哪里塑料感哪里廉价，把零散素材统一成有品的成套作品",
+      "descriptionEn": "Be your taste filter, setting visual tone, picking the right shot from a pile of AI outputs, calling out what looks plastic or cheap, and unifying scattered assets into a polished set",
       "audience": [
         "做 AI 视觉但缺审美判断的创作者",
         "内容团队",
@@ -271,6 +276,7 @@
       "nameEn": "AI Brand Visual System Designer",
       "domain": "ai-visual-creation",
       "description": "用 AI 工具搭一套能复用的品牌视觉系统，定调色板和字体气质、锁图像风格和 sref 种子，让全平台出图都像出自同一个品牌。",
+      "descriptionEn": "Build a reusable brand visual system with AI tools, defining palettes and type personality and locking image style and sref seeds so output across every platform looks like one brand",
       "audience": [
         "个人 IP、新消费品牌、用 AI 做整套 VI 的设计师和创业者"
       ],
@@ -308,6 +314,7 @@
       "nameEn": "AI Character & Concept Designer",
       "domain": "ai-visual-creation",
       "description": "用 AI 工具做角色概念设计与人设三视图，保住角色一致性，产出可迭代的设定集和概念图",
+      "descriptionEn": "Use AI tools for character concept design and three-view turnarounds, holding character consistency and producing iterable setting bibles and concept art",
       "audience": [
         "概念美术",
         "游戏和动画创作者",
@@ -348,6 +355,7 @@
       "nameEn": "AI Color & Typography Curator",
       "domain": "ai-visual-creation",
       "description": "按情绪和场景给你定调色板、搭字体组合、调对比和视觉层级，把 AI 出图和版面的颜色字体调到既好看又传达对情绪，专治配色方案、字体气质、色彩情绪。",
+      "descriptionEn": "Set palettes by mood and context, pair typefaces and tune contrast and hierarchy so AI output and layouts read well and convey the right emotion, covering color schemes, type personality and color mood",
       "audience": [
         "做视觉的设计师",
         "内容创作者",
@@ -387,6 +395,7 @@
       "nameEn": "AI Cost Optimization Engineer",
       "domain": "ai-engineering",
       "description": "拆 token 账单做模型路由分级、提示词压缩与缓存命中，在效果不掉的前提下做 AI 成本优化、推理降本，并给失控前的成本护栏。",
+      "descriptionEn": "Break down token bills with model routing tiers, prompt compression and cache hits, cutting AI and inference cost without hurting quality, plus cost guardrails before things spiral",
       "audience": [
         "管 AI 推理成本、做模型路由与 token 优化、设成本护栏的工程师与技术负责人"
       ],
@@ -423,6 +432,7 @@
       "nameEn": "AI Illustration & Comic Artist",
       "domain": "ai-visual-creation",
       "description": "用 AI 做插画和分格漫画，定画风、保人物一致性、排格子和分镜、配对白气泡，把一个故事或知识点画成成套的图。",
+      "descriptionEn": "Make illustrations and paneled comics with AI, setting art style, holding character consistency, laying out panels and storyboards and adding dialogue bubbles to draw a story or concept as a full set",
       "audience": [
         "插画创作者",
         "知识漫画作者",
@@ -463,6 +473,7 @@
       "nameEn": "AI Photography Director",
       "domain": "ai-visual-creation",
       "description": "用摄影师的语言写 AI 出图，把布光方案、镜头焦段、胶片质感翻译成提示词，让生成图有真实相机感。",
+      "descriptionEn": "Write AI image prompts in a photographer's language, translating lighting setups, lens focal lengths and film texture into prompts so generated images feel like real camera shots",
       "audience": [
         "做人像产品商业摄影风的 AI 创作者",
         "电商视觉",
@@ -501,6 +512,7 @@
       "nameEn": "AI Poster & Infographic Designer",
       "domain": "ai-visual-creation",
       "description": "用 AI 出海报和信息图，定版式层级、做文字精准上图、把数据和流程视觉化，给排版网格和配色方案，出能直接用的高密度信息大图。",
+      "descriptionEn": "Make posters and infographics with AI, setting layout hierarchy, placing text precisely, visualizing data and flows, and giving grids and palettes to output ready-to-use high-density visuals",
       "audience": [
         "做海报和信息图的设计师、内容创作者、运营、知识博主"
       ],
@@ -538,6 +550,7 @@
       "nameEn": "AI Product Engineer",
       "domain": "ai-engineering",
       "description": "把模型能力翻译成用户用得爽的功能，做 AI 产品化、AI 功能设计、人机交互与流式体验，专治模型很强但产品很难用。",
+      "descriptionEn": "Translate model capabilities into features users enjoy, handling AI productization, feature design, interaction and streaming experience, fixing the strong-model-but-unusable-product problem",
       "audience": [
         "做 AI 功能产品化的工程师",
         "设计人机交互与体验的设计师",
@@ -577,6 +590,7 @@
       "nameEn": "AI Product Staging & Virtual Try-On Stylist",
       "domain": "ai-visual-creation",
       "description": "用图生图做电商产品场景图和 AI 换装，保住产品和人物主体不变形，换背景换模特换服装，出能直接挂链接的电商主图与产品摆拍图",
+      "descriptionEn": "Use image-to-image for e-commerce product staging and AI try-on, keeping product and model subjects undistorted while swapping backgrounds, models and outfits for listing-ready hero and product shots",
       "audience": [
         "电商卖家",
         "服装商家",
@@ -617,6 +631,7 @@
       "nameEn": "AI Red-Team & Safety Engineer",
       "domain": "ai-engineering",
       "description": "对 LLM 应用做对抗测试和 AI 红队，专攻提示词注入、越狱攻击、数据外泄防护，给出输入输出防护栏和兜底策略，把 AI 攻击面系统性堵上。",
+      "descriptionEn": "Run adversarial testing and AI red-teaming on LLM apps, focused on prompt injection, jailbreaks and data exfiltration defense, delivering input/output guardrails and fallback strategies to close the AI attack surface",
       "audience": [
         "为 AI 应用做安全评估、对抗红队、内容与工具调用防护的安全与 AI 工程师"
       ],
@@ -654,6 +669,7 @@
       "nameEn": "AI Visual Storyboard Director",
       "domain": "ai-visual-creation",
       "description": "把一个想法拆成有节奏的视觉故事，写分镜脚本、设计镜头序列和情绪曲线，再落成连贯的生图与生视频提示词。",
+      "descriptionEn": "Break an idea into a paced visual story, writing storyboard scripts, designing shot sequences and emotion arcs, then landing them as coherent image and video prompts",
       "audience": [
         "做短片广告 MV 的导演",
         "品牌叙事团队",
@@ -694,6 +710,7 @@
       "nameEn": "API Design Architect",
       "domain": "software-engineering",
       "description": "设计 REST/GraphQL/gRPC 的接口契约与版本策略，把分页、鉴权、错误码、幂等和限流定成可演进规范，让 API 设计稳、好用、对外可长期兼容。",
+      "descriptionEn": "Design REST/GraphQL/gRPC contracts and versioning, turning pagination, auth, error codes, idempotency and rate limits into evolvable specs that stay stable and backward-compatible",
       "audience": [
         "后端工程师",
         "API 平台团队",
@@ -728,6 +745,7 @@
       "nameEn": "AppSec & Secure-Code Engineer",
       "domain": "software-engineering",
       "description": "在你写代码和提交前就把安全前置，扫密钥泄露、做威胁建模、跑安全代码审查和 SAST/DAST 集成，把鉴权、注入、CORS 这类坑堵在合并之前。",
+      "descriptionEn": "Shift security left before you commit, scanning for leaked secrets, threat modeling, and running secure code review and SAST/DAST so auth, injection and CORS bugs get caught before merge",
       "audience": [
         "应用安全工程师",
         "后端工程师",
@@ -763,6 +781,7 @@
       "nameEn": "Backend Architect",
       "domain": "software-engineering",
       "description": "做系统架构与领域建模，定 API 设计、数据流和分层架构，给可落地的技术选型，兜底移动端架构和嵌入式固件的系统级设计",
+      "descriptionEn": "System architecture and domain modeling, defining API design, data flow and layered architecture with practical tech choices, also covering mobile and embedded firmware system design",
       "audience": [
         "需要设计后端系统、做技术选型和领域建模的架构师",
         "资深后端",
@@ -803,6 +822,7 @@
       "nameEn": "Book Deconstruction Analyst",
       "domain": "research-learning",
       "description": "按主题阅读法把一本书拆成核心命题、论证骨架和可迁移模型，做跨书互参与批判，产出能内化也能讲出去的读书笔记",
+      "descriptionEn": "Use syntopical reading to break a book into core propositions, argument structure and transferable models, doing cross-book comparison and critique to produce notes you can internalize and teach",
       "audience": [
         "深度阅读者",
         "做读书内容的创作者",
@@ -838,6 +858,7 @@
       "nameEn": "Board & Executive Briefing Officer",
       "domain": "business-strategy",
       "description": "把经营数据和战略议题揉成董事会和高管秒懂的一页纸，结论先行、风险透明、决策点清晰，配高管摘要、决策汇报和问答预案",
+      "descriptionEn": "Distill operating data and strategic issues into one page boards and execs grasp instantly, conclusion first, risk transparent and decision points clear, with exec summaries, decision briefings and Q&A prep",
       "audience": [
         "向董事会和老板汇报的高管",
         "总经办",
@@ -876,6 +897,7 @@
       "nameEn": "Business Model Designer",
       "domain": "business-strategy",
       "description": "用商业模式画布和单位经济拆收入、成本、护城河与增长飞轮，设计并压测盈利模式，找出现金流跑通的路径和可规模化的引擎，专治模式跑不通。",
+      "descriptionEn": "Use the business model canvas and unit economics to break down revenue, cost, moat and growth flywheel, designing and stress-testing the profit model and finding the cash-flow path and scalable engine, for when the model will not work",
       "audience": [
         "创始人",
         "新业务负责人",
@@ -914,6 +936,7 @@
       "nameEn": "Competitive Intelligence Analyst",
       "domain": "business-strategy",
       "description": "系统扒竞品的定位产品定价渠道打法，建对标矩阵和能力差距表，识别对手战略意图与软肋，给出差异化卡位与反制策略，覆盖竞品分析、竞争格局、反制策略",
+      "descriptionEn": "Systematically dig competitors' positioning, product, pricing, channel and tactics, building benchmark matrices and capability-gap tables, identifying strategic intent and weak spots and giving differentiation and counter-strategy",
       "audience": [
         "战略与市场负责人",
         "产品负责人",
@@ -952,6 +975,7 @@
       "nameEn": "Founder's Chief of Staff",
       "domain": "business-strategy",
       "description": "替创始人过滤噪音、梳理决策清单、推动跨部门对齐和承诺跟踪，把战略意图翻译成可执行节奏，盯关键议题不掉球，当老板的左右脑。",
+      "descriptionEn": "Filter noise for the founder, organize decision lists, drive cross-team alignment and commitment tracking, translate strategic intent into executable cadence and keep key issues from dropping, as the boss's second brain",
       "audience": [
         "创始人",
         "CEO",
@@ -989,6 +1013,7 @@
       "nameEn": "Fundraising Deck & Pitch Strategist",
       "domain": "business-strategy",
       "description": "帮你搭融资故事线、做财务预测和估值锚点、防御投资人Q&A，把市场模式数据团队讲成投资人买账的pitch deck。",
+      "descriptionEn": "Build your fundraising storyline, do financial projections and valuation anchors, defend the investor Q&A and turn market, model, data and team into a pitch deck investors buy",
       "audience": [
         "找融资的创始人",
         "要做BP与路演的早期团队",
@@ -1028,6 +1053,7 @@
       "nameEn": "M&A Deal & Integration Strategist",
       "domain": "business-strategy",
       "description": "给并购做战略论证、标的筛选与尽调要点、估值与协同测算，再排 Day1 和百日整合方案，盯协同兑现和文化磨合。",
+      "descriptionEn": "Make the strategic case for M&A, target screening and due-diligence focus, valuation and synergy modeling, then plan Day 1 and 100-day integration and track synergy capture and cultural fit",
       "audience": [
         "做并购或被并购的创始人与高管",
         "投资与战投负责人",
@@ -1066,6 +1092,7 @@
       "nameEn": "Market & Sector Researcher",
       "domain": "business-strategy",
       "description": "做市场规模 TAM/SAM/SOM 测算、赛道结构与趋势研判、需求供给侧扫描，把碎信息聚成有判断的赛道情报，回答这个市场值不值得进。",
+      "descriptionEn": "Do TAM/SAM/SOM market sizing, sector structure and trend reads and supply-demand scans, aggregating scattered signals into opinionated sector intel that answers whether a market is worth entering",
       "audience": [
         "创始人",
         "投资与战略人员",
@@ -1104,6 +1131,7 @@
       "nameEn": "OKR & Strategy Execution Coach",
       "domain": "business-strategy",
       "description": "把战略目标拆成可衡量的 OKR 和关键举措，校准 O 的野心和 KR 的可量化，建复盘节奏和对齐机制，专治目标拆解落不了地。",
+      "descriptionEn": "Break strategic goals into measurable OKRs and key initiatives, calibrating ambition in the O and measurability in the KRs, building review cadence and alignment, for when goal-setting never lands",
       "audience": [
         "创始人",
         "业务与团队负责人",
@@ -1142,6 +1170,7 @@
       "nameEn": "Pricing & Monetization Modeler",
       "domain": "business-strategy",
       "description": "基于成本结构、支付意愿和竞品锚点设计定价模型与套餐分层，做价格弹性测算、毛利敏感性和涨价路径，把定价从拍脑袋变成可算账的增长杠杆。",
+      "descriptionEn": "Design pricing models and tiers from cost structure, willingness to pay and competitor anchors, doing price-elasticity, margin-sensitivity and price-increase analysis to make pricing a calculable growth lever",
       "audience": [
         "创始人",
         "产品与增长负责人",
@@ -1180,6 +1209,7 @@
       "nameEn": "Red-Blue Strategy Duelist",
       "domain": "business-strategy",
       "description": "用博弈论和三十六计对你的战略方案做红蓝军推演，红军扮演最狠的对手模拟反击，蓝军逼你出应招，反复对打到把一厢情愿的计划压成能扛住真实对抗的方案。专治假设压测、对手反制模拟、盲点暴露。",
+      "descriptionEn": "War-game your strategy with game theory and the 36 stratagems, red team simulating the harshest opponent's counterattack and blue team forcing your response, dueling repeatedly until a wishful plan can withstand real opposition",
       "audience": [
         "要在落子前先被狠狠质疑一遍的创始人",
         "怕方案一厢情愿想先红蓝对打的战略负责人",
@@ -1217,6 +1247,7 @@
       "nameEn": "Single Leverage-Point Strategist",
       "domain": "business-strategy",
       "description": "不做面面俱到的规划，只逼出那个做到极致就能撬动全局的单点胜负手，从终局倒推砍掉次要项，给 all in 级别的强判断和押注理由。专治战略聚焦、第一优先级、该押什么。",
+      "descriptionEn": "Skip comprehensive planning and force out the single leverage point that, done to the extreme, moves everything, working back from the endgame to cut secondary items and giving all-in-grade conviction and bet rationale",
       "audience": [
         "资源有限必须押一个点的创始人",
         "要在多个方向里定第一优先级的决策者"
@@ -1254,6 +1285,7 @@
       "nameEn": "Chief Business Strategist",
       "domain": "business-strategy",
       "description": "用麦肯锡式假设驱动拆商业问题，做战略诊断、市场进入和增长路径分析，给出有取舍能落地的战略主张。",
+      "descriptionEn": "Break down business problems with McKinsey-style hypothesis-driven analysis, doing strategy diagnosis, market entry and growth-path analysis and giving trade-off-aware, executable strategy proposals",
       "audience": [
         "创始人",
         "业务负责人",
@@ -1291,6 +1323,7 @@
       "nameEn": "Structured Consulting Communicator",
       "domain": "business-strategy",
       "description": "用 SCQA、金字塔原理和 MECE 把杂乱信息搭成结论先行、逻辑互斥穷尽的论证结构，专做咨询级故事线、议题树和一页纸主张，让方案一眼讲得清",
+      "descriptionEn": "Use SCQA, the pyramid principle and MECE to build messy information into conclusion-first, mutually-exclusive arguments, producing consulting-grade storylines, issue trees and one-page proposals",
       "audience": [
         "咨询顾问",
         "战略与商分人员",
@@ -1328,6 +1361,7 @@
       "nameEn": "Zero-to-One Startup Advisor",
       "domain": "business-strategy",
       "description": "陪早期创始人验真问题、找 PMF、设最小验证实验，判断该 all in 还是该转向，给敢拍板的强判断",
+      "descriptionEn": "Help early founders validate the real problem, find PMF and design minimal validation experiments, judge whether to go all in or pivot and give decisive conviction",
       "audience": [
         "早期创业者",
         "独立开发者",
@@ -1366,6 +1400,7 @@
       "nameEn": "Bug-Fix & Minimal-Change Engineer",
       "domain": "software-engineering",
       "description": "定位根因、复现 bug、给最小可行修复，只改该改的，拒绝顺手扩大范围把修 bug 变成重构灾难",
+      "descriptionEn": "Find the root cause, reproduce the bug and ship the smallest viable fix, changing only what is needed and refusing to let a bug fix sprawl into a refactor disaster",
       "audience": [
         "全体工程师",
         "维护老项目的人",
@@ -1400,6 +1435,7 @@
       "nameEn": "Cross-Border E-Commerce Operator",
       "domain": "vertical-industries",
       "description": "帮工厂和卖家把货卖到亚马逊、Temu、TikTok Shop 和独立站，做跨境运营的选品测款、Listing 本地化、广告投放节奏和海外仓物流合规一肩挑，触发词含跨境运营、亚马逊运营、TikTok Shop。",
+      "descriptionEn": "Help factories and sellers sell on Amazon, Temu, TikTok Shop and DTC sites, handling cross-border product selection, listing localization, ad cadence and overseas-warehouse logistics and compliance end to end",
       "audience": [
         "亚马逊/Temu/TikTok Shop 卖家",
         "独立站 DTC 运营",
@@ -1442,6 +1478,7 @@
       "nameEn": "Game & Mini-Game Developer",
       "domain": "vertical-industries",
       "description": "用 Unity、Cocos 做手游和微信小游戏的全链路开发，从玩法数值、关卡叙事到游戏音频一手包，懂买量包体和小游戏平台规则",
+      "descriptionEn": "Build mobile and WeChat mini-games end to end with Unity and Cocos, handling gameplay numbers, level narrative and game audio and understanding user acquisition, package size and mini-game platform rules",
       "audience": [
         "游戏/小游戏团队"
       ],
@@ -1488,6 +1525,7 @@
       "nameEn": "GIS & Mapping Specialist",
       "domain": "vertical-industries",
       "description": "做国土规划制图、空间分析、WebGIS开发与无人机测绘成果处理，从数据清洗到成果出图全流程上手",
+      "descriptionEn": "Do land-planning cartography, spatial analysis, WebGIS development and drone-survey processing, hands-on from data cleaning to final map output",
       "audience": [
         "自然资源/规划/测绘单位与乙方"
       ],
@@ -1529,6 +1567,7 @@
       "nameEn": "Web3 Smart Contract Engineer",
       "domain": "vertical-industries",
       "description": "用 Solidity 写 EVM 智能合约，做 DeFi 协议架构、Gas优化、可升级代理模式，再自审重入和权限漏洞出安全审计结论，覆盖以太坊和各 L2",
+      "descriptionEn": "Write EVM smart contracts in Solidity, do DeFi protocol architecture, gas optimization and upgradeable proxy patterns, then self-audit reentrancy and access-control vulnerabilities, covering Ethereum and L2s",
       "audience": [
         "Web3 工程师",
         "DeFi 协议开发",
@@ -1569,6 +1608,7 @@
       "nameEn": "Code Reviewer",
       "domain": "software-engineering",
       "description": "对 PR 做代码审查，盯正确性、安全、可维护性和性能给可执行反馈，把真问题揪出来再放行，不纠结代码风格。",
+      "descriptionEn": "Review PRs for correctness, security, maintainability and performance with actionable feedback, surfacing real issues before approval without nitpicking style",
       "audience": [
         "技术负责人",
         "全体工程师",
@@ -1602,6 +1642,7 @@
       "nameEn": "Codebase Onboarding Guide",
       "domain": "software-engineering",
       "description": "接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手祖传代码。",
+      "descriptionEn": "Inherit a project nobody understands, read the source, trace call paths and map module boundaries to help you grasp it and get productive on legacy code in half a day",
       "audience": [
         "刚接手陌生代码库或外包遗留系统的工程师",
         "新入职开发"
@@ -1634,6 +1675,7 @@
       "nameEn": "Concept Explainer Tutor",
       "domain": "research-learning",
       "description": "把硬核概念按你的水平分层讲透，用类比、第一性原理和苏格拉底提问带你从直觉到本质，专治似懂非懂和听过就忘。",
+      "descriptionEn": "Explain hard concepts at your level, using analogy, first principles and Socratic questioning to take you from intuition to essence, for half-understood and quickly-forgotten material",
       "audience": [
         "啃硬核知识的自学者",
         "跨领域的知识工作者",
@@ -1669,6 +1711,7 @@
       "nameEn": "Context Engineering Specialist",
       "domain": "ai-engineering",
       "description": "为长任务设计上下文窗口预算、记忆分层、压缩裁剪和动态拼装策略，专治上下文超限、中段遗忘和提示词注入污染。",
+      "descriptionEn": "Design context-window budgets, memory tiers, compression and dynamic assembly for long tasks, fixing context overflow, mid-context forgetting and prompt-injection contamination",
       "audience": [
         "做长程 agent、长文档处理、多轮对话记忆的 AI 工程师与应用架构师"
       ],
@@ -1705,6 +1748,7 @@
       "nameEn": "Career Strategy Coach",
       "domain": "career-productivity",
       "description": "把你的职业卡点摊开做盘点，专攻职业规划、跳槽时机和晋升答辩，逼出该押哪一步的强判断而非鸡汤。",
+      "descriptionEn": "Lay out your career sticking points and take stock, specializing in career planning, job-change timing and promotion defense, forcing out a decisive call on which step to bet on instead of pep talk",
       "audience": [
         "职场中高级专业人士",
         "想转型或晋升的资深从业者",
@@ -1739,6 +1783,7 @@
       "nameEn": "Decision Analysis Advisor",
       "domain": "career-productivity",
       "description": "把人生和职业的岔路口拆成可比较的决策矩阵，估概率收益、做预判和复盘日志，逼出该不该跳槽这类重大决策的取舍而不替你拍板",
+      "descriptionEn": "Break life and career crossroads into a comparable decision matrix, estimate probability and payoff, keep a forecast-and-review log and force the trade-off on big decisions like whether to change jobs without making the call for you",
       "audience": [
         "面对不可逆抉择的专业人士",
         "纠结去留与转型的在职者",
@@ -1773,6 +1818,7 @@
       "nameEn": "Habit Formation Behavior Coach",
       "domain": "career-productivity",
       "description": "用行为科学的提示-惯例-奖赏和习惯堆叠，把你想立的习惯拆成最小可行动作，设触发、追打卡、防破戒，靠系统而非意志力坚持下来。",
+      "descriptionEn": "Use behavioral-science cue-routine-reward and habit stacking to break a target habit into the smallest viable action, set triggers, track check-ins and prevent relapse, sticking via systems not willpower",
       "audience": [
         "想用系统而非毅力养习惯的专业人士",
         "反复立flag破戒的人",
@@ -1807,6 +1853,7 @@
       "nameEn": "Senior Interview Rehearsal Coach",
       "domain": "career-productivity",
       "description": "陪你跑模拟面试，带追问、打分和逐题反馈，把高光经历压成可复用的答题框架，专治行为面、案例面和高管终面。",
+      "descriptionEn": "Run mock interviews with follow-ups, scoring and per-question feedback, compressing highlight experiences into reusable answer frameworks, for behavioral, case and executive final rounds",
       "audience": [
         "冲刺中高级岗位的候选人",
         "跨行转型面试者",
@@ -1841,6 +1888,7 @@
       "nameEn": "Knowledge-Worker Writing Aide",
       "domain": "career-productivity",
       "description": "把邮件、汇报、提案、述职和复盘从草稿改成结论先行、逻辑清晰的专业文本，控住语气和篇幅，让你的表达配得上你的判断。擅长结论先行改写、文档润色、述职报告搭骨架。",
+      "descriptionEn": "Turn emails, reports, proposals, self-reviews and retros from drafts into conclusion-first, clearly structured professional text, controlling tone and length so your writing matches your judgment, strong at conclusion-first rewriting, doc polishing and self-review skeletons",
       "audience": [
         "天天写邮件文档的知识工作者",
         "要写汇报提案的职场人",
@@ -1875,6 +1923,7 @@
       "nameEn": "Mental Models Thinking Partner",
       "domain": "career-productivity",
       "description": "用第一性原理、逆向思维、机会成本和多元心智模型陪你拆复杂问题、识破认知偏差，把模糊直觉逼成可执行的清晰结构",
+      "descriptionEn": "Use first principles, inversion, opportunity cost and diverse mental models to break down complex problems and spot cognitive biases, forcing fuzzy intuition into clear, executable structure",
       "audience": [
         "做复杂判断的专业人士",
         "想升级思维框架的知识工作者",
@@ -1909,6 +1958,7 @@
       "nameEn": "Offer & Salary Negotiation Strategist",
       "domain": "career-productivity",
       "description": "拆 Offer 结构和市场分位、设你的 BATNA 和让步边界，给逐句谈薪话术和多 Offer 博弈策略，帮你把总包谈到顶。",
+      "descriptionEn": "Break down offer structure and market percentile, set your BATNA and concession limits and give line-by-line salary-negotiation scripts and multi-offer strategy to help you max total comp",
       "audience": [
         "拿到Offer待谈的候选人",
         "争取调薪晋升的在职者",
@@ -1943,6 +1993,7 @@
       "nameEn": "Personal Brand Architect",
       "domain": "career-productivity",
       "description": "提炼你的专业定位与差异化叙事，规划领英脉脉公众号的内容支柱和人设主线，把专业积累攒成会带来机会的影响力资产。",
+      "descriptionEn": "Distill your professional positioning and differentiation narrative, plan content pillars and persona on LinkedIn, Maimai and WeChat, turning professional accumulation into an opportunity-bringing influence asset",
       "audience": [
         "想建立行业影响力的专业人士",
         "独立顾问与自由职业者",
@@ -1977,6 +2028,7 @@
       "nameEn": "Productivity System Designer",
       "domain": "career-productivity",
       "description": "用 GTD、PARA、看板和周回顾给你搭一套真正跑得起来的个人生产力系统，清空大脑、理顺收件箱、把每条承诺都变成可执行的下一步行动。",
+      "descriptionEn": "Use GTD, PARA, kanban and weekly reviews to build a personal productivity system that actually runs, clearing your mind, sorting the inbox and turning every commitment into an executable next action",
       "audience": [
         "被多线任务压垮的知识工作者",
         "想搭第二大脑的专业人士",
@@ -2011,6 +2063,7 @@
       "nameEn": "Resume & ATS Optimizer",
       "domain": "career-productivity",
       "description": "按目标JD重写简历的关键词匹配、成就量化和STAR句式，做ATS解析自检和投递版本管理，让机器筛得过、HR看得中。",
+      "descriptionEn": "Rewrite resume keyword matching, achievement quantification and STAR phrasing for the target JD, do ATS-parse self-checks and version management so machines pass it and HR picks it",
       "audience": [
         "主动求职的资深专业人士",
         "被动看机会的在职者",
@@ -2045,6 +2098,7 @@
       "nameEn": "Solopreneur & Side-Venture Strategist",
       "domain": "career-productivity",
       "description": "帮你把专业技能变现成咨询、知识产品或一人公司，先验证需求再设计 offer 定价，规划副业转全职的过渡节奏，只押杠杆最大的那条路。",
+      "descriptionEn": "Help you monetize professional skills into consulting, knowledge products or a one-person company, validating demand before designing offer and pricing, planning the side-to-full-time transition, betting only on the highest-leverage path",
       "audience": [
         "想把专业技能变现的资深从业者",
         "做一人公司或独立咨询的人",
@@ -2079,6 +2133,7 @@
       "nameEn": "Time & Energy Manager",
       "domain": "career-productivity",
       "description": "用时间块、深度工作和精力曲线帮你重排日程，砍掉低价值会议和切换损耗，把硬活排进精力高峰，专治日程被会议切碎、时间管理失控、深度工作做不出来。",
+      "descriptionEn": "Use time blocks, deep work and energy curves to rearrange your schedule, cut low-value meetings and switching cost and slot hard work into energy peaks, for schedules shredded by meetings and out-of-control time",
       "audience": [
         "日程被会议切碎的专业人士",
         "想保护深度工作时间的知识工作者",
@@ -2113,6 +2168,7 @@
       "nameEn": "A/B Experiment Scientist",
       "domain": "data-analytics",
       "description": "帮你把 AB 测试做得能信能复现，从 AB实验设计、样本量估算到显著性判读和效应量解读，专治偷看数据提前停、被新奇效应骗、护栏指标失守。",
+      "descriptionEn": "Make A/B tests trustworthy and reproducible, from design and sample-size estimation to significance reading and effect-size interpretation, guarding against peeking, novelty effects and broken guardrail metrics",
       "audience": [
         "增长与实验分析",
         "数据科学家",
@@ -2151,6 +2207,7 @@
       "nameEn": "Analytics Engineer",
       "domain": "data-analytics",
       "description": "用 dbt、Spark、Airflow 搭 ETL/ELT 管道和数仓分层，建可复用的指标模型，把数据质量校验、调度和血缘做成产线级资产。",
+      "descriptionEn": "Build ETL/ELT pipelines and warehouse layers with dbt, Spark and Airflow, building reusable metric models and making data quality checks, scheduling and lineage into production-grade assets",
       "audience": [
         "数据工程师",
         "Analytics Engineer",
@@ -2189,6 +2246,7 @@
       "nameEn": "Applied Statistician",
       "domain": "data-analytics",
       "description": "帮你选对统计方法、把假设检验和置信区间算明白，做回归分析和方差分析，防住 p-hacking 和样本偏差，把不确定性说清楚。",
+      "descriptionEn": "Help you pick the right statistical method, get hypothesis tests and confidence intervals right, run regression and ANOVA, guard against p-hacking and sampling bias and state uncertainty clearly",
       "audience": [
         "数据科学家",
         "研究分析",
@@ -2227,6 +2285,7 @@
       "nameEn": "BI Dashboard Architect",
       "domain": "data-analytics",
       "description": "从业务目标倒推看板结构、维度度量和钻取路径，建语义层和数据模型，对接 Tableau、Power BI、Superset、Metabase 落成能自助分析的看板。",
+      "descriptionEn": "Work backward from business goals to dashboard structure, dimensions, measures and drill paths, building semantic layers and data models on Tableau, Power BI, Superset and Metabase for self-serve analysis",
       "audience": [
         "BI 工程师",
         "数据产品经理",
@@ -2266,6 +2325,7 @@
       "nameEn": "Data Storyteller",
       "domain": "data-analytics",
       "description": "把分析结论包装成决策者听得进的故事，用金字塔结构、一图一结论和 So-What 提炼，产出能直接讲的数据汇报和洞察叙事。",
+      "descriptionEn": "Package analysis conclusions into stories decision-makers absorb, using pyramid structure, one-chart-one-conclusion and So-What distillation to produce ready-to-present data briefings and insight narratives",
       "audience": [
         "数据分析师",
         "给管理层汇报数据的人",
@@ -2304,6 +2364,7 @@
       "nameEn": "Data Visualization Designer",
       "domain": "data-analytics",
       "description": "按数据关系和受众选对图表类型，避开误导性视觉，把配色、坐标轴、标注调到一眼看懂，可出 echarts、plotly、matplotlib 代码。",
+      "descriptionEn": "Pick the right chart type for the data relationship and audience, avoid misleading visuals, tune color, axes and labels for instant clarity, and output echarts, plotly or matplotlib code",
       "audience": [
         "数据分析师",
         "BI 工程师",
@@ -2342,6 +2403,7 @@
       "nameEn": "Data Wrangler",
       "domain": "data-analytics",
       "description": "把脏乱数据收拾成分析就绪的干净数据集，专攻缺失值处理、数据去重和实体对齐，用 pandas/Polars/OpenRefine 出可复现的清洗管道。",
+      "descriptionEn": "Clean messy data into analysis-ready datasets, specializing in missing values, dedup and entity resolution, producing reproducible cleaning pipelines with pandas, Polars and OpenRefine",
       "audience": [
         "数据分析师",
         "数据科学家",
@@ -2380,6 +2442,7 @@
       "nameEn": "Forecasting Modeler",
       "domain": "data-analytics",
       "description": "帮你做时间序列预测和销量需求预测，按场景在 ARIMA、Prophet、XGBoost 之间选型，处理季节性和节假日，交付带置信区间的预测和回测评估。",
+      "descriptionEn": "Do time-series and demand forecasting, choosing among ARIMA, Prophet and XGBoost by scenario, handling seasonality and holidays and delivering forecasts with confidence intervals and backtesting",
       "audience": [
         "数据科学家",
         "需求与销量预测分析",
@@ -2418,6 +2481,7 @@
       "nameEn": "Metrics System Architect",
       "domain": "data-analytics",
       "description": "用 OSM、北极星、UJM 方法搭一二三级指标体系，统一指标口径，建指标字典，把全公司看数从各算各的治成一套可信口径。",
+      "descriptionEn": "Build tiered metric systems with OSM, North Star and UJM methods, unify metric definitions and build a metric dictionary to turn everyone-counts-differently into one trusted standard",
       "audience": [
         "数据产品经理",
         "增长负责人",
@@ -2456,6 +2520,7 @@
       "nameEn": "Senior Data Analyst",
       "domain": "data-analytics",
       "description": "拿到一坨数据先帮你把问题问对，再用拆解、对比、归因、漏斗、留存这套分析框架给出能落地的结论和下一步动作。",
+      "descriptionEn": "Get the question right first, then apply decomposition, comparison, attribution, funnel and retention frameworks to deliver actionable conclusions and next steps from a pile of data",
       "audience": [
         "数据分析师",
         "增长与运营分析",
@@ -2494,6 +2559,7 @@
       "nameEn": "Spreadsheet Grandmaster",
       "domain": "data-analytics",
       "description": "专治表格疑难杂症的资深专家，复杂嵌套公式、数组与 LAMBDA、Power Query 清洗、数据透视、VBA 与 Apps Script 自动化一把抓，把 Excel、Google Sheets、飞书表格用到极致。",
+      "descriptionEn": "Senior expert for spreadsheet pain, handling complex nested formulas, arrays and LAMBDA, Power Query cleaning, pivots, and VBA and Apps Script automation across Excel, Google Sheets and Feishu Sheets",
       "audience": [
         "重度表格用户",
         "运营与财务分析",
@@ -2532,6 +2598,7 @@
       "nameEn": "SQL Query Master",
       "domain": "data-analytics",
       "description": "把模糊的取数需求翻成精准 SQL，窗口函数、复杂JOIN、CTE子查询信手拈来，再读执行计划把慢查询优化调快。",
+      "descriptionEn": "Turn vague data requests into precise SQL with window functions, complex JOINs and CTE subqueries, then read execution plans to speed up slow queries",
       "audience": [
         "数据分析师",
         "数据/后端工程师",
@@ -2570,6 +2637,7 @@
       "nameEn": "Data Annotation & Curation Lead",
       "domain": "ai-engineering",
       "description": "为微调和评测建标注规范、做数据清洗去重和标注一致性校验，把脏乱语料策展成口径不漂、质量可审计的训练集与评测语料。",
+      "descriptionEn": "Set annotation specs for fine-tuning and evaluation, run data cleaning, dedup and inter-annotator consistency checks, curating messy corpora into auditable training and eval sets",
       "audience": [
         "建训练数据集、做标注规范与质检、策展微调和评测语料的 AI 工程师与数据团队"
       ],
@@ -2606,6 +2674,7 @@
       "nameEn": "Data Pipeline Engineer",
       "domain": "software-engineering",
       "description": "建可靠的 ETL/ELT 和湖仓管道，搞定 Spark、dbt、流处理和数据质量，把杂乱原始数据变成可信可分析的资产。",
+      "descriptionEn": "Build reliable ETL/ELT and lakehouse pipelines with Spark, dbt, streaming and data quality, turning messy raw data into trustworthy, analysis-ready assets",
       "audience": [
         "数据工程师",
         "BI 团队",
@@ -2640,6 +2709,7 @@
       "nameEn": "Database & SQL Optimizer",
       "domain": "software-engineering",
       "description": "治慢查询、设索引、调 schema 和分库分表，看执行计划做数据库调优，把卡死的 SQL 一条条拆开。",
+      "descriptionEn": "Fix slow queries, design indexes, tune schemas and sharding, and read execution plans to speed up databases and untangle stuck SQL one statement at a time",
       "audience": [
         "后端工程师",
         "DBA",
@@ -2673,6 +2743,7 @@
       "nameEn": "Deep Research Lead",
       "domain": "research-learning",
       "description": "把一个模糊问题拆成可检索的子问题，扇出多源检索、交叉验证、再合成一份带引用和置信度的研究报告，全程留证据链。",
+      "descriptionEn": "Break a fuzzy question into searchable sub-questions, fan out multi-source retrieval, cross-verify and synthesize a research report with citations and confidence levels, keeping an evidence trail throughout",
       "audience": [
         "做行业研究和尽调的分析师",
         "知识工作者",
@@ -2708,6 +2779,7 @@
       "nameEn": "DevOps & CI/CD Engineer",
       "domain": "software-engineering",
       "description": "搭 CI/CD 流水线、容器化与 K8s、IaC 和云运维，做信创私有化与离网交付，把部署做到一键可重复",
+      "descriptionEn": "Build CI/CD pipelines, containerization and K8s, IaC and cloud ops, handle on-prem and air-gapped delivery, and make deploys one-click and repeatable",
       "audience": [
         "DevOps 工程师",
         "平台/SRE 团队",
@@ -2742,6 +2814,7 @@
       "nameEn": "Distill & Summarize Analyst",
       "domain": "research-learning",
       "description": "把长文、报告、论文、会议长稿做分层摘要，抽核心论点、证据和反方，按金字塔结构给你能直接复用的要点和金句。触发词包括提炼总结、长文摘要、核心论点、论文速读、抽要点。",
+      "descriptionEn": "Do tiered summaries of long articles, reports, papers and meeting transcripts, extracting core arguments, evidence and counterpoints in pyramid structure for reusable takeaways and quotable lines",
       "audience": [
         "信息过载的知识工作者",
         "研究者",
@@ -2777,6 +2850,7 @@
       "nameEn": "Accessibility Specialist",
       "domain": "design-ux",
       "description": "对照 WCAG 2.2 和信创无障碍标准做无障碍设计审计，查对比度、焦点管理、读屏适配和键盘可达，给能直接改的整改清单和验收标准。",
+      "descriptionEn": "Audit accessibility against WCAG 2.2 and domestic standards, checking contrast, focus management, screen-reader support and keyboard reach, with a ready-to-fix remediation list and acceptance criteria",
       "audience": [
         "无障碍专员",
         "UX 设计师",
@@ -2815,6 +2889,7 @@
       "nameEn": "AI-Native Experience Designer",
       "domain": "design-ux",
       "description": "为对话、agent 和生成式产品做 AI 原生体验设计，吃透流式输出体验、不确定性设计和人机协作信任，把模型很强但产品难用的功能调成用户敢用、能纠错的交互。",
+      "descriptionEn": "Design AI-native experiences for chat, agent and generative products, mastering streaming-output UX, uncertainty design and human-AI trust to make strong-but-unusable features into interactions users dare to use and can correct",
       "audience": [
         "做 AI 产品的设计师",
         "agent 与对话产品负责人",
@@ -2854,6 +2929,7 @@
       "nameEn": "Design Critique Reviewer",
       "domain": "design-ux",
       "description": "用层级、对齐、间距、可读性和一致性做系统化设计评审，逐条给问题、原因和改法，把含糊点评变成可执行批注，专治设计走查没标准、改稿建议说不清",
+      "descriptionEn": "Run systematic design reviews on hierarchy, alignment, spacing, readability and consistency, giving issue, cause and fix per item to turn vague critique into actionable annotations",
       "audience": [
         "设计负责人",
         "需要设计评审与品控的设计团队",
@@ -2892,6 +2968,7 @@
       "nameEn": "Design System Architect",
       "domain": "design-ux",
       "description": "从 design token、组件 API 到主题与暗色模式，搭一套跨端可治理、能让 AI 直接生成组件的设计系统底座",
+      "descriptionEn": "Build a governable, cross-platform design system foundation from design tokens and component APIs to theming and dark mode, ready for AI to generate components directly",
       "audience": [
         "设计系统负责人",
         "Design Engineer",
@@ -2931,6 +3008,7 @@
       "nameEn": "Information Architect",
       "domain": "design-ux",
       "description": "梳理内容分类、导航结构和命名体系,用卡片分类和树测试验证,让用户一眼找得到、产品扩展不塌方。",
+      "descriptionEn": "Organize content taxonomy, navigation structure and naming, validated with card sorting and tree testing so users find things at a glance and the product scales without collapsing",
       "audience": [
         "信息架构师",
         "UX 设计师",
@@ -2970,6 +3048,7 @@
       "nameEn": "Interaction Designer",
       "domain": "design-ux",
       "description": "把复杂流程拆成顺手的状态、转场和微交互，定义手势、反馈与空态边界态，让每一步操作都有清晰因果。涵盖交互设计、微交互、状态设计。",
+      "descriptionEn": "Break complex flows into smooth states, transitions and microinteractions, defining gestures, feedback and empty and edge states so every action has clear cause and effect, covering interaction design, microinteractions and state design",
       "audience": [
         "交互设计师",
         "产品设计师",
@@ -3008,6 +3087,7 @@
       "nameEn": "Persona Walkthrough Specialist",
       "domain": "design-ux",
       "description": "以设定画像的心智视角逐屏走查页面，结合转化心理学做页面体验诊断，记录情绪反应，输出可执行的 CRO 报告。",
+      "descriptionEn": "Walk through a page screen by screen from a defined persona's mindset, diagnosing experience with conversion psychology, logging emotional reactions and delivering an actionable CRO report",
       "audience": [
         "转化优化师",
         "UX 设计师",
@@ -3046,6 +3126,7 @@
       "nameEn": "Product Designer",
       "domain": "design-ux",
       "description": "从需求到上线全程操盘产品体验，把功能需求设计成可发布方案，平衡商业目标、用户价值和实现成本，专攻产品设计、0到1设计、端到端设计",
+      "descriptionEn": "Own product experience end to end from requirements to launch, designing features into shippable solutions that balance business goals, user value and build cost, covering product design, zero-to-one and end-to-end design",
       "audience": [
         "产品设计师",
         "独立开发者",
@@ -3085,6 +3166,7 @@
       "nameEn": "Prototyping Engineer",
       "domain": "design-ux",
       "description": "用代码和 AI 工具快速搭可交互高保真原型，带真实数据和动效，把模糊想法变成能点能测的验证物，专治高保真原型、原型验证、代码原型卡在静态稿走不到能用。",
+      "descriptionEn": "Build interactive high-fidelity prototypes fast with code and AI tools, with real data and motion, turning fuzzy ideas into clickable, testable artifacts when prototypes stall at static mockups",
       "audience": [
         "Design Engineer",
         "产品设计师",
@@ -3123,6 +3205,7 @@
       "nameEn": "User Journey Strategist",
       "domain": "design-ux",
       "description": "画全链路用户旅程图和服务蓝图，标出情绪曲线、关键时刻和痛点，把断点连成可优化的完整体验链路。",
+      "descriptionEn": "Map end-to-end user journeys and service blueprints, marking emotion curves, key moments and pain points, connecting breakpoints into an optimizable, complete experience path",
       "audience": [
         "服务设计师",
         "体验策略师",
@@ -3162,6 +3245,7 @@
       "nameEn": "UX Researcher",
       "domain": "design-ux",
       "description": "设计用户访谈脚本和可用性测试，跑定性定量混合研究，把行为数据炼成可决策的研究洞察和优先级。",
+      "descriptionEn": "Design interview scripts and usability tests, run mixed qualitative and quantitative research, and refine behavioral data into decision-ready research insights and priorities",
       "audience": [
         "UX 研究员",
         "产品设计师",
@@ -3199,6 +3283,7 @@
       "nameEn": "Web Experience Designer",
       "domain": "design-ux",
       "description": "设计响应式落地页和营销站，统管排版网格、滚动叙事和性能感知，把品牌官网做到各端都好看、好用、加载快。",
+      "descriptionEn": "Design responsive landing pages and marketing sites, managing typographic grids, scroll narrative and perceived performance so brand sites look good, work well and load fast on every device",
       "audience": [
         "Web 设计师",
         "落地页设计师",
@@ -3237,6 +3322,7 @@
       "nameEn": "Embedded Firmware Engineer",
       "domain": "software-engineering",
       "description": "写裸机与 RTOS 生产级固件，做嵌入式开发、单片机驱动和 RTOS 任务架构，覆盖 STM32/ESP32/Nordic 全栈，让跑在硬件上的代码稳定不崩、时序可控、内存可算。",
+      "descriptionEn": "Write production bare-metal and RTOS firmware across STM32/ESP32/Nordic, covering drivers and task architecture so code on hardware stays stable with controlled timing and predictable memory",
       "audience": [
         "嵌入式工程师",
         "IoT 硬件团队",
@@ -3270,6 +3356,7 @@
       "nameEn": "Exam Prep Study Coach",
       "domain": "research-learning",
       "description": "帮考研考公备考党拆解大纲、排每日计划、做错题复盘和背诵规划，把长周期复习变成可执行的节奏。",
+      "descriptionEn": "Help grad-school and civil-service candidates break down the syllabus, schedule daily plans, review wrong questions and plan memorization, turning a long review cycle into an executable cadence",
       "audience": [
         "考研考公等备考党（长周期复习计划与执行）"
       ],
@@ -3302,6 +3389,7 @@
       "nameEn": "Fact-Check Verifier",
       "domain": "research-learning",
       "description": "把文稿或一组断言逐条拆成可核验声明，做溯源出处、断言核验和防AI幻觉，标可信度、给反证、出可追溯的核查报告。",
+      "descriptionEn": "Break a draft or set of claims into verifiable statements, doing source tracing, claim verification and AI-hallucination defense, marking credibility, giving counter-evidence and producing a traceable check report",
       "audience": [
         "编辑",
         "记者",
@@ -3338,6 +3426,7 @@
       "nameEn": "Frontend Engineer",
       "domain": "software-engineering",
       "description": "深耕现代前端的资深工程专家，从 React/Vue/Angular 组件、管理后台到落地页一把梭，把前端性能、可访问性和工程化全栈做到工业级。",
+      "descriptionEn": "Senior modern-frontend engineer spanning React/Vue/Angular components, admin dashboards and landing pages, taking performance, accessibility and tooling to production grade",
       "audience": [
         "前端工程师",
         "全栈工程师",
@@ -3371,6 +3460,7 @@
       "nameEn": "Full-Stack Rapid Builder",
       "domain": "software-engineering",
       "description": "一个人从想法到能跑的产品全栈打通，前后端、数据库、部署一条龙，用 AI 把 MVP 和快速原型做到生产可用的速度。",
+      "descriptionEn": "Take an idea to a running product solo across frontend, backend, database and deploy, using AI to ship MVPs and prototypes at production-ready speed",
       "audience": [
         "独立开发者",
         "创业团队",
@@ -3406,6 +3496,7 @@
       "nameEn": "Git Workflow Master",
       "domain": "software-engineering",
       "description": "帮团队捋顺 Git 工作流，定分支策略、规范提交、做 rebase 和 worktree 并行，把冲突解决和合流变得干净可追溯。",
+      "descriptionEn": "Straighten out team Git workflows, defining branching strategy, commit conventions, rebase and parallel worktrees so conflict resolution and merges stay clean and traceable",
       "audience": [
         "全体工程师",
         "团队负责人",
@@ -3439,6 +3530,7 @@
       "nameEn": "Go & Rust Systems Engineer",
       "domain": "software-engineering",
       "description": "用 Go 和 Rust 写高性能系统级服务，吃透并发编程、内存安全和高性能服务的吞吐与延迟极限。",
+      "descriptionEn": "Write high-performance systems services in Go and Rust, mastering concurrency, memory safety and the throughput and latency limits of high-performance services",
       "audience": [
         "系统工程师",
         "基础设施开发",
@@ -3472,6 +3564,7 @@
       "nameEn": "GPT-Image & Nano Banana Editing Engineer",
       "domain": "ai-visual-creation",
       "description": "专精对话式生图与图生图，吃透 GPT-Image 与 Gemini Nano Banana 的指令编辑、多图融合、局部重绘和文字精准上图，把改图说清楚一次到位。",
+      "descriptionEn": "Specialize in conversational and image-to-image generation, mastering GPT-Image and Gemini Nano Banana for instruction edits, multi-image fusion, inpainting and precise text rendering, getting edits right in one pass",
       "audience": [
         "做精修和图生图的设计师",
         "产品图运营",
@@ -3511,6 +3604,7 @@
       "nameEn": "Jimeng (Dreamina) Prompt Director",
       "domain": "ai-visual-creation",
       "description": "专攻即梦/Dreamina 出图，吃透中文语义模型脾气、参考图权重和分区描述，把国风、电商、人像写成能复现的中文生图咒语。",
+      "descriptionEn": "Specialize in Jimeng (Dreamina) generation, mastering its Chinese-semantics model, reference-image weighting and regional prompts to write reproducible prompts for guofeng, e-commerce and portraits",
       "audience": [
         "用即梦做商业图的设计师",
         "电商视觉",
@@ -3550,6 +3644,7 @@
       "nameEn": "Kling Video Prompt Director",
       "domain": "ai-visual-creation",
       "description": "专攻可灵 Kling 视频，懂首尾帧控制、运镜语言和运动幅度，把分镜写成能跑出连贯运动和镜头感的视频提示词。",
+      "descriptionEn": "Specialize in Kling video, mastering first and last-frame control, camera language and motion range to turn storyboards into prompts that produce coherent movement and cinematic feel",
       "audience": [
         "用可灵做短片广告的创作者",
         "视频博主",
@@ -3588,6 +3683,7 @@
       "nameEn": "Language Acquisition Tutor",
       "domain": "research-learning",
       "description": "用可理解输入、影子跟读和间隔复习把学外语变成有方法的长期训练，做听说读写陪练、地道表达纠错和写作批改。",
+      "descriptionEn": "Turn language learning into methodical long-term training with comprehensible input, shadowing and spaced repetition, doing listening, speaking, reading and writing practice, idiomatic correction and writing feedback",
       "audience": [
         "学外语的人",
         "备考雅思托福的语言考试党",
@@ -3623,6 +3719,7 @@
       "nameEn": "Learning Strategy Coach",
       "domain": "research-learning",
       "description": "用主动回忆、间隔重复、费曼讲解和刻意练习帮你设计学习路径，做学情诊断、排复习节奏、把任何技能拆成可执行的进阶阶梯",
+      "descriptionEn": "Use active recall, spaced repetition, the Feynman technique and deliberate practice to design learning paths, diagnose your level, schedule review and break any skill into an executable progression ladder",
       "audience": [
         "终身学习者",
         "自学技能的知识工作者",
@@ -3659,6 +3756,7 @@
       "nameEn": "Literature Review Synthesizer",
       "domain": "research-learning",
       "description": "围绕一个主题系统检索文献、梳理研究脉络、做主题矩阵和分歧点对比，产出可投稿质量的综述骨架与引文表。",
+      "descriptionEn": "Systematically search literature on a topic, map the research thread, build a thematic matrix and contrast points of divergence, producing a submission-quality review skeleton and citation table",
       "audience": [
         "研究生",
         "青年学者",
@@ -3695,6 +3793,7 @@
       "nameEn": "LLM Evaluation & QA Engineer",
       "domain": "ai-engineering",
       "description": "为 LLM 应用搭可复现的评测体系，做模型评测集、LLM-as-judge 打分和效果回归，把上线前质检从拍脑袋变成有数据的判断。",
+      "descriptionEn": "Build reproducible evaluation systems for LLM apps with eval sets, LLM-as-judge scoring and regression testing, turning pre-launch QA from guesswork into data-backed judgment",
       "audience": [
         "做 LLM 应用质量保障的 AI 工程师",
         "模型与提示词上线评测的团队",
@@ -3734,6 +3833,7 @@
       "nameEn": "LLM Selection Advisor",
       "domain": "ai-engineering",
       "description": "按任务场景、效果基准、上下文长度、合规与成本给大模型选型矩阵，对比闭源开源国内外模型，给主选加兜底的模型组合而非单押一家。",
+      "descriptionEn": "Build a model selection matrix by task, benchmark, context length, compliance and cost, comparing closed and open, domestic and overseas models, recommending a primary-plus-fallback mix instead of betting on one",
       "audience": [
         "为业务选大模型的技术负责人",
         "做模型对比基准的 AI 工程师",
@@ -3772,6 +3872,7 @@
       "nameEn": "Ad Creative & Testing Strategist",
       "domain": "marketing-brand",
       "description": "做投放端广告创意与测试，写钩子和卖点、设计素材脚本和RSA响应式资产、搭创意测试与迭代框架，用数据反推哪条素材该上量、哪条该砍。",
+      "descriptionEn": "Do paid-side ad creative and testing, writing hooks and selling points, designing creative scripts and RSA responsive assets, building creative testing frameworks and using data to decide which asset to scale or cut",
       "audience": [
         "投放团队",
         "效果创意负责人",
@@ -3807,6 +3908,7 @@
       "nameEn": "Brand Strategy & Positioning Architect",
       "domain": "marketing-brand",
       "description": "给你定品牌定位与差异化，把模糊的\"我们是谁\"锤成可执行的品牌战略、价值主张和品牌叙事，管住全渠道品牌一致性。",
+      "descriptionEn": "Define brand positioning and differentiation, hammering a vague self-definition into executable brand strategy, value proposition and narrative, and governing cross-channel brand consistency",
       "audience": [
         "品牌负责人",
         "创始人",
@@ -3843,6 +3945,7 @@
       "nameEn": "Community & Private-Domain Strategist",
       "domain": "marketing-brand",
       "description": "搭企微SCRM和社群分层、设计用户生命周期和裂变机制、做内容化运营和复购召回，把公域流量转成可反复触达的高价值私域资产。",
+      "descriptionEn": "Build WeCom SCRM and community tiers, design user lifecycle and referral loops, do content-driven operations and repurchase recall, turning public traffic into a reusable, high-value private domain",
       "audience": [
         "私域与会员运营负责人",
         "品牌增长团队",
@@ -3877,6 +3980,7 @@
       "nameEn": "GEO/AEO Brand Visibility Strategist",
       "domain": "marketing-brand",
       "description": "做品牌在 AI 引擎里的可见度，审计你在 ChatGPT、Claude、豆包、Kimi、Perplexity 里被不被引用、被谁抢，诊断竞品为什么被推荐，设计 GEO 被引策略和 agent 可完成任务的站点就绪度。",
+      "descriptionEn": "Drive brand visibility in AI engines, auditing whether you are cited in ChatGPT, Claude, Doubao, Kimi and Perplexity, diagnosing why competitors get recommended and designing GEO citation strategy and agent task-readiness",
       "audience": [
         "品牌与增长负责人",
         "做AI可见度竞争的营销人",
@@ -3912,6 +4016,7 @@
       "nameEn": "Global Social Media Strategist",
       "domain": "marketing-brand",
       "description": "统筹 LinkedIn、X、Instagram、TikTok、Threads 五平台自然增长，按各平台算法和文化做海外社媒策略、个人品牌和 thought leadership，把账号做成获客和影响力资产",
+      "descriptionEn": "Coordinate organic growth across LinkedIn, X, Instagram, TikTok and Threads, doing overseas social strategy, personal branding and thought leadership by each platform's algorithm and culture",
       "audience": [
         "出海品牌",
         "做海外个人品牌的创始人高管",
@@ -3950,6 +4055,7 @@
       "nameEn": "Growth & Experimentation Strategist",
       "domain": "marketing-brand",
       "description": "帮你做数据驱动增长，搭获客转化留存全漏斗、设计 AB 测试和增长实验、找可规模化渠道和病毒裂变循环，把增长从拍脑袋变成可复盘的实验体系。",
+      "descriptionEn": "Do data-driven growth, building the full acquisition-conversion-retention funnel, designing A/B tests and growth experiments and finding scalable channels and viral loops to make growth a reviewable experiment system",
       "audience": [
         "增长负责人",
         "产品增长团队",
@@ -3985,6 +4091,7 @@
       "nameEn": "KOL & Influencer Partnership Strategist",
       "domain": "marketing-brand",
       "description": "做达人营销全链路，从达人画像组合、商单报价谈判、种草brief到投后ROI复盘，把KOL投放和达人合作做成可量化增长",
+      "descriptionEn": "Run the full influencer marketing chain from creator profiling and deal negotiation to seeding briefs and post-campaign ROI review, making KOL placement a quantifiable growth channel",
       "audience": [
         "品牌达人投放负责人",
         "市场与增长团队",
@@ -4021,6 +4128,7 @@
       "nameEn": "Lifecycle CRM & Marketing Automation Strategist",
       "domain": "marketing-brand",
       "description": "设计生命周期营销和CRM自动化，做人群分层、培育序列和召回挽回，把邮件短信push微信多通道触达搭成自动跑的留存复购引擎。",
+      "descriptionEn": "Design lifecycle marketing and CRM automation, doing audience segmentation, nurture sequences and win-back, building email, SMS, push and WeChat multichannel outreach into a self-running retention and repurchase engine",
       "audience": [
         "CRM与用户运营负责人",
         "增长营销团队",
@@ -4054,6 +4162,7 @@
       "nameEn": "Marketing Analytics & Attribution Lead",
       "domain": "marketing-brand",
       "description": "搭营销度量体系，做转化追踪和归因建模，把 GA4、广告平台、CRM 数据打通成能指导预算分配的 ROI 看板，专治数据各报各的、口径打架、钱花了说不清效果。",
+      "descriptionEn": "Build the marketing measurement system, doing conversion tracking and attribution modeling, connecting GA4, ad platforms and CRM into an ROI dashboard that guides budget allocation",
       "audience": [
         "营销数据与 RevOps 负责人",
         "效果营销团队",
@@ -4088,6 +4197,7 @@
       "nameEn": "Paid Search & Shopping Strategist",
       "domain": "marketing-brand",
       "description": "搭账户架构、做关键词意图与否定词体系、按 ROI 分预算定出价，专治 SEM投放 跑量不赚钱、搜索词分析 找不到漏点、购物广告 和 Performance Max 黑盒难控。",
+      "descriptionEn": "Build account structure, keyword-intent and negative-keyword systems and ROI-based budget and bidding, fixing SEM that spends without profit, search-term blind spots and the Shopping and Performance Max black box",
       "audience": [
         "效果营销负责人",
         "电商投放团队",
@@ -4124,6 +4234,7 @@
       "nameEn": "Paid Social & Programmatic Buyer",
       "domain": "marketing-brand",
       "description": "操盘 Meta/TikTok/巨量信息流和程序化展示投放，做全漏斗人群与重定向、版位预算策略、媒体采买，把社媒和展示流量买成可规模化转化。",
+      "descriptionEn": "Run Meta, TikTok and Ocean Engine feeds and programmatic display, doing full-funnel audiences and retargeting, placement and budget strategy and media buying to buy social and display traffic into scalable conversion",
       "audience": [
         "效果营销与投放团队",
         "品牌增长负责人",
@@ -4158,6 +4269,7 @@
       "nameEn": "PR & Crisis Communications Lead",
       "domain": "marketing-brand",
       "description": "做公关传播全盘，从新闻稿、媒体口径到危机公关一手抓，主动设置叙事、舆情应对把损失控到最小。",
+      "descriptionEn": "Run the full PR and communications play from press releases and media messaging to crisis comms, proactively setting the narrative and managing sentiment to keep damage minimal",
       "audience": [
         "公关与品牌负责人",
         "市场总监",
@@ -4193,6 +4305,7 @@
       "nameEn": "SEO & ASO Discoverability Strategist",
       "domain": "marketing-brand",
       "description": "做搜索和应用商店的可发现性，统筹技术SEO、百度SEO双引擎排名和ASO优化，把自然搜索与应用市场流量做成稳定获客通道。",
+      "descriptionEn": "Drive search and app-store discoverability, coordinating technical SEO, dual-engine Baidu SEO ranking and ASO to make organic search and app-market traffic a stable acquisition channel",
       "audience": [
         "SEO负责人",
         "独立站与内容团队",
@@ -4229,6 +4342,7 @@
       "nameEn": "Video & Podcast Growth Strategist",
       "domain": "marketing-brand",
       "description": "做长视频和播客的增长策略，专攻视频留存优化、YouTube增长、播客增长、节目定位和音视频分发，把长内容做成复利型受众资产。",
+      "descriptionEn": "Do growth strategy for long video and podcasts, specializing in video retention, YouTube growth, podcast growth, show positioning and AV distribution to make long content a compounding audience asset",
       "audience": [
         "长视频UP主",
         "播客主理人",
@@ -4265,6 +4379,7 @@
       "nameEn": "WeChat, Zhihu & Bilibili Ecosystem Strategist",
       "domain": "marketing-brand",
       "description": "给知识型品牌做公众号、知乎、B站、视频号的长内容生态策略，定栏目和分发节奏，跑各平台算法与社区调性，用专业度沉淀品牌信任和私域转化。",
+      "descriptionEn": "Do long-content ecosystem strategy on WeChat, Zhihu, Bilibili and Channels for knowledge brands, setting columns and distribution cadence and working each platform's algorithm to build brand trust and private-domain conversion through expertise",
       "audience": [
         "知识型品牌",
         "专业服务机构",
@@ -4301,6 +4416,7 @@
       "nameEn": "Xiaohongshu & Douyin Growth Strategist",
       "domain": "marketing-brand",
       "description": "操盘小红书种草和抖音爆款增长，定赛道人设、拆推流算法逻辑、设计内容矩阵和起号节奏，把平台流量做成可复制、可持续的增长曲线。",
+      "descriptionEn": "Run Xiaohongshu seeding and Douyin viral growth, defining niche persona, decoding the recommendation algorithm and designing content matrices and account ramp-up to make platform traffic a repeatable, sustainable growth curve",
       "audience": [
         "品牌增长负责人、MCN操盘手、做小红书抖音的资深创作者与营销人"
       ],
@@ -4334,6 +4450,7 @@
       "nameEn": "MCP Server Builder",
       "domain": "ai-engineering",
       "description": "设计、实现并测试 Model Context Protocol 服务，把外部工具、资源和数据源封装成 agent 能稳定调用的 MCP 能力，含鉴权、错误契约和兼容性测试。",
+      "descriptionEn": "Design, build and test Model Context Protocol servers, wrapping external tools, resources and data sources into MCP capabilities agents can call reliably, with auth, error contracts and compatibility tests",
       "audience": [
         "为 AI agent 扩展工具能力、开发 MCP server、做工具集成的工程师"
       ],
@@ -4369,6 +4486,7 @@
       "nameEn": "Midjourney Prompt Engineer",
       "domain": "ai-visual-creation",
       "description": "把脑子里的画面翻译成 Midjourney 能听懂的精准咒语，吃透 sref 风格参考、cref 角色一致和 stylize/chaos 参数，帮你稳定出片、控住风格一致性。",
+      "descriptionEn": "Translate the image in your head into precise Midjourney prompts, mastering sref style reference, cref character consistency and stylize/chaos params for stable output and consistent style",
       "audience": [
         "重度用 Midjourney 的设计师",
         "概念美术",
@@ -4408,6 +4526,7 @@
       "nameEn": "Mobile App Engineer",
       "domain": "software-engineering",
       "description": "iOS/Android 原生加 Flutter/React Native 跨端开发，搞定 App开发 的生命周期、性能、上架审核和原生能力桥接。",
+      "descriptionEn": "Native iOS/Android plus Flutter/React Native cross-platform development, handling the app lifecycle, performance, store review and native capability bridging",
       "audience": [
         "移动端工程师",
         "App 创业团队",
@@ -4441,6 +4560,7 @@
       "nameEn": "Model Fine-Tuning Engineer",
       "domain": "ai-engineering",
       "description": "做 SFT/LoRA/DPO 微调全流程，从训练数据配比、超参调优到过拟合诊断，先帮你判断该微调还是该改提示词，别白烧卡。",
+      "descriptionEn": "Run the full SFT/LoRA/DPO fine-tuning workflow from data mix and hyperparameter tuning to overfitting diagnosis, first judging whether to fine-tune or fix the prompt so you do not burn GPUs",
       "audience": [
         "做开源模型微调的 AI 工程师",
         "领域适配团队",
@@ -4478,6 +4598,7 @@
       "nameEn": "Multi-Agent Orchestration & Automation Governance Architect",
       "domain": "ai-engineering",
       "description": "设计多 agent 拓扑与上下文流转、做 agent 编排和工作流设计，治理 agent 身份信任与身份图谱，n8n 式自动化先审价值风险再上护栏落地。",
+      "descriptionEn": "Design multi-agent topology and context flow, handle agent orchestration and workflow design, govern agent identity, trust and identity graphs, and assess value and risk before adding n8n-style automation guardrails",
       "audience": [
         "搭建多 agent 系统的 AI 工程师",
         "做 agent 编排和工作流架构的人",
@@ -4531,6 +4652,7 @@
       "nameEn": "Node.js Backend Engineer",
       "domain": "software-engineering",
       "description": "用 Node 和 TypeScript 搭服务端，做 Express/NestJS 服务、事件循环调优和 BFF 层，把 JS 全栈的后端做扎实。",
+      "descriptionEn": "Build server-side with Node and TypeScript, shipping Express/NestJS services, event-loop tuning and BFF layers to make the JS full-stack backend solid",
       "audience": [
         "Node 工程师",
         "全栈工程师",
@@ -4565,6 +4687,7 @@
       "nameEn": "Automation Governance & Change Enablement Architect",
       "domain": "ops-pm-sales",
       "description": "先审价值、风险、可维护性再做流程自动化编排，给工作流加治理护栏，再用 ADKAR 和 Kotter 推变革落地、化解阻力、做采纳培训，专治上了系统没人用、改了流程就反弹。",
+      "descriptionEn": "Vet value, risk and maintainability before orchestrating process automation, add governance guardrails, then use ADKAR and Kotter to drive adoption, ease resistance and run training, for systems no one uses and process changes that rebound",
       "audience": [
         "流程自动化与数字化负责人",
         "变革管理",
@@ -4604,6 +4727,7 @@
       "nameEn": "Business Operations Excellence Lead",
       "domain": "ops-pm-sales",
       "description": "用精益和六西格玛做流程优化、瓶颈诊断、产能规划和 KPI 治理，把混乱的业务运营拆成可重复、可度量、能持续提效的体系。",
+      "descriptionEn": "Use Lean and Six Sigma for process optimization, bottleneck diagnosis, capacity planning and KPI governance, breaking chaotic operations into a repeatable, measurable, continuously improving system",
       "audience": [
         "运营负责人",
         "流程改进与卓越运营",
@@ -4642,6 +4766,7 @@
       "nameEn": "Customer Success Manager",
       "domain": "ops-pm-sales",
       "description": "从客户入职启动、健康分预警到 QBR 复盘和续约保住，用客户成功打法把成交单做成长期续费的净收入留存",
+      "descriptionEn": "From onboarding and health-score alerts to QBR reviews and renewal saves, use customer-success playbooks to turn closed deals into long-term recurring net revenue retention",
       "audience": [
         "客户成功经理",
         "续费与增购负责人",
@@ -4680,6 +4805,7 @@
       "nameEn": "Sales Discovery Coach",
       "domain": "ops-pm-sales",
       "description": "教你把发现式提问问出真买点，做需求挖掘、现状差距分析和痛点量化，把客户的隐性诉求逼成可衡量的购买动机。",
+      "descriptionEn": "Teach you to surface real buying motives through discovery questions, doing needs discovery, current-state gap analysis and pain quantification to force implicit needs into measurable purchase motivation",
       "audience": [
         "销售代表",
         "客户经理",
@@ -4718,6 +4844,7 @@
       "nameEn": "Incident Command & Postmortem Lead",
       "domain": "ops-pm-sales",
       "description": "线上故障一键拉起结构化应急，做事故指挥、升级机制、SLO 守护与无指责复盘，把混乱收成可控、把同类事故堵死。",
+      "descriptionEn": "Spin up structured response for production incidents, doing incident command, escalation, SLO protection and blameless postmortems, turning chaos into control and closing off recurring incidents",
       "audience": [
         "事故指挥",
         "On-call 负责人",
@@ -4757,6 +4884,7 @@
       "nameEn": "Complex Deal Strategist (MEDDPICC)",
       "domain": "ops-pm-sales",
       "description": "用 MEDDPICC 给复杂大单赢单计划打分定级，做决策链梳理和竞争卡位，专杀一厢情愿的乐观漏斗。",
+      "descriptionEn": "Use MEDDPICC to score and grade win plans for complex large deals, mapping the decision chain and competitive positioning and killing wishful, over-optimistic funnels",
       "audience": [
         "B2B 销售负责人",
         "客户经理",
@@ -4796,6 +4924,7 @@
       "nameEn": "Outbound Prospecting & Pipeline Architect",
       "domain": "ops-pm-sales",
       "description": "帮你定 ICP 与触发信号、设计多渠道触达序列和高个性化开场，把陌生拓客从拼数量改成基于信号的精准撬动，搭出可复制可预测的获客管道。",
+      "descriptionEn": "Help define ICP and trigger signals, design multichannel outreach sequences and high-personalization openers, shifting prospecting from volume to signal-based precision and building a repeatable, predictable acquisition pipeline",
       "audience": [
         "外呼销售与 SDR",
         "增长销售",
@@ -4834,6 +4963,7 @@
       "nameEn": "Pre-Sales Solution Engineer",
       "domain": "ops-pm-sales",
       "description": "做技术发现、Demo 设计与 POC 范围、写竞品对抗手册，把产品能力翻译成客户业务结果，拿下技术决策让单子往前推。",
+      "descriptionEn": "Do technical discovery, demo design and POC scoping, write competitive battlecards, translate product capabilities into customer business outcomes and win the technical decision to move the deal forward",
       "audience": [
         "售前工程师",
         "解决方案顾问",
@@ -4873,6 +5003,7 @@
       "nameEn": "Program & PMO Governance Architect",
       "domain": "ops-pm-sales",
       "description": "帮你把一堆零散项目理成有统一节奏的项目集，建立 PMO 治理、立项门禁和项目组合优先级，做资源分配和复盘机制，让管理层能向上看清全局。",
+      "descriptionEn": "Organize scattered projects into programs with unified cadence, establish PMO governance, stage gates and portfolio prioritization and do resource allocation and review mechanisms so leadership sees the whole picture",
       "audience": [
         "PMO 负责人",
         "项目集经理",
@@ -4912,6 +5043,7 @@
       "nameEn": "Project Delivery Shepherd",
       "domain": "ops-pm-sales",
       "description": "把项目从立项推到交付，做关键路径排程、风险与依赖识别、干系人对齐，专盯跨部门掉球和延期预警。",
+      "descriptionEn": "Push projects from kickoff to delivery, doing critical-path scheduling, risk and dependency identification and stakeholder alignment, watching for cross-team dropped balls and delay warnings",
       "audience": [
         "项目经理、交付负责人、跨团队协作的业务与技术项目牵头人"
       ],
@@ -4948,6 +5080,7 @@
       "nameEn": "Proposal & RFP Win Strategist",
       "domain": "ops-pm-sales",
       "description": "拆 RFP 招标需求建符合性矩阵，提炼赢单主题和价值主张，把投标响应从逐条应付写成有故事线、能说服评审的赢单标书。",
+      "descriptionEn": "Break down RFP requirements into compliance matrices, distill win themes and value propositions, turning bid responses from box-ticking into persuasive, story-driven winning proposals",
       "audience": [
         "投标与方案经理",
         "售前",
@@ -4987,6 +5120,7 @@
       "nameEn": "Revenue Operations & Forecast Analyst",
       "domain": "ops-pm-sales",
       "description": "诊断管道健康、算成交速度、校准预测准度，把 CRM 和 Excel 里的销售数据变成能在季度落空前就预警的收入运营情报。命中收入运营、管道健康诊断、预测准度等场景时启用。",
+      "descriptionEn": "Diagnose pipeline health, calculate deal velocity and calibrate forecast accuracy, turning CRM and Excel sales data into revenue-ops intelligence that warns before a quarter is missed",
       "audience": [
         "收入运营与销售运营",
         "销售负责人",
@@ -5026,6 +5160,7 @@
       "nameEn": "Bookkeeping & Workpaper Agent",
       "domain": "professional-advisors",
       "description": "从票据、银行流水、工资表抽数据自动套科目、编记账凭证、做银行对账和底稿勾稽，把代账记账从录入苦力解放出来。",
+      "descriptionEn": "Pull data from invoices, bank statements and payroll to auto-assign accounts, build journal entries, reconcile banks and tie out workpapers, freeing bookkeeping from data-entry drudgery",
       "audience": [
         "代账会计",
         "企业出纳与总账会计",
@@ -5064,6 +5199,7 @@
       "nameEn": "Contract Review Counsel",
       "domain": "professional-advisors",
       "description": "逐条审采购销售劳动投融资各类合同，标红风险条款、补缺漏、对照对赌违约赔付管辖条款给修改建议，签字前帮你把坑挑出来。只做合同审查与条款风险标注，不当诉讼代理。",
+      "descriptionEn": "Review procurement, sales, labor and investment contracts clause by clause, flagging risky terms, filling gaps and giving edits on earnout, breach, indemnity and jurisdiction clauses before you sign, doing review and clause-risk flagging only, not litigation",
       "audience": [
         "用 AI 自助审合同的创业者与业务负责人",
         "企业法务",
@@ -5102,6 +5238,7 @@
       "nameEn": "Data Compliance & Privacy Officer",
       "domain": "professional-advisors",
       "description": "对照个保法、数据安全法和等保2.0，做数据分类分级、权限梳理、隐私政策审查和整改清单，把合规要求翻译成业务能落地的动作",
+      "descriptionEn": "Map data classification and grading, permissions, privacy-policy review and remediation against PIPL, the Data Security Law and MLPS 2.0, translating compliance requirements into actions the business can implement",
       "audience": [
         "数据安全与合规负责人",
         "做产品和系统的创业者",
@@ -5140,6 +5277,7 @@
       "nameEn": "Health Report & Care Navigation Advisor",
       "domain": "professional-advisors",
       "description": "把体检报告的箭头指标和检查单讲成人话，理清该挂哪个科、问医生哪些问题、慢病复查吃药怎么安排，给科普和就医动线指引，明确不做诊断、危急值即提醒就医。",
+      "descriptionEn": "Explain checkup flags and test orders in plain words, clarify which department to see, what to ask the doctor and how to schedule chronic-disease follow-up and meds, giving education and care-navigation guidance, not diagnosing and flagging critical values for immediate care",
       "audience": [
         "看不懂体检和检查报告想先理清思路的普通人",
         "帮父母管慢病和复查的家属",
@@ -5178,6 +5316,7 @@
       "nameEn": "HR & Employment Compliance Advisor",
       "domain": "professional-advisors",
       "description": "做入职到离职全周期的用工管理、劳动合同与规章制度合规自查、社保公积金和考勤薪酬口径核对、劳动争议风险预判，给合规边界和处理思路。",
+      "descriptionEn": "Do full-cycle employment management from hire to exit, labor-contract and policy compliance self-checks, social-security, attendance and payroll reconciliation and labor-dispute risk forecasting, with compliance boundaries and handling approaches",
       "audience": [
         "中小企业主与 HR",
         "要把用工合规和员工全周期管理用 AI 兜住的管理者与人事"
@@ -5215,6 +5354,7 @@
       "nameEn": "Insurance Coverage Diagnostic Advisor",
       "domain": "professional-advisors",
       "description": "从中立视角诊断家庭保障缺口，按预算出重疾医疗意外寿险配置思路，逐条对比产品条款和免责，帮你看懂拒赔逻辑和理赔要点，不卖保险也不替你投保",
+      "descriptionEn": "Diagnose family coverage gaps from a neutral stance, giving critical-illness, medical, accident and life configuration by budget, comparing policy terms and exclusions clause by clause and explaining denial logic and claim points, without selling or buying for you",
       "audience": [
         "想自己搞懂保险的家庭",
         "不想被代理人带节奏的投保人",
@@ -5253,6 +5393,7 @@
       "nameEn": "IP & Trademark Strategist",
       "domain": "professional-advisors",
       "description": "做商标布局、专利策略和版权保护的护城河顾问，帮你跑近似检索、研判侵权风险、理清维权取证思路，把品牌和原创的法律保护提前圈出来",
+      "descriptionEn": "Moat advisor for trademark layout, patent strategy and copyright protection, running similarity searches, assessing infringement risk and clarifying enforcement and evidence, staking out legal protection for brand and originals early",
       "audience": [
         "做品牌和原创内容的创业者",
         "独立开发者",
@@ -5292,6 +5433,7 @@
       "nameEn": "Legal Billing & Time Counsel",
       "domain": "professional-advisors",
       "description": "帮律师和咨询师做工时记录、计费账单生成、账单说明撰写、应收催收和分润测算，把专业人士的时间精准换成现金流。",
+      "descriptionEn": "Help lawyers and consultants do time tracking, billing generation, invoice narratives, receivables collection and profit-share calculation, turning professionals' time precisely into cash flow",
       "audience": [
         "律师",
         "法律顾问",
@@ -5330,6 +5472,7 @@
       "nameEn": "M&A Deal & Valuation Advisor",
       "domain": "professional-advisors",
       "description": "做并购财务尽调要点、估值建模与协同测算，排 Day1 和百日整合财务方案、盯协同兑现，把买了又消化不了的财务坑提前堵上，不替你拍板交易。",
+      "descriptionEn": "Do M&A financial due-diligence focus, valuation modeling and synergy estimation, plan Day 1 and 100-day finance integration and track synergy capture, plugging the bought-but-cannot-digest financial holes, without making the deal call for you",
       "audience": [
         "做并购或被并购的创始人与 CFO",
         "投资与战投负责人",
@@ -5369,6 +5512,7 @@
       "nameEn": "Month-End Close & FP&A Analyst",
       "domain": "professional-advisors",
       "description": "帮你跑通月结对账勾稽、做预算编制和滚动预测、把预实差异归因成经营结论，AI 加速取数与分析。",
+      "descriptionEn": "Help you run month-end reconciliation and tie-outs, do budgeting and rolling forecasts and attribute budget-versus-actual variance into business conclusions, with AI accelerating data pull and analysis",
       "audience": [
         "财务经理",
         "FP&A",
@@ -5408,6 +5552,7 @@
       "nameEn": "Neutral Investment & Wealth Advisor",
       "domain": "professional-advisors",
       "description": "从不卖产品的中立视角帮你做资产配置、基金定投和风险测评，拆穿销售话术、讲透复利与回撤，给框架和取舍判断。",
+      "descriptionEn": "From a no-product-selling neutral stance, help with asset allocation, fund SIPs and risk assessment, debunk sales scripts, explain compounding and drawdown and give frameworks and trade-off judgment",
       "audience": [
         "想自己搞懂理财的普通人",
         "不想被销售带节奏的白领",
@@ -5446,6 +5591,7 @@
       "nameEn": "Personal Legal Rights Helper",
       "domain": "professional-advisors",
       "description": "把离婚、劳动仲裁、欠款、消费维权讲成你听得懂的步骤，帮你算清诉讼时效、判断管辖、列齐材料清单、写好申请书初稿，只做流程指引，不当诉讼代理也不替代律师。",
+      "descriptionEn": "Explain divorce, labor arbitration, debt and consumer-rights cases in steps you understand, helping you calculate limitation periods, judge jurisdiction, list materials and draft applications, doing process guidance only, not litigation or replacing a lawyer",
       "audience": [
         "遇到劳动纠纷消费维权债务婚姻问题、想先用 AI 搞懂流程再决定要不要请律师的普通人"
       ],
@@ -5482,6 +5628,7 @@
       "nameEn": "Real Estate Deal & Mortgage Advisor",
       "domain": "professional-advisors",
       "description": "帮你算清首付月供税费过户成本、对比商贷公积金组合贷方案、查限购限贷政策、理清买卖与过户流程和合同要点，给测算和决策框架，不当中介也不荐盘。",
+      "descriptionEn": "Help you calculate down payment, mortgage, taxes and transfer costs, compare commercial and housing-fund combo loans, check purchase and loan restrictions and clarify transaction, transfer and contract points, giving calculations and decision frameworks, not acting as agent",
       "audience": [
         "买房卖房换房的普通人",
         "要用 AI 算清成本和政策再做置业决策的购房者"
@@ -5519,6 +5666,7 @@
       "nameEn": "Recruiting & Talent Selection Advisor",
       "domain": "professional-advisors",
       "description": "写精准 JD、设结构化面试题和评分维度、做简历打标初筛和人才画像匹配，理清渠道与薪酬带宽，把招对人这件事用 AI 变成有标准的筛选。",
+      "descriptionEn": "Write precise JDs, design structured interview questions and scoring dimensions, do resume tagging and talent-profile matching and clarify channels and salary bands, making hiring right a standardized, AI-assisted screen",
       "audience": [
         "用 AI 提效招聘的创业者与用人经理",
         "HRBP 与招聘专员",
@@ -5556,6 +5704,7 @@
       "nameEn": "Tax Filing Scheduler",
       "domain": "professional-advisors",
       "description": "帮代账和企业财务把多主体申报排成不漏报的日历，盯增值税申报、个税申报、社保申报各节点，自动催收客户资料并对账金税四期。",
+      "descriptionEn": "Help bookkeeping agents and corporate finance schedule multi-entity filings into a no-miss calendar, watching VAT, individual-income-tax and social-security nodes and auto-chasing client documents and reconciling against Golden Tax Phase IV",
       "audience": [
         "代账会计",
         "企业财务",
@@ -5594,6 +5743,7 @@
       "nameEn": "Tax Policy Q&A Advisor",
       "domain": "professional-advisors",
       "description": "把能不能开专票、核定还是查账、小微优惠怎么用足、金税四期怎么落地用大白话讲清楚，给可执行口径和申报节点，专治财税政策看不懂、不敢做主、踩雷怕罚。",
+      "descriptionEn": "Explain in plain words whether you can issue special invoices, assessed versus audited collection, how to use small-business breaks fully and how to apply Golden Tax Phase IV, with executable guidance and filing nodes, for confusing tax policy",
       "audience": [
         "中小企业主",
         "财务",
@@ -5633,6 +5783,7 @@
       "nameEn": "Penetration Tester & Red Teamer",
       "domain": "software-engineering",
       "description": "做授权渗透测试和红队演练，针对 Web、API、网络和云做漏洞利用与攻击链复现，把孤立漏洞串成能打到业务核心的完整链路，再配上能落地的整改报告和复测验证。",
+      "descriptionEn": "Run authorized penetration tests and red-team exercises across web, API, network and cloud, chaining isolated vulnerabilities into full attack paths to the business core, with actionable remediation and retest reports",
       "audience": [
         "安全工程师",
         "攻防红队",
@@ -5672,6 +5823,7 @@
       "nameEn": "Performance Tuning Engineer",
       "domain": "software-engineering",
       "description": "做性能压测和剖析，定位 CPU/内存/IO 热点，调并发缓存和算法复杂度，用基准数据证明优化前后的真实提升。",
+      "descriptionEn": "Run load tests and profiling, locate CPU/memory/IO hotspots, tune concurrency, caching and algorithmic complexity, and prove real gains with benchmark data",
       "audience": [
         "后端/全栈工程师",
         "性能负责人",
@@ -5706,6 +5858,7 @@
       "nameEn": "A/B Experiment Designer",
       "domain": "product-growth",
       "description": "把增长假设变成严谨可上线的 AB 实验，专做样本量计算、统计显著判定和上线还是回滚的明确决策。",
+      "descriptionEn": "Turn growth hypotheses into rigorous, launch-ready A/B tests, doing sample-size calculation, significance judgment and a clear ship-or-roll-back decision",
       "audience": [
         "增长产品经理",
         "数据驱动的PM",
@@ -5745,6 +5898,7 @@
       "nameEn": "AI Product Trend Scout",
       "domain": "product-growth",
       "description": "扫 AI 赛道的新模型、新形态和竞品动向，拆解谁在做什么、机会窗口在哪，给资深产品人一份能据此调方向的 AI产品趋势 与 机会窗口 简报，专做竞品拆解与前沿模型动向追踪。",
+      "descriptionEn": "Scan the AI space for new models, forms and competitor moves, breaking down who is doing what and where the opportunity window is, briefing senior PMs to adjust direction, covering competitor teardowns and frontier-model tracking",
       "audience": [
         "AI 产品负责人",
         "关注前沿的创始人",
@@ -5783,6 +5937,7 @@
       "nameEn": "Feedback Synthesizer",
       "domain": "product-growth",
       "description": "把应用商店评价、社群吐槽、客服工单和访谈记录批量做反馈聚类与痛点提炼，转成产品能直接排进迭代的需求池，专攻评价分析和 VOC。",
+      "descriptionEn": "Batch-cluster app store reviews, community gripes, support tickets and interview notes into pain points, turning them into a backlog product can schedule directly, covering review analysis and VOC",
       "audience": [
         "AI 产品经理",
         "产品运营",
@@ -5821,6 +5976,7 @@
       "nameEn": "Growth Hacker",
       "domain": "product-growth",
       "description": "用 AARRR 海盗指标拆增长杠杆、排实验优先级、设计病毒环，把一次单点爆发做成能复制的增长引擎。",
+      "descriptionEn": "Use AARRR pirate metrics to find growth levers, prioritize experiments and design viral loops, turning a one-off spike into a repeatable growth engine",
       "audience": [
         "AI 产品增长负责人",
         "独立开发者",
@@ -5859,6 +6015,7 @@
       "nameEn": "Go-To-Market & Launch Strategist",
       "domain": "product-growth",
       "description": "做新品和新功能的 GTM 全案，定目标人群和价值主张、排发布节奏、配渠道与上市定价钩子、写发布脚本，把上市做成一次有声量的增长事件。",
+      "descriptionEn": "Build full GTM plans for new products and features, defining target audience and value proposition, scheduling the launch, configuring channels and pricing hooks and writing the launch script to make launch a high-volume growth event",
       "audience": [
         "AI 产品负责人",
         "做产品发布的创始人",
@@ -5899,6 +6056,7 @@
       "nameEn": "PRD & Spec Author",
       "domain": "product-growth",
       "description": "把一句话想法写成工程能直接开工的 PRD，专做目标、用户故事、验收标准、边界与非目标、埋点口径，一份说明书改完不返工。",
+      "descriptionEn": "Turn a one-line idea into a PRD engineering can build from, covering goals, user stories, acceptance criteria, scope, non-goals and tracking specs, so the spec ships without rework",
       "audience": [
         "AI 产品经理",
         "技术型创始人",
@@ -5938,6 +6096,7 @@
       "nameEn": "Product Analytics Analyst",
       "domain": "product-growth",
       "description": "帮你搭埋点体系、建漏斗和留存看板、定指标口径，从行为数据里挖出为什么涨为什么掉，给一张能直接决策的产品数据结论。",
+      "descriptionEn": "Build your tracking system, funnel and retention dashboards and metric definitions, mining behavioral data for why numbers rise and fall and delivering one decision-ready data conclusion",
       "audience": [
         "AI 产品经理",
         "增长分析师",
@@ -5977,6 +6136,7 @@
       "nameEn": "Product Strategy Lead",
       "domain": "product-growth",
       "description": "AI 原生产品的战略推演官，帮你定愿景、切赛道、画护城河、立北极星，把模糊的产品方向逼成一句话押注和取舍清单。",
+      "descriptionEn": "Strategy reasoner for AI-native products, helping set vision, pick the lane, draw the moat and set the North Star, forcing a fuzzy product direction into a one-line bet and trade-off list",
       "audience": [
         "AI 产品负责人",
         "独立开发者",
@@ -6017,6 +6177,7 @@
       "nameEn": "Retention & Lifecycle Strategist",
       "domain": "product-growth",
       "description": "盯次留周留和流失节点，设计激活上手、习惯养成、召回唤醒的全生命周期触达，用行为科学把一次性用户变成长期留存。",
+      "descriptionEn": "Watch day-2 and weekly retention and churn points, designing full-lifecycle activation, habit-building and win-back outreach, using behavioral science to turn one-time users into long-term retention",
       "audience": [
         "AI 产品留存负责人",
         "做用户成功的产品人",
@@ -6056,6 +6217,7 @@
       "nameEn": "Roadmap & Prioritization Lead",
       "domain": "product-growth",
       "description": "用 RICE/Kano/价值复杂度框架做需求优先级，把一堆要做的事排成季度路线图，讲清为什么先做这个、砍掉那个有理有据。",
+      "descriptionEn": "Prioritize with RICE, Kano and value-complexity frameworks, sequencing a pile of asks into a quarterly roadmap and justifying why this first and that cut",
       "audience": [
         "AI 产品负责人",
         "CPO",
@@ -6095,6 +6257,7 @@
       "nameEn": "Sprint & Delivery Coordinator",
       "domain": "product-growth",
       "description": "把路线图拆成能按时发版的迭代，做迭代排期、工时估点、范围管控、跨职能对齐和阻塞跟踪，把每个 sprint 推到准点交付。",
+      "descriptionEn": "Break the roadmap into ship-on-time sprints, handling scheduling, point estimation, scope control, cross-functional alignment and blocker tracking to drive every sprint to on-time delivery",
       "audience": [
         "AI 产品经理",
         "敏捷团队负责人",
@@ -6134,6 +6297,7 @@
       "nameEn": "User Research Interviewer",
       "domain": "product-growth",
       "description": "做用户访谈、问卷与可用性测试的研究官，设计不诱导的访谈脚本，把质性原话提炼成可执行洞察和用户画像，专治需求验证全靠拍脑袋",
+      "descriptionEn": "Research lead for user interviews, surveys and usability tests, designing non-leading scripts and refining verbatim quotes into actionable insights and personas, fixing guesswork-driven requirements",
       "audience": [
         "AI 产品经理",
         "UX 研究员",
@@ -6173,6 +6337,7 @@
       "nameEn": "Prompt Engineering Architect",
       "domain": "ai-engineering",
       "description": "把模糊指令打磨成可量化、抗漂移的生产级系统提示词，建提示词版本库、评测集和回归用例，专治 prompt 优化里输出不稳、指令跑偏、换模型就崩。",
+      "descriptionEn": "Polish vague instructions into measurable, drift-resistant production system prompts, building prompt version libraries, eval sets and regression cases to fix unstable output, instruction drift and model-swap breakage",
       "audience": [
         "搭建 LLM 应用的工程师",
         "提示词工程师",
@@ -6210,6 +6375,7 @@
       "nameEn": "Python Engineering Expert",
       "domain": "software-engineering",
       "description": "用 Python 写工程化代码，做 FastAPI/Django 服务、异步并发、类型注解和打包测试，把能跑就行的脚本流升级成可维护的生产工程。",
+      "descriptionEn": "Write engineered Python with FastAPI/Django services, async concurrency, type hints, packaging and tests, upgrading throwaway scripts into maintainable production code",
       "audience": [
         "Python 工程师",
         "后端开发",
@@ -6244,6 +6410,7 @@
       "nameEn": "RAG Pipeline Engineer",
       "domain": "ai-engineering",
       "description": "搭检索增强生成全链路，做文档切块、混合检索、重排序和引用归因，专治检索召不准、答非所问和瞎编引用。",
+      "descriptionEn": "Build the full retrieval-augmented generation pipeline with chunking, hybrid retrieval, reranking and citation attribution, fixing poor recall, off-topic answers and fabricated citations",
       "audience": [
         "企业知识库问答开发者",
         "文档 RAG 应用工程师",
@@ -6283,6 +6450,7 @@
       "nameEn": "React Stack Specialist",
       "domain": "software-engineering",
       "description": "深耕 React 技术栈把项目调到工业级，专攻 React 优化、Next.js、Hooks、状态管理、服务端渲染和 React 性能。",
+      "descriptionEn": "Take React projects to production grade, specializing in React optimization, Next.js, Hooks, state management, server-side rendering and React performance",
       "audience": [
         "React 工程师",
         "Next.js 用户",
@@ -6317,6 +6485,7 @@
       "nameEn": "Refactor & Tech-Debt Engineer",
       "domain": "software-engineering",
       "description": "识别坏味道、拆大函数、解耦模块、补测试护网，做有节制不破坏行为的重构，把技术债按优先级一点点还清。",
+      "descriptionEn": "Spot code smells, break up large functions, decouple modules and add test safety nets, doing measured behavior-preserving refactors that pay down tech debt by priority",
       "audience": [
         "技术负责人",
         "高级工程师",
@@ -6351,6 +6520,7 @@
       "nameEn": "Research Question & Method Designer",
       "domain": "research-learning",
       "description": "把宽泛兴趣收敛成可研究的好问题，定研究框架、变量假设和方法路线，开题前帮你把研究问题问对、把方法论坑提前避开。",
+      "descriptionEn": "Narrow a broad interest into a researchable question, defining the research framework, variable hypotheses and method path, getting your question right and avoiding methodology pitfalls before the proposal",
       "audience": [
         "研究生",
         "独立研究者",
@@ -6386,6 +6556,7 @@
       "nameEn": "Runway Motion & VFX Director",
       "domain": "ai-visual-creation",
       "description": "玩透 Runway 的运动笔刷、镜头控制和视频特效合成，把静图变动态、做转场和视觉特效，给可直接套用的参数和分镜方案。",
+      "descriptionEn": "Master Runway's motion brush, camera control and video VFX compositing, turning stills into motion, building transitions and effects, with ready-to-use params and shot plans",
       "audience": [
         "做动态视效和特效合成的创作者",
         "视频后期",
@@ -6424,6 +6595,7 @@
       "nameEn": "Seedance Video Prompt Director",
       "domain": "ai-visual-creation",
       "description": "专精即梦 Seedance 2.0 视频生成，按短剧、广告、口播节奏写时间戳分镜提示词，懂视频延长、镜头衔接和带货素材的爆点设计。",
+      "descriptionEn": "Specialize in Jimeng Seedance 2.0 video, writing timestamped storyboard prompts for short dramas, ads and voiceover pacing, with video extension, shot continuity and commerce-hook design",
       "audience": [
         "做短剧的内容团队",
         "做带货视频的投手",
@@ -6463,6 +6635,7 @@
       "nameEn": "Seedream Image Architect",
       "domain": "ai-visual-creation",
       "description": "玩透 Seedream 的高分辨率出图、长文本理解和组图一致性，把品牌大片、系列视觉、成套海报做成风格统一可复现的成套作品。",
+      "descriptionEn": "Master Seedream's high-resolution output, long-text understanding and set consistency to produce brand campaigns, visual series and poster sets that stay style-consistent and reproducible",
       "audience": [
         "做品牌大片和系列视觉的设计师、广告创意、AI 视觉总监助理"
       ],
@@ -6499,6 +6672,7 @@
       "nameEn": "Smart Contract Engineer & Auditor",
       "domain": "software-engineering",
       "description": "写 Solidity/EVM 合约做 gas 优化和可升级代理，再独立做安全审计，漏洞检测、形式化验证和攻击复现，出审计报告",
+      "descriptionEn": "Write Solidity/EVM contracts with gas optimization and upgradeable proxies, then run independent security audits with vulnerability detection, formal verification and exploit reproduction, delivering audit reports",
       "audience": [
         "Web3 工程师",
         "DeFi 协议团队",
@@ -6533,6 +6707,7 @@
       "nameEn": "Software Architect",
       "domain": "software-engineering",
       "description": "做系统设计与领域驱动建模，定分层、边界和技术选型，给可落地、抗演进的架构决策和取舍依据，专治架构选型、领域建模和技术决策。",
+      "descriptionEn": "System design and domain-driven modeling, defining layers, boundaries and tech choices with practical, evolution-resistant architecture decisions and trade-off rationale",
       "audience": [
         "技术负责人",
         "架构师",
@@ -6567,6 +6742,7 @@
       "nameEn": "Sora Video Prompt Director",
       "domain": "ai-visual-creation",
       "description": "用电影语言写 Sora 提示词的资深导演，吃透场景调度、物理一致性、长镜头与多镜头叙事，把一句创意拍成有导演感的 AI 短片。",
+      "descriptionEn": "Senior director writing Sora prompts in film language, mastering scene blocking, physical consistency, long takes and multi-shot narrative to turn one idea into a director-grade AI short",
       "audience": [
         "用 Sora 做创意短片的导演",
         "广告创意",
@@ -6605,6 +6781,7 @@
       "nameEn": "SRE & Incident Commander",
       "domain": "software-engineering",
       "description": "守 SLO 做可观测，线上炸了当事故指挥官拉应急、控节奏、定止损措施，事后跑无追责复盘，再给系统加自动护栏（熔断、回滚、成本闸门），把稳定性做成可度量的工程能力，让线上少炸、炸了能快速止血。",
+      "descriptionEn": "Hold SLOs and observability, command incidents when production breaks, run blameless postmortems, and add automatic guardrails like circuit breakers, rollback and cost limits to make reliability a measurable engineering capability",
       "audience": [
         "负责线上稳定性的 SRE",
         "SLO 监控与可观测建设的工程师",
@@ -6640,6 +6817,7 @@
       "nameEn": "Study Abroad Application Strategist",
       "domain": "research-learning",
       "description": "做留学申请的选校定位、套磁导师和文书叙事，把零散背景拼成一条招生官记得住的故事，给可落地的申请策略和项目匹配判断。",
+      "descriptionEn": "Do school selection, professor outreach and essay narrative for study-abroad applications, stitching scattered background into a story admissions remembers, with executable strategy and program-fit judgment",
       "audience": [
         "本硕博留学申请党",
         "做申请规划的人",
@@ -6674,6 +6852,7 @@
       "nameEn": "Tech Docs & API Doc Writer",
       "domain": "software-engineering",
       "description": "写 README、API 参考、架构说明和上手教程，把复杂工程概念讲成开发者真会读会用的文档，每段代码示例都跑得通。",
+      "descriptionEn": "Write READMEs, API references, architecture notes and tutorials, turning complex engineering concepts into docs developers actually read and use, with every code sample runnable",
       "audience": [
         "技术写作",
         "开源维护者",
@@ -6709,6 +6888,7 @@
       "nameEn": "Test QA & Automation Engineer",
       "domain": "software-engineering",
       "description": "给你设计测试策略、写单元集成端到端用例和接口契约测试，做覆盖率与测试结果分析，默认挑刺要实证才放行。",
+      "descriptionEn": "Design test strategy, write unit, integration, end-to-end and API contract tests, analyze coverage and results, and default to demanding evidence before sign-off",
       "audience": [
         "测试工程师",
         "QA",
@@ -6746,6 +6926,7 @@
       "nameEn": "Vector Retrieval & Embedding Engineer",
       "domain": "ai-engineering",
       "description": "选嵌入模型、调向量数据库索引、做召回评测，把语义检索的精度、延迟和成本同时压到达标线。",
+      "descriptionEn": "Pick embedding models, tune vector database indexes and run recall evaluation, driving semantic retrieval precision, latency and cost to target at the same time",
       "audience": [
         "搭向量数据库、做语义检索召回、调嵌入与索引参数的 AI 工程师"
       ],
@@ -6782,6 +6963,7 @@
       "nameEn": "Academic Writing Coach",
       "domain": "writing-content",
       "description": "辅导学术写作，搭论文论证结构、改摘要与文献综述、调学术语体和引用规范，把口语化或松散的论述改成严谨清晰的学术表达",
+      "descriptionEn": "Coach academic writing, structuring paper arguments, editing abstracts and literature reviews and tuning academic register and citation norms, turning loose or colloquial prose into rigorous, clear academic writing",
       "audience": [
         "研究生",
         "科研人员",
@@ -6817,6 +6999,7 @@
       "nameEn": "Book Co-Author & Manuscript Lead",
       "domain": "writing-content",
       "description": "把零散的语音、片段和定位攒成一本可出版的书，搭章节大纲、统一全书声音、逐章成稿并管控篇幅与一致性，从想法走到完整书稿。",
+      "descriptionEn": "Turn scattered voice notes, fragments and positioning into a publishable book, building chapter outlines, unifying the voice, drafting chapter by chapter and controlling length and consistency from idea to full manuscript",
       "audience": [
         "想出书的创始人专家",
         "知识IP",
@@ -6852,6 +7035,7 @@
       "nameEn": "Content Strategy Director",
       "domain": "writing-content",
       "description": "做内容战略，定内容支柱和受众分层、排编辑日历、设计选题矩阵和复用链路，把零散更新整成有方向能复利的内容体系。",
+      "descriptionEn": "Run content strategy, defining content pillars and audience tiers, scheduling the editorial calendar and designing topic matrices and reuse paths to turn scattered updates into a compounding content system",
       "audience": [
         "个人IP",
         "内容团队负责人",
@@ -6888,6 +7072,7 @@
       "nameEn": "Senior Copywriting Craftsman",
       "domain": "writing-content",
       "description": "写转化型商业文案，从落地页、卖点提炼到 slogan 和广告语，把卖点写成让人下单的理由。",
+      "descriptionEn": "Write conversion copy from landing pages and benefit framing to slogans and ad lines, turning selling points into reasons to buy",
       "audience": [
         "品牌主理人",
         "独立创业者",
@@ -6923,6 +7108,7 @@
       "nameEn": "De-AI Humanizer & Rewriter",
       "domain": "writing-content",
       "description": "把一眼AI的稿子改成有人味，专攻降AI味、去模板腔、人机感改写，拆对仗删废话还原真实语感。",
+      "descriptionEn": "Rewrite obviously-AI drafts to sound human, specializing in removing AI flavor and template tone, breaking up parallelism, cutting filler and restoring a real voice",
       "audience": [
         "用AI起草再发布的创作者",
         "内容团队",
@@ -6958,6 +7144,7 @@
       "nameEn": "Developmental & Line Editor",
       "domain": "writing-content",
       "description": "做两层改稿，上层重排结构补逻辑断点调叙事节奏，下层逐句润色去赘词，把烂稿改成能直接发的好稿并讲清每处为什么改",
+      "descriptionEn": "Edit at two layers, restructuring and fixing logic gaps and narrative pacing above and polishing line by line and cutting redundancy below, turning rough drafts into publishable ones and explaining every change",
       "audience": [
         "作者",
         "编辑",
@@ -6993,6 +7180,7 @@
       "nameEn": "GEO/AEO Content Strategist",
       "domain": "writing-content",
       "description": "让你的内容被 AI 引擎引用，做 GEO 优化和答案引擎优化，审计 ChatGPT、Claude、豆包、Kimi、DeepSeek 里的 AI 搜索可见度，写 llms.txt 和被引格式",
+      "descriptionEn": "Get your content cited by AI engines, doing GEO and answer-engine optimization, auditing AI-search visibility in ChatGPT, Claude, Doubao, Kimi and DeepSeek and writing llms.txt and citation-friendly formats",
       "audience": [
         "想被AI搜索引用的创作者",
         "知识IP",
@@ -7029,6 +7217,7 @@
       "nameEn": "Ghostwriter & Voice Cloner",
       "domain": "writing-content",
       "description": "以第一人称替你或客户代笔，先扒清楚目标对象的语感、节奏、口头禅和价值观，再写成读者认不出是代笔的稿子，专治模仿口吻和克隆文风。",
+      "descriptionEn": "Ghostwrite in first person for you or clients, first studying the target's voice, rhythm, catchphrases and values, then writing drafts readers cannot tell are ghostwritten",
       "audience": [
         "创始人、高管、KOL、付费请人代笔的个人IP、品牌主理人"
       ],
@@ -7061,6 +7250,7 @@
       "nameEn": "Headline & Hook Specialist",
       "domain": "writing-content",
       "description": "批量产标题和开篇钩子，卖收益、埋好奇、玩反差，按平台调性出多版本测款，把点击率和完读率从第一行抓起来。",
+      "descriptionEn": "Mass-produce headlines and opening hooks selling benefits, planting curiosity and playing contrast, shipping multiple versions per platform to grab click-through and completion from the first line",
       "audience": [
         "全平台创作者",
         "内容运营",
@@ -7096,6 +7286,7 @@
       "nameEn": "Longform Essayist",
       "domain": "writing-content",
       "description": "操刀深度长文和随笔，搭得起几千字的论证骨架，铺得开叙事张力，把一个观点写到既有思想密度又读得下去",
+      "descriptionEn": "Write in-depth longform and essays, building thousand-word argument structures and narrative tension to take one idea to both intellectual density and readability",
       "audience": [
         "深度内容创作者",
         "知识型个人IP",
@@ -7131,6 +7322,7 @@
       "nameEn": "Narrative & Story Architect",
       "domain": "writing-content",
       "description": "用经典叙事学框架搭故事，把控人物弧光、冲突升级和情绪曲线，给品牌故事、案例、纪实内容注入让人读下去的张力",
+      "descriptionEn": "Build stories with classic narratology frameworks, handling character arcs, rising conflict and emotion curves to give brand stories, cases and nonfiction the tension that keeps people reading",
       "audience": [
         "做故事化内容的创作者",
         "品牌叙事负责人",
@@ -7167,6 +7359,7 @@
       "nameEn": "Newsletter Architect",
       "domain": "writing-content",
       "description": "策划并撰写邮件 newsletter，定栏目定位、设计开信钩子和邮件序列，把订阅做成高打开率的长期内容资产。",
+      "descriptionEn": "Plan and write email newsletters, defining section positioning, designing open hooks and email sequences, turning subscriptions into a high-open-rate long-term content asset",
       "audience": [
         "做邮件订阅的创作者",
         "知识IP",
@@ -7202,6 +7395,7 @@
       "nameEn": "Podcast Script Writer",
       "domain": "writing-content",
       "description": "写播客脚本和对谈大纲，设计开场钩子、问题链和章节节奏，把口语内容写成既自然又有信息密度的可录制脚本",
+      "descriptionEn": "Write podcast scripts and interview outlines, designing opening hooks, question chains and chapter pacing, turning spoken content into recordable scripts that stay natural yet information-dense",
       "audience": [
         "播客主理人",
         "对谈节目主持",
@@ -7237,6 +7431,7 @@
       "nameEn": "Short-Video & Micro-Drama Scriptwriter",
       "domain": "writing-content",
       "description": "写短视频口播脚本和微短剧剧本，把3秒钩子、分镜、分集反转、情绪节奏一次写到位，让脚本既留得住人又拍得出来。",
+      "descriptionEn": "Write short-video voiceover scripts and micro-dramas, nailing the 3-second hook, shot breakdown, per-episode twists and emotional pacing so scripts both hold viewers and can actually be shot",
       "audience": [
         "短视频博主、短剧团队与编剧、剧情号、口播IP"
       ],
@@ -7270,6 +7465,7 @@
       "nameEn": "SEO Content Writer",
       "domain": "writing-content",
       "description": "做关键词意图研究、内容布局和搜索友好的成稿，把搜索意图翻译成既排得上又读得顺的长尾内容，专攻SEO内容、关键词布局和自然流量内容。",
+      "descriptionEn": "Do keyword intent research, content mapping and search-friendly drafts, turning search intent into long-tail content that ranks and reads well, covering SEO content, keyword mapping and organic-traffic content",
       "audience": [
         "做自然流量的内容人",
         "品牌内容团队",
@@ -7305,6 +7501,7 @@
       "nameEn": "Speechwriter",
       "domain": "writing-content",
       "description": "写演讲稿和发言稿，开场抓人、中段立论、收尾点燃，设计停顿排比金句节奏，按演讲者口吻和场合把稿子写成听得进记得住的现场表达。",
+      "descriptionEn": "Write speeches that hook the open, build the argument and land the close, designing pauses, parallelism and quotable lines, fitting the speaker's voice and occasion so the speech sticks",
       "audience": [
         "创始人",
         "高管",
@@ -7340,6 +7537,7 @@
       "nameEn": "Technical Documentation Writer",
       "domain": "writing-content",
       "description": "写开发者文档、API 参考、教程和 README，把复杂工程概念讲成开发者照着就跑通的清晰文档，核心触发词包括写技术文档、API文档、README。",
+      "descriptionEn": "Write developer docs, API references, tutorials and READMEs, turning complex engineering concepts into clear docs developers can follow and run, with core triggers including technical docs, API docs and README",
       "audience": [
         "工程团队",
         "独立开发者",
@@ -7375,6 +7573,7 @@
       "nameEn": "Translation & Localization Expert",
       "domain": "writing-content",
       "description": "做多语种精翻和本地化，统一术语表、贴合目标语境的语气和文化梗，把直译腔改成母语者读着自然的地道表达。",
+      "descriptionEn": "Do multilingual refined translation and localization, unifying glossaries and fitting target-context tone and cultural references, turning literal translation into natural, native-sounding text",
       "audience": [
         "出海团队",
         "跨境内容人",
@@ -7410,6 +7609,7 @@
       "nameEn": "Zettelkasten Knowledge Steward",
       "domain": "research-learning",
       "description": "按卢曼卡片盒方法帮你把碎片输入炼成原子笔记、建双链和索引、长成可生长的知识网络，让笔记从仓库变成会思考的第二大脑。",
+      "descriptionEn": "Use Luhmann's Zettelkasten method to refine fragmentary input into atomic notes, build backlinks and indexes and grow a living knowledge network that turns notes into a thinking second brain",
       "audience": [
         "用 Obsidian/Logseq 做知识管理的人",
         "研究者",

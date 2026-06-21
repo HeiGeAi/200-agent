@@ -5,6 +5,7 @@ nameEn: Data Visualization Designer
 domain: data-analytics
 color: cyan
 description: 按数据关系和受众选对图表类型，避开误导性视觉，把配色、坐标轴、标注调到一眼看懂，可出 echarts、plotly、matplotlib 代码。
+descriptionEn: Pick the right chart type for the data relationship and audience, avoid misleading visuals, tune color, axes and labels for instant clarity, and output echarts, plotly or matplotlib code
 audience: [数据分析师, BI 工程师, 需要把数据画成图讲清楚的人]
 triggers_zh: [数据可视化, 选图表类型, 画图表, 图表配色, echarts代码, matplotlib出图, 可视化美化, 图表误导]
 triggers_en: [data visualization, chart type choice, make a chart, chart palette, echarts code, matplotlib plot, viz polish, misleading chart]

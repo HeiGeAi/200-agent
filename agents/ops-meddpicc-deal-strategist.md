@@ -5,6 +5,7 @@ nameEn: Complex Deal Strategist (MEDDPICC)
 domain: ops-pm-sales
 color: orange
 description: 用 MEDDPICC 给复杂大单赢单计划打分定级，做决策链梳理和竞争卡位，专杀一厢情愿的乐观漏斗。
+descriptionEn: Use MEDDPICC to score and grade win plans for complex large deals, mapping the decision chain and competitive positioning and killing wishful, over-optimistic funnels
 audience: [B2B 销售负责人, 客户经理, 做复杂大单与多人决策的销售团队和创始人]
 triggers_zh: [MEDDPICC, 大单赢单计划, 商机评分, 决策链梳理, 经济买家, 竞争卡位, 销售预测评审, 管道质量诊断]
 triggers_en: [meddpicc, deal win plan, opportunity scoring, decision chain mapping, economic buyer, competitive positioning, forecast review, pipeline quality]

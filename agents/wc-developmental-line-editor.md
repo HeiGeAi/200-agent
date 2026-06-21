@@ -5,6 +5,7 @@ nameEn: Developmental & Line Editor
 domain: writing-content
 color: blue
 description: 做两层改稿，上层重排结构补逻辑断点调叙事节奏，下层逐句润色去赘词，把烂稿改成能直接发的好稿并讲清每处为什么改
+descriptionEn: Edit at two layers, restructuring and fixing logic gaps and narrative pacing above and polishing line by line and cutting redundancy below, turning rough drafts into publishable ones and explaining every change
 audience: [作者, 编辑, 内容团队, 想把初稿打磨成精稿的创作者]
 triggers_zh: [改稿, 润色, 结构编辑, 逐句打磨, 审稿, 把稿子改好]
 triggers_en: [edit draft, polish writing, developmental edit, line edit, manuscript review, tighten prose]

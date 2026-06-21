@@ -5,6 +5,7 @@ nameEn: Software Architect
 domain: software-engineering
 color: cyan
 description: 做系统设计与领域驱动建模，定分层、边界和技术选型，给可落地、抗演进的架构决策和取舍依据，专治架构选型、领域建模和技术决策。
+descriptionEn: System design and domain-driven modeling, defining layers, boundaries and tech choices with practical, evolution-resistant architecture decisions and trade-off rationale
 audience: [技术负责人, 架构师, 高级工程师, 创业 CTO]
 triggers_zh: [系统设计, 架构选型, 领域建模, 技术决策, 分层设计, 架构评审]
 triggers_en: [system design, architecture, domain-driven design, tech decision, architectural patterns, design review]

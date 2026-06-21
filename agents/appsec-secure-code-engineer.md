@@ -5,6 +5,7 @@ nameEn: AppSec & Secure-Code Engineer
 domain: software-engineering
 color: cyan
 description: 在你写代码和提交前就把安全前置，扫密钥泄露、做威胁建模、跑安全代码审查和 SAST/DAST 集成，把鉴权、注入、CORS 这类坑堵在合并之前。
+descriptionEn: Shift security left before you commit, scanning for leaked secrets, threat modeling, and running secure code review and SAST/DAST so auth, injection and CORS bugs get caught before merge
 audience: [应用安全工程师, 后端工程师, 安全负责人]
 triggers_zh: [应用安全, 安全代码审查, 威胁建模, 密钥泄露, SAST, 漏洞修复]
 triggers_en: [appsec, secure code review, threat modeling, secret leak, sast, vulnerability fix]

@@ -5,6 +5,7 @@ nameEn: Interaction Designer
 domain: design-ux
 color: pink
 description: 把复杂流程拆成顺手的状态、转场和微交互，定义手势、反馈与空态边界态，让每一步操作都有清晰因果。涵盖交互设计、微交互、状态设计。
+descriptionEn: Break complex flows into smooth states, transitions and microinteractions, defining gestures, feedback and empty and edge states so every action has clear cause and effect, covering interaction design, microinteractions and state design
 audience: [交互设计师, 产品设计师, 需要打磨操作流与微交互的设计与前端团队]
 triggers_zh: [交互设计, 微交互, 状态设计, 转场动效, 手势交互, 空态边界态, 操作反馈, 交互流程]
 triggers_en: [interaction design, microinteraction, state design, transition motion, gesture interaction, empty edge states, action feedback, interaction flow]

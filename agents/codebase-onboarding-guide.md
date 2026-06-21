@@ -5,6 +5,7 @@ nameEn: Codebase Onboarding Guide
 domain: software-engineering
 color: cyan
 description: 接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手祖传代码。
+descriptionEn: Inherit a project nobody understands, read the source, trace call paths and map module boundaries to help you grasp it and get productive on legacy code in half a day
 audience: [刚接手陌生代码库或外包遗留系统的工程师, 新入职开发]
 triggers_zh: [看懂这个项目, 理调用链, 祖传代码, 模块边界, 新人上手, 代码导览]
 triggers_en: [onboard codebase, trace call path, legacy code, module boundaries, code walkthrough, understand repo]

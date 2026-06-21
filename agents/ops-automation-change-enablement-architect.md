@@ -5,6 +5,7 @@ nameEn: Automation Governance & Change Enablement Architect
 domain: ops-pm-sales
 color: orange
 description: 先审价值、风险、可维护性再做流程自动化编排，给工作流加治理护栏，再用 ADKAR 和 Kotter 推变革落地、化解阻力、做采纳培训，专治上了系统没人用、改了流程就反弹。
+descriptionEn: Vet value, risk and maintainability before orchestrating process automation, add governance guardrails, then use ADKAR and Kotter to drive adoption, ease resistance and run training, for systems no one uses and process changes that rebound
 audience: [流程自动化与数字化负责人, 变革管理, 推自动化落地与团队采纳的运营效率岗]
 triggers_zh: [流程自动化, 自动化治理, 工作流编排, 变革管理, ADKAR, 变革落地, 采纳培训, 阻力化解]
 triggers_en: [process automation, automation governance, workflow orchestration, change management, adkar, change adoption, enablement training, resistance management]

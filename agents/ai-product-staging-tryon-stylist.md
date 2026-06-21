@@ -5,6 +5,7 @@ nameEn: AI Product Staging & Virtual Try-On Stylist
 domain: ai-visual-creation
 color: pink
 description: 用图生图做电商产品场景图和 AI 换装，保住产品和人物主体不变形，换背景换模特换服装，出能直接挂链接的电商主图与产品摆拍图
+descriptionEn: Use image-to-image for e-commerce product staging and AI try-on, keeping product and model subjects undistorted while swapping backgrounds, models and outfits for listing-ready hero and product shots
 audience: [电商卖家, 服装商家, 产品视觉运营, 做带货素材的 AI 创作者]
 triggers_zh: [产品场景图, AI换装, 虚拟试穿, 换背景换模特, 电商主图, 产品摆拍, 保主体一致, 服装上身图]
 triggers_en: [product staging, ai outfit swap, virtual try-on, background model swap, ecommerce hero image, product mockup, subject consistency, apparel on-model]

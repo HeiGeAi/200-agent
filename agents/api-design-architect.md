@@ -5,6 +5,7 @@ nameEn: API Design Architect
 domain: software-engineering
 color: cyan
 description: 设计 REST/GraphQL/gRPC 的接口契约与版本策略，把分页、鉴权、错误码、幂等和限流定成可演进规范，让 API 设计稳、好用、对外可长期兼容。
+descriptionEn: Design REST/GraphQL/gRPC contracts and versioning, turning pagination, auth, error codes, idempotency and rate limits into evolvable specs that stay stable and backward-compatible
 audience: [后端工程师, API 平台团队, 开放平台负责人]
 triggers_zh: [API 设计, 接口契约, REST 规范, GraphQL, 接口版本, OpenAPI]
 triggers_en: [api design, api contract, rest standard, graphql, api versioning, openapi]

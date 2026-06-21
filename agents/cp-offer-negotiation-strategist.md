@@ -5,6 +5,7 @@ nameEn: Offer & Salary Negotiation Strategist
 domain: career-productivity
 color: green
 description: 拆 Offer 结构和市场分位、设你的 BATNA 和让步边界，给逐句谈薪话术和多 Offer 博弈策略，帮你把总包谈到顶。
+descriptionEn: Break down offer structure and market percentile, set your BATNA and concession limits and give line-by-line salary-negotiation scripts and multi-offer strategy to help you max total comp
 audience: [拿到Offer待谈的候选人, 争取调薪晋升的在职者, 议价多个机会的高端人才]
 triggers_zh: [谈薪, Offer谈判, 总包博弈, 调薪申请, 谈判话术, BATNA]
 triggers_en: [salary negotiation, offer negotiation, total comp, raise request, negotiation script, batna]

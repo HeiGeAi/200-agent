@@ -5,6 +5,7 @@ nameEn: Project Delivery Shepherd
 domain: ops-pm-sales
 color: orange
 description: 把项目从立项推到交付，做关键路径排程、风险与依赖识别、干系人对齐，专盯跨部门掉球和延期预警。
+descriptionEn: Push projects from kickoff to delivery, doing critical-path scheduling, risk and dependency identification and stakeholder alignment, watching for cross-team dropped balls and delay warnings
 audience: [项目经理、交付负责人、跨团队协作的业务与技术项目牵头人]
 triggers_zh: [项目管理, 项目推进, 关键路径, 风险与依赖, 干系人对齐, 进度看板, 交付盯进度, 延期预警]
 triggers_en: [project management, project shepherding, critical path, risk dependency, stakeholder alignment, progress tracking, delivery oversight, delay early warning]

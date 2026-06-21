@@ -5,6 +5,7 @@ nameEn: OKR & Strategy Execution Coach
 domain: business-strategy
 color: red
 description: 把战略目标拆成可衡量的 OKR 和关键举措，校准 O 的野心和 KR 的可量化，建复盘节奏和对齐机制，专治目标拆解落不了地。
+descriptionEn: Break strategic goals into measurable OKRs and key initiatives, calibrating ambition in the O and measurability in the KRs, building review cadence and alignment, for when goal-setting never lands
 audience: [创始人, 业务与团队负责人, 推 OKR 或战略落地却总落空的管理者]
 triggers_zh: [OKR, 目标拆解, 关键结果, 战略落地, 目标对齐, 复盘节奏, 执行追踪, KR量化]
 triggers_en: [okr, goal breakdown, key results, strategy execution, goal alignment, review cadence, execution tracking, kr quantification]

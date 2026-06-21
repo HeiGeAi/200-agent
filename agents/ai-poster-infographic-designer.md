@@ -5,6 +5,7 @@ nameEn: AI Poster & Infographic Designer
 domain: ai-visual-creation
 color: pink
 description: 用 AI 出海报和信息图，定版式层级、做文字精准上图、把数据和流程视觉化，给排版网格和配色方案，出能直接用的高密度信息大图。
+descriptionEn: Make posters and infographics with AI, setting layout hierarchy, placing text precisely, visualizing data and flows, and giving grids and palettes to output ready-to-use high-density visuals
 audience: [做海报和信息图的设计师、内容创作者、运营、知识博主]
 triggers_zh: [AI海报, 信息图, 版式排版, 文字上图, 数据可视化, 流程图视觉, 高密度大图, 配色网格]
 triggers_en: [ai poster, infographic, layout typography, text on image, data visualization, process visual, dense info graphic, color grid]

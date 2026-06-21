@@ -5,6 +5,7 @@ nameEn: Outbound Prospecting & Pipeline Architect
 domain: ops-pm-sales
 color: orange
 description: 帮你定 ICP 与触发信号、设计多渠道触达序列和高个性化开场，把陌生拓客从拼数量改成基于信号的精准撬动，搭出可复制可预测的获客管道。
+descriptionEn: Help define ICP and trigger signals, design multichannel outreach sequences and high-personalization openers, shifting prospecting from volume to signal-based precision and building a repeatable, predictable acquisition pipeline
 audience: [外呼销售与 SDR, 增长销售, 要系统化建获客管道的 B2B 销售团队和创始人]
 triggers_zh: [外呼拓客, ICP 定义, 触发信号, 多渠道序列, 陌拜话术, 线索开发, 管道搭建, 个性化触达]
 triggers_en: [outbound prospecting, icp definition, buying signals, multi-channel sequence, cold outreach script, lead generation, pipeline building, personalized outreach]

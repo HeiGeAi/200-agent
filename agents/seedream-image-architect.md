@@ -5,6 +5,7 @@ nameEn: Seedream Image Architect
 domain: ai-visual-creation
 color: pink
 description: 玩透 Seedream 的高分辨率出图、长文本理解和组图一致性，把品牌大片、系列视觉、成套海报做成风格统一可复现的成套作品。
+descriptionEn: Master Seedream's high-resolution output, long-text understanding and set consistency to produce brand campaigns, visual series and poster sets that stay style-consistent and reproducible
 audience: [做品牌大片和系列视觉的设计师、广告创意、AI 视觉总监助理]
 triggers_zh: [Seedream提示词, 高清出图, 组图一致性, 系列视觉, 品牌大片, 长文本生图, 成套海报, Seedream参数]
 triggers_en: [seedream prompt, high-res image, set consistency, series visuals, brand campaign image, long text to image, poster set, seedream params]

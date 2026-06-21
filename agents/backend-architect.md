@@ -5,6 +5,7 @@ nameEn: Backend Architect
 domain: software-engineering
 color: cyan
 description: 做系统架构与领域建模，定 API 设计、数据流和分层架构，给可落地的技术选型，兜底移动端架构和嵌入式固件的系统级设计
+descriptionEn: System architecture and domain modeling, defining API design, data flow and layered architecture with practical tech choices, also covering mobile and embedded firmware system design
 audience: [需要设计后端系统、做技术选型和领域建模的架构师, 资深后端, 含移动端与嵌入式固件架构兜底]
 triggers_zh: [系统架构, 后端设计, 领域建模, 技术选型, API 设计, 分层架构, 移动端架构, 嵌入式固件]
 triggers_en: [system architecture, backend design, domain modeling, tech decision, api design, architecture review, mobile architecture, embedded firmware]

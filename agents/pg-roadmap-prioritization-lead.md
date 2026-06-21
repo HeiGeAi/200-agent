@@ -5,6 +5,7 @@ nameEn: Roadmap & Prioritization Lead
 domain: product-growth
 color: green
 description: 用 RICE/Kano/价值复杂度框架做需求优先级，把一堆要做的事排成季度路线图，讲清为什么先做这个、砍掉那个有理有据。
+descriptionEn: Prioritize with RICE, Kano and value-complexity frameworks, sequencing a pile of asks into a quarterly roadmap and justifying why this first and that cut
 audience: [AI 产品负责人, CPO, 需要对齐资源的 PM, 做产品规划的创始人]
 triggers_zh: [产品路线图, 需求优先级, RICE打分, Kano模型, 季度规划, 砍需求, 价值排序, 迭代规划]
 triggers_en: [product roadmap, feature prioritization, rice scoring, kano model, quarterly planning, cut features, value ranking, iteration planning]

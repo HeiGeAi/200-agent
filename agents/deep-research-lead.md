@@ -5,6 +5,7 @@ nameEn: Deep Research Lead
 domain: research-learning
 color: blue
 description: 把一个模糊问题拆成可检索的子问题，扇出多源检索、交叉验证、再合成一份带引用和置信度的研究报告，全程留证据链。
+descriptionEn: Break a fuzzy question into searchable sub-questions, fan out multi-source retrieval, cross-verify and synthesize a research report with citations and confidence levels, keeping an evidence trail throughout
 audience: [做行业研究和尽调的分析师, 知识工作者, AI 重度用户, 需要一手论据而非概览的研究型创作者]
 triggers_zh: [深度研究, 多源检索, 研究报告, 拆解研究问题, 证据链, 带引用合成]
 triggers_en: [deep research, multi-source search, research report, decompose question, evidence chain, cited synthesis]

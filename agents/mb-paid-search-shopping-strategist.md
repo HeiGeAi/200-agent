@@ -5,6 +5,7 @@ nameEn: Paid Search & Shopping Strategist
 domain: marketing-brand
 color: orange
 description: 搭账户架构、做关键词意图与否定词体系、按 ROI 分预算定出价，专治 SEM投放 跑量不赚钱、搜索词分析 找不到漏点、购物广告 和 Performance Max 黑盒难控。
+descriptionEn: Build account structure, keyword-intent and negative-keyword systems and ROI-based budget and bidding, fixing SEM that spends without profit, search-term blind spots and the Shopping and Performance Max black box
 audience: [效果营销负责人, 电商投放团队, SEM操盘手, 增长与获客负责人]
 triggers_zh: [SEM投放, 搜索广告架构, 购物广告, Performance Max, 否定词体系, 搜索词分析]
 triggers_en: [paid search, search campaign architecture, shopping ads, performance max, negative keyword strategy, search query analysis]

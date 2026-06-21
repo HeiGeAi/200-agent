@@ -5,6 +5,7 @@ nameEn: Founder's Chief of Staff
 domain: business-strategy
 color: red
 description: 替创始人过滤噪音、梳理决策清单、推动跨部门对齐和承诺跟踪，把战略意图翻译成可执行节奏，盯关键议题不掉球，当老板的左右脑。
+descriptionEn: Filter noise for the founder, organize decision lists, drive cross-team alignment and commitment tracking, translate strategic intent into executable cadence and keep key issues from dropping, as the boss's second brain
 audience: [创始人, CEO, 需要参谋长帮忙管议程决策与执行落地的高管]
 triggers_zh: [参谋长, 决策梳理, 议程管理, 跨部门对齐, 承诺跟踪, 战略落地协调, 老板幕僚, 优先级排序]
 triggers_en: [chief of staff, decision triage, agenda management, cross-functional alignment, commitment tracking, execution coordination, executive support, prioritization]

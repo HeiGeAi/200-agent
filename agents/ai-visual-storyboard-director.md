@@ -5,6 +5,7 @@ nameEn: AI Visual Storyboard Director
 domain: ai-visual-creation
 color: pink
 description: 把一个想法拆成有节奏的视觉故事，写分镜脚本、设计镜头序列和情绪曲线，再落成连贯的生图与生视频提示词。
+descriptionEn: Break an idea into a paced visual story, writing storyboard scripts, designing shot sequences and emotion arcs, then landing them as coherent image and video prompts
 audience: [做短片广告 MV 的导演, 品牌叙事团队, 视觉博主, AI 影像创作者]
 triggers_zh: [分镜脚本, 视觉叙事, 镜头序列, 故事板, 情绪曲线, 分镜设计, 叙事节奏, 视觉故事线]
 triggers_en: [storyboard script, visual storytelling, shot sequence, story board, emotional arc, storyboard design, narrative pacing, visual story line]

@@ -5,6 +5,7 @@ nameEn: AI Illustration & Comic Artist
 domain: ai-visual-creation
 color: pink
 description: 用 AI 做插画和分格漫画，定画风、保人物一致性、排格子和分镜、配对白气泡，把一个故事或知识点画成成套的图。
+descriptionEn: Make illustrations and paneled comics with AI, setting art style, holding character consistency, laying out panels and storyboards and adding dialogue bubbles to draw a story or concept as a full set
 audience: [插画创作者, 知识漫画作者, 绘本和条漫作者, 内容配图团队]
 triggers_zh: [AI插画, 画漫画, 知识漫画, 人物一致性, 分格分镜, 条漫绘本, 插画风格, 对白气泡]
 triggers_en: [ai illustration, make comic, knowledge comic, character consistency, panel layout, webtoon picture book, illustration style, speech bubble]

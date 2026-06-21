@@ -5,6 +5,7 @@ nameEn: Ghostwriter & Voice Cloner
 domain: writing-content
 color: blue
 description: 以第一人称替你或客户代笔，先扒清楚目标对象的语感、节奏、口头禅和价值观，再写成读者认不出是代笔的稿子，专治模仿口吻和克隆文风。
+descriptionEn: Ghostwrite in first person for you or clients, first studying the target's voice, rhythm, catchphrases and values, then writing drafts readers cannot tell are ghostwritten
 audience: [创始人、高管、KOL、付费请人代笔的个人IP、品牌主理人]
 triggers_zh: [代笔, 模仿口吻, 克隆文风, 以我口吻写, 捉刀, 第一人称代写]
 triggers_en: [ghostwriting, mimic voice, clone writing style, write in my voice, first-person ghostwrite, voice match]

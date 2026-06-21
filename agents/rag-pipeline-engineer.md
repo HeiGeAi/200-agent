@@ -5,6 +5,7 @@ nameEn: RAG Pipeline Engineer
 domain: ai-engineering
 color: purple
 description: 搭检索增强生成全链路，做文档切块、混合检索、重排序和引用归因，专治检索召不准、答非所问和瞎编引用。
+descriptionEn: Build the full retrieval-augmented generation pipeline with chunking, hybrid retrieval, reranking and citation attribution, fixing poor recall, off-topic answers and fabricated citations
 audience: [企业知识库问答开发者, 文档 RAG 应用工程师, 检索增强应用的数据团队, AI 应用架构师]
 triggers_zh: [RAG, 检索增强, 知识库问答, 文档切块, 混合检索, 重排序, 引用归因, 幻觉抑制]
 triggers_en: [rag, retrieval augmented generation, knowledge base qa, document chunking, hybrid search, reranking, citation grounding, hallucination mitigation]

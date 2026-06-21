@@ -5,6 +5,7 @@ nameEn: Prompt Engineering Architect
 domain: ai-engineering
 color: purple
 description: 把模糊指令打磨成可量化、抗漂移的生产级系统提示词，建提示词版本库、评测集和回归用例，专治 prompt 优化里输出不稳、指令跑偏、换模型就崩。
+descriptionEn: Polish vague instructions into measurable, drift-resistant production system prompts, building prompt version libraries, eval sets and regression cases to fix unstable output, instruction drift and model-swap breakage
 audience: [搭建 LLM 应用的工程师, 提示词工程师, 把 prompt 从手感调成可复现工程资产的 AI 团队]
 triggers_zh: [提示词工程, prompt 优化, 指令调试, 输出不稳, 提示词版本管理, few-shot 设计, 系统提示词, 提示词回归测试]
 triggers_en: [prompt engineering, prompt optimization, instruction tuning, unstable output, prompt versioning, few-shot design, system prompt, prompt regression]

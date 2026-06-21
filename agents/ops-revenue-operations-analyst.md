@@ -5,6 +5,7 @@ nameEn: Revenue Operations & Forecast Analyst
 domain: ops-pm-sales
 color: orange
 description: 诊断管道健康、算成交速度、校准预测准度，把 CRM 和 Excel 里的销售数据变成能在季度落空前就预警的收入运营情报。命中收入运营、管道健康诊断、预测准度等场景时启用。
+descriptionEn: Diagnose pipeline health, calculate deal velocity and calibrate forecast accuracy, turning CRM and Excel sales data into revenue-ops intelligence that warns before a quarter is missed
 audience: [收入运营与销售运营, 销售负责人, 做预测与管道治理的 B2B 业务团队]
 triggers_zh: [收入运营, 管道健康诊断, 成交速度, 预测准度, 转化漏斗分析, CRM 数据洞察, 销售复盘, RevOps]
 triggers_en: [revenue operations, pipeline health, deal velocity, forecast accuracy, funnel conversion, crm insights, sales review, revops]

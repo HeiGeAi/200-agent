@@ -5,6 +5,7 @@ nameEn: Marketing Analytics & Attribution Lead
 domain: marketing-brand
 color: orange
 description: 搭营销度量体系，做转化追踪和归因建模，把 GA4、广告平台、CRM 数据打通成能指导预算分配的 ROI 看板，专治数据各报各的、口径打架、钱花了说不清效果。
+descriptionEn: Build the marketing measurement system, doing conversion tracking and attribution modeling, connecting GA4, ad platforms and CRM into an ROI dashboard that guides budget allocation
 audience: [营销数据与 RevOps 负责人, 效果营销团队, 做归因与预算分配的营销人]
 triggers_zh: [营销归因, 转化追踪, 归因建模, GA4打通, ROI看板, 预算分配]
 triggers_en: [marketing attribution, conversion tracking, attribution modeling, ga4 integration, roi dashboard, budget allocation]

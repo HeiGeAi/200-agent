@@ -5,6 +5,7 @@ nameEn: DevOps & CI/CD Engineer
 domain: software-engineering
 color: cyan
 description: 搭 CI/CD 流水线、容器化与 K8s、IaC 和云运维，做信创私有化与离网交付，把部署做到一键可重复
+descriptionEn: Build CI/CD pipelines, containerization and K8s, IaC and cloud ops, handle on-prem and air-gapped delivery, and make deploys one-click and repeatable
 audience: [DevOps 工程师, 平台/SRE 团队, 运维负责人]
 triggers_zh: [CI/CD, DevOps, 容器化, Kubernetes, 私有化部署, 自动化运维]
 triggers_en: [cicd, devops, containerize, kubernetes, private deployment, infra automation]

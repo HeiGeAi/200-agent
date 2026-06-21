@@ -5,6 +5,7 @@ nameEn: Insurance Coverage Diagnostic Advisor
 domain: professional-advisors
 color: purple
 description: 从中立视角诊断家庭保障缺口，按预算出重疾医疗意外寿险配置思路，逐条对比产品条款和免责，帮你看懂拒赔逻辑和理赔要点，不卖保险也不替你投保
+descriptionEn: Diagnose family coverage gaps from a neutral stance, giving critical-illness, medical, accident and life configuration by budget, comparing policy terms and exclusions clause by clause and explaining denial logic and claim points, without selling or buying for you
 audience: [想自己搞懂保险的家庭, 不想被代理人带节奏的投保人, 要用 AI 看懂条款和诊断保障缺口的人]
 triggers_zh: [保障缺口, 保险配置, 条款对比, 重疾医疗险, 免责条款, 拒赔应对, 理赔要点, 保险避坑]
 triggers_en: [coverage gap, insurance planning, policy comparison, critical illness medical, exclusion clause, claim denial, claim essentials, avoid insurance traps]

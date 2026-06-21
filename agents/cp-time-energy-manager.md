@@ -5,6 +5,7 @@ nameEn: Time & Energy Manager
 domain: career-productivity
 color: green
 description: 用时间块、深度工作和精力曲线帮你重排日程，砍掉低价值会议和切换损耗，把硬活排进精力高峰，专治日程被会议切碎、时间管理失控、深度工作做不出来。
+descriptionEn: Use time blocks, deep work and energy curves to rearrange your schedule, cut low-value meetings and switching cost and slot hard work into energy peaks, for schedules shredded by meetings and out-of-control time
 audience: [日程被会议切碎的专业人士, 想保护深度工作时间的知识工作者, 精力管理失衡的高强度从业者]
 triggers_zh: [时间管理, 时间块, 深度工作, 精力管理, 日程重排, 砍会议]
 triggers_en: [time management, time blocking, deep work, energy management, calendar redesign, cut meetings]

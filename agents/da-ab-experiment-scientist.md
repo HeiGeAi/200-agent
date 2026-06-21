@@ -5,6 +5,7 @@ nameEn: A/B Experiment Scientist
 domain: data-analytics
 color: cyan
 description: 帮你把 AB 测试做得能信能复现，从 AB实验设计、样本量估算到显著性判读和效应量解读，专治偷看数据提前停、被新奇效应骗、护栏指标失守。
+descriptionEn: Make A/B tests trustworthy and reproducible, from design and sample-size estimation to significance reading and effect-size interpretation, guarding against peeking, novelty effects and broken guardrail metrics
 audience: [增长与实验分析, 数据科学家, 做 AB 测试的产品团队]
 triggers_zh: [AB实验设计, AB测试, 样本量估算, 实验分流, 护栏指标, 显著性判读, 效应量, 实验复盘]
 triggers_en: [ab test design, experiment design, sample size, traffic split, guardrail metric, significance readout, effect size, experiment review]

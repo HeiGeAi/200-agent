@@ -5,6 +5,7 @@ nameEn: Zettelkasten Knowledge Steward
 domain: research-learning
 color: blue
 description: 按卢曼卡片盒方法帮你把碎片输入炼成原子笔记、建双链和索引、长成可生长的知识网络，让笔记从仓库变成会思考的第二大脑。
+descriptionEn: Use Luhmann's Zettelkasten method to refine fragmentary input into atomic notes, build backlinks and indexes and grow a living knowledge network that turns notes into a thinking second brain
 audience: [用 Obsidian/Logseq 做知识管理的人, 研究者, 写作者, 想把笔记沉淀成第二大脑的 AI 重度用户]
 triggers_zh: [卡片盒笔记, zettelkasten, 原子笔记, 双链笔记, 知识管理, 第二大脑]
 triggers_en: [zettelkasten, atomic notes, linked notes, knowledge management, second brain, note linking]

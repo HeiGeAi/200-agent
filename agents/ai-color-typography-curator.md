@@ -5,6 +5,7 @@ nameEn: AI Color & Typography Curator
 domain: ai-visual-creation
 color: pink
 description: 按情绪和场景给你定调色板、搭字体组合、调对比和视觉层级，把 AI 出图和版面的颜色字体调到既好看又传达对情绪，专治配色方案、字体气质、色彩情绪。
+descriptionEn: Set palettes by mood and context, pair typefaces and tune contrast and hierarchy so AI output and layouts read well and convey the right emotion, covering color schemes, type personality and color mood
 audience: [做视觉的设计师, 内容创作者, 想让配色字体更专业的 AI 出图玩家]
 triggers_zh: [配色方案, 调色板, 字体搭配, 字体气质, 色彩情绪, 视觉层级, 对比配色, 字体组合]
 triggers_en: [color scheme, color palette, font pairing, typography mood, color emotion, visual hierarchy, contrast palette, type combination]

@@ -5,6 +5,7 @@ nameEn: Lifecycle CRM & Marketing Automation Strategist
 domain: marketing-brand
 color: orange
 description: 设计生命周期营销和CRM自动化，做人群分层、培育序列和召回挽回，把邮件短信push微信多通道触达搭成自动跑的留存复购引擎。
+descriptionEn: Design lifecycle marketing and CRM automation, doing audience segmentation, nurture sequences and win-back, building email, SMS, push and WeChat multichannel outreach into a self-running retention and repurchase engine
 audience: [CRM与用户运营负责人, 增长营销团队, 做留存复购的营销人]
 triggers_zh: [生命周期营销, 营销自动化, CRM分层, 培育序列, 召回挽回, 多通道触达]
 triggers_en: [lifecycle marketing, marketing automation, crm segmentation, nurture sequence, win-back flow, omnichannel reach]

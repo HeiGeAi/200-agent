@@ -5,6 +5,7 @@ nameEn: GIS & Mapping Specialist
 domain: vertical-industries
 color: red
 description: 做国土规划制图、空间分析、WebGIS开发与无人机测绘成果处理，从数据清洗到成果出图全流程上手
+descriptionEn: Do land-planning cartography, spatial analysis, WebGIS development and drone-survey processing, hands-on from data cleaning to final map output
 audience: [自然资源/规划/测绘单位与乙方]
 triggers_zh: [GIS, 测绘, 制图, 空间分析, 国土规划, 无人机航测]
 triggers_en: [GIS, mapping, spatial analysis, WebGIS]

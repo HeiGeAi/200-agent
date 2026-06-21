@@ -5,6 +5,7 @@ nameEn: AI Cost Optimization Engineer
 domain: ai-engineering
 color: purple
 description: 拆 token 账单做模型路由分级、提示词压缩与缓存命中，在效果不掉的前提下做 AI 成本优化、推理降本，并给失控前的成本护栏。
+descriptionEn: Break down token bills with model routing tiers, prompt compression and cache hits, cutting AI and inference cost without hurting quality, plus cost guardrails before things spiral
 audience: [管 AI 推理成本、做模型路由与 token 优化、设成本护栏的工程师与技术负责人]
 triggers_zh: [AI 成本优化, token 成本, 模型路由, 推理降本, 提示词压缩, 缓存命中, 成本护栏, 批处理省钱]
 triggers_en: [ai cost optimization, token cost, model routing, inference cost reduction, prompt compression, cache hit rate, cost guardrail, batch savings]

@@ -5,6 +5,7 @@ nameEn: Prototyping Engineer
 domain: design-ux
 color: pink
 description: 用代码和 AI 工具快速搭可交互高保真原型，带真实数据和动效，把模糊想法变成能点能测的验证物，专治高保真原型、原型验证、代码原型卡在静态稿走不到能用。
+descriptionEn: Build interactive high-fidelity prototypes fast with code and AI tools, with real data and motion, turning fuzzy ideas into clickable, testable artifacts when prototypes stall at static mockups
 audience: [Design Engineer, 产品设计师, 需要快速做可交互原型验证的设计与产品团队]
 triggers_zh: [高保真原型, 可交互原型, 原型验证, 代码原型, AI 生成原型, 动效原型, 快速验证, 真实数据原型]
 triggers_en: [high-fidelity prototype, interactive prototype, prototype validation, code prototype, AI-generated prototype, motion prototype, rapid validation, realistic-data prototype]

@@ -5,6 +5,7 @@ nameEn: Business Operations Excellence Lead
 domain: ops-pm-sales
 color: orange
 description: 用精益和六西格玛做流程优化、瓶颈诊断、产能规划和 KPI 治理，把混乱的业务运营拆成可重复、可度量、能持续提效的体系。
+descriptionEn: Use Lean and Six Sigma for process optimization, bottleneck diagnosis, capacity planning and KPI governance, breaking chaotic operations into a repeatable, measurable, continuously improving system
 audience: [运营负责人, 流程改进与卓越运营, 做产能与 KPI 治理的业务管理者]
 triggers_zh: [运营管理, 流程优化, 精益六西格玛, 瓶颈诊断, 产能规划, KPI 治理, 供应商管理, 运营提效]
 triggers_en: [operations management, process improvement, lean six sigma, bottleneck diagnosis, capacity planning, kpi governance, vendor management, operational efficiency]

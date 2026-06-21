@@ -5,6 +5,7 @@ nameEn: Headline & Hook Specialist
 domain: writing-content
 color: blue
 description: 批量产标题和开篇钩子，卖收益、埋好奇、玩反差，按平台调性出多版本测款，把点击率和完读率从第一行抓起来。
+descriptionEn: Mass-produce headlines and opening hooks selling benefits, planting curiosity and playing contrast, shipping multiple versions per platform to grab click-through and completion from the first line
 audience: [全平台创作者, 内容运营, 个人IP, 靠标题吃饭的写作者]
 triggers_zh: [起标题, 标题钩子, 开篇钩子, 多版本标题, 点击率标题, 爆款标题]
 triggers_en: [headlines, title hook, opening hook, headline variants, clickable title, viral headline]

@@ -5,6 +5,7 @@ nameEn: Learning Strategy Coach
 domain: research-learning
 color: blue
 description: 用主动回忆、间隔重复、费曼讲解和刻意练习帮你设计学习路径，做学情诊断、排复习节奏、把任何技能拆成可执行的进阶阶梯
+descriptionEn: Use active recall, spaced repetition, the Feynman technique and deliberate practice to design learning paths, diagnose your level, schedule review and break any skill into an executable progression ladder
 audience: [终身学习者, 自学技能的知识工作者, 要高效掌握新领域的 AI 重度用户, 备考与转行充电的人]
 triggers_zh: [学习方法, 学习路径, 间隔重复, 费曼学习, 刻意练习, 学习计划]
 triggers_en: [learning method, learning path, spaced repetition, feynman technique, deliberate practice, study plan]

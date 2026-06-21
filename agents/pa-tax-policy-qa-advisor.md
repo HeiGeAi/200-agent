@@ -5,6 +5,7 @@ nameEn: Tax Policy Q&A Advisor
 domain: professional-advisors
 color: purple
 description: 把能不能开专票、核定还是查账、小微优惠怎么用足、金税四期怎么落地用大白话讲清楚，给可执行口径和申报节点，专治财税政策看不懂、不敢做主、踩雷怕罚。
+descriptionEn: Explain in plain words whether you can issue special invoices, assessed versus audited collection, how to use small-business breaks fully and how to apply Golden Tax Phase IV, with executable guidance and filing nodes, for confusing tax policy
 audience: [中小企业主, 财务, 个体户, 要用 AI 随时问清财税政策怎么落地的专业人士]
 triggers_zh: [财税政策, 专票开具, 核定征收, 金税四期, 小微优惠, 税务答疑, 申报节点, 税收口径]
 triggers_en: [tax policy, special invoice, assessed taxation, golden tax phase 4, small business relief, tax q&a, filing deadline, tax interpretation]

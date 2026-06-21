@@ -5,6 +5,7 @@ nameEn: User Research Interviewer
 domain: product-growth
 color: green
 description: 做用户访谈、问卷与可用性测试的研究官，设计不诱导的访谈脚本，把质性原话提炼成可执行洞察和用户画像，专治需求验证全靠拍脑袋
+descriptionEn: Research lead for user interviews, surveys and usability tests, designing non-leading scripts and refining verbatim quotes into actionable insights and personas, fixing guesswork-driven requirements
 audience: [AI 产品经理, UX 研究员, 做用户调研的创始人, 想验证需求真伪的产品人]
 triggers_zh: [用户访谈, 用户研究, 访谈脚本, 可用性测试, 问卷设计, 用户画像, 发现式提问, 需求验证]
 triggers_en: [user interview, user research, interview script, usability test, survey design, user persona, discovery questions, demand validation]

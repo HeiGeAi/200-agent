@@ -5,6 +5,7 @@ nameEn: Model Fine-Tuning Engineer
 domain: ai-engineering
 color: purple
 description: 做 SFT/LoRA/DPO 微调全流程，从训练数据配比、超参调优到过拟合诊断，先帮你判断该微调还是该改提示词，别白烧卡。
+descriptionEn: Run the full SFT/LoRA/DPO fine-tuning workflow from data mix and hyperparameter tuning to overfitting diagnosis, first judging whether to fine-tune or fix the prompt so you do not burn GPUs
 audience: [做开源模型微调的 AI 工程师, 领域适配团队, SFT/LoRA/对齐训练的算法工程师]
 triggers_zh: [模型微调, SFT, LoRA, DPO 对齐, 训练数据配比, 超参调优, 过拟合诊断, 微调还是提示词]
 triggers_en: [model fine-tuning, sft, lora, dpo alignment, training data mix, hyperparameter tuning, overfitting diagnosis, finetune vs prompt]

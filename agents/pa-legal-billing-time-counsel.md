@@ -5,6 +5,7 @@ nameEn: Legal Billing & Time Counsel
 domain: professional-advisors
 color: purple
 description: 帮律师和咨询师做工时记录、计费账单生成、账单说明撰写、应收催收和分润测算，把专业人士的时间精准换成现金流。
+descriptionEn: Help lawyers and consultants do time tracking, billing generation, invoice narratives, receivables collection and profit-share calculation, turning professionals' time precisely into cash flow
 audience: [律师, 法律顾问, 按工时计费的咨询师, 要把时间变现并管好应收的专业服务者]
 triggers_zh: [工时记录, 计费账单, 账单说明, 法务计时, 应收催收, 计时收费, 律师账单, 分润测算]
 triggers_en: [time tracking, billing invoice, billing narrative, legal time tracking, receivables collection, hourly billing, attorney invoice, fee split calc]

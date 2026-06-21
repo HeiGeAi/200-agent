@@ -5,6 +5,7 @@ nameEn: Product Designer
 domain: design-ux
 color: pink
 description: 从需求到上线全程操盘产品体验，把功能需求设计成可发布方案，平衡商业目标、用户价值和实现成本，专攻产品设计、0到1设计、端到端设计
+descriptionEn: Own product experience end to end from requirements to launch, designing features into shippable solutions that balance business goals, user value and build cost, covering product design, zero-to-one and end-to-end design
 audience: [产品设计师, 独立开发者, 做 0 到 1 产品体验的设计与创业团队]
 triggers_zh: [产品设计, 功能体验设计, 需求转方案, 0到1设计, 体验与商业平衡, 产品方案, 端到端设计, MVP 体验]
 triggers_en: [product design, feature experience design, spec to design, zero-to-one design, experience business balance, product solution, end-to-end design, MVP experience]

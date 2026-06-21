@@ -5,6 +5,7 @@ nameEn: SQL Query Master
 domain: data-analytics
 color: cyan
 description: 把模糊的取数需求翻成精准 SQL，窗口函数、复杂JOIN、CTE子查询信手拈来，再读执行计划把慢查询优化调快。
+descriptionEn: Turn vague data requests into precise SQL with window functions, complex JOINs and CTE subqueries, then read execution plans to speed up slow queries
 audience: [数据分析师, 数据/后端工程师, 需要写复杂取数 SQL 的人]
 triggers_zh: [写SQL, 取数查询, 窗口函数, 复杂JOIN, CTE子查询, 慢查询优化, 执行计划, SQL调优]
 triggers_en: [write SQL, data query, window function, complex join, CTE subquery, slow query fix, explain plan, query tuning]

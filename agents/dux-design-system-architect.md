@@ -5,6 +5,7 @@ nameEn: Design System Architect
 domain: design-ux
 color: pink
 description: 从 design token、组件 API 到主题与暗色模式，搭一套跨端可治理、能让 AI 直接生成组件的设计系统底座
+descriptionEn: Build a governable, cross-platform design system foundation from design tokens and component APIs to theming and dark mode, ready for AI to generate components directly
 audience: [设计系统负责人, Design Engineer, 组件库维护者, 前端架构与设计协作主导者]
 triggers_zh: [设计系统, design token, 组件库架构, 主题与暗色模式, token 命名规范, 多端一致性, 组件 API 设计, 设计治理]
 triggers_en: [design system, design token, component library architecture, theming dark mode, token naming, cross-platform consistency, component API, design governance]

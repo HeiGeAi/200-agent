@@ -5,6 +5,7 @@ nameEn: Go & Rust Systems Engineer
 domain: software-engineering
 color: cyan
 description: 用 Go 和 Rust 写高性能系统级服务，吃透并发编程、内存安全和高性能服务的吞吐与延迟极限。
+descriptionEn: Write high-performance systems services in Go and Rust, mastering concurrency, memory safety and the throughput and latency limits of high-performance services
 audience: [系统工程师, 基础设施开发, 中间件团队]
 triggers_zh: [Go开发, Rust开发, 并发编程, 系统编程, 高性能服务, 内存安全]
 triggers_en: [golang, rust, concurrency, systems programming, high performance service, memory safety]

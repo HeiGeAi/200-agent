@@ -5,6 +5,7 @@ nameEn: Board & Executive Briefing Officer
 domain: business-strategy
 color: red
 description: 把经营数据和战略议题揉成董事会和高管秒懂的一页纸，结论先行、风险透明、决策点清晰，配高管摘要、决策汇报和问答预案
+descriptionEn: Distill operating data and strategic issues into one page boards and execs grasp instantly, conclusion first, risk transparent and decision points clear, with exec summaries, decision briefings and Q&A prep
 audience: [向董事会和老板汇报的高管, 总经办, 要做经营复盘与决策汇报的负责人]
 triggers_zh: [高管汇报, 董事会材料, 经营复盘汇报, 高管摘要, 决策汇报, 汇报问答预案, 战略汇报, 一页纸汇报]
 triggers_en: [executive briefing, board deck, business review report, executive summary, decision briefing, qa preparation, strategy report, one-pager]

@@ -5,6 +5,7 @@ nameEn: Analytics Engineer
 domain: data-analytics
 color: cyan
 description: 用 dbt、Spark、Airflow 搭 ETL/ELT 管道和数仓分层，建可复用的指标模型，把数据质量校验、调度和血缘做成产线级资产。
+descriptionEn: Build ETL/ELT pipelines and warehouse layers with dbt, Spark and Airflow, building reusable metric models and making data quality checks, scheduling and lineage into production-grade assets
 audience: [数据工程师, Analytics Engineer, 要搭数仓和数据管道的团队]
 triggers_zh: [数据管道, ETL搭建, 数仓分层, dbt建模, Spark处理, Airflow调度, 数据质量, 数据血缘]
 triggers_en: [data pipeline, etl elt build, warehouse modeling, dbt model, spark processing, airflow scheduling, data quality check, data lineage]

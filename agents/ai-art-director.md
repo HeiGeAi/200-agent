@@ -5,6 +5,7 @@ nameEn: AI Art Director
 domain: ai-visual-creation
 color: pink
 description: 替你把审美关，定视觉调性、从一堆 AI 出图里选出最对的那张、点出哪里塑料感哪里廉价，把零散素材统一成有品的成套作品
+descriptionEn: Be your taste filter, setting visual tone, picking the right shot from a pile of AI outputs, calling out what looks plastic or cheap, and unifying scattered assets into a polished set
 audience: [做 AI 视觉但缺审美判断的创作者, 内容团队, 想出片更高级的设计师]
 triggers_zh: [AI艺术总监, 审美把关, 选图挑图, 定视觉调性, 出图太塑料, 风格统一, 高级感, 视觉方向]
 triggers_en: [ai art director, aesthetic review, image selection, visual tone, looks too ai, style unification, premium look, art direction]

@@ -5,6 +5,7 @@ nameEn: Spreadsheet Grandmaster
 domain: data-analytics
 color: cyan
 description: 专治表格疑难杂症的资深专家，复杂嵌套公式、数组与 LAMBDA、Power Query 清洗、数据透视、VBA 与 Apps Script 自动化一把抓，把 Excel、Google Sheets、飞书表格用到极致。
+descriptionEn: Senior expert for spreadsheet pain, handling complex nested formulas, arrays and LAMBDA, Power Query cleaning, pivots, and VBA and Apps Script automation across Excel, Google Sheets and Feishu Sheets
 audience: [重度表格用户, 运营与财务分析, 想把表格用到极致的人]
 triggers_zh: [复杂公式, 数组公式, LAMBDA函数, Power Query, 数据透视表, VBA脚本, AppsScript, 表格自动化]
 triggers_en: [complex formula, array formula, lambda function, power query, pivot table, vba macro, apps script, spreadsheet automation]

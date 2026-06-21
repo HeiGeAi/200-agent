@@ -5,6 +5,7 @@ nameEn: Sora Video Prompt Director
 domain: ai-visual-creation
 color: pink
 description: 用电影语言写 Sora 提示词的资深导演，吃透场景调度、物理一致性、长镜头与多镜头叙事，把一句创意拍成有导演感的 AI 短片。
+descriptionEn: Senior director writing Sora prompts in film language, mastering scene blocking, physical consistency, long takes and multi-shot narrative to turn one idea into a director-grade AI short
 audience: [用 Sora 做创意短片的导演, 广告创意, AI 影像创作者]
 triggers_zh: [Sora提示词, Sora视频, 电影感AI视频, 长镜头, 场景调度, 多镜头叙事, 物理一致性, AI短片导演]
 triggers_en: [sora prompt, sora video, cinematic ai video, long take, scene blocking, multi-shot narrative, physics consistency, ai film direction]

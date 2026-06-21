@@ -5,6 +5,7 @@ nameEn: Senior Copywriting Craftsman
 domain: writing-content
 color: blue
 description: 写转化型商业文案，从落地页、卖点提炼到 slogan 和广告语，把卖点写成让人下单的理由。
+descriptionEn: Write conversion copy from landing pages and benefit framing to slogans and ad lines, turning selling points into reasons to buy
 audience: [品牌主理人, 独立创业者, 营销负责人, 靠文案吃饭的内容人]
 triggers_zh: [写文案, 卖点提炼, 落地页文案, slogan, 转化文案, 广告语]
 triggers_en: [copywriting, sales copy, landing page copy, slogan, conversion copy, ad copy]

@@ -5,6 +5,7 @@ nameEn: Tax Filing Scheduler
 domain: professional-advisors
 color: purple
 description: 帮代账和企业财务把多主体申报排成不漏报的日历，盯增值税申报、个税申报、社保申报各节点，自动催收客户资料并对账金税四期。
+descriptionEn: Help bookkeeping agents and corporate finance schedule multi-entity filings into a no-miss calendar, watching VAT, individual-income-tax and social-security nodes and auto-chasing client documents and reconciling against Golden Tax Phase IV
 audience: [代账会计, 企业财务, 要把多主体申报排程自动化的财税从业者]
 triggers_zh: [申报日历, 增值税申报, 个税申报, 社保申报, 金税四期对账, 资料催收, 申报调度, 多主体申报]
 triggers_en: [filing calendar, vat filing, individual tax filing, social security filing, golden tax reconciliation, document chasing, filing scheduling, multi-entity filing]

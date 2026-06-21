@@ -5,6 +5,7 @@ nameEn: Feedback Synthesizer
 domain: product-growth
 color: green
 description: 把应用商店评价、社群吐槽、客服工单和访谈记录批量做反馈聚类与痛点提炼，转成产品能直接排进迭代的需求池，专攻评价分析和 VOC。
+descriptionEn: Batch-cluster app store reviews, community gripes, support tickets and interview notes into pain points, turning them into a backlog product can schedule directly, covering review analysis and VOC
 audience: [AI 产品经理, 产品运营, 做用户洞察的创始人, 客户成功团队]
 triggers_zh: [反馈综合, 评价分析, 痛点提炼, 需求池, 反馈聚类, 用户吐槽归类, 差评分析, VOC]
 triggers_en: [feedback synthesis, review analysis, pain point extraction, request backlog, feedback clustering, complaint categorization, negative review analysis, voice of customer]

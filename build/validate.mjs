@@ -16,7 +16,7 @@ for (const a of agents) {
 }
 
 // 3. 必填字段 + 域合法 + 正文非空
-const REQUIRED = ['name', 'nameZh', 'nameEn', 'domain', 'description', 'triggers_zh', 'merged_from']
+const REQUIRED = ['name', 'nameZh', 'nameEn', 'domain', 'description', 'descriptionEn', 'triggers_zh', 'merged_from']
 for (const a of agents) {
   for (const k of REQUIRED) {
     const v = a[k]

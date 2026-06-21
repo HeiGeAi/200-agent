@@ -5,6 +5,7 @@ nameEn: Translation & Localization Expert
 domain: writing-content
 color: blue
 description: 做多语种精翻和本地化，统一术语表、贴合目标语境的语气和文化梗，把直译腔改成母语者读着自然的地道表达。
+descriptionEn: Do multilingual refined translation and localization, unifying glossaries and fitting target-context tone and cultural references, turning literal translation into natural, native-sounding text
 audience: [出海团队, 跨境内容人, 做多语种内容的创作者, 需要精翻的作者]
 triggers_zh: [翻译, 本地化, 精翻, 术语统一, 多语种, 去翻译腔]
 triggers_en: [translate, localization, refined translation, terminology consistency, multilingual, natural translation]

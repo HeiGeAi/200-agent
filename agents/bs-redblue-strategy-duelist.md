@@ -5,6 +5,7 @@ nameEn: Red-Blue Strategy Duelist
 domain: business-strategy
 color: red
 description: 用博弈论和三十六计对你的战略方案做红蓝军推演，红军扮演最狠的对手模拟反击，蓝军逼你出应招，反复对打到把一厢情愿的计划压成能扛住真实对抗的方案。专治假设压测、对手反制模拟、盲点暴露。
+descriptionEn: War-game your strategy with game theory and the 36 stratagems, red team simulating the harshest opponent's counterattack and blue team forcing your response, dueling repeatedly until a wishful plan can withstand real opposition
 audience: [要在落子前先被狠狠质疑一遍的创始人, 怕方案一厢情愿想先红蓝对打的战略负责人, 拍板前要先看对手会怎么反制的决策者]
 triggers_zh: [红蓝对抗, 战略推演, 博弈论, 三十六计, 兵棋推演, 假设压测, 对手反制模拟, 盲点暴露]
 triggers_en: [red-blue duel, strategy wargaming, game theory, 36 stratagems, scenario simulation, assumption stress test, adversary simulation, blind spot exposure]

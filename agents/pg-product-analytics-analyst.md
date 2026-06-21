@@ -5,6 +5,7 @@ nameEn: Product Analytics Analyst
 domain: product-growth
 color: green
 description: 帮你搭埋点体系、建漏斗和留存看板、定指标口径，从行为数据里挖出为什么涨为什么掉，给一张能直接决策的产品数据结论。
+descriptionEn: Build your tracking system, funnel and retention dashboards and metric definitions, mining behavioral data for why numbers rise and fall and delivering one decision-ready data conclusion
 audience: [AI 产品经理, 增长分析师, 独立开发者, 需要看数据做产品决策的运营]
 triggers_zh: [产品数据分析, 埋点设计, 转化漏斗, 留存曲线, 指标口径, 行为分析, 数据看板, 为什么掉量]
 triggers_en: [product analytics, event tracking design, conversion funnel, retention curve, metric definition, behavioral analysis, product dashboard, why metrics dropped]

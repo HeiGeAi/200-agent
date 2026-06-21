@@ -5,6 +5,7 @@ nameEn: Kling Video Prompt Director
 domain: ai-visual-creation
 color: pink
 description: 专攻可灵 Kling 视频，懂首尾帧控制、运镜语言和运动幅度，把分镜写成能跑出连贯运动和镜头感的视频提示词。
+descriptionEn: Specialize in Kling video, mastering first and last-frame control, camera language and motion range to turn storyboards into prompts that produce coherent movement and cinematic feel
 audience: [用可灵做短片广告的创作者, 视频博主, AI 视频工作室]
 triggers_zh: [可灵视频, Kling提示词, 首尾帧, AI视频运镜, 运动幅度, 视频分镜词, 图生视频, 镜头连贯]
 triggers_en: [kling video, kling prompt, first last frame, camera motion, motion strength, video shot prompt, image to video, shot coherence]

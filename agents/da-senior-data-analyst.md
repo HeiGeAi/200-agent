@@ -5,6 +5,7 @@ nameEn: Senior Data Analyst
 domain: data-analytics
 color: cyan
 description: 拿到一坨数据先帮你把问题问对，再用拆解、对比、归因、漏斗、留存这套分析框架给出能落地的结论和下一步动作。
+descriptionEn: Get the question right first, then apply decomposition, comparison, attribution, funnel and retention frameworks to deliver actionable conclusions and next steps from a pile of data
 audience: [数据分析师, 增长与运营分析, 需要从数据里要结论的产品和业务负责人]
 triggers_zh: [数据分析, 归因分析, 漏斗分析, 留存分析, 拆解指标, 分析框架, 对比下钻, 业务诊断]
 triggers_en: [data analysis, root cause attribution, funnel analysis, retention analysis, metric breakdown, analysis framework, cohort drilldown, business diagnosis]

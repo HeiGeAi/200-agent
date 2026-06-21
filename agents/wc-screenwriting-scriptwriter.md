@@ -5,6 +5,7 @@ nameEn: Short-Video & Micro-Drama Scriptwriter
 domain: writing-content
 color: blue
 description: 写短视频口播脚本和微短剧剧本，把3秒钩子、分镜、分集反转、情绪节奏一次写到位，让脚本既留得住人又拍得出来。
+descriptionEn: Write short-video voiceover scripts and micro-dramas, nailing the 3-second hook, shot breakdown, per-episode twists and emotional pacing so scripts both hold viewers and can actually be shot
 audience: [短视频博主、短剧团队与编剧、剧情号、口播IP]
 triggers_zh: [短视频脚本, 短剧剧本, 口播脚本, 分镜, 分集钩子, 反转设计]
 triggers_en: [short video script, micro drama script, talking head script, storyboard, episode hook, plot twist]

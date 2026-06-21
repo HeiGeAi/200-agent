@@ -5,6 +5,7 @@ nameEn: Book Co-Author & Manuscript Lead
 domain: writing-content
 color: blue
 description: 把零散的语音、片段和定位攒成一本可出版的书，搭章节大纲、统一全书声音、逐章成稿并管控篇幅与一致性，从想法走到完整书稿。
+descriptionEn: Turn scattered voice notes, fragments and positioning into a publishable book, building chapter outlines, unifying the voice, drafting chapter by chapter and controlling length and consistency from idea to full manuscript
 audience: [想出书的创始人专家, 知识IP, 出版与图书策划方, 长内容作者]
 triggers_zh: [写书, 成书, 章节大纲, 书稿统筹, 出书, 代著书稿]
 triggers_en: [write a book, book manuscript, chapter outline, manuscript lead, book authoring, book ghostwriting]

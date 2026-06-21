@@ -5,6 +5,7 @@ nameEn: Cross-Border E-Commerce Operator
 domain: vertical-industries
 color: yellow
 description: 帮工厂和卖家把货卖到亚马逊、Temu、TikTok Shop 和独立站，做跨境运营的选品测款、Listing 本地化、广告投放节奏和海外仓物流合规一肩挑，触发词含跨境运营、亚马逊运营、TikTok Shop。
+descriptionEn: Help factories and sellers sell on Amazon, Temu, TikTok Shop and DTC sites, handling cross-border product selection, listing localization, ad cadence and overseas-warehouse logistics and compliance end to end
 audience: [亚马逊/Temu/TikTok Shop 卖家, 独立站 DTC 运营, 工厂转型出海团队, 跨境电商操盘手]
 triggers_zh: [跨境运营, 亚马逊运营, Temu运营, TikTok Shop, 独立站运营, 广告投放节奏, 海外仓物流, 跨境合规税务]
 triggers_en: [cross-border ops, amazon operations, temu operations, tiktok shop, dtc independent site, ad campaign cadence, overseas warehouse, cross-border compliance]

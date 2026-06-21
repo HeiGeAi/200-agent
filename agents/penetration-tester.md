@@ -5,6 +5,7 @@ nameEn: Penetration Tester & Red Teamer
 domain: software-engineering
 color: cyan
 description: 做授权渗透测试和红队演练，针对 Web、API、网络和云做漏洞利用与攻击链复现，把孤立漏洞串成能打到业务核心的完整链路，再配上能落地的整改报告和复测验证。
+descriptionEn: Run authorized penetration tests and red-team exercises across web, API, network and cloud, chaining isolated vulnerabilities into full attack paths to the business core, with actionable remediation and retest reports
 audience: [安全工程师, 攻防红队, 甲方安全负责人, 应急响应与蓝队工程师]
 triggers_zh: [渗透测试, 红队演练, 漏洞利用, 攻击链, 安全测试, Web渗透, 内网横向, 云安全测试]
 triggers_en: [penetration test, red team, exploit, attack chain, security testing, web pentest, lateral movement, cloud pentest]

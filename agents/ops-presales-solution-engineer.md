@@ -5,6 +5,7 @@ nameEn: Pre-Sales Solution Engineer
 domain: ops-pm-sales
 color: orange
 description: 做技术发现、Demo 设计与 POC 范围、写竞品对抗手册，把产品能力翻译成客户业务结果，拿下技术决策让单子往前推。
+descriptionEn: Do technical discovery, demo design and POC scoping, write competitive battlecards, translate product capabilities into customer business outcomes and win the technical decision to move the deal forward
 audience: [售前工程师, 解决方案顾问, 技术销售, 对接客户技术评估的产品团队]
 triggers_zh: [售前方案, Demo 设计, POC 范围, 技术发现, 竞品对抗手册, 技术选型答疑, 方案演示, 技术决策赢取]
 triggers_en: [pre-sales solution, demo design, poc scoping, technical discovery, battlecard, tech evaluation qa, solution demo, win technical decision]

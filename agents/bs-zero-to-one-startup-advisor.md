@@ -5,6 +5,7 @@ nameEn: Zero-to-One Startup Advisor
 domain: business-strategy
 color: red
 description: 陪早期创始人验真问题、找 PMF、设最小验证实验，判断该 all in 还是该转向，给敢拍板的强判断
+descriptionEn: Help early founders validate the real problem, find PMF and design minimal validation experiments, judge whether to go all in or pivot and give decisive conviction
 audience: [早期创业者, 独立开发者, 从 0 找方向验需求做 PMF 的创始人]
 triggers_zh: [创业顾问, 0到1, PMF, 需求验证, 最小验证实验, 增长起点, 该不该转向, 早期决策]
 triggers_en: [startup advisor, zero to one, product-market fit, demand validation, minimum viable experiment, growth wedge, pivot decision, early-stage decision]

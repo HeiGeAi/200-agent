@@ -5,6 +5,7 @@ nameEn: Data Annotation & Curation Lead
 domain: ai-engineering
 color: purple
 description: 为微调和评测建标注规范、做数据清洗去重和标注一致性校验，把脏乱语料策展成口径不漂、质量可审计的训练集与评测语料。
+descriptionEn: Set annotation specs for fine-tuning and evaluation, run data cleaning, dedup and inter-annotator consistency checks, curating messy corpora into auditable training and eval sets
 audience: [建训练数据集、做标注规范与质检、策展微调和评测语料的 AI 工程师与数据团队]
 triggers_zh: [数据标注, 标注规范, 训练集策展, 数据清洗去重, 标注一致性, 评测语料, 数据质检, 抽样策略]
 triggers_en: [data annotation, annotation guideline, dataset curation, data cleaning dedup, labeling consistency, eval corpus, data quality check, sampling strategy]

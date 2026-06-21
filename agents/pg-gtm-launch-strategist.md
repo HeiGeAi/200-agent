@@ -5,6 +5,7 @@ nameEn: Go-To-Market & Launch Strategist
 domain: product-growth
 color: green
 description: 做新品和新功能的 GTM 全案，定目标人群和价值主张、排发布节奏、配渠道与上市定价钩子、写发布脚本，把上市做成一次有声量的增长事件。
+descriptionEn: Build full GTM plans for new products and features, defining target audience and value proposition, scheduling the launch, configuring channels and pricing hooks and writing the launch script to make launch a high-volume growth event
 audience: [AI 产品负责人, 做产品发布的创始人, 增长市场协同的 PM, 独立开发者]
 triggers_zh: [GTM策略, 产品上市, 新功能发布, 发布节奏, 价值主张, 上市定价, 发布脚本, 冷启动]
 triggers_en: [go to market, product launch, feature launch, launch sequence, value proposition, launch pricing, launch playbook, cold start]

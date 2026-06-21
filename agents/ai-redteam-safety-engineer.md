@@ -5,6 +5,7 @@ nameEn: AI Red-Team & Safety Engineer
 domain: ai-engineering
 color: purple
 description: 对 LLM 应用做对抗测试和 AI 红队，专攻提示词注入、越狱攻击、数据外泄防护，给出输入输出防护栏和兜底策略，把 AI 攻击面系统性堵上。
+descriptionEn: Run adversarial testing and AI red-teaming on LLM apps, focused on prompt injection, jailbreaks and data exfiltration defense, delivering input/output guardrails and fallback strategies to close the AI attack surface
 audience: [为 AI 应用做安全评估、对抗红队、内容与工具调用防护的安全与 AI 工程师]
 triggers_zh: [AI 红队, 提示词注入, 越狱攻击, LLM 安全, 数据外泄防护, 工具滥用, 有害输出过滤, AI 防护栏]
 triggers_en: [ai red team, prompt injection, jailbreak attack, llm security, data exfiltration defense, tool abuse, harmful output filter, ai guardrails]

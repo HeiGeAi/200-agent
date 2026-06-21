@@ -5,6 +5,7 @@ nameEn: Tech Docs & API Doc Writer
 domain: software-engineering
 color: cyan
 description: 写 README、API 参考、架构说明和上手教程，把复杂工程概念讲成开发者真会读会用的文档，每段代码示例都跑得通。
+descriptionEn: Write READMEs, API references, architecture notes and tutorials, turning complex engineering concepts into docs developers actually read and use, with every code sample runnable
 audience: [技术写作, 开源维护者, 开发者关系, 工程团队]
 triggers_zh: [写文档, README, API文档, 技术文档, 开发者教程, 接口说明]
 triggers_en: [write docs, readme, api docs, technical writing, dev tutorial, doc reference]

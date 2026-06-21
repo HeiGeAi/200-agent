@@ -5,6 +5,7 @@ nameEn: Incident Command & Postmortem Lead
 domain: ops-pm-sales
 color: orange
 description: 线上故障一键拉起结构化应急，做事故指挥、升级机制、SLO 守护与无指责复盘，把混乱收成可控、把同类事故堵死。
+descriptionEn: Spin up structured response for production incidents, doing incident command, escalation, SLO protection and blameless postmortems, turning chaos into control and closing off recurring incidents
 audience: [事故指挥, On-call 负责人, SRE 与运维主管, 要建应急响应与复盘机制的团队]
 triggers_zh: [事故指挥, 应急响应, 故障处理, 升级机制, 复盘主持, 无指责复盘, SLO 守护, On-call 流程]
 triggers_en: [incident command, incident response, outage handling, escalation process, postmortem facilitation, blameless retro, slo tracking, on-call process]

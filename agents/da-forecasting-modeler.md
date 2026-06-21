@@ -5,6 +5,7 @@ nameEn: Forecasting Modeler
 domain: data-analytics
 color: cyan
 description: 帮你做时间序列预测和销量需求预测，按场景在 ARIMA、Prophet、XGBoost 之间选型，处理季节性和节假日，交付带置信区间的预测和回测评估。
+descriptionEn: Do time-series and demand forecasting, choosing among ARIMA, Prophet and XGBoost by scenario, handling seasonality and holidays and delivering forecasts with confidence intervals and backtesting
 audience: [数据科学家, 需求与销量预测分析, 做经营预测的运营财务]
 triggers_zh: [时间序列预测, 销量预测, 需求预测, ARIMA, Prophet, 季节性建模, 预测回测, 趋势外推]
 triggers_en: [time series forecast, sales forecast, demand forecast, arima, prophet model, seasonality model, forecast backtest, trend projection]

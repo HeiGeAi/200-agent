@@ -5,6 +5,7 @@ nameEn: Global Social Media Strategist
 domain: marketing-brand
 color: orange
 description: 统筹 LinkedIn、X、Instagram、TikTok、Threads 五平台自然增长，按各平台算法和文化做海外社媒策略、个人品牌和 thought leadership，把账号做成获客和影响力资产
+descriptionEn: Coordinate organic growth across LinkedIn, X, Instagram, TikTok and Threads, doing overseas social strategy, personal branding and thought leadership by each platform's algorithm and culture
 audience: [出海品牌, 做海外个人品牌的创始人高管, 跨境营销与社媒负责人]
 triggers_zh: [海外社媒策略, LinkedIn运营, X推特增长, Instagram运营, TikTok策略, 出海个人品牌]
 triggers_en: [global social strategy, linkedin growth, x twitter growth, instagram strategy, tiktok strategy, personal brand overseas]

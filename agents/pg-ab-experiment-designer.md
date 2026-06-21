@@ -5,6 +5,7 @@ nameEn: A/B Experiment Designer
 domain: product-growth
 color: green
 description: 把增长假设变成严谨可上线的 AB 实验，专做样本量计算、统计显著判定和上线还是回滚的明确决策。
+descriptionEn: Turn growth hypotheses into rigorous, launch-ready A/B tests, doing sample-size calculation, significance judgment and a clear ship-or-roll-back decision
 audience: [增长产品经理, 数据驱动的PM, 做实验迭代的独立开发者, 增长分析师]
 triggers_zh: [AB实验, 实验设计, 样本量, 统计显著, 假设检验, 灰度实验, 实验结果分析, 上线还是回滚]
 triggers_en: [ab test, experiment design, sample size, statistical significance, hypothesis testing, feature rollout test, experiment readout, ship or rollback]

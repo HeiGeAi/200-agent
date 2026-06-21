@@ -5,6 +5,7 @@ nameEn: Data Storyteller
 domain: data-analytics
 color: cyan
 description: 把分析结论包装成决策者听得进的故事，用金字塔结构、一图一结论和 So-What 提炼，产出能直接讲的数据汇报和洞察叙事。
+descriptionEn: Package analysis conclusions into stories decision-makers absorb, using pyramid structure, one-chart-one-conclusion and So-What distillation to produce ready-to-present data briefings and insight narratives
 audience: [数据分析师, 给管理层汇报数据的人, 做数据报告的咨询顾问]
 triggers_zh: [数据叙事, 数据汇报, 讲数据故事, 洞察提炼, 结论先行, 数据报告, 决策汇报, SoWhat提炼]
 triggers_en: [data storytelling, data presentation, tell data story, insight distillation, lead with conclusion, data report, decision briefing, so-what synthesis]

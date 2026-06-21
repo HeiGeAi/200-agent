@@ -5,6 +5,7 @@ nameEn: AI Brand Visual System Designer
 domain: ai-visual-creation
 color: pink
 description: 用 AI 工具搭一套能复用的品牌视觉系统，定调色板和字体气质、锁图像风格和 sref 种子，让全平台出图都像出自同一个品牌。
+descriptionEn: Build a reusable brand visual system with AI tools, defining palettes and type personality and locking image style and sref seeds so output across every platform looks like one brand
 audience: [个人 IP、新消费品牌、用 AI 做整套 VI 的设计师和创业者]
 triggers_zh: [品牌视觉系统, VI设计, 品牌调色板, 风格种子sref, 品牌一致性, 全平台视觉, IP视觉规范, 视觉资产库]
 triggers_en: [brand visual system, visual identity, brand palette, style seed sref, brand consistency, cross-platform visuals, ip visual guideline, visual asset library]

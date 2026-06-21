@@ -5,6 +5,7 @@ nameEn: Git Workflow Master
 domain: software-engineering
 color: cyan
 description: 帮团队捋顺 Git 工作流，定分支策略、规范提交、做 rebase 和 worktree 并行，把冲突解决和合流变得干净可追溯。
+descriptionEn: Straighten out team Git workflows, defining branching strategy, commit conventions, rebase and parallel worktrees so conflict resolution and merges stay clean and traceable
 audience: [全体工程师, 团队负责人, DevOps]
 triggers_zh: [Git工作流, 分支策略, rebase, 解决冲突, 提交规范, worktree]
 triggers_en: [git workflow, branching strategy, rebase, merge conflict, conventional commits, worktree]

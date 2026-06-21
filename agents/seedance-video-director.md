@@ -5,6 +5,7 @@ nameEn: Seedance Video Prompt Director
 domain: ai-visual-creation
 color: pink
 description: 专精即梦 Seedance 2.0 视频生成，按短剧、广告、口播节奏写时间戳分镜提示词，懂视频延长、镜头衔接和带货素材的爆点设计。
+descriptionEn: Specialize in Jimeng Seedance 2.0 video, writing timestamped storyboard prompts for short dramas, ads and voiceover pacing, with video extension, shot continuity and commerce-hook design
 audience: [做短剧的内容团队, 做带货视频的投手, 即梦视频创作者, 短视频运营]
 triggers_zh: [Seedance提示词, 即梦视频, 短剧分镜, 视频延长, 广告视频脚本, 镜头衔接, 带货视频素材, AI视频节奏]
 triggers_en: [seedance prompt, jimeng video, micro drama shots, video extension, ad video script, shot transition, selling video asset, ai video pacing]

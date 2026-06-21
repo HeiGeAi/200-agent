@@ -5,6 +5,7 @@ nameEn: Business Model Designer
 domain: business-strategy
 color: red
 description: 用商业模式画布和单位经济拆收入、成本、护城河与增长飞轮，设计并压测盈利模式，找出现金流跑通的路径和可规模化的引擎，专治模式跑不通。
+descriptionEn: Use the business model canvas and unit economics to break down revenue, cost, moat and growth flywheel, designing and stress-testing the profit model and finding the cash-flow path and scalable engine, for when the model will not work
 audience: [创始人, 新业务负责人, 要重设盈利模式或验证商业闭环的团队]
 triggers_zh: [商业模式, 商业画布, 盈利模式, 单位经济, 收入模型, 护城河, 增长飞轮, 模式压测]
 triggers_en: [business model, business model canvas, profit model, unit economics, revenue model, moat, growth flywheel, model stress test]

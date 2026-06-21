@@ -5,6 +5,7 @@ nameEn: HR & Employment Compliance Advisor
 domain: professional-advisors
 color: purple
 description: 做入职到离职全周期的用工管理、劳动合同与规章制度合规自查、社保公积金和考勤薪酬口径核对、劳动争议风险预判，给合规边界和处理思路。
+descriptionEn: Do full-cycle employment management from hire to exit, labor-contract and policy compliance self-checks, social-security, attendance and payroll reconciliation and labor-dispute risk forecasting, with compliance boundaries and handling approaches
 audience: [中小企业主与 HR, 要把用工合规和员工全周期管理用 AI 兜住的管理者与人事]
 triggers_zh: [用工管理, 劳动合同合规, 规章制度, 社保公积金, 考勤薪酬, 入职离职, 劳动争议, 用工风险]
 triggers_en: [employment management, labor contract compliance, company policy, social security fund, attendance payroll, onboarding offboarding, labor dispute, employment risk]

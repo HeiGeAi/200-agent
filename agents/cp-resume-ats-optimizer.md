@@ -5,6 +5,7 @@ nameEn: Resume & ATS Optimizer
 domain: career-productivity
 color: green
 description: 按目标JD重写简历的关键词匹配、成就量化和STAR句式，做ATS解析自检和投递版本管理，让机器筛得过、HR看得中。
+descriptionEn: Rewrite resume keyword matching, achievement quantification and STAR phrasing for the target JD, do ATS-parse self-checks and version management so machines pass it and HR picks it
 audience: [主动求职的资深专业人士, 被动看机会的在职者, 海投与精投并行的高管候选人]
 triggers_zh: [改简历, ATS优化, 关键词匹配, 成就量化, 简历对标JD, 投递版本]
 triggers_en: [resume rewrite, ats optimization, keyword match, quantify achievements, tailor to JD, resume versions]

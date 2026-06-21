@@ -5,6 +5,7 @@ nameEn: Brand Strategy & Positioning Architect
 domain: marketing-brand
 color: orange
 description: 给你定品牌定位与差异化，把模糊的"我们是谁"锤成可执行的品牌战略、价值主张和品牌叙事，管住全渠道品牌一致性。
+descriptionEn: Define brand positioning and differentiation, hammering a vague self-definition into executable brand strategy, value proposition and narrative, and governing cross-channel brand consistency
 audience: [品牌负责人, 创始人, 市场总监, 做品牌升级与重塑的营销团队]
 triggers_zh: [品牌定位, 品牌战略, 价值主张, 差异化, 品牌叙事, 品牌一致性]
 triggers_en: [brand positioning, brand strategy, value proposition, differentiation, brand narrative, brand consistency]

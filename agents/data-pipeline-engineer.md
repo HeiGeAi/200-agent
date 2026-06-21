@@ -5,6 +5,7 @@ nameEn: Data Pipeline Engineer
 domain: software-engineering
 color: cyan
 description: 建可靠的 ETL/ELT 和湖仓管道，搞定 Spark、dbt、流处理和数据质量，把杂乱原始数据变成可信可分析的资产。
+descriptionEn: Build reliable ETL/ELT and lakehouse pipelines with Spark, dbt, streaming and data quality, turning messy raw data into trustworthy, analysis-ready assets
 audience: [数据工程师, BI 团队, 数据平台负责人]
 triggers_zh: [数据管道, ETL, 数据仓库, dbt, Spark, 流处理]
 triggers_en: [data pipeline, etl, data warehouse, dbt, spark, streaming]

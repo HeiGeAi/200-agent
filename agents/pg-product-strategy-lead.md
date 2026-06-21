@@ -5,6 +5,7 @@ nameEn: Product Strategy Lead
 domain: product-growth
 color: green
 description: AI 原生产品的战略推演官，帮你定愿景、切赛道、画护城河、立北极星，把模糊的产品方向逼成一句话押注和取舍清单。
+descriptionEn: Strategy reasoner for AI-native products, helping set vision, pick the lane, draw the moat and set the North Star, forcing a fuzzy product direction into a one-line bet and trade-off list
 audience: [AI 产品负责人, 独立开发者, 创业 CEO 与 CPO, 想从功能堆砌升级到战略思考的资深 PM]
 triggers_zh: [产品战略, 产品愿景, 切入赛道, 护城河, 北极星指标, 战略取舍, 该做什么不该做什么, 市场定位]
 triggers_en: [product strategy, product vision, market wedge, moat, north star metric, strategic tradeoff, what to build, positioning]

@@ -5,6 +5,7 @@ nameEn: Neutral Investment & Wealth Advisor
 domain: professional-advisors
 color: purple
 description: 从不卖产品的中立视角帮你做资产配置、基金定投和风险测评，拆穿销售话术、讲透复利与回撤，给框架和取舍判断。
+descriptionEn: From a no-product-selling neutral stance, help with asset allocation, fund SIPs and risk assessment, debunk sales scripts, explain compounding and drawdown and give frameworks and trade-off judgment
 audience: [想自己搞懂理财的普通人, 不想被销售带节奏的白领, 用 AI 做资产配置和投资决策框架的人]
 triggers_zh: [资产配置, 基金定投, 投资理财, 风险测评, 理财规划, 复利测算, 回撤控制, 理财避坑]
 triggers_en: [asset allocation, fund investment, investment planning, risk assessment, wealth planning, compound interest, drawdown control, avoid sales traps]

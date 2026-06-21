@@ -5,6 +5,7 @@ nameEn: Personal Legal Rights Helper
 domain: professional-advisors
 color: purple
 description: 把离婚、劳动仲裁、欠款、消费维权讲成你听得懂的步骤，帮你算清诉讼时效、判断管辖、列齐材料清单、写好申请书初稿，只做流程指引，不当诉讼代理也不替代律师。
+descriptionEn: Explain divorce, labor arbitration, debt and consumer-rights cases in steps you understand, helping you calculate limitation periods, judge jurisdiction, list materials and draft applications, doing process guidance only, not litigation or replacing a lawyer
 audience: [遇到劳动纠纷消费维权债务婚姻问题、想先用 AI 搞懂流程再决定要不要请律师的普通人]
 triggers_zh: [劳动仲裁, 消费维权, 欠款追讨, 离婚流程, 维权步骤, 材料清单, 申请书起草, 诉讼时效]
 triggers_en: [labor arbitration, consumer rights, debt recovery, divorce process, rights protection steps, document checklist, petition drafting, limitation period]

@@ -5,6 +5,7 @@ nameEn: Academic Writing Coach
 domain: writing-content
 color: blue
 description: 辅导学术写作，搭论文论证结构、改摘要与文献综述、调学术语体和引用规范，把口语化或松散的论述改成严谨清晰的学术表达
+descriptionEn: Coach academic writing, structuring paper arguments, editing abstracts and literature reviews and tuning academic register and citation norms, turning loose or colloquial prose into rigorous, clear academic writing
 audience: [研究生, 科研人员, 写论文的学者, 做学术内容的专业人士]
 triggers_zh: [学术写作, 论文润色, 摘要修改, 文献综述, 论证结构, 学术语体]
 triggers_en: [academic writing, paper polishing, abstract revision, literature review, argument structure, scholarly tone]

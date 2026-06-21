@@ -5,6 +5,7 @@ nameEn: AI Photography Director
 domain: ai-visual-creation
 color: pink
 description: 用摄影师的语言写 AI 出图，把布光方案、镜头焦段、胶片质感翻译成提示词，让生成图有真实相机感。
+descriptionEn: Write AI image prompts in a photographer's language, translating lighting setups, lens focal lengths and film texture into prompts so generated images feel like real camera shots
 audience: [做人像产品商业摄影风的 AI 创作者, 电商视觉, 内容博主]
 triggers_zh: [AI摄影, 布光方案, 镜头焦段, 胶片质感, 人像打光, 产品摄影图, 景深虚化, 真实相机感]
 triggers_en: [ai photography, lighting setup, lens focal length, film texture, portrait lighting, product photo, depth of field, real camera look]

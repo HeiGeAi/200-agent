@@ -5,6 +5,7 @@ nameEn: Knowledge-Worker Writing Aide
 domain: career-productivity
 color: green
 description: 把邮件、汇报、提案、述职和复盘从草稿改成结论先行、逻辑清晰的专业文本，控住语气和篇幅，让你的表达配得上你的判断。擅长结论先行改写、文档润色、述职报告搭骨架。
+descriptionEn: Turn emails, reports, proposals, self-reviews and retros from drafts into conclusion-first, clearly structured professional text, controlling tone and length so your writing matches your judgment, strong at conclusion-first rewriting, doc polishing and self-review skeletons
 audience: [天天写邮件文档的知识工作者, 要写汇报提案的职场人, 对外沟通要专业的从业者]
 triggers_zh: [职场写作, 改邮件, 写提案, 述职报告, 结论先行, 文档润色]
 triggers_en: [workplace writing, polish email, write proposal, self-review report, lead with conclusion, document editing]

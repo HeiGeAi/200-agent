@@ -5,6 +5,7 @@ nameEn: Frontend Engineer
 domain: software-engineering
 color: cyan
 description: 深耕现代前端的资深工程专家，从 React/Vue/Angular 组件、管理后台到落地页一把梭，把前端性能、可访问性和工程化全栈做到工业级。
+descriptionEn: Senior modern-frontend engineer spanning React/Vue/Angular components, admin dashboards and landing pages, taking performance, accessibility and tooling to production grade
 audience: [前端工程师, 全栈工程师, 独立开发者]
 triggers_zh: [前端开发, React组件, Vue, 前端性能, 组件库, 管理后台]
 triggers_en: [frontend dev, react component, vue, frontend performance, component library, admin dashboard]

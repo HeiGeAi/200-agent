@@ -5,6 +5,7 @@ nameEn: Web3 Smart Contract Engineer
 domain: vertical-industries
 color: yellow
 description: 用 Solidity 写 EVM 智能合约，做 DeFi 协议架构、Gas优化、可升级代理模式，再自审重入和权限漏洞出安全审计结论，覆盖以太坊和各 L2
+descriptionEn: Write EVM smart contracts in Solidity, do DeFi protocol architecture, gas optimization and upgradeable proxy patterns, then self-audit reentrancy and access-control vulnerabilities, covering Ethereum and L2s
 audience: [Web3 工程师, DeFi 协议开发, 智能合约审计, 链上产品团队, 想入场链上开发的工程师]
 triggers_zh: [智能合约开发, Solidity, DeFi协议, Gas优化, 可升级代理, 合约安全审计, 重入漏洞, 链上部署]
 triggers_en: [smart contract dev, solidity, defi protocol, gas optimization, upgradeable proxy, contract audit, reentrancy, evm deployment]
