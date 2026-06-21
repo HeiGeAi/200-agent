@@ -88,7 +88,7 @@ for (const [id, name] of DOMAINS) {
 }
 writeFileSync(join(ROOT, 'ROUTER.md'), router)
 
-// ---- README 全量 agent 列表(写入标记之间,分域可折叠)----
+// ---- README.md 中文全量列表(写入标记之间,分域可折叠)----
 const readmePath = join(ROOT, 'README.md')
 if (existsSync(readmePath)) {
   let readme = readFileSync(readmePath, 'utf8')
@@ -101,9 +101,15 @@ if (existsSync(readmePath)) {
       block += `\n\n</details>\n\n`
     }
     readme = readme.replace(/<!-- AGENT-LIST:START -->[\s\S]*?<!-- AGENT-LIST:END -->/, `<!-- AGENT-LIST:START -->\n\n${block}<!-- AGENT-LIST:END -->`)
+    writeFileSync(readmePath, readme)
   }
-  // 英文版列表(写入 AGENT-LIST-EN 标记之间,供 README 英文折叠块使用)
-  if (readme.includes('<!-- AGENT-LIST-EN:START -->')) {
+}
+
+// ---- README.en.md 英文全量列表(写入标记之间,分域可折叠)----
+const readmeEnPath = join(ROOT, 'README.en.md')
+if (existsSync(readmeEnPath)) {
+  let readmeEn = readFileSync(readmeEnPath, 'utf8')
+  if (readmeEn.includes('<!-- AGENT-LIST-EN:START -->')) {
     let blockEn = ''
     for (const [id] of DOMAINS) {
       const list = agents.filter(a => a.domain === id)
@@ -111,9 +117,9 @@ if (existsSync(readmePath)) {
       blockEn += list.map(a => `| ${a.nameEn} | \`${a.slug}\` | ${descEn(a)} |`).join('\n')
       blockEn += `\n\n</details>\n\n`
     }
-    readme = readme.replace(/<!-- AGENT-LIST-EN:START -->[\s\S]*?<!-- AGENT-LIST-EN:END -->/, `<!-- AGENT-LIST-EN:START -->\n\n${blockEn}<!-- AGENT-LIST-EN:END -->`)
+    readmeEn = readmeEn.replace(/<!-- AGENT-LIST-EN:START -->[\s\S]*?<!-- AGENT-LIST-EN:END -->/, `<!-- AGENT-LIST-EN:START -->\n\n${blockEn}<!-- AGENT-LIST-EN:END -->`)
+    writeFileSync(readmeEnPath, readmeEn)
   }
-  writeFileSync(readmePath, readme)
 }
 
 console.log(`构建完成:`)
