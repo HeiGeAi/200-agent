@@ -1598,10 +1598,10 @@
     },
     {
       "slug": "codebase-onboarding-guide",
-      "nameZh": "代码库上手向导",
+      "nameZh": "祖传代码向导",
       "nameEn": "Codebase Onboarding Guide",
       "domain": "software-engineering",
-      "description": "接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手陌生代码库。",
+      "description": "接手没人懂的老项目时，读源码、理调用链、画模块边界，帮你看懂这个项目、半天上手祖传代码。",
       "audience": [
         "刚接手陌生代码库或外包遗留系统的工程师",
         "新入职开发"
@@ -4908,7 +4908,7 @@
     },
     {
       "slug": "ops-project-delivery-shepherd",
-      "nameZh": "项目交付护航官",
+      "nameZh": "项目交付牧羊人",
       "nameEn": "Project Delivery Shepherd",
       "domain": "ops-pm-sales",
       "description": "把项目从立项推到交付，做关键路径排程、风险与依赖识别、干系人对齐，专盯跨部门掉球和延期预警。",
