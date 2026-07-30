@@ -413,6 +413,8 @@ bash scripts/install.sh codex         # 复制到 ~/.codex/prompts/,用 /<slug> 
 bash scripts/install.sh openclaw      # 复制到 ~/.openclaw/agents/
 ```
 
+安装器遇到同名文件会在写入前退出，避免静默覆盖。确认需要覆盖时，在命令末尾追加 `--force`。
+
 ## 目录结构
 
 ```
