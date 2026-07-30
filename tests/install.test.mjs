@@ -35,3 +35,22 @@ test('install refuses conflicts before writing unless --force is explicit', () =
   assert.equal(fs.readdirSync(destination).filter((name) => name.endsWith('.md')).length, 200);
   assert.notEqual(fs.readFileSync(path.join(destination, names[0]), 'utf8'), 'keep me\n');
 });
+
+test('--force never follows a destination symlink outside the agent directory', () => {
+  const home = fs.mkdtempSync(path.join(os.tmpdir(), '200-agent-symlink-'));
+  const destination = path.join(home, '.claude', 'agents');
+  const name = fs.readdirSync(SOURCE).find((item) => item.endsWith('.md'));
+  const outside = path.join(home, 'outside.md');
+  fs.mkdirSync(destination, { recursive: true });
+  fs.writeFileSync(outside, 'outside\n');
+  fs.symlinkSync(outside, path.join(destination, name));
+
+  const result = spawnSync('bash', [INSTALL, 'claude-code', '--force'], {
+    cwd: ROOT,
+    env: { ...process.env, HOME: home },
+    encoding: 'utf8',
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(`${result.stdout}${result.stderr}`, /符号链接/);
+  assert.equal(fs.readFileSync(outside, 'utf8'), 'outside\n');
+});

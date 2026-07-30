@@ -26,9 +26,14 @@ case "$TARGET" in
     echo "未知目标: $TARGET (支持 claude-code | codex | openclaw)"; exit 1 ;;
 esac
 
-if [ "$OPTION" != "--force" ] && [ -d "$DEST" ]; then
+if [ -d "$DEST" ]; then
   for SOURCE in "$SRC"/*.md; do
-    if [ -e "$DEST/${SOURCE##*/}" ]; then
+    TARGET_PATH="$DEST/${SOURCE##*/}"
+    if [ -L "$TARGET_PATH" ]; then
+      echo "拒绝写入符号链接: $TARGET_PATH" >&2
+      exit 1
+    fi
+    if [ "$OPTION" != "--force" ] && [ -e "$TARGET_PATH" ]; then
       echo "检测到同名文件冲突: $DEST/${SOURCE##*/}" >&2
       echo "未写入任何文件。确认覆盖时请追加 --force。" >&2
       exit 1
