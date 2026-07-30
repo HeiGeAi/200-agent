@@ -17,3 +17,5 @@ jobs:
         run: node build/validate.mjs
       - name: 构建三工具产物
         run: node build/build.mjs
+      - name: 安装冲突回归
+        run: node --test tests/*.test.mjs
