@@ -32,6 +32,19 @@ if [ -L "$TOOL_HOME" ] || [ -L "$DEST" ]; then
   exit 1
 fi
 
+SOURCE_PARENT="${SRC%/*}"
+SOURCE_ROOT="${SOURCE_PARENT%/*}"
+if [ -L "$SOURCE_ROOT" ] || [ -L "$SOURCE_PARENT" ] || [ -L "$SRC" ]; then
+  echo "拒绝从符号链接源目录复制: $SRC" >&2
+  exit 1
+fi
+for SOURCE in "$SRC"/*.md; do
+  if [ -L "$SOURCE" ]; then
+    echo "拒绝从符号链接源文件复制: $SOURCE" >&2
+    exit 1
+  fi
+done
+
 if [ -d "$DEST" ]; then
   for SOURCE in "$SRC"/*.md; do
     TARGET_PATH="$DEST/${SOURCE##*/}"
