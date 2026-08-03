@@ -4,12 +4,12 @@
 
 **200 expert-level AI personas that take your AI tools to senior-specialist quality**
 
-200 个专家级 AI 角色,让你手里的 AI 工具发挥到行业专家水平 · single source · Claude Code · Codex · OpenClaw
+200 个专家级 AI 角色 · standard Agent Skill · Claude Code · Codex · CodeBuddy / WorkBuddy · OpenClaw
 
 [![agents](https://img.shields.io/badge/agents-200-brightgreen)](./ROUTER.md)
 [![domains](https://img.shields.io/badge/domains-14-blue)](./ROUTER.md)
 [![license](https://img.shields.io/badge/license-MIT-black)](./LICENSE)
-[![tools](https://img.shields.io/badge/Claude%20Code%20·%20Codex%20·%20OpenClaw-ready-orange)](./docs/SCHEMA.md)
+[![skill](https://img.shields.io/badge/Agent%20Skills-standard-orange)](./SKILL.md)
 
 [ROUTER table](./ROUTER.md) · [SCHEMA spec](./docs/SCHEMA.md)
 
@@ -21,7 +21,7 @@
 
 ## What is this
 
-A set of **200 expert-level AI personas** for Claude Code, Codex and OpenClaw. When you use AI to write code, design architecture, generate images and video, write content, run analysis, drive growth or do research, they make the AI perform like a senior specialist sitting next to you.
+A set of **200 expert-level AI personas**, distributed as a standard Agent Skill. It works natively in hosts that implement the `SKILL.md` format and retains legacy adapters for Claude Code, Codex and OpenClaw. It routes each task to the closest expert playbook before doing the real work.
 
 Built for **heavy AI-tool users**: developers, creators, marketers, analysts, founders, researchers and professional advisors. Every persona is designed for human-plus-AI collaboration.
 
@@ -31,7 +31,7 @@ Design principles:
 
 - **AI-native**: every persona assumes you are using AI tools and pulls the AI's output up to expert level. Heavy coverage of software engineering, AI engineering, AI visual creation (prompt directors for each image and video model plus art directors who guard taste), writing, data, product, marketing, business, research and professional advisory.
 - **Senior, not filler**: each body carries copy-paste-ready hard assets (templates, formulas, checklists, numeric red lines, prompt skeletons), ready to use.
-- **One source, transpiled everywhere**: each agent lives in a single `agents/<slug>.md`; `npm run build` transpiles Claude Code, Codex and OpenClaw outputs.
+- **Standard Skill first**: root `SKILL.md` is the portable entry point. Each expert lives in one `agents/<slug>.md`; `npm run build` emits the standard Skill package plus legacy client adapters.
 - **Chinese-first with bilingual triggers**: bodies are in Chinese, triggers in both languages so auto-routing hits more often.
 - **Hard-capped at 200**: enforced by CI, with globally unique `slug`s.
 
@@ -58,15 +58,15 @@ Design principles:
 
 Once installed (see [Quick start](#quick-start) below), you don't need to memorize slugs. Describe what you want in plain language and the tool auto-routes to the right agent, or call one by name. Three examples:
 
-**Example 1 · Claude Code, auto-routing.** In Claude Code you just say:
+**Example 1 · standard Skill auto-routing.** In Codex, Claude Code, CodeBuddy, or another Agent Skills host, say:
 
 > Review this PR, focus on correctness and security.
 
-Claude Code auto-attaches **Code Reviewer** (`code-reviewer`) from its description and triggers, and gives actionable feedback on correctness, security, maintainability and performance instead of vague praise.
+`200-agent` loads **Code Reviewer** (`code-reviewer`) from its description and triggers, then gives actionable feedback on correctness, security, maintainability and performance instead of vague praise.
 
-**Example 2 · Codex, call by name.** After copying agents into `~/.codex/prompts/`, invoke with `/<slug>`:
+**Example 2 · call by name.** Name the slug explicitly:
 
-> /midjourney-prompt-engineer turn "a cyberpunk city at night" into a prompt that renders well
+> Use `midjourney-prompt-engineer` to turn "a cyberpunk city at night" into a prompt that renders well.
 
 **Midjourney Prompt Engineer** takes over with sref style reference and stylize/chaos params, handing back a reproducible prompt.
 
@@ -402,23 +402,27 @@ Grouped by the 14 domains. Click a domain to expand. Machine-readable index in [
 
 ```bash
 npm run validate   # check: hard-cap 200, unique slugs, required fields
-npm run build      # transpile dist/ for all three tools + catalog.json + ROUTER.md
+npm run build      # emit standard Skill package, legacy adapters, and indexes
 ```
 
-Install into each tool:
+Prefer the standard Skill targets:
 
 ```bash
-bash scripts/install.sh claude-code   # copy to ~/.claude/agents/
-bash scripts/install.sh codex         # copy to ~/.codex/prompts/, call with /<slug>
-bash scripts/install.sh openclaw      # copy to ~/.openclaw/agents/
+bash scripts/install.sh standard      # ~/.agents/skills/200-agent
+bash scripts/install.sh claude-skill  # ~/.claude/skills/200-agent
+bash scripts/install.sh codex-skill   # ~/.codex/skills/200-agent
+bash scripts/install.sh codebuddy     # ~/.codebuddy/skills/200-agent
 ```
+
+For WorkBuddy, choose “Upload Skill” and upload `dist/agent-skills/200-agent/` or a `.zip` containing that folder's contents. Any host implementing Agent Skills can import the same directory. Legacy `claude-code`, `codex`, and `openclaw` targets remain available.
 
 ## Project structure
 
 ```
+SKILL.md            standard Agent Skills entry point
 agents/             200 canonical source files (single source of truth)
 build/              transpiler and validator (zero-dependency Node)
-dist/               build outputs (three tools, gitignored, run build to generate)
+dist/               standard Skill package and legacy client adapters
 docs/SCHEMA.md      canonical format spec
 catalog.json        machine-readable index
 ROUTER.md           human-readable routing table (grouped by domain)

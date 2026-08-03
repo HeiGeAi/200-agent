@@ -1,0 +1,4 @@
+interface:
+  display_name: "200 Agent"
+  short_description: "Route tasks to 200 expert AI playbooks"
+  default_prompt: "Use $200-agent to choose the best expert playbook and complete this task."
