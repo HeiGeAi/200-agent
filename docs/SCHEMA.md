@@ -1,6 +1,6 @@
 # Canonical Agent 格式规范
 
-每个 agent 是 `agents/<slug>.md` 一个文件,这是**唯一真相**。三套工具产物由 `build/build.mjs` 转译生成,不要手改 `dist/`。
+每个 agent 是 `agents/<slug>.md` 一个文件，这是**唯一真相**。根目录 `SKILL.md` 提供标准 Agent Skills 入口；客户端适配产物由 `build/build.mjs` 生成，不要手改 `dist/`。
 
 ## Frontmatter 字段
 
@@ -30,6 +30,7 @@
 
 | 工具 | 产物 | 触发承载 |
 |---|---|---|
+| Agent Skills 标准 | `dist/agent-skills/200-agent/` | `SKILL.md` 自动路由后按需读取 `agents/<slug>.md` |
 | Claude Code | `dist/claude-code/agents/<slug>.md` | `name` + `description`(触发词已折入) |
 | Codex | `dist/codex/prompts/<slug>.md` + `AGENTS.md` | 提示文件头部触发词,`/<slug>` 调用 |
 | OpenClaw | `dist/openclaw/agents/<slug>.md` | 独立 `triggers` 字段 |

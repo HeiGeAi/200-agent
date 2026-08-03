@@ -1,12 +1,13 @@
-// 200-agent 构建器:从 agents/*.md 单一真相,转译出三套工具产物 + 索引。
+// 200-agent 构建器:从 agents/*.md 单一真相,生成标准 Skill + 三套旧版工具产物 + 索引。
+//   dist/agent-skills/200-agent/       可移植 Agent Skill
 //   dist/claude-code/agents/<slug>.md   Claude Code subagent
 //   dist/codex/prompts/<slug>.md        OpenAI Codex 自定义提示 + AGENTS.md 索引
 //   dist/openclaw/agents/<slug>.md      OpenClaw agent
 //   catalog.json                        机器可读索引
 //   ROUTER.md                           人读路由表(按域分组)
-import { writeFileSync, readFileSync, existsSync, mkdirSync, rmSync } from 'node:fs'
+import { writeFileSync, readFileSync, existsSync, mkdirSync, rmSync, copyFileSync, cpSync } from 'node:fs'
 import { join } from 'node:path'
-import { ROOT, DIST_DIR, DOMAINS, DOMAIN_NAMES, loadAgents, asList, triggersOf } from './lib.mjs'
+import { ROOT, AGENTS_DIR, DIST_DIR, DOMAINS, DOMAIN_NAMES, loadAgents, asList, triggersOf } from './lib.mjs'
 
 const agents = loadAgents()
 console.log(`加载 ${agents.length} 个 canonical agent`)
@@ -122,7 +123,22 @@ if (existsSync(readmeEnPath)) {
   }
 }
 
+// ---- 标准 Agent Skill 包:纯 Markdown + 相对路径,不绑定任何客户端运行时 ----
+const skillDir = join(DIST_DIR, 'agent-skills', '200-agent')
+mkdirSync(skillDir, { recursive: true })
+for (const file of ['SKILL.md', 'ROUTER.md', 'catalog.json', 'LICENSE']) {
+  copyFileSync(join(ROOT, file), join(skillDir, file))
+}
+const packageMeta = JSON.parse(readFileSync(join(ROOT, 'package.json'), 'utf8'))
+writeFileSync(join(skillDir, 'package.json'), JSON.stringify({
+  name: packageMeta.name,
+  version: packageMeta.version,
+  license: packageMeta.license,
+}, null, 2) + '\n')
+cpSync(AGENTS_DIR, join(skillDir, 'agents'), { recursive: true })
+
 console.log(`构建完成:`)
+console.log(`  Agent Skill -> dist/agent-skills/200-agent/ (${agents.length})`)
 console.log(`  Claude Code -> dist/claude-code/agents/ (${agents.length})`)
 console.log(`  Codex       -> dist/codex/prompts/ (${agents.length}) + AGENTS.md`)
 console.log(`  OpenClaw    -> dist/openclaw/agents/ (${agents.length})`)

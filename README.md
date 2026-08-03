@@ -4,12 +4,12 @@
 
 **200 个专家级 AI 角色,让你手里的 AI 工具发挥到行业专家水平**
 
-200 expert AI personas that turn your AI tools into world-class specialists · single source · Claude Code · Codex · OpenClaw
+200 expert AI personas · standard Agent Skill · Claude Code · Codex · CodeBuddy / WorkBuddy · OpenClaw
 
 [![agents](https://img.shields.io/badge/agents-200-brightgreen)](./ROUTER.md)
 [![domains](https://img.shields.io/badge/domains-14-blue)](./ROUTER.md)
 [![license](https://img.shields.io/badge/license-MIT-black)](./LICENSE)
-[![tools](https://img.shields.io/badge/Claude%20Code%20·%20Codex%20·%20OpenClaw-ready-orange)](./docs/SCHEMA.md)
+[![skill](https://img.shields.io/badge/Agent%20Skills-standard-orange)](./SKILL.md)
 
 [路由总表 ROUTER](./ROUTER.md) · [格式规范 SCHEMA](./docs/SCHEMA.md)
 
@@ -21,7 +21,7 @@
 
 ## 这是什么
 
-一套 **200 个专家级 AI 角色**,装进 Claude Code / Codex / OpenClaw。你在用 AI 写代码、做架构、出图出视频、写内容、做分析、跑增长、搞研究时,它让 AI 表现得像请了一位行业资深专家在旁边带着干。
+一套 **200 个专家级 AI 角色**，现在以标准 Agent Skill 分发。支持遵循 `SKILL.md` 规范的 Agent，并保留 Claude Code、Codex、OpenClaw 的旧版适配产物。你在用 AI 写代码、做架构、出图出视频、写内容、做分析、跑增长、搞研究时，它会先路由到最匹配的专家 playbook，再完成真实任务。
 
 为**重度使用 AI 工具的人**而建:开发者、创作者、营销人、分析师、创业者、研究者、专业顾问。每个角色都是为「人 + AI 工具协作」设计的。
 
@@ -31,7 +31,7 @@
 
 - **AI 原生**:每个角色都假设你正在用 AI 工具,负责把 AI 的输出拉到专家水准。重点覆盖软件工程、AI 工程、AI 视觉创作(各家图像视频模型的提示词导演 + 审美把关的艺术总监)、写作、数据、产品、营销、商业、研究、专业顾问。
 - **资深不灌水**:正文带可直接抄用的硬资产(模板、公式、清单、数值红线、提示词骨架),拿来就能用。
-- **一份源,多端转译**:每个 agent 只维护一个 `agents/<slug>.md`,`npm run build` 转译出 Claude Code / Codex / OpenClaw 三套产物。
+- **标准 Skill 优先**：根目录 `SKILL.md` 是跨 Agent 入口，每个 agent 只维护一个 `agents/<slug>.md`，`npm run build` 同时生成标准 Skill 包和旧版客户端适配产物。
 - **中文为主 + 中英双触发**:正文中文,触发词中英双写,自动路由更易命中。
 - **数量硬卡 200**:CI 守门,`slug` 全局唯一。
 
@@ -58,15 +58,15 @@
 
 装好之后(见下方[快速开始](#快速开始)),不用记 slug。直接说人话,工具按描述和触发词自动挂上对的 agent;想精确点名也行。三个例子:
 
-**例 1 · Claude Code 自动路由。** 你在 Claude Code 里直接说:
+**例 1 · 标准 Skill 自动路由。** 在 Codex、Claude Code、CodeBuddy 或其他兼容 Agent Skills 的客户端里直接说:
 
 > 帮我把这个 PR 审一遍,盯正确性和安全。
 
-Claude Code 按描述和触发词自动挂上**代码审查官**(`code-reviewer`),它会按正确性、安全、可维护性、性能逐条给可执行意见,而不是泛泛夸两句。
+`200-agent` 按描述和触发词加载**代码审查官**（`code-reviewer`），它会按正确性、安全、可维护性、性能逐条给可执行意见，而不是泛泛夸两句。
 
-**例 2 · Codex 点名调用。** 把 agent 装进 `~/.codex/prompts/` 后,用 `/<slug>` 点名:
+**例 2 · 点名调用。** 明确说出 slug:
 
-> /midjourney-prompt-engineer 把"赛博朋克风的城市夜景"写成能出片的咒语
+> 使用 `midjourney-prompt-engineer`，把「赛博朋克风的城市夜景」写成能出片的提示词。
 
 **Midjourney 提示词工程师**接管,带上 sref 风格参考和 stylize/chaos 参数,直接给能复现的提示词。
 
@@ -402,25 +402,29 @@ Claude Code 按描述和触发词自动挂上**代码审查官**(`code-reviewer`
 
 ```bash
 npm run validate   # 校验:硬卡 200、slug 唯一、字段齐全
-npm run build      # 转译出 dist/ 三套产物 + catalog.json + ROUTER.md
+npm run build      # 生成标准 Skill 包、旧版适配产物和索引
 ```
 
-安装到对应工具:
+优先安装标准 Skill:
 
 ```bash
-bash scripts/install.sh claude-code   # 复制到 ~/.claude/agents/
-bash scripts/install.sh codex         # 复制到 ~/.codex/prompts/,用 /<slug> 调用
-bash scripts/install.sh openclaw      # 复制到 ~/.openclaw/agents/
+bash scripts/install.sh standard      # ~/.agents/skills/200-agent
+bash scripts/install.sh claude-skill  # ~/.claude/skills/200-agent
+bash scripts/install.sh codex-skill   # ~/.codex/skills/200-agent
+bash scripts/install.sh codebuddy     # ~/.codebuddy/skills/200-agent
 ```
 
-安装器遇到同名文件会在写入前退出，避免静默覆盖。确认需要覆盖时，在命令末尾追加 `--force`。
+WorkBuddy 在技能栏选择「上传 Skill」，上传 `dist/agent-skills/200-agent/` 文件夹，或上传由该文件夹内容打成的 `.zip`。未知客户端只要实现 Agent Skills 标准，也可直接导入这个目录；不支持该标准的客户端需要把 `SKILL.md` 和选中的 `agents/<slug>.md` 一并提供给模型。
+
+旧版 `~/.claude/agents`、`~/.codex/prompts`、`~/.openclaw/agents` 安装目标仍保留，分别使用 `claude-code`、`codex`、`openclaw`。安装器遇到冲突会在写入前退出，确认替换当前 `200-agent` Skill 时追加 `--force`。
 
 ## 目录结构
 
 ```
+SKILL.md            标准 Agent Skills 入口
 agents/             200 个 canonical 源文件(唯一真相)
 build/              转译器与校验器(零依赖 Node)
-dist/               构建产物(三套工具,gitignore,运行 build 生成)
+dist/               标准 Skill 包和旧版客户端适配产物
 docs/SCHEMA.md      canonical 格式规范
 catalog.json        机器可读索引
 ROUTER.md           人读路由表(按域分组)
