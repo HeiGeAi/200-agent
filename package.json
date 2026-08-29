@@ -8,6 +8,7 @@
   "scripts": {
     "build": "node build/build.mjs",
     "validate": "node build/validate.mjs",
+    "pretest": "node build/build.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "node build/validate.mjs && node build/build.mjs && node --test tests/*.test.mjs"
   },
