@@ -87,8 +87,8 @@ if [ "$MODE" = "skill" ]; then
   fi
 
   mkdir -p "$TOOL_HOME"
-  STAGE="${DEST}.tmp.$$"
-  mkdir "$STAGE"
+  STAGE=$(mktemp -d "${DEST}.tmp.XXXXXX")
+  trap 'rm -rf "$STAGE"' EXIT
   cp -R "$SRC"/. "$STAGE"/
   if [ -e "$DEST" ]; then
     BACKUP="${DEST}.backup.$$"
@@ -104,6 +104,12 @@ if [ "$MODE" = "skill" ]; then
   fi
   echo "已安装标准 200 Agent Skill 到 $DEST"
   exit 0
+fi
+
+# 源目录无 .md 产物时给出可读报错(否则 glob 不展开,会被当成字面文件名)
+if ! compgen -G "$SRC/*.md" > /dev/null; then
+  echo "源目录没有 .md 产物: $SRC(先运行 npm run build)" >&2
+  exit 1
 fi
 
 for SOURCE in "$SRC"/*.md; do
