@@ -4,21 +4,23 @@
 
 ## Frontmatter 字段
 
-| 字段 | 类型 | 说明 |
-|---|---|---|
-| `name` | string | 全局唯一 slug(kebab-case),即各工具的调用名 / 文件名 |
-| `nameZh` | string | 中文名,贴合中国岗位口语 |
-| `nameEn` | string | 英文名 |
-| `domain` | string | 所属域 id(14 个之一,见 `build/lib.mjs`) |
-| `color` | string | 展示色(blue/green/cyan/purple/orange/pink/red/yellow) |
-| `description` | string | 中文一句话能力,自然含核心触发词。Claude Code 靠它自动路由 |
-| `descriptionEn` | string | 英文一句话能力,对应 `description`。README 英文版 `README.en.md` 的列表靠它生成 |
-| `audience` | list | 主要受众 |
-| `triggers_zh` | list | 中文 skill 式触发词 |
-| `triggers_en` | list | 英文触发词 |
-| `when_to_use` | string | 何时用 |
-| `when_not_to_use` | string | 何时改用别的 agent |
-| `merged_from` | list | 继承自原 The Agency 的哪些 agent slug(血缘 / 审计用) |
+必填列与 `build/validate.mjs` 的 REQUIRED 保持一致,CI 硬卡。
+
+| 字段 | 类型 | 必填 | 说明 |
+|---|---|---|---|
+| `name` | string | 必填 | 全局唯一 slug(kebab-case),必须与文件名一致,即各工具的调用名 / 文件名 |
+| `nameZh` | string | 必填 | 中文名,贴合中国岗位口语 |
+| `nameEn` | string | 必填 | 英文名 |
+| `domain` | string | 必填 | 所属域 id(14 个之一,见 `build/lib.mjs`) |
+| `color` | string | 可选 | 展示色(blue/green/cyan/purple/orange/pink/red/yellow) |
+| `description` | string | 必填 | 中文一句话能力,自然含核心触发词。Claude Code 靠它自动路由 |
+| `descriptionEn` | string | 必填 | 英文一句话能力,对应 `description`。README 英文版 `README.en.md` 的列表靠它生成 |
+| `audience` | list | 可选 | 主要受众 |
+| `triggers_zh` | list | 必填 | 中文 skill 式触发词 |
+| `triggers_en` | list | 可选 | 英文触发词 |
+| `when_to_use` | string | 可选 | 何时用 |
+| `when_not_to_use` | string | 可选 | 何时改用别的 agent |
+| `merged_from` | list | 可选 | 继承自原 The Agency 的哪些 agent slug(血缘 / 审计用) |
 
 约定:frontmatter 的值里**不要出现半角冒号 `:`**(解析器按首个冒号切分);列表写 `[a, b, c]`。
 
