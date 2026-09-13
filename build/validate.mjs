@@ -1,5 +1,7 @@
 // 200-agent 校验器:CI 守门。硬卡数量=200、slug 唯一、必填字段齐、域合法;触发词撞车给警告。
-import { loadAgents, DOMAIN_IDS, EXPECT_COUNT, asList, triggersOf } from './lib.mjs'
+import { readFileSync, existsSync } from 'node:fs'
+import { join } from 'node:path'
+import { loadAgents, DOMAIN_IDS, DOMAINS, EXPECT_COUNT, asList, triggersOf, ROOT } from './lib.mjs'
 
 const agents = loadAgents()
 const errors = []
@@ -49,6 +51,18 @@ for (const a of agents) for (const t of triggersOf(a)) {
 }
 let collide = 0
 for (const [t, owners] of trig) if (owners.length > 3) { collide++; if (collide <= 15) warns.push(`触发词「${t}」被 ${owners.length} 个 agent 共用:${owners.slice(0, 4).join(', ')}…`) }
+
+// 5. README.md 的 14 域数量表在自动生成区块之外、靠手工维护,这里与 agents/ 实际数量对账
+const readmeFile = join(ROOT, 'README.md')
+if (existsSync(readmeFile)) {
+  const lines = readFileSync(readmeFile, 'utf8').split('\n').map(l => l.replace(/\s/g, ''))
+  for (const [id, name] of DOMAINS) {
+    const expect = agents.filter(a => a.domain === id).length
+    const row = lines.find(l => l.startsWith(`|${name}|`))
+    const got = row ? parseInt(row.split('|')[2], 10) : NaN
+    if (got !== expect) errors.push(`README.md 域数量表「${name}」=${row ? got : '缺失'},应为 ${expect}`)
+  }
+}
 
 console.log(`校验 ${agents.length} 个 agent`)
 warns.forEach(w => console.log(`  ⚠ ${w}`))
