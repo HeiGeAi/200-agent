@@ -16,7 +16,8 @@ test('build emits a complete portable Agent Skill', () => {
 
   assert.match(frontmatter, /^---\nname: 200-agent\ndescription: [^\n]+\n---/);
   assert.doesNotMatch(frontmatter, /\$ARGUMENTS|~\/\.|\.claude|\.codex|\.codebuddy/);
-  assert.equal(pkg.version, '0.2.0');
+  const rootPkg = JSON.parse(fs.readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
+  assert.equal(pkg.version, rootPkg.version);
   assert.equal(agents.length, 200);
   assert.equal(fs.existsSync(path.join(SKILL, 'agents', 'openai.yaml')), true);
 });
