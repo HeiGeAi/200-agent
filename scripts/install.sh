@@ -55,6 +55,18 @@ if [ -L "$TOOL_HOME" ] || [ -L "$DEST" ]; then
   exit 1
 fi
 
+# 逐级上溯检查 DEST 的祖先目录,防止中间层是指向外部的符号链接($HOME 本身除外)
+ANCESTOR="$TOOL_HOME"
+while [ -n "$ANCESTOR" ] && [ "$ANCESTOR" != "$HOME" ] && [ "$ANCESTOR" != "/" ]; do
+  if [ -L "$ANCESTOR" ]; then
+    echo "拒绝写入符号链接目录: $ANCESTOR" >&2
+    exit 1
+  fi
+  PREV="$ANCESTOR"
+  ANCESTOR="${ANCESTOR%/*}"
+  [ "$ANCESTOR" != "$PREV" ] || break
+done
+
 SOURCE_PARENT="${SRC%/*}"
 SOURCE_ROOT="${SOURCE_PARENT%/*}"
 if [ -L "$SOURCE_ROOT" ] || [ -L "$SOURCE_PARENT" ] || [ -L "$SRC" ]; then
