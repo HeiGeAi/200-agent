@@ -17,6 +17,8 @@ jobs:
         run: node build/validate.mjs
       - name: 构建标准 Skill 与兼容适配产物
         run: node build/build.mjs
+      - name: 守门:已提交产物与源文件无漂移
+        run: git diff --exit-code -- catalog.json ROUTER.md README.md README.en.md
       - name: 功能与安装安全回归
         run: node --test tests/*.test.mjs
       - name: Agent Skills 官方规范校验
