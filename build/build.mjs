@@ -93,7 +93,13 @@ writeFileSync(join(ROOT, 'ROUTER.md'), router)
 const readmePath = join(ROOT, 'README.md')
 if (existsSync(readmePath)) {
   let readme = readFileSync(readmePath, 'utf8')
-  if (readme.includes('<!-- AGENT-LIST:START -->')) {
+  const hasStart = readme.includes('<!-- AGENT-LIST:START -->')
+  const hasEnd = readme.includes('<!-- AGENT-LIST:END -->')
+  if (hasStart !== hasEnd) {
+    console.error('README.md 的 AGENT-LIST 标记不成对(START/END 缺一),为避免列表与 agents/ 静默漂移,构建中止。')
+    process.exit(1)
+  }
+  if (hasStart) {
     let block = ''
     for (const [id, name] of DOMAINS) {
       const list = agents.filter(a => a.domain === id)
@@ -110,7 +116,13 @@ if (existsSync(readmePath)) {
 const readmeEnPath = join(ROOT, 'README.en.md')
 if (existsSync(readmeEnPath)) {
   let readmeEn = readFileSync(readmeEnPath, 'utf8')
-  if (readmeEn.includes('<!-- AGENT-LIST-EN:START -->')) {
+  const hasStartEn = readmeEn.includes('<!-- AGENT-LIST-EN:START -->')
+  const hasEndEn = readmeEn.includes('<!-- AGENT-LIST-EN:END -->')
+  if (hasStartEn !== hasEndEn) {
+    console.error('README.en.md 的 AGENT-LIST-EN 标记不成对(START/END 缺一),为避免列表与 agents/ 静默漂移,构建中止。')
+    process.exit(1)
+  }
+  if (hasStartEn) {
     let blockEn = ''
     for (const [id] of DOMAINS) {
       const list = agents.filter(a => a.domain === id)
