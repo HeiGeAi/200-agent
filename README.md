@@ -403,6 +403,7 @@
 ```bash
 npm run validate   # 校验:硬卡 200、slug 唯一、字段齐全
 npm run build      # 生成标准 Skill 包、旧版适配产物和索引
+npm test           # 测试(会先自动 build,依赖 dist/ 产物)
 ```
 
 优先安装标准 Skill:
