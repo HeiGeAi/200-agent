@@ -1,6 +1,6 @@
 {
   "name": "200-agent",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "标准 Agent Skill，内含 200 个面向中国市场的专家 playbook，并保留 Claude Code、Codex、OpenClaw 兼容适配",
   "type": "module",
   "private": false,
