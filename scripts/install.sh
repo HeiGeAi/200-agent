@@ -129,5 +129,13 @@ if [ -d "$DEST" ]; then
 fi
 
 mkdir -p "$DEST"
-cp -v "$SRC"/*.md "$DEST"/
+# 逐文件复制并在写入前重新做符号链接检查,收窄预检与写入之间的 TOCTOU 窗口
+for SOURCE in "$SRC"/*.md; do
+  TARGET_PATH="$DEST/${SOURCE##*/}"
+  if [ -L "$TARGET_PATH" ]; then
+    echo "拒绝写入符号链接: $TARGET_PATH" >&2
+    exit 1
+  fi
+  cp -v "$SOURCE" "$TARGET_PATH"
+done
 echo "已安装 200 agent 旧版适配产物到 $DEST"
