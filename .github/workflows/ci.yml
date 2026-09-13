@@ -20,6 +20,8 @@ jobs:
       - name: 功能与安装安全回归
         run: node --test tests/*.test.mjs
       - name: Agent Skills 官方规范校验
+        # 信任边界:主包已 pin 到 commit 38a2ff8;但 pip 仍会按 PyPI 最新版解析其传递依赖。
+        # 被投毒的前提是 agentskills 仓库或其依赖链失陷,概率低,暂不启用哈希锁定;上游提供锁文件后再收紧。
         run: |
           python -m pip install 'git+https://github.com/agentskills/agentskills@38a2ff82958afee88dadf4831509e6f7e9d8ef4e#subdirectory=skills-ref'
           skills-ref validate dist/agent-skills/200-agent
